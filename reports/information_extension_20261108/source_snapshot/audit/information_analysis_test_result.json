@@ -1,0 +1,28 @@
+{
+  "schema": "information-analysis-synthetic-test-evidence/v1",
+  "status": "PASS",
+  "generated_utc": "2026-11-07T19:32:07.663174+00:00",
+  "tests": 9,
+  "pytest_summary": "9 passed in3.06s",
+  "test_scope": "Only synthetic arrays and temporary metadata; no formal freshcatalog/rawA/B, no training, no model scoring.",
+  "source_sha256": {
+    "src/representation_flow/information_analysis.py": "eeebb53d2d4eb992e93aad8c055eff6f7e8aba67146247bc2fe3cff1238f5df1",
+    "src/representation_flow/information_uncertainty.py": "c61c7e3b88fb34e808eb3f56e4e4ca1d8649ef5543a66bfd492441966ac3f25f",
+    "src/representation_flow/run_information_analysis.py": "64c1c90b6cd074662f7eb2a1827c3ab2add62764ec6dfbd243d70e75a56f3d69",
+    "tests/test_information_analysis.py": "be58ee57ddb88d1419c0f2aed92eb5ca897aaf2823a2bd3220bb170dd5dda1b3",
+    "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+    "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+    "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+    "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+    "src/representation_flow/score_correction_confirmation.py": "1d5a41e6f0a389cc81b98fb79b02645e51cc312fd04603999433fda661ba21ce",
+    "src/representation_flow/analyze_correction_study.py": "a5e4b44d50e71e4d8c7e6823e8c830ea89a03ba9f9c924cc7ddeb67f690fb85b",
+    "src/representation_flow/checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+    "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+    "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+    "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba"
+  },
+  "statistical_plan_status": "DRAFT_AWAITING_INTERFACE_AND_CROSS_REVIEW",
+  "statistical_plan_sha256": "f31200559a544dee46d8809624d2a834957d8e7549ab6efa8a987ee735802c59",
+  "test_basetemp": "E:\\JINST REP\\_research_extension_20261108\\pytest_information_analysis_v3"
+}

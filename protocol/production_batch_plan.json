@@ -1,0 +1,71 @@
+{
+  "commands": {
+    "make_main_beam": ".venv-sim\\\\Scripts\\\\python.exe simulation\\\\make_beam_chunks.py --run-id main-1m-20261011 --events 1000000 --beam-seed 20261011 --transport-master-seed 27182818 --output data\\\\beam_manifests\\\\main_1000000",
+    "merge_main": ".venv-sim\\\\Scripts\\\\python.exe data_contract\\\\merge_chunks.py data\\\\beam_manifests\\\\main_1000000\\\\catalog.json runs\\\\main_1000000_full --output data\\\\main_1000000_full_merged",
+    "run_main": ".venv-sim\\\\Scripts\\\\python.exe simulation\\\\run_chunks.py data\\\\beam_manifests\\\\main_1000000\\\\catalog.json --output runs\\\\main_1000000_full --logs reports\\\\main_1000000_full --geant4-data-dir C:\\\\Users\\\\Lenovo\\\\.geant4_pybind --cut-mm 0.01 --step-fraction 0.1 --record-secondary-steps"
+  },
+  "confirmation_batch": {
+    "beam_seeds": [
+      20261012,
+      20261013
+    ],
+    "blocks": [
+      500000,
+      500000
+    ],
+    "events": 1000000,
+    "model_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "record_secondary_steps": true,
+    "status": "LOCKED_UNTIL_SEPARATE_EXPLICIT_APPROVAL",
+    "transport_master_seeds": [
+      31415927,
+      16180339
+    ]
+  },
+  "confirmation_enabled": false,
+  "frozen_protocol_sha256": "fca889e64fa5f66998f06d1daa7b35f126ce605e245f4223271e962798438e9e",
+  "known_gate": "A separate explicit approval is required before any confirmation input/output path is opened.",
+  "main_batch": {
+    "beam_seed": 20261011,
+    "events": 1000000,
+    "logs": "reports/main_1000000_full",
+    "model_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "output_catalog": "data/beam_manifests/main_1000000",
+    "output_chunks": "runs/main_1000000_full",
+    "output_merged": "data/main_1000000_full_merged",
+    "record_secondary_steps": true,
+    "run_id": "main-1m-20261011",
+    "split_rule": {
+      "diagnostic_fraction": 0.3,
+      "hash": "sha256(event_uid) first 32 bits / 2**32",
+      "train_fraction": 0.6,
+      "validation_fraction": 0.1
+    },
+    "transport_master_seed": 27182818
+  },
+  "protocol_status": "PRODUCTION_FROZEN",
+  "selection_policy": "No model or threshold is selected from the locked confirmation batch; main-batch validation only may be used for predeclared selection.",
+  "stage": "W6_PRODUCTION_READINESS_PLAN"
+}

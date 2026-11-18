@@ -1,0 +1,41 @@
+{
+  "status": "VERIFIED_ANALYSIS_RUNTIME_DEPENDENCY_ADDITION",
+  "utc": "2026-11-07T19:59:11.712873+00:00",
+  "package": "threadpoolctl",
+  "version": "3.7.0",
+  "module_sha256": "e5f119e394193e206655bec4b993ef0bb40b0fbb2f22c92bd5b2d70a622bb518",
+  "module_path": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\threadpoolctl.py",
+  "source": "Existing local uv wheel cache; pure Python module plus package metadata copied, no numerical library replacement",
+  "python": "3.12.13 (main, Jun 23 2026, 15:23:43) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "torch": "2.14.1+cpu",
+  "verified_one_thread_context": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    }
+  ],
+  "scope": "Supplementary analysis runtime dependency; frozen model/source/statistical design unchanged. Failed initial execution retained."
+}

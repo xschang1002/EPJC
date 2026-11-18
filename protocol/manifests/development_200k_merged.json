@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 20299776,
+      "path": "event_uids.sqlite3",
+      "sha256": "831be9bcbc08477cbc474fba92c75183a0713b6a72bfd6e6afdde5e06ab20535"
+    },
+    {
+      "bytes": 197553422,
+      "path": "events.jsonl",
+      "sha256": "a10398c8decb9b568ea0d84cbe77953694517279c2c672306c10679fd02b6226"
+    },
+    {
+      "bytes": 7609,
+      "path": "manifest.json",
+      "sha256": "926b7fd921606a637d9149977363c136cceb219c9c24fa836b004d756cc811a8"
+    },
+    {
+      "bytes": 2087445398,
+      "path": "primary_steps.jsonl",
+      "sha256": "a551f5cfde6ca1a66c571615a5fb2502d541b9043ad8066eeae31e157aa9ec32"
+    },
+    {
+      "bytes": 144599241,
+      "path": "secondary_steps.jsonl",
+      "sha256": "2c05976f0cef5d87cf380a8d26e525f6a5f34eee8244e8d360f9033a5ecaf6ef"
+    },
+    {
+      "bytes": 8906822,
+      "path": "secondary_summary.jsonl",
+      "sha256": "c1717fc5ea162d24fe818af689dfc43fbb7e6a33893b9ce2d409888d5bec20be"
+    },
+    {
+      "bytes": 158800216,
+      "path": "transitions.jsonl",
+      "sha256": "75862ac6a777ae3d80e04c334830e0a517a5386f361525d677e1568bb00f0c19"
+    }
+  ],
+  "root": "E:\\JINST REP\\pion-material-study\\data\\development_200k_full_merged",
+  "sha256_tree": "284ea967a259902659921f68d8f58d7a72fa6d4317763c036476fde9cd11f933"
+}

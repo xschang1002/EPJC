@@ -1,0 +1,72 @@
+{
+  "status": "FORMAL_PROTOCOL_FROZEN",
+  "version": "formal_matched_representation_study_v1",
+  "source": {
+    "directory": "data/main_1000000_full_merged",
+    "manifest_json_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7",
+    "events_jsonl_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+    "preflight_report": "reports/representation_v2/formal_preflight_audit.json"
+  },
+  "target": {
+    "name": "delta_p",
+    "definition": "p_in_GeV_c - p_out_GeV_c",
+    "unit": "GeV/c",
+    "population": "S1 original primary events with forward first-visit exit",
+    "support": "Y < p_in",
+    "jitter": "none"
+  },
+  "representations": ["Raw", "Simple", "Physics", "Learned"],
+  "capacities": {"Small": 32, "Large": 128},
+  "sample_fractions": [0.1, 0.3, 1.0],
+  "nominal_train_counts": [59953, 179858, 599526],
+  "optimizer_seeds": [3101, 3102, 3103, 3104, 3105],
+  "subset_catalog_id": 4101,
+  "subset_rule": "nested SHA-256 event_uid ranking within the fixed source train pool; no y-based sampling",
+  "split": {"train_fraction": 0.6, "validation_fraction": 0.1, "diagnostic_fraction": 0.3},
+  "preprocessing": {
+    "fit_scope": "each current D_n train subset only",
+    "shared_scale": "std_train(Y), ddof=0",
+    "mu": "mean_train(Y-c(X))",
+    "learned_center": "degree-3 polynomial ridge with frozen alpha grid and deterministic 3-fold inner CV",
+    "validation_reestimation": false
+  },
+  "flow": {
+    "family": "conditional monotone rational-quadratic spline",
+    "layers": 2,
+    "bins": 16,
+    "bound": 8.0,
+    "tails": "identity",
+    "base": "standard_logistic",
+    "context_dimension": 5,
+    "hidden_widths": {"Small": 32, "Large": 128}
+  },
+  "optimization": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0003,
+    "batch_size": 512,
+    "max_updates": 20000,
+    "validation_every_updates": 500,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "checkpoint_rule": "argmin source-validation all-event Y-space NLL within fixed 20000-update budget",
+    "gradient_record": "pre-clip norm at every validation point",
+    "paired_initialization": "same network initialization hash for a representation/capacity/seed across sample fractions where the seed is shared",
+    "paired_batch_order": "same seed-driven event permutation rule across representations and capacities"
+  },
+  "likelihood": {
+    "standardized_target": "z=(Y-c(X)-mu)/s",
+    "upper_coordinate": "b=(p_in-c(X)-mu)/s",
+    "log_density": "log_q(z|X)-log(s)-log(F_q(b|X))",
+    "cdf": "F_q(z|X)/F_q(b|X)",
+    "survival": "[1-F_q(z|X)]-[1-F_q(b|X)] in stable log space, normalized by F_q(b|X)",
+    "reported_unit": "original GeV/c target"
+  },
+  "scope_boundary": {
+    "new_geant4": false,
+    "ood": false,
+    "spline_bound_extension": false,
+    "matched_epoch_extension": false,
+    "additional_models": false,
+    "mixture_mechanism_substitution": false
+  }
+}

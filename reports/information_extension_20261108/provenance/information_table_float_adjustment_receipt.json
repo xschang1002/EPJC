@@ -1,0 +1,49 @@
+{
+  "status": "PASS_PRESENTATION_FLOAT_ADJUSTMENT_ONLY",
+  "generated_utc": "2026-11-07T20:44:11.751178+00:00",
+  "backup_directory": "E:\\JINST REP\\_research_extension_20261108\\information_tables_before_float_adjustment",
+  "builder_sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746",
+  "outputs": [
+    {
+      "mode": "source",
+      "before_manifest_sha256": "d0318f019f923d32338a8f7b215d8aedbde86115ace352043b3e4569aa9eb012",
+      "after_manifest_sha256": "3011f3ee4231dab58584ba538059bb0d7c12e0f04e22892e1a233b0aa95ed8a9",
+      "row_count": 16,
+      "rows_identical": true,
+      "csv_bytes_identical": true,
+      "tex_only_changed_float_placement": true,
+      "tex_files": [
+        {
+          "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_information_primary16.tex",
+          "sha256": "5090f3c94b14124c0b174ea54c7d79c81e7f720afd4fdfc910e4abcde2ecee1d"
+        }
+      ]
+    },
+    {
+      "mode": "fresh",
+      "before_manifest_sha256": "3bac2f4695b5c29a8a780df8bddfe947a60c09bca5880c98abe645f1ef0db6ee",
+      "after_manifest_sha256": "13f0c1f6bf8d16d0608cb6a5938beab79456a8bcc9b4cb2d6a1afd10f3c61f8e",
+      "row_count": 32,
+      "rows_identical": true,
+      "csv_bytes_identical": true,
+      "tex_only_changed_float_placement": true,
+      "tex_files": [
+        {
+          "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.tex",
+          "sha256": "4d9518299a08abe70b893226d20174f7d1c85214e32e82d2060a987458bbce31"
+        },
+        {
+          "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.tex",
+          "sha256": "7c0fe9b9b28bbc212c4f1b375d18d1234c30956dc3a008760959871f14054876"
+        },
+        {
+          "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_information_primary16.tex",
+          "sha256": "931d84f31b22a4f17f82c0fae7792439a8b3a54258c9a02161b553ebf69d1f59"
+        }
+      ]
+    }
+  ],
+  "scientific_rows_unchanged": 48,
+  "frozen_analysis_modified": false,
+  "new_tex_compile_pending_parent": true
+}

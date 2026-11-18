@@ -1,0 +1,42 @@
+{
+  "schema": "editorial-table-delivery-qa/v1",
+  "status": "PASS_NUMERIC_AND_VISUAL_REVIEW",
+  "numeric_receipt": {
+    "path": "TABLE_NUMERIC_VERIFICATION.json",
+    "sha256": "653d863d34bb3c60232561bc53db46342d29b92be2026f93b193987b56b403af"
+  },
+  "source_aggregates_unchanged": true,
+  "original_tables_unchanged": true,
+  "preview": {
+    "path": "table_preview/editorial_table_preview.pdf",
+    "sha256": "e451f8f2ed32ae3137a62b931fa0c4c41e13ba017326951da6a492ec91a66c99",
+    "pages": 10,
+    "layout": "11pt article, 1-inch margins, matching manuscript template",
+    "engine": "Tectonic 0.17.0, existing offline cache",
+    "log_sha256": "fb287fef013662ee6bc14ca01326c5866030e70575a7a79f70c8a7d7219153bc",
+    "overfull_underfull_missing_glyph_or_undefined_reference_messages": []
+  },
+  "visual_review": {
+    "all_10_pages_inspected": true,
+    "method": "All-page contact sheets plus full-page inspection of final shortened primary caption, secondary table and historical table",
+    "observations": [
+      "No clipped text, overlapping columns or truncated rows.",
+      "Primary tables use 11pt, secondary tables 10pt, full seed sensitivity retains original8pt layout.",
+      "M_2/M_8 displayed as subscripts; current and historical contexts separated."
+    ],
+    "integration_note": "Parent is independently compiling the complete main and supplementary documents; this standalone preview does not replace final-document pagination review."
+  },
+  "retained_rows": {
+    "secondary_current_CD": 46,
+    "secondary_historical_CD": 36,
+    "primary_CD": 32,
+    "seed_full_CD": 32,
+    "exploratory_t_CD": 32,
+    "adjacent_seed_view": 12
+  },
+  "large_width_verified": {
+    "frozen_run_manifests_checked": 60,
+    "all_hashes_match_freeze": true,
+    "hidden_width": 128
+  }
+}

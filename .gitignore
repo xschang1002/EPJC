@@ -1,0 +1,35 @@
+# Python & test caches
+.venv*/
+venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Reproduction output directories
+/reproduced*/
+/tmp/
+/scratch/
+
+# LaTeX build intermediates (keep pre-generated main.bbl for EPJC Editorial Manager)
+*.aux
+*.bbl
+!manuscript/representation_v2/epjc_submission/main.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Never commit raw event ledgers, binary checkpoints, or per-event score arrays
+*.pt
+*.pth
+*.npy
+*.jsonl
+*.sqlite
+*.sqlite3
+predictions.npz

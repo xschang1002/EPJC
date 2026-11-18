@@ -1,0 +1,437 @@
+{
+  "analysis_sources": {
+    "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+    "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+    "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+    "src/representation_flow/analyze_correction_study.py": "a5e4b44d50e71e4d8c7e6823e8c830ea89a03ba9f9c924cc7ddeb67f690fb85b",
+    "src/representation_flow/checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+    "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+    "src/representation_flow/information_analysis.py": "eeebb53d2d4eb992e93aad8c055eff6f7e8aba67146247bc2fe3cff1238f5df1",
+    "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+    "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+    "src/representation_flow/information_uncertainty.py": "c61c7e3b88fb34e808eb3f56e4e4ca1d8649ef5543a66bfd492441966ac3f25f",
+    "src/representation_flow/run_information_analysis.py": "64c1c90b6cd074662f7eb2a1827c3ab2add62764ec6dfbd243d70e75a56f3d69",
+    "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+    "src/representation_flow/score_correction_confirmation.py": "1d5a41e6f0a389cc81b98fb79b02645e51cc312fd04603999433fda661ba21ce",
+    "tests/test_information_analysis.py": "be58ee57ddb88d1419c0f2aed92eb5ca897aaf2823a2bd3220bb170dd5dda1b3"
+  },
+  "block_id": "D",
+  "elapsed_seconds": 59.56423616409302,
+  "eligible_events": 499275,
+  "event_uid_sha256": "e7da1c45d882b309881c2d6afc0826a9f6dd572eb7dcd3853af877318f7afaab",
+  "generated_utc": "2026-11-07T20:32:05.955395+00:00",
+  "input_provenance": {
+    "counts_sha256": "19f2fafedfa1ddecb3e4e04830abc191ee912d3ce6f1284f3b9bc958cc73fc27",
+    "fresh_plan_sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8",
+    "generation_sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474",
+    "roster_sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471",
+    "scoring_summary_sha256": "1ff3fd3e2c73ac99ac475f7ea5c5d6cad0eb11d1dd24f5a7dc62dc25e403a86d",
+    "union_sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2"
+  },
+  "launched_events": 500000,
+  "legacy_contrast_count": 41,
+  "legacy_models": 160,
+  "model_count": 240,
+  "new_models": 80,
+  "primary_contrasts": [
+    {
+      "bootstrap_standard_error": 0.0002035033979852932,
+      "estimate": 0.006400716169709811,
+      "name": "gain:Hidden5/f010",
+      "pointwise_percentile_lower": 0.005999886543839107,
+      "pointwise_percentile_upper": 0.006795157432028614,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.006400716169709811,
+        "geometric_density_ratio_interval": [
+          1.0058470326479494,
+          1.0069957842122899
+        ],
+        "geometric_mean_paired_density_ratio": 1.0064212445288139,
+        "geometric_mean_paired_density_ratio_percent_change": 0.6421244528813852,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.005830005094091458,
+      "simultaneous_upper": 0.0069714272453281646,
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00020094039195310526,
+      "estimate": 0.01062265640794818,
+      "name": "gain:Coarse2/f010",
+      "pointwise_percentile_lower": 0.01022731328041513,
+      "pointwise_percentile_upper": 0.011014707911208944,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.01062265640794818,
+        "geometric_density_ratio_interval": [
+          1.0101098962515658,
+          1.0112489789631083
+        ],
+        "geometric_mean_paired_density_ratio": 1.010679277132428,
+        "geometric_mean_paired_density_ratio_percent_change": 1.0679277132428022,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.010059133103855646,
+      "simultaneous_upper": 0.011186179712040714,
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00012182628491165413,
+      "estimate": 0.00332036165374287,
+      "name": "gain:Coarse8/f010",
+      "pointwise_percentile_lower": 0.003077310641009642,
+      "pointwise_percentile_upper": 0.00355845678752854,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.00332036165374287,
+        "geometric_density_ratio_interval": [
+          1.0029831491007182,
+          1.0036687283357315
+        ],
+        "geometric_mean_paired_density_ratio": 1.003325880160621,
+        "geometric_mean_paired_density_ratio_percent_change": 0.3325880160621182,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.0029787083408800413,
+      "simultaneous_upper": 0.003662014966605699,
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 9.491844139527935e-05,
+      "estimate": 0.0018756793712997632,
+      "name": "gain:Full5/f010",
+      "pointwise_percentile_lower": 0.0016972060401655056,
+      "pointwise_percentile_upper": 0.0020648081616153765,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.0018756793712997632,
+        "geometric_density_ratio_interval": [
+          1.0016107831472079,
+          1.0021441669604723
+        ],
+        "geometric_mean_paired_density_ratio": 1.001877439558195,
+        "geometric_mean_paired_density_ratio_percent_change": 0.18774395581951,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.0016094872274780056,
+      "simultaneous_upper": 0.002141871515121521,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00020718072014885483,
+      "estimate": 0.006542981966299467,
+      "name": "gain:Hidden5/f100",
+      "pointwise_percentile_lower": 0.006136308284395474,
+      "pointwise_percentile_upper": 0.006951318795685282,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.006542981966299467,
+        "geometric_density_ratio_interval": [
+          1.005979765941803,
+          1.0071494419312508
+        ],
+        "geometric_mean_paired_density_ratio": 1.0065644340341144,
+        "geometric_mean_paired_density_ratio_percent_change": 0.6564434034114507,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.005961958097341353,
+      "simultaneous_upper": 0.007124005835257582,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.0002209856643976366,
+      "estimate": 0.01119614319851272,
+      "name": "gain:Coarse2/f100",
+      "pointwise_percentile_lower": 0.010763035031767308,
+      "pointwise_percentile_upper": 0.011627503834172884,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.01119614319851272,
+        "geometric_density_ratio_interval": [
+          1.0106325321936824,
+          1.0118859653645829
+        ],
+        "geometric_mean_paired_density_ratio": 1.0112590545788243,
+        "geometric_mean_paired_density_ratio_percent_change": 1.1259054578824166,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.010576404326959696,
+      "simultaneous_upper": 0.011815882070065745,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00012249456866003956,
+      "estimate": 0.0033323107496844658,
+      "name": "gain:Coarse8/f100",
+      "pointwise_percentile_lower": 0.003080230488335054,
+      "pointwise_percentile_upper": 0.0035639934611379686,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.0033323107496844658,
+        "geometric_density_ratio_interval": [
+          1.0029932541474864,
+          1.0036826023964458
+        ],
+        "geometric_mean_paired_density_ratio": 1.003337869069452,
+        "geometric_mean_paired_density_ratio_percent_change": 0.3337869069452075,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.0029887832816938346,
+      "simultaneous_upper": 0.003675838217675097,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 8.95941833723647e-05,
+      "estimate": 0.0016593114563427495,
+      "name": "gain:Full5/f100",
+      "pointwise_percentile_lower": 0.001475667529751531,
+      "pointwise_percentile_upper": 0.0018405916574602249,
+      "practical_effect": {
+        "delta_nat_per_eligible_event": 0.0016593114563427495,
+        "geometric_density_ratio_interval": [
+          1.001409042591518,
+          1.0019123983959262
+        ],
+        "geometric_mean_paired_density_ratio": 1.0016606888753476,
+        "geometric_mean_paired_density_ratio_percent_change": 0.1660688875347678,
+        "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+      },
+      "simultaneous_lower": 0.0014080508225262787,
+      "simultaneous_upper": 0.0019105720901592203,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00010701076334681208,
+      "estimate": 0.004221940238238369,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Coarse2_minus_Hidden5/f010",
+      "pointwise_percentile_lower": 0.004009988288443677,
+      "pointwise_percentile_upper": 0.004430954689514394,
+      "simultaneous_lower": 0.003921836021517556,
+      "simultaneous_upper": 0.004522044454959182,
+      "weights": [
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.0001689676944951729,
+      "estimate": -0.00730229475420531,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Coarse8_minus_Coarse2/f010",
+      "pointwise_percentile_lower": -0.007639192746452476,
+      "pointwise_percentile_upper": -0.006975532168128321,
+      "simultaneous_lower": -0.007776152859891892,
+      "simultaneous_upper": -0.0068284366485187285,
+      "weights": [
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 9.362187017244504e-05,
+      "estimate": -0.001444682282443107,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Full5_minus_Coarse8/f010",
+      "pointwise_percentile_lower": -0.0016252341252674036,
+      "pointwise_percentile_upper": -0.0012601615997413545,
+      "simultaneous_lower": -0.0017072382827678747,
+      "simultaneous_upper": -0.0011821262821183392,
+      "weights": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00019948694693296392,
+      "estimate": -0.004525036798410048,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Full5_minus_Hidden5/f010",
+      "pointwise_percentile_lower": -0.00490664255316207,
+      "pointwise_percentile_upper": -0.00413342360627101,
+      "simultaneous_lower": -0.005084484017390445,
+      "simultaneous_upper": -0.00396558957942965,
+      "weights": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 9.513949426367763e-05,
+      "estimate": 0.004653161232213253,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Coarse2_minus_Hidden5/f100",
+      "pointwise_percentile_lower": 0.004461187205422041,
+      "pointwise_percentile_upper": 0.004836448967176908,
+      "simultaneous_lower": 0.004386349161051013,
+      "simultaneous_upper": 0.004919973303375493,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.00019740917919573058,
+      "estimate": -0.007863832448828255,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Coarse8_minus_Coarse2/f100",
+      "pointwise_percentile_lower": -0.008266354578984112,
+      "pointwise_percentile_upper": -0.007480869851582857,
+      "simultaneous_lower": -0.008417452713212606,
+      "simultaneous_upper": -0.0073102121844439046,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 8.118822860158751e-05,
+      "estimate": -0.0016729992933417163,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Full5_minus_Coarse8/f100",
+      "pointwise_percentile_lower": -0.0018268480657131565,
+      "pointwise_percentile_upper": -0.0015087337598656094,
+      "simultaneous_lower": -0.0019006860137182936,
+      "simultaneous_upper": -0.001445312572965139,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bootstrap_standard_error": 0.0001895144866470749,
+      "estimate": -0.004883670509956718,
+      "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+      "name": "gain_change:Full5_minus_Hidden5/f100",
+      "pointwise_percentile_lower": -0.005245120114453738,
+      "pointwise_percentile_upper": -0.004509911907779929,
+      "simultaneous_lower": -0.005415150660118283,
+      "simultaneous_upper": -0.0043521903597951534,
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "primary_family_size": 16,
+  "schema": "information-fresh-analysis/v1",
+  "scope": "Fixed-model event uncertainty for this one predeclared catalog; no pooling, selection, refitting, or fresh inference.",
+  "score_manifest_sha256": "f46ed4139c5c719ab4cc7337261935d3cd67acd217df13c812d2a6c58cdf2cbf",
+  "statistical_plan_sha256": "178d9011ddf25ab8d2777d185fec0f8d006fe4646dc56af99924af412a000f1a",
+  "status": "COMPLETE_INFORMATION_FRESH_ANALYSIS"
+}

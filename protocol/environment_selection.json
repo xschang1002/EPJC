@@ -1,0 +1,41 @@
+{
+  "actual_geant4_runtime_string": "$Name: geant4-11-04-patch-01 [MT]$",
+  "binding": "geant4-pybind==0.1.3",
+  "confirmation_approval": {
+    "approval_text": "批准：冻结 unanchored_mdn_k2，并运行两块各 500k confirmation",
+    "approved_at_utc": "2026-10-11 08:13:42 UTC",
+    "source": "user_message"
+  },
+  "confirmation_enabled": true,
+  "confirmation_protocol_path": "protocol/confirmation_frozen_protocol.json",
+  "confirmation_protocol_sha256": "78a6f850e4df050ce343f1dd912f404d55ecde262043d0efbf743afb79d56616",
+  "development_200k_manifest_tree_sha256": "284ea967a259902659921f68d8f58d7a72fa6d4317763c036476fde9cd11f933",
+  "formal_matrix_candidate_sha256": "aa7d6aacdf3917b1fcb077b257a610d5528a164456ad78e773c3112eeba46096",
+  "freeze_note": "W6 confirmation protocol approved and open: unanchored_mdn_k2 is frozen from the ten-seed main-batch selection; two untouched 500k confirmation blocks are authorized.",
+  "frozen_protocol_path": "protocol/confirmation_frozen_protocol.json",
+  "frozen_protocol_sha256": "78a6f850e4df050ce343f1dd912f404d55ecde262043d0efbf743afb79d56616",
+  "human_freeze_approval": {
+    "approval_text": "批准当前候选，进入 W6 冻结准备",
+    "approved_at_utc": "2026-10-10 18:10:39 UTC",
+    "source": "user_message"
+  },
+  "main_1000000_attribution_summary_sha256": "8a50934f5e44c20f1912d6c4ca416570a8df7f36d25734223b2a02b58ce89d2e",
+  "main_1000000_manifest_path": "manifests/main_1000000_merged.json",
+  "main_1000000_manifest_sha256": "0c60ebcf3a006a35a976ad67bc3bb0c633be826fdf447c125f68b646ced213a7",
+  "main_1000000_matrix_summary_sha256": "a9bb58bf646bdebbd07e4bd9dfc0a9c8066322ca00d618a535dfb80125c81efc",
+  "main_1000000_scores_summary_sha256": "a91b65dd47b770c50c943a68492796fd0f6c89ea1217ed00b309d40e04d2456f",
+  "main_1000000_selection_candidate_sha256": "a107710e2a5e852d053af26fd7bf2da89fd91b9430018e62ae959948ee6b453c",
+  "main_selection_candidate_sha256": "a107710e2a5e852d053af26fd7bf2da89fd91b9430018e62ae959948ee6b453c",
+  "physics_dataset_tree_sha256": "941e38bdcdc93563ca626f16740526c023c323c1c1363d1cc33774230ff45f10",
+  "physics_datasets_verified": true,
+  "production_batch_plan_path": "protocol/production_batch_plan.json",
+  "production_batch_plan_sha256": "9f4df8184788dabe6d4da7784ffe304be7b47330fcb81b086d69ae87381e3bc8",
+  "reported_geant4_runtime": "11.4.1",
+  "selected_confirmation_model": "unanchored_mdn_k2",
+  "selected_python": "3.12.13",
+  "selection_reason": "Already installed locally and supported by a geant4-pybind 0.1.3 Windows x64 wheel; the research plan allows choosing an existing 3.12 before first acceptance.",
+  "status": "PRODUCTION_FROZEN",
+  "w0_audit_and_replay_passed": true,
+  "w0_cut_configuration": "candidate_production_cut_0.01mm_step_t_over_10_verified_but_confirmation_closed",
+  "w0_real_100_event_smoke_passed": true
+}

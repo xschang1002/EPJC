@@ -1,0 +1,55 @@
+% Generated post-hoc to known C/D outcomes. Do not edit numerical cells.
+% Requires booktabs and longtable. Numeric effects are shown x 10^-3 nat/eligible event.
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{llrrl}
+\caption{Optional exploratory Student-$t$ intervals on catalog C; not the default sensitivity table. With $n=5$, these nominal unadjusted 95\% intervals assume independent paired optimizer-seed draws and an approximately normal distribution of seed-level contrasts, conditional on the fixed training data, validation rule and evaluated catalog. They exclude training-dataset and simulator uncertainty, are not event-bootstrap intervals, and are not jointly calibrated over contrasts or C/D. Values are in $10^{-3}$ nat per eligible event.}\label{tab:seed_sensitivity_t_C}\\
+\toprule Contrast & Train (\%) & Mean & Exploratory $t$ interval & Direction\\ \midrule \endfirsthead
+\toprule Contrast & Train (\%) & Mean & Exploratory $t$ interval & Direction\\ \midrule \endhead
+$G_{H}$ & 10 & 6.272 & [5.265, 7.278] & positive\\
+$G_{C2}$ & 10 & 10.399 & [9.034, 11.764] & positive\\
+$G_{C8}$ & 10 & 3.082 & [1.100, 5.064] & positive\\
+$G_{F}$ & 10 & 1.845 & [-0.458, 4.148] & includes zero\\
+$G_{H}$ & 100 & 6.233 & [4.836, 7.630] & positive\\
+$G_{C2}$ & 100 & 10.895 & [9.579, 12.210] & positive\\
+$G_{C8}$ & 100 & 2.987 & [1.483, 4.491] & positive\\
+$G_{F}$ & 100 & 1.550 & [0.404, 2.695] & positive\\
+$G_{C2}-G_{H}$ & 10 & 4.127 & [3.175, 5.080] & positive\\
+$G_{C8}-G_{C2}$ & 10 & -7.317 & [-10.061, -4.573] & negative\\
+$G_{F}-G_{C8}$ & 10 & -1.237 & [-3.890, 1.416] & includes zero\\
+$G_{F}-G_{H}$ & 10 & -4.427 & [-6.656, -2.197] & negative\\
+$G_{C2}-G_{H}$ & 100 & 4.662 & [3.657, 5.667] & positive\\
+$G_{C8}-G_{C2}$ & 100 & -7.908 & [-8.456, -7.359] & negative\\
+$G_{F}-G_{C8}$ & 100 & -1.437 & [-2.274, -0.601] & negative\\
+$G_{F}-G_{H}$ & 100 & -4.683 & [-6.206, -3.160] & negative\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{llrrl}
+\caption{Optional exploratory Student-$t$ intervals on catalog D; not the default sensitivity table. With $n=5$, these nominal unadjusted 95\% intervals assume independent paired optimizer-seed draws and an approximately normal distribution of seed-level contrasts, conditional on the fixed training data, validation rule and evaluated catalog. They exclude training-dataset and simulator uncertainty, are not event-bootstrap intervals, and are not jointly calibrated over contrasts or C/D. Values are in $10^{-3}$ nat per eligible event.}\label{tab:seed_sensitivity_t_D}\\
+\toprule Contrast & Train (\%) & Mean & Exploratory $t$ interval & Direction\\ \midrule \endfirsthead
+\toprule Contrast & Train (\%) & Mean & Exploratory $t$ interval & Direction\\ \midrule \endhead
+$G_{H}$ & 10 & 6.401 & [5.435, 7.367] & positive\\
+$G_{C2}$ & 10 & 10.623 & [9.037, 12.209] & positive\\
+$G_{C8}$ & 10 & 3.320 & [1.322, 5.319] & positive\\
+$G_{F}$ & 10 & 1.876 & [-0.403, 4.155] & includes zero\\
+$G_{H}$ & 100 & 6.543 & [5.061, 8.025] & positive\\
+$G_{C2}$ & 100 & 11.196 & [9.917, 12.475] & positive\\
+$G_{C8}$ & 100 & 3.332 & [1.865, 4.799] & positive\\
+$G_{F}$ & 100 & 1.659 & [0.451, 2.868] & positive\\
+$G_{C2}-G_{H}$ & 10 & 4.222 & [2.923, 5.521] & positive\\
+$G_{C8}-G_{C2}$ & 10 & -7.302 & [-10.075, -4.529] & negative\\
+$G_{F}-G_{C8}$ & 10 & -1.445 & [-4.036, 1.147] & includes zero\\
+$G_{F}-G_{H}$ & 10 & -4.525 & [-6.652, -2.398] & negative\\
+$G_{C2}-G_{H}$ & 100 & 4.653 & [3.614, 5.692] & positive\\
+$G_{C8}-G_{C2}$ & 100 & -7.864 & [-8.517, -7.211] & negative\\
+$G_{F}-G_{C8}$ & 100 & -1.673 & [-2.673, -0.673] & negative\\
+$G_{F}-G_{H}$ & 100 & -4.884 & [-6.680, -3.087] & negative\\
+\bottomrule
+\end{longtable}
+\endgroup

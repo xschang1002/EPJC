@@ -1,0 +1,106 @@
+\subsection{Complete event coverage and input margins}
+
+This follow-up audit was performed after the C/D results were known. All
+500,000 launched ledger records in each catalog were read. Eligibility was
+reconstructed from the saved first-visit entry/exit geometry and exit momentum,
+without retracing Geant4 steps. The resulting 499,285 C and 499,275 D eligible
+rows matched every saved scoring input, including event identifiers and their
+order. The 715 and 725 ineligible events were excluded by the physical event
+contract before scoring, not by numerical filtering. The saved target agreed
+bitwise with the independently recomputed $Y=p_{\rm in}-p_{\rm out}$.
+
+For each eligible row, define
+\begin{equation}
+ m_{32}=\operatorname{fl}_{32}\!\left(
+ \operatorname{fl}_{32}(p_{\rm in})-\operatorname{fl}_{32}(Y)\right).
+\end{equation}
+Both catalogs have zero nonfinite, zero and negative margins. None has a
+positive margin at or below $10^{-3}$ GeV/$c$, or at or below 1024 downward
+ULPs at $p_{\rm in}^{(32)}$; the smallest margin-to-ULP ratios are
+$8.2840175\times10^6$ and $8.311172\times10^6$, respectively. The cumulative
+thresholds were fixed before the ledger scan. Here one downward ULP is
+$p^{(32)}-\operatorname{nextafter}(p^{(32)},-\infty)$.
+Table~\ref{tab:actual_support_margins} reports the distribution after computing
+the subtraction in float32 and promoting its result to float64 for linear
+quantile interpolation. A float64 difference of two rounded inputs is a
+distinct diagnostic, retained separately in the audit records.
+
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Actual float32 support-margin distributions, in GeV/$c$. Counts
+include all eligible events. Zero, negative and nonfinite counts are zero in
+both catalogs. The complete finer quantiles and seven momentum-bin summaries
+are retained with the aggregate audit.}
+\label{tab:actual_support_margins}
+\begin{tabular}{lrrrrrr}
+\toprule
+Catalog & Events & Minimum & 1\% & Median & 99\% & Maximum\\
+\midrule
+C & 499,285 & 0.295779943 & 0.306910386 & 0.649518907 & 0.992840517 & 0.999970257\\
+D & 499,275 & 0.297881365 & 0.306801179 & 0.650127709 & 0.992949682 & 0.999970496\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All 240 registered models per catalog retained the complete eligible-event
+count and event-order digest. Recomputing only their frozen centers and
+standardization, without evaluating a neural flow, reproduced all 960 saved
+$z$ and $b$ arrays bitwise: 479,308,800 values, with no mismatch. The smallest
+$b-z$ was 751.749807, and no saved $z$ reached or exceeded $b$.
+All 5280 saved model-component arrays passed their recorded byte, shape and
+dtype checks, and all event log densities were finite. Together these checks
+show that no eligible row was silently dropped or numerically rejected from
+the completed scores. They are a ledger and preprocessing reconciliation,
+not a new neural-density evaluation or a validation of the transport physics.
+
+\subsection{Actual support log-CDFs and their mathematical scale}
+
+Across all 480 registered model--catalog evaluations, every saved support
+log-CDF is float32 negative zero: 239,654,400 entries, zero nonzero values and
+zero nonfinite values. Thus all its recorded quantiles are zero. These are
+repeated model--event evaluations, not that many independent events; the 20
+Full rerun pairs per catalog retain their exact duplicate identities.
+Table~\ref{tab:actual_support_bounds} separates the primary 80 runs from the
+160 earlier registered runs.
+
+\begin{table}[!htbp]
+\centering\small
+\caption{Range of recorded standardized support bounds across every eligible
+event and model in each cohort. Each model has bound 8 for both spline layers.
+All support log-CDF entries are negative zero; all saved $z<b$.}
+\label{tab:actual_support_bounds}
+\begin{tabular}{llrrr}
+\toprule
+Catalog & Cohort & Model--event entries & Minimum $b$ & Maximum $b$\\
+\midrule
+C & Primary 80 & 39,942,800 & 761.355408 & 2776.529053\\
+C & Earlier 160 & 79,885,600 & 761.350159 & 2776.529053\\
+D & Primary 80 & 39,942,000 & 761.354797 & 2776.541260\\
+D & Earlier 160 & 79,884,000 & 761.349548 & 2776.543945\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The zeros have a quantitative explanation. Every saved bound exceeds 761.349,
+well outside the spline interval $[-8,8]$. Each layer is exactly the identity
+there, so its transformed base bound equals $b$, independently of the neural
+conditioner outputs. With the standard logistic base,
+\begin{equation}
+ \epsilon(b)=1-F_\theta(b\mid h)=\frac{1}{1+e^b},\qquad
+ \eta(b)=-\log F_\theta(b\mid h)=\log(1+e^{-b}).
+\end{equation}
+For $b>0$, both satisfy $0<\epsilon(b),\eta(b)<e^{-b}$. The smallest recorded
+bound therefore gives $\epsilon,\eta<10^{-330}$ for every evaluated entry.
+The excluded probability mass and the likelihood normalization correction
+are mathematically positive, but are smaller than half the smallest positive
+float64 subnormal number. A float64 re-expression would also round them to
+zero; it would not reveal a representable nonzero distribution. The aggregate
+audit retains the $b$ quantiles and log-domain bounds, rather than assigning
+artificial nonzero probabilities.
+
+This certificate concerns the mathematical logistic function evaluated at the
+saved rounded bounds. It uses the verified identity-tail construction and
+does not rerun the neural networks in float64. It explains why normalization
+has no observable contribution for these models and catalogs; the term remains
+in the likelihood and is not assumed negligible for other models or inputs.

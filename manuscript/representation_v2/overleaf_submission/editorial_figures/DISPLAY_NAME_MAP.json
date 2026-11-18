@@ -1,0 +1,9 @@
+{
+  "Coarse2": "2-bin momentum",
+  "Coarse8": "8-bin momentum",
+  "CorrectedPhysics": "BB-centered",
+  "Full5": "Exact momentum",
+  "Hidden5": "No direct momentum",
+  "Learned": "Polynomial-ridge center",
+  "Simple": "Linear center"
+}

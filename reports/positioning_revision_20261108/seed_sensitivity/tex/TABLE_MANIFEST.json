@@ -1,0 +1,42 @@
+{
+  "schema": "posthoc-seed-sensitivity-table-export/v1",
+  "status": "COMPLETE_TABLE_EXPORT_REQUIRES_LAYOUT_CHECK",
+  "input": {
+    "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\seed_sensitivity.json",
+    "sha256": "d01b0812e1eaef51824c7093cc59f9697da2318c4d61ccb5455ef66238a2701b",
+    "bytes": 48178
+  },
+  "script": {
+    "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\render_seed_tables.py",
+    "sha256": "4260dd99560eba160e76bf5dab2239db771862c1d3a7791faf969f67a5cc6da6",
+    "bytes": 3512
+  },
+  "main_adjacent_rows": 12,
+  "complete_supplement_rows": 32,
+  "table_labels": [
+    "tab:seed_adjacent_summary",
+    "tab:seed_sensitivity_C",
+    "tab:seed_sensitivity_D",
+    "tab:seed_sensitivity_t_C",
+    "tab:seed_sensitivity_t_D"
+  ],
+  "files": [
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\tex\\seed_adjacent_summary.tex",
+      "sha256": "8233226b0a6e8b3f3f4d63717c0505912f688311fcf1b3a9fd6f9e52825ddf51",
+      "bytes": 1543
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\tex\\seed_full_summary.tex",
+      "sha256": "76a1561a75c554cf3ab7f043c2b1645488da6ec6d581ada0f53849bafa8f23ec",
+      "bytes": 4748
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\tex\\seed_exploratory_t_summary.tex",
+      "sha256": "9b3f8c48f8e3f6be5c37e1e88a2af76e23f7a8c10fc3937f77c1619220f0810a",
+      "bytes": 3832
+    }
+  ],
+  "scientific_values_changed": false,
+  "analysis_intent": "post_hoc_to_known_C_D_results"
+}

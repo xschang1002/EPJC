@@ -1,0 +1,94 @@
+{
+  "schema": "paper-display-name-map/v1",
+  "status": "EDITORIAL_ALIAS_ONLY",
+  "generated_utc": "2026-11-08T15:15:46.982685+00:00",
+  "records": [
+    {
+      "namespace": "representation",
+      "paper_display_name": "Raw",
+      "immutable_internal_id": "Raw",
+      "scope": "Current primary and secondary models",
+      "meaning_and_limit": "Uncentered response; fitted residual mean and common scale still apply."
+    },
+    {
+      "namespace": "representation",
+      "paper_display_name": "BB-centered",
+      "immutable_internal_id": "CorrectedPhysics",
+      "scope": "Current primary and corrected secondary models",
+      "meaning_and_limit": "Bethe–Bloch-centered; nominal electronic mean-loss center, with existing physical approximations unchanged."
+    },
+    {
+      "namespace": "representation",
+      "paper_display_name": "Linear center",
+      "immutable_internal_id": "Simple",
+      "scope": "Fitted-center secondary comparisons",
+      "meaning_and_limit": "Training-only fitted linear center; not an untrained heuristic."
+    },
+    {
+      "namespace": "representation",
+      "paper_display_name": "Polynomial-ridge center",
+      "immutable_internal_id": "Learned",
+      "scope": "Fitted-center secondary comparisons",
+      "meaning_and_limit": "Training-only polynomial-ridge center; not a jointly trained neural representation."
+    },
+    {
+      "namespace": "primary_conditioner",
+      "paper_display_name": "No direct momentum",
+      "immutable_internal_id": "Hidden5",
+      "scope": "Current primary80 only",
+      "meaning_and_limit": "Five nominal input coordinates; exact momentum remains in the center and support."
+    },
+    {
+      "namespace": "primary_conditioner",
+      "paper_display_name": "2-bin momentum",
+      "immutable_internal_id": "Coarse2",
+      "scope": "Current primary80 only",
+      "meaning_and_limit": "Two-bin neural momentum encoding; frozen edges and other input coordinates unchanged."
+    },
+    {
+      "namespace": "primary_conditioner",
+      "paper_display_name": "8-bin momentum",
+      "immutable_internal_id": "Coarse8",
+      "scope": "Current primary80 only",
+      "meaning_and_limit": "Eight-bin neural momentum encoding; frozen edges and other input coordinates unchanged."
+    },
+    {
+      "namespace": "primary_conditioner",
+      "paper_display_name": "Exact momentum",
+      "immutable_internal_id": "Full5",
+      "scope": "Current primary80 only",
+      "meaning_and_limit": "Exact momentum in the neural conditioner, as well as center/support."
+    },
+    {
+      "namespace": "earlier_conditioner",
+      "paper_display_name": "Exact momentum",
+      "immutable_internal_id": "Full",
+      "scope": "Earlier matched correction and historical Full runs; identify cohort",
+      "meaning_and_limit": "Earlier five-input Full is an internal label distinct from current Full5."
+    },
+    {
+      "namespace": "earlier_conditioner",
+      "paper_display_name": "Earlier no direct momentum (two inputs)",
+      "immutable_internal_id": "Hidden",
+      "scope": "Earlier correction/historical Hidden runs only",
+      "meaning_and_limit": "Do not silently relabel earlier two-input Hidden as the five-input Hidden5 design."
+    },
+    {
+      "namespace": "historical_representation",
+      "paper_display_name": "H (erroneous preliminary center)",
+      "immutable_internal_id": "HistoricalIncorrectPhysics",
+      "scope": "Explicit historical comparator and documented controlled reruns",
+      "meaning_and_limit": "Intentional name for the preserved mixed-unit center; no BB-centered alias."
+    },
+    {
+      "namespace": "historical_figure_label",
+      "paper_display_name": "H (erroneous preliminary center)",
+      "immutable_internal_id": "Physics",
+      "scope": "Original pre-correction plots/reports only",
+      "meaning_and_limit": "Original Physics image/text labels denote the erroneous center; their bytes remain unchanged."
+    }
+  ],
+  "frozen_identifiers_changed": false,
+  "canonical_claim_lines_changed": false,
+  "mapping_policy": "Apply only to human-facing prose, table display strings and newly rendered figure labels. Do not rewrite run IDs, filenames, evidence records, canonical claims, protocols, scores or hashes."
+}

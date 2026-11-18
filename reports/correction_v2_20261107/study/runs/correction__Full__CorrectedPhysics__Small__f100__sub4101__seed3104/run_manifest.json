@@ -1,0 +1,352 @@
+{
+  "batch_size": 512,
+  "capacity": "Small",
+  "checkpoint": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study\\runs\\correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104\\checkpoint.pt",
+  "checkpoint_contract": {
+    "context_feature_mode": "full",
+    "eligibility": "forward",
+    "preprocessor": {
+      "alpha": null,
+      "center_identity": {
+        "center_id": "CorrectedPhysics",
+        "formula_version": "p0c-anchor-v1-all-mev",
+        "unit_contract": "input=p_GeV_c,thickness_mm; internal=MeV; output=GeV_c"
+      },
+      "coefficients": [
+        0.0
+      ],
+      "mu": -5.69001269784591e-06,
+      "name": "CorrectedPhysics",
+      "scale": 0.00036014640327633083,
+      "scale_coefficients": null,
+      "scale_log_max": null,
+      "scale_log_min": null,
+      "schema": "representation-preprocessor/v2"
+    },
+    "schema": "representation-flow-checkpoint/v2",
+    "sha256": "aee80cd98dfb28f274a4b96d1204c2af5dfc4ddcb04256217a7213eb6eda5bb5",
+    "source_files": {
+      "anchor.py": {
+        "path": "src/models/anchor.py",
+        "sha256": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b"
+      },
+      "anchor_legacy.py": {
+        "path": "src/models/anchor_legacy.py",
+        "sha256": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760"
+      },
+      "checkpoint_contract.py": {
+        "path": "src/representation_flow/checkpoint_contract.py",
+        "sha256": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5"
+      },
+      "engine.py": {
+        "path": "src/representation_flow/engine.py",
+        "sha256": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd"
+      },
+      "experiment_contract.py": {
+        "path": "src/representation_flow/experiment_contract.py",
+        "sha256": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3"
+      },
+      "run_a0_prototype.py": {
+        "path": "src/representation_flow/run_a0_prototype.py",
+        "sha256": "c7082fa4258790e6487c0ce051582b4d05467c73a18e22fa705bcb043dd55d39"
+      },
+      "run_correction_study.py": {
+        "path": "src/representation_flow/run_correction_study.py",
+        "sha256": "2f34968b7122764a4850199de494732cd03832a92f44bdb903151329ed1ae070"
+      }
+    },
+    "target_support": "Y < p_in",
+    "target_unit": "GeV/c"
+  },
+  "context_dimension": 5,
+  "context_feature_mode": "full",
+  "elapsed_seconds": 127.82146040000953,
+  "epochs_at_budget": 17.080159993061184,
+  "eval_batch_size": 8192,
+  "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+  "hidden_width": 32,
+  "history": [
+    {
+      "grad_norm_pre_clip": 1.086690902709961,
+      "train_nll": -6.491633415222168,
+      "update": 1,
+      "validation_nll": -6.489161014556885
+    },
+    {
+      "grad_norm_pre_clip": 21.76584243774414,
+      "train_nll": -8.904029846191406,
+      "update": 500,
+      "validation_nll": -8.921188354492188
+    },
+    {
+      "grad_norm_pre_clip": 13.10946273803711,
+      "train_nll": -8.989649772644043,
+      "update": 1000,
+      "validation_nll": -8.99545955657959
+    },
+    {
+      "grad_norm_pre_clip": 10.850688934326172,
+      "train_nll": -9.10869026184082,
+      "update": 1500,
+      "validation_nll": -9.03069019317627
+    },
+    {
+      "grad_norm_pre_clip": 7.309146404266357,
+      "train_nll": -9.016520500183105,
+      "update": 2000,
+      "validation_nll": -9.042360305786133
+    },
+    {
+      "grad_norm_pre_clip": 15.363344192504883,
+      "train_nll": -8.876401901245117,
+      "update": 2500,
+      "validation_nll": -9.037394523620605
+    },
+    {
+      "grad_norm_pre_clip": 25.389497756958008,
+      "train_nll": -9.014063835144043,
+      "update": 3000,
+      "validation_nll": -9.051295280456543
+    },
+    {
+      "grad_norm_pre_clip": 27.559646606445312,
+      "train_nll": -8.965205192565918,
+      "update": 3500,
+      "validation_nll": -9.05373477935791
+    },
+    {
+      "grad_norm_pre_clip": 29.86516761779785,
+      "train_nll": -8.911137580871582,
+      "update": 4000,
+      "validation_nll": -9.007612228393555
+    },
+    {
+      "grad_norm_pre_clip": 4.566210746765137,
+      "train_nll": -9.118602752685547,
+      "update": 4500,
+      "validation_nll": -9.060094833374023
+    },
+    {
+      "grad_norm_pre_clip": 31.867137908935547,
+      "train_nll": -9.099950790405273,
+      "update": 5000,
+      "validation_nll": -9.054831504821777
+    },
+    {
+      "grad_norm_pre_clip": 13.912067413330078,
+      "train_nll": -9.105199813842773,
+      "update": 5500,
+      "validation_nll": -9.065211296081543
+    },
+    {
+      "grad_norm_pre_clip": 30.855060577392578,
+      "train_nll": -8.976089477539062,
+      "update": 6000,
+      "validation_nll": -9.028928756713867
+    },
+    {
+      "grad_norm_pre_clip": 27.83749771118164,
+      "train_nll": -9.102400779724121,
+      "update": 6500,
+      "validation_nll": -9.056882858276367
+    },
+    {
+      "grad_norm_pre_clip": 59.448265075683594,
+      "train_nll": -8.92732048034668,
+      "update": 7000,
+      "validation_nll": -9.03044319152832
+    },
+    {
+      "grad_norm_pre_clip": 5.464637279510498,
+      "train_nll": -9.091303825378418,
+      "update": 7500,
+      "validation_nll": -9.067584991455078
+    },
+    {
+      "grad_norm_pre_clip": 32.19933319091797,
+      "train_nll": -9.07475471496582,
+      "update": 8000,
+      "validation_nll": -9.045317649841309
+    },
+    {
+      "grad_norm_pre_clip": 32.19585037231445,
+      "train_nll": -8.942228317260742,
+      "update": 8500,
+      "validation_nll": -9.062837600708008
+    },
+    {
+      "grad_norm_pre_clip": 60.384498596191406,
+      "train_nll": -9.121955871582031,
+      "update": 9000,
+      "validation_nll": -9.002612113952637
+    },
+    {
+      "grad_norm_pre_clip": 10.087275505065918,
+      "train_nll": -8.991241455078125,
+      "update": 9500,
+      "validation_nll": -9.068016052246094
+    },
+    {
+      "grad_norm_pre_clip": 24.121871948242188,
+      "train_nll": -8.85271167755127,
+      "update": 10000,
+      "validation_nll": -9.070032119750977
+    },
+    {
+      "grad_norm_pre_clip": 22.724456787109375,
+      "train_nll": -9.041337013244629,
+      "update": 10500,
+      "validation_nll": -9.069735527038574
+    },
+    {
+      "grad_norm_pre_clip": 20.378005981445312,
+      "train_nll": -9.083574295043945,
+      "update": 11000,
+      "validation_nll": -9.069159507751465
+    },
+    {
+      "grad_norm_pre_clip": 2.1333296298980713,
+      "train_nll": -9.069568634033203,
+      "update": 11500,
+      "validation_nll": -9.069999694824219
+    },
+    {
+      "grad_norm_pre_clip": 27.888134002685547,
+      "train_nll": -9.109823226928711,
+      "update": 12000,
+      "validation_nll": -9.068493843078613
+    },
+    {
+      "grad_norm_pre_clip": 16.67376708984375,
+      "train_nll": -8.861675262451172,
+      "update": 12500,
+      "validation_nll": -9.067292213439941
+    },
+    {
+      "grad_norm_pre_clip": 26.6337833404541,
+      "train_nll": -8.98983383178711,
+      "update": 13000,
+      "validation_nll": -9.033587455749512
+    },
+    {
+      "grad_norm_pre_clip": 23.66171646118164,
+      "train_nll": -9.181461334228516,
+      "update": 13500,
+      "validation_nll": -9.040112495422363
+    },
+    {
+      "grad_norm_pre_clip": 32.78376007080078,
+      "train_nll": -9.174210548400879,
+      "update": 14000,
+      "validation_nll": -9.014501571655273
+    },
+    {
+      "grad_norm_pre_clip": 35.12095260620117,
+      "train_nll": -9.092545509338379,
+      "update": 14500,
+      "validation_nll": -9.05272388458252
+    },
+    {
+      "grad_norm_pre_clip": 1.472808599472046,
+      "train_nll": -9.096392631530762,
+      "update": 15000,
+      "validation_nll": -9.068463325500488
+    },
+    {
+      "grad_norm_pre_clip": 5.7596869468688965,
+      "train_nll": -9.202731132507324,
+      "update": 15500,
+      "validation_nll": -9.06503677368164
+    },
+    {
+      "grad_norm_pre_clip": 20.2701473236084,
+      "train_nll": -9.172436714172363,
+      "update": 16000,
+      "validation_nll": -9.05776596069336
+    },
+    {
+      "grad_norm_pre_clip": 10.442889213562012,
+      "train_nll": -9.01768970489502,
+      "update": 16500,
+      "validation_nll": -9.069268226623535
+    },
+    {
+      "grad_norm_pre_clip": 16.169958114624023,
+      "train_nll": -9.006279945373535,
+      "update": 17000,
+      "validation_nll": -9.071955680847168
+    },
+    {
+      "grad_norm_pre_clip": 5.580299377441406,
+      "train_nll": -9.08329963684082,
+      "update": 17500,
+      "validation_nll": -9.057032585144043
+    },
+    {
+      "grad_norm_pre_clip": 14.111973762512207,
+      "train_nll": -9.228479385375977,
+      "update": 18000,
+      "validation_nll": -9.056380271911621
+    },
+    {
+      "grad_norm_pre_clip": 13.92971134185791,
+      "train_nll": -9.034891128540039,
+      "update": 18500,
+      "validation_nll": -9.06282901763916
+    },
+    {
+      "grad_norm_pre_clip": 6.6148529052734375,
+      "train_nll": -9.044049263000488,
+      "update": 19000,
+      "validation_nll": -9.066367149353027
+    },
+    {
+      "grad_norm_pre_clip": 28.380550384521484,
+      "train_nll": -9.101187705993652,
+      "update": 19500,
+      "validation_nll": -9.064582824707031
+    },
+    {
+      "grad_norm_pre_clip": 10.554365158081055,
+      "train_nll": -9.038272857666016,
+      "update": 20000,
+      "validation_nll": -9.070876121520996
+    }
+  ],
+  "initialization_hash": "bc62d4eba263f595a9fed40e2272b341a6a57f1741770146e82c5b83ca22ae14",
+  "learning_rate": 0.0003,
+  "max_updates": 20000,
+  "optimizer_state_present": true,
+  "optimizer_state_update": 17000,
+  "parameter_count": 5730,
+  "predictions": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study\\runs\\correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104\\predictions.npz",
+  "preprocessor": {
+    "alpha": null,
+    "center_identity": {
+      "center_id": "CorrectedPhysics",
+      "formula_version": "p0c-anchor-v1-all-mev",
+      "unit_contract": "input=p_GeV_c,thickness_mm; internal=MeV; output=GeV_c"
+    },
+    "coefficients": [
+      0.0
+    ],
+    "mu": -5.69001269784591e-06,
+    "name": "CorrectedPhysics",
+    "scale": 0.00036014640327633083,
+    "scale_coefficients": null,
+    "scale_log_max": null,
+    "scale_log_min": null,
+    "schema": "representation-preprocessor/v2"
+  },
+  "representation": "CorrectedPhysics",
+  "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+  "seed": 3104,
+  "selected_update": 17000,
+  "status": "COMPLETED_CORRECTION_CELL",
+  "subset_catalog_id": 4101,
+  "torch_threads": 1,
+  "train_events": 599526,
+  "training_fraction": 1.0,
+  "validation_events": 100042,
+  "validation_every": 500
+}

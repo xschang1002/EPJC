@@ -1,0 +1,58 @@
+{
+  "schema": "computational-runtime-retrospective/v2",
+  "status": "FINAL_RUNTIME_VERIFIED",
+  "retrospective": true,
+  "generated_unix": 1794019020.9537563,
+  "generated_utc": "2026-11-07T02:37:00.953756+00:00",
+  "core_execution_started_unix": 1793994420.910042,
+  "computation_completed_no_later_than_unix": 1794001429.3939745,
+  "completion_evidence": {
+    "path": "E:\\JINST REP\\_audit_20261107\\public_correction_report_sync_1794001432705708600.json",
+    "sha256": "031c56c84329682f5eba155599f6fbdb4e47585bde5998da9f68333c73bfc338",
+    "timestamp_field": "created_unix"
+  },
+  "completion_basis": "Upper bound from the original pre-interruption completed scientific-copy receipt, revalidated against all 628 canonical/public artifacts; local execution evidence, not a trusted third-party timestamp.",
+  "scope": "Frozen core60 plus extension100 training, complete all160 A/B inference, independent saved-output validation, original figures and saved post-hoc numerical diagnostics. Subsequent prose, metadata checks and release operations are separately recorded.",
+  "superseded_v1_scope": "The unexecuted v1 plan included final document QA in its completion clock. Interruption delayed that nontraining finalization; v2 explicitly replaces that scope instead of backdating the new receipt.",
+  "benchmark_costs": {
+    "archived_core_seconds": 27.208680391311646,
+    "archived_extension_seconds": 24.347630500793457,
+    "current_core_seconds": 27.437847137451172,
+    "current_extension_seconds": 69.26253199577332,
+    "confirmation_timing_v1_seconds": 4.0552133,
+    "confirmation_timing_v2_seconds": 4.090275
+  },
+  "maximum_total_seconds": 10800,
+  "total_accounted_seconds": 7164.886110820446,
+  "input_sha256": {
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study\\scores.json": "a7c43ecac6496ef7475737f1556fc019186c04510c56fc952c9ca68c88bddd81",
+    "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\scores.json": "f53f2ea216f32e7b834e36b5be6775d270e64080a5e4ba3f5177077d932afa2a",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\analysis\\analysis_manifest.json": "b0557fa44664fd890b56a6518872f96886b784fec5b6e8eb79fe99e544373be4",
+    "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\analysis\\analysis_manifest.json": "4eecf7400cf3e5f2cbe24ab017079636d93da3c0098c447d2464b95f808a4110",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\confirmation\\confirmation_summary.json": "1626420290d5efb17fcc283bc37187aaf95c3935fa87684e9b07cea03773df1a",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\confirmation_verification\\verification_manifest.json": "b74bf2453460e2587e96ec132a0b6f9b5f09e7935f4c4217339050c5109cc393",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\confirmation_group_diagnostics\\manifest.json": "29f0fbca5c555fb7931ad5bbed78699e50271246bc89a6d555d41bbfe14f1681",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\location_diagnostics\\manifest.json": "0b328c36b9aef9f920bbfc4b857d872606d5abcfc6a4f143c8f31750b5621917",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\figures_core\\figure_manifest.json": "c4a46811e456ae6ff09b8259bb1caf6830eee0835f50e00e0f142b2e2f449e64",
+    "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\figures_confirmation\\figure_manifest.json": "610e28bd0cd3e633c54030357e560816132ed59ff80673fbad4c7205fa304c06",
+    "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\figures_full\\figure_manifest.json": "53f0ec50c5f6c703fdfcee7bd419e2384b998c594929459023ff8807b556e8d0",
+    "E:\\JINST REP\\_audit_20261107\\confirmation_timing_main_v1.json": "c7c7771e1e72c90e679c7934dbaec7562b866c484ec9f6df267be58868936940",
+    "E:\\JINST REP\\_audit_20261107\\confirmation_timing_main_v2.json": "73463ac6f3b054efea295bb47c071ca4029021c8f1675ac9d30b764ef4966ca0"
+  },
+  "release_finalization": {
+    "completed_unix": 1794019020.9537563,
+    "end_to_end_elapsed_seconds": 24600.043714284897,
+    "includes_interruption": true,
+    "end_to_end_under_three_hours_claimed": false,
+    "document_qa": {
+      "path": "E:\\JINST REP\\_audit_20261107\\final_correction_document_qa.json",
+      "sha256": "286cae88ecea3a1eddee8736b3f845df0b3d0c24861e67fa7f6ab5fc4ad4d3ad"
+    },
+    "source_package_verification": {
+      "path": "E:\\JINST REP\\_audit_20261107\\source_package_verification.json",
+      "sha256": "0aa35afc4d12ad9e6eee024f3198a7ad7ec1d3b6cd8d15820b57d4591317f814"
+    },
+    "source_package_test_seconds": 87.2450783252716,
+    "note": "Final report text is generated after this receipt; no resumed model training or raw-confirmation inference was performed."
+  }
+}

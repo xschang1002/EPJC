@@ -1,0 +1,48 @@
+For illustration, consider a residual
+Gaussian family with a freely fitted measurable mean $\mu(W)$ and the same
+positive fixed variance $\sigma^2$ in both representations. Assuming finite
+second moments under the same data distribution, and omitting support
+truncation, its minimum expected NLL
+relative to the corresponding Raw family differs by
+\begin{equation}
+ \mathcal L_c^*-\mathcal L_{\raw}^*
+ =\frac{\mathbb E_W\!\left[
+ \operatorname{Var}_V(m-c\mid W)-\operatorname{Var}_V(m\mid W)
+ \right]}{2\sigma^2}.
+ \label{eq:gaussian_illustration}
+\end{equation}
+This restricted-family example permits either direction of benefit. It is not
+a performance formula for the trained spline flows.
+
+The same distinction applies to partial information. For a measurable
+coarsening $H(V)$, let $\mathcal G_H=\sigma(W,H(V))$ and define
+$B_c(H)=\mathbb E[\operatorname{Var}(m-c\mid\mathcal G_H)]$, with
+$B_{\raw}=B_0$. Assume finite second moments for $Y$ and the deterministic
+measurable center $c$ in the eligible population. For nested information
+$\mathcal G_{H_1}\subseteq\mathcal G_{H_2}$,
+\begin{equation}
+ B_c(H_1)-B_c(H_2)=\mathbb E\!\left[
+ \left\{\mathbb E[m-c\mid\mathcal G_{H_2}]
+       -\mathbb E[m-c\mid\mathcal G_{H_1}]\right\}^{2}\right]\geq0.
+ \label{eq:information_refinement}
+\end{equation}
+Each location burden therefore decreases or stays fixed as information is
+refined, but their difference $B_{\raw}(H)-B_c(H)$ need not be monotone.
+In an abstract four-state example, take $W$ constant and let $A$ and $B$ be independent symmetric variables taking values
+$-1$ and $+1$, let $V=2A+B$, and set $m=A$ and $c=A-B$. With no information,
+with $A$ observed, and with $V$ observed, the difference is $0,-1,0$.
+Under exact $V$, both location burdens vanish. The difference is proportional
+to the representation gain in the fixed-variance Gaussian illustration;
+these population identities do not imply monotonic NLL improvement for the
+trained spline flows.
+
+A translation does not alter the true variance at fixed complete conditions:
+$\operatorname{Var}(Y-c\mid V,W)=\operatorname{Var}(Y\mid V,W)$.
+Dependence of scale or shape on $V$ can remain in the residual distribution
+even when the center matches its mean well. The location identity consequently
+motivates a diagnostic, not a unique decomposition of likelihood gains into
+location, scale and shape causes. General incompatibility between a prescribed
+representation and unavailable neural information remains a theoretical
+possibility; the empirical comparisons in the main article establish their measured
+effects in the stated setting.
+

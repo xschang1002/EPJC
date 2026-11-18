@@ -1,0 +1,50 @@
+{
+  "status": "FIXED_BEFORE_FORMAL_TRAINING_AND_FRESH_DATA",
+  "recorded_utc": "2026-11-07T19:18:01.936632+00:00",
+  "scope": {
+    "new_models": 80,
+    "legacy_models": 160,
+    "unique_fresh_evaluation_models": 240,
+    "fresh_catalogs": 2,
+    "launched_events_per_fresh_catalog": 500000,
+    "fresh_blocks_reported_separately": true
+  },
+  "information_order_increasing": [
+    "Hidden5",
+    "Coarse2",
+    "Coarse8",
+    "Full5"
+  ],
+  "gain_definition": "Delta_h=mean(logp_CorrectedPhysics-logp_Raw), positive favors CorrectedPhysics",
+  "interaction_direction_final": "more_information_gain_minus_less_information_gain",
+  "adjacent_contrasts": [
+    [
+      "Coarse2",
+      "Hidden5"
+    ],
+    [
+      "Coarse8",
+      "Coarse2"
+    ],
+    [
+      "Full5",
+      "Coarse8"
+    ]
+  ],
+  "endpoint_contrast": [
+    "Full5",
+    "Hidden5"
+  ],
+  "fractions": [
+    0.1,
+    1.0
+  ],
+  "primary_family_count": 16,
+  "seed_aggregation": "Mean of five paired log-score differences, not a logmeanexp mixture-density ensemble",
+  "primary_uncertainty": "Paired exact bootstrap within 42 launched strata; physical S0 contributes zero numerator and zero eligibility denominator; preserve fixed launched design and allow eligible counts/mixture to vary; 2000 replicates. Fixed trained-model uncertainty, separate from optimizer-seed spread.",
+  "secondary_groups": "42 predefined physical groups on fresh data: predeclared follow-up of the earlier post-hoc A/B description. Group count is not independent replication or a regional-failure theorem.",
+  "mechanism": "Exact base/Jacobian/shared-scale/support arithmetic plus operational residual and PIT diagnostics; no unique physical location/scale/shape causal decomposition. Source-only56-bin common refinement for coarse-condition location diagnostic.",
+  "no_optional_center_lambda_or_calibration_models": true,
+  "fresh_gate": "Complete declared model roster and protocols/analysis/code/source hashes frozen before official C/D generation; no fresh-result selection or retuning",
+  "preservation": "All earlier protocols/models/results remain unchanged; new namespace and outputs; raw fresh data and full caches excluded from public mirror"
+}

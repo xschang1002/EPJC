@@ -1,0 +1,33 @@
+{
+  "stage": "PRE_FREEZE_PILOT_MATRIX",
+  "status": "CANDIDATE_NOT_FROZEN",
+  "source": "data/pilot_10000_full_merged/manifest.json",
+  "training_seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "models": [
+    "anchor_independent",
+    "shared_gaussian",
+    "conditional_gaussian",
+    "conditional_student_t_df3",
+    "frozen_anchor_k2",
+    "joint_anchor_residual_k2",
+    "conditional_gate_anchor_k2",
+    "learned_center_k2",
+    "unanchored_mdn_k2"
+  ],
+  "feature_policy": "pre_transition_only",
+  "target": "delta_p_GeV_c",
+  "support": "y < p_in_GeV_c",
+  "split": "sha256(event_uid) threshold 0.2 validation; all preprocessing fit on train",
+  "target_scale_floor": 1e-9,
+  "optimizer": {
+    "method": "L-BFGS-B",
+    "maxiter": 1800,
+    "ftol": 1e-12,
+    "gtol": 1e-7,
+    "maxls": 40,
+    "early_stopping": null
+  },
+  "selection_rule_candidate": "lowest validation full NLL after all seeds and all required baselines are reported",
+  "confirmation_enabled": false,
+  "human_freeze_approval": null
+}

@@ -1,0 +1,553 @@
+{
+  "schema": "actual-information-presentation-qa/v1",
+  "status": "PASS_ACTUAL_FIGURE_AND_TABLE_EXPORT_QA",
+  "generated_utc": "2026-11-07T20:44:13.668289+00:00",
+  "figure_manifest": {
+    "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\FIGURE_MANIFEST.json",
+    "sha256": "c40b60f1357cb83cc21c84c6044e237e7720b080368b7f7725dd81f563515e56"
+  },
+  "table_manifest": {
+    "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\TABLE_MANIFEST.json",
+    "sha256": "13f0c1f6bf8d16d0608cb6a5938beab79456a8bcc9b4cb2d6a1afd10f3c61f8e"
+  },
+  "checker_sha256": "5c20e9f20f7a1df6bc4f8c7044ef8b573270a32d8712c5d73044d108a19b38ca",
+  "figure_count": 21,
+  "table_rows": 32,
+  "figures": [
+    {
+      "name": "information_absolute_nll",
+      "png_sha256": "ab40a5dd98fb0061948136afd1dabad29233fd2ccaa0b2bfc5a53251050c997a",
+      "pdf_sha256": "c76013c99800191f74d8814fde1f9da19989d330a832dc5b05b970b92f7141c8",
+      "pixels": [
+        2125,
+        1653
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 140.00000000000443,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": false
+    },
+    {
+      "name": "information_exact_density_terms",
+      "png_sha256": "0fce2a26ddc14346002cef9c2e8a759d77e7e1d1593d2a740a6bb027bc7a9086",
+      "pdf_sha256": "d6b65d5c24186e512213b96b5765ad5a89034c3ddbe12d795032ce5664c65e60",
+      "pixels": [
+        2125,
+        1771
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 149.99999999999972,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": false
+    },
+    {
+      "name": "information_gain_changes",
+      "png_sha256": "89f476fa2d2ff0735bd553432659be8e8701fe3e64fc03e06302345725f60d75",
+      "pdf_sha256": "0dc8dbb68e286e2cef7b844f96afa8c588fc6e1173e790e55ded0e44eece7c45",
+      "pixels": [
+        2125,
+        1712
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 144.99999999998442,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": false
+    },
+    {
+      "name": "information_gain_ladder",
+      "png_sha256": "cd4f7f00c781e5a97e9e1d6546f52f6cf44b4f88a68ac93c70935afdf907ec21",
+      "pdf_sha256": "fc98f42d14e9377b671476c74b8f86a6e2cf66beb15981ff3017fd185ca76d80",
+      "pixels": [
+        2125,
+        1712
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 144.99999999998442,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": false
+    },
+    {
+      "name": "information_local_C_Coarse2_f010",
+      "png_sha256": "7eaa1606c6dec664ebbaa16de56c7ecbf9be479422b4d588feccfbcf650225a9",
+      "pdf_sha256": "5416a2db9d624159fe901df868659ca82935ae9633f4380d61015aefe64beeb9",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Coarse2_f100",
+      "png_sha256": "6ad04bc54c16d418c470fc36b14c2dcb689bff8f089acd7dde2635220c4f7f36",
+      "pdf_sha256": "91f6cd8294c315f30711294d7439de145fbdaebe6a34036e088544fe4e3b3d90",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Coarse8_f010",
+      "png_sha256": "00e57fdd644590a17948f4b0aed7d250feb39fecd603d2ee06980052b188eaa4",
+      "pdf_sha256": "1d7716bfdea4bbbd4986e6d374944339c81def5412ddf9237dc9969816bcdc24",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Coarse8_f100",
+      "png_sha256": "de7e1839053af92378379cb148350050ac9ddeea57306a1e2e96c9202ce5bdc8",
+      "pdf_sha256": "2160d7c9d82d81545d2b2bdb074e823ce6a80fb38b0331db3f73374fc5991e14",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Full5_f010",
+      "png_sha256": "4e9971bde29ef9a646bfb35539701f14f573737f01330d3b7ea88fe41000824b",
+      "pdf_sha256": "a9e7c9a7d7bb0da8cce2f1b9a10737d07b8895338b2122df262d29bf382b2753",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Full5_f100",
+      "png_sha256": "bce39b5a1b04a5d7e856faa2c37c9e4ffffee84d83a622084ab2546f4364e448",
+      "pdf_sha256": "8e207ac0e03e44d594594b79ffb28f97d893ff5302daa45fc02ffacb98a362d4",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Hidden5_f010",
+      "png_sha256": "5deef29294c2e01e402823bf1362f55b0e38f90af3860c8840de0f4d35e92959",
+      "pdf_sha256": "04936f406ab4f75e45189f7cac86e6b4139df1fc1d7fc1fd3858d9bff6fb3275",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_C_Hidden5_f100",
+      "png_sha256": "c484ffa147741e2086c8905cca25e66b8742039552a3803405ef69277b7457db",
+      "pdf_sha256": "61e0f908f3f361d474b876df199c2ecc7750dfca02d8b6ebecc7dc97c39b508a",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Coarse2_f010",
+      "png_sha256": "5b5c4a0a38d3a9707d644b3f9e0514d13ff51cfd9516d8c6a20b86517ec64242",
+      "pdf_sha256": "f411194e32cfb3809b76241336b97cd73cedaabac9e9d1ab7ef25754ff800ccd",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Coarse2_f100",
+      "png_sha256": "89a3b9987a244e93f8a79f9fd68634c72f84d278e99bcc68b54681101f47acb1",
+      "pdf_sha256": "486b08fa53d74925c0d0100133265fabae6ca210c022235e32d9e75b856dac68",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Coarse8_f010",
+      "png_sha256": "30e940636b2919f264a455e35e5cb346b73fa57a96e07b201faad08d67566c66",
+      "pdf_sha256": "1d16540a12b36493514d3d5ba25e392eb5f149afd26d6c01cae65ee485aa9912",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Coarse8_f100",
+      "png_sha256": "9683892dd052cab2331b28abaf7e05ab0486f704eae594d275ff928e4316be10",
+      "pdf_sha256": "71d67ed3008630cfc7635d1bf7bd8b9f60d60d0cde138ab54576d2036d1dd99b",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Full5_f010",
+      "png_sha256": "ea3c78a951422726e57ad101bd78ebefa48eefebca87f473b8aeabe3eef487b2",
+      "pdf_sha256": "ce7bfc43be99fb4e52c9fa4c61ab871bc6349d51189a4d467e50118500da4470",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Full5_f100",
+      "png_sha256": "5c23085855b013035c63e47fc37f3aa72a5b3038c3cdfd08b1eddb62d449fcbd",
+      "pdf_sha256": "41ea455443521345e5b5985c4eca2bcc0398df8d3768b4e2af42de268d16a80f",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Hidden5_f010",
+      "png_sha256": "b8d7ad0d1663c84e5e3fca6eeb10686796bb05a7440558454b922519d089e2ca",
+      "pdf_sha256": "395acfa69b29490c5fb6c353a1c36253babe44b6649e0644e1e65e229788a810",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_local_D_Hidden5_f100",
+      "png_sha256": "b049973037f9fd9176ce282fca61ccba36d1196adbca4d5fc3f64612129377fd",
+      "pdf_sha256": "5c6f16825780e7e24f114944aeff94b76ca572651c00b2b0e17b4b70ff6be6ea",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 210.00000000000668,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": true
+    },
+    {
+      "name": "information_source_location",
+      "png_sha256": "e9e9df0f53a22d6024a60572f127770e32b6fa8f09358c9d0a6f73e05dc3c99a",
+      "pdf_sha256": "120f40e548e864f392106ab36cd6dea9dbd3ace66f36ea85632f4690a26b9ddd",
+      "pixels": [
+        2125,
+        1653
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "width_mm": 179.99999999998556,
+      "height_mm": 140.00000000000443,
+      "pdf_pages": 1,
+      "embedded_fonts": true,
+      "font_types": [
+        "/CIDFontType2"
+      ],
+      "opaque": true,
+      "visual_inspected": true,
+      "all_42_groups_text_checked": false
+    }
+  ],
+  "tables": [
+    {
+      "catalog": "C",
+      "rows": 16,
+      "paired_seed_values": 80,
+      "tex_columns": 7,
+      "all_display_numbers_match_full_precision_data": true,
+      "seed_means_sd_directions_recomputed_from_source_csv": true,
+      "braces_environments_balanced": true,
+      "tex_sha256": "4d9518299a08abe70b893226d20174f7d1c85214e32e82d2060a987458bbce31"
+    },
+    {
+      "catalog": "D",
+      "rows": 16,
+      "paired_seed_values": 80,
+      "tex_columns": 7,
+      "all_display_numbers_match_full_precision_data": true,
+      "seed_means_sd_directions_recomputed_from_source_csv": true,
+      "braces_environments_balanced": true,
+      "tex_sha256": "7c0fe9b9b28bbc212c4f1b375d18d1234c30956dc3a008760959871f14054876"
+    }
+  ],
+  "all_manifest_output_hashes_match": true,
+  "visual_review": {
+    "all_21_png_images_inspected": true,
+    "all_16_local_plots_include_42_groups": true,
+    "observations": [
+      "No clipped labels, legends, intervals, or seed values observed.",
+      "Negative local and seed effects are retained.",
+      "All local plots use a common scale: Full5/Coarse8 near-zero details are densely clustered; exact values remain in CSV/JSON.",
+      "Source Full5 zero is open-symbol theoretical identity; it is not joined to the finite-bin series.",
+      "Black primary intervals refer to 16-family fixed-model event uncertainty; seed sample SD is separately labelled in absolute-NLL/components plots.",
+      "Local intervals cover the 336 within-catalog primary-by-group family, without pooling C/D."
+    ]
+  },
+  "recommended_main_figures": [
+    "information_gain_ladder.pdf",
+    "information_absolute_nll.pdf",
+    "information_gain_changes.pdf"
+  ],
+  "supplementary_figures": [
+    "information_exact_density_terms.pdf",
+    "information_source_location.pdf",
+    "all 16 information_local_* PDFs"
+  ],
+  "table_entry": "information_tables/fresh/fresh_information_primary16.tex",
+  "limitations": [
+    "Agent visual/metadata review, not human author approval or publisher certification.",
+    "These newly generated tables were not TeX-compiled by this checker; root is responsible for manuscript integration and final typesetting.",
+    "Caption/alt prose was copyedited for word spacing after rendering; all 42 PNG/PDF hashes remained unchanged.",
+    "No raw event data, cached event arrays, model inference, or retraining was used for export QA."
+  ]
+}

@@ -1,0 +1,5 @@
+# Cross-platform dependencies for one-command aggregate reproduction (Python >= 3.11)
+# No PyTorch or Geant4 installation is needed for `python reproduce.py --output reproduced`.
+numpy>=2.0,<3.0
+scipy>=1.13,<2.0
+matplotlib>=3.9,<4.0

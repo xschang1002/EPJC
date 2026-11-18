@@ -1,0 +1,54 @@
+{
+  "status": "AUTHORIZED_PREPARATION",
+  "user_budget_reply": "可运行一整晚，约 8–12 小时",
+  "authorized_scope": "Manuscript refinements; new intermediate-information and equal-parameter-structure experiments; fresh independent Geant4 evaluation; paired event uncertainty and mechanism diagnostics. Preserve prior accepted science.",
+  "started_utc": "2026-11-07T19:11:24.342842+00:00",
+  "started_unix": 1794078684.342842,
+  "maximum_wall_seconds": 43200,
+  "deadline_unix": 1794121884.342842,
+  "cpu_logical_count": 24,
+  "training_design_agreed": {
+    "contexts": [
+      "Hidden5",
+      "Coarse2",
+      "Coarse8",
+      "Full5"
+    ],
+    "input_dimension": 5,
+    "momentum_range_GeV_c": [
+      0.3,
+      1.0
+    ],
+    "coarse_bins": [
+      2,
+      8
+    ],
+    "nested_partitions": true,
+    "representations": [
+      "Raw",
+      "CorrectedPhysics"
+    ],
+    "fractions": [
+      0.1,
+      1.0
+    ],
+    "seeds": [
+      3101,
+      3102,
+      3103,
+      3104,
+      3105
+    ],
+    "capacity": "Small",
+    "width": 32,
+    "updates": 20000,
+    "new_cells": 80
+  },
+  "fresh_catalog_status": "Not generated; smoke-only engineering work may precede freeze using disjoint seeds",
+  "fresh_scope_candidate": "New80 plus previously frozen unique160; one or two new500k catalogs determined by smoke runtime before freeze and before official data generation",
+  "analysis_status": "Draft before formal fresh evaluation; no new experimental conclusion asserted",
+  "budget_record_original_started_unix": 1794078699.223425,
+  "budget_record_original_deadline_unix": 1794121899.223425,
+  "accounting_note": "Start moved earlier to first engineering-compute receipt; deadline shortened, never reset or extended.",
+  "pre_record_engineering_seconds_charged": 14.880582809448242
+}

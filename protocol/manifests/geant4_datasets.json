@@ -1,0 +1,67 @@
+{
+  "algorithm": "SHA256(sorted UTF-8 relative path, NUL, file SHA256, newline)",
+  "datasets": {
+    "G4ABLA3.3": {
+      "bytes": 1379864,
+      "files": 10,
+      "sha256_tree": "35808cc14c2dbea8ad178de53c95d84ff46d8bbb6656ae120a3772c2db90e31b"
+    },
+    "G4CHANNELING2.0": {
+      "bytes": 70665651,
+      "files": 21,
+      "sha256_tree": "c153d088caf38cf1555d8116c2751b33a7bd340efcb07ee3169f109e16a650d0"
+    },
+    "G4EMLOW8.8": {
+      "bytes": 731046315,
+      "files": 11424,
+      "sha256_tree": "a5442575a43c88805dbaf3a718554dc5608e7cbaf015dc72e8f5120bea6dff7c"
+    },
+    "G4ENSDFSTATE3.0": {
+      "bytes": 1964837,
+      "files": 3,
+      "sha256_tree": "c06f19cec648734d3030de61b939f6a9e75c3656a5a81ca73cd408e4014f8be2"
+    },
+    "G4INCL1.3": {
+      "bytes": 254193,
+      "files": 16,
+      "sha256_tree": "2042c857ee5214859f58badab694c15fe850ddcd9f90dc4c69ef8ff085363daf"
+    },
+    "G4NDL4.7.1": {
+      "bytes": 1134642394,
+      "files": 16092,
+      "sha256_tree": "435fb702cb0082d87a803b31fff42fbbb273809267c12c84673d8f41378722de"
+    },
+    "G4PARTICLEXS4.2": {
+      "bytes": 44373661,
+      "files": 3362,
+      "sha256_tree": "b6e5cd4b1948846b11fad577ca87c3560c9a81143d95b3d99bddae64a5fc9e20"
+    },
+    "G4PII1.3": {
+      "bytes": 15116889,
+      "files": 6189,
+      "sha256_tree": "32e0a7114270e6f1260ad6f1b85524c83aa01af08e4e7a1992be98331521cc32"
+    },
+    "G4SAIDDATA2.0": {
+      "bytes": 111295,
+      "files": 37,
+      "sha256_tree": "3eaba8415d3beef35436acf4cfa8b0123f1df4f7f7d02d4063697a4e585d11ec"
+    },
+    "PhotonEvaporation6.1.2": {
+      "bytes": 41533573,
+      "files": 3366,
+      "sha256_tree": "0f07c9ff257ba4c22d91cc68478ba27be8e308218336b042f7b34660f00f3b29"
+    },
+    "RadioactiveDecay6.1.2": {
+      "bytes": 6316723,
+      "files": 2965,
+      "sha256_tree": "b400ef85c8f5877f1ec5d589773bd50805f1c7e04399b80377894ca542b1c888"
+    },
+    "RealSurface2.2": {
+      "bytes": 133318147,
+      "files": 41,
+      "sha256_tree": "cdb50e48805a5a85111dbcbe1973ab159c5f2766d90300ad3d67416617e2420a"
+    }
+  },
+  "sha256_tree": "941e38bdcdc93563ca626f16740526c023c323c1c1363d1cc33774230ff45f10",
+  "source_dir": "C:\\Users\\Lenovo\\.geant4_pybind"
+}

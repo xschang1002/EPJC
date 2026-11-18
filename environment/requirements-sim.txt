@@ -1,0 +1,4 @@
+# W0 validated Windows x64 / CPython 3.12.13 simulation environment.
+# Install only a matching binary wheel; extension hash is in reports/W0_ACCEPTANCE.md.
+geant4-pybind==0.1.3
+PyYAML==6.0.2

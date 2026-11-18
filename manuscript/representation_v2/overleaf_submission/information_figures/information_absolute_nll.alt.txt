@@ -1,0 +1,1 @@
+Four panels show Raw and Corrected absolute NLL at four information levels. The five seed points and mean±seed SD remain distinct from event-bootstrap uncertainty.

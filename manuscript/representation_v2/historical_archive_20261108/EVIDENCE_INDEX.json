@@ -1,0 +1,98 @@
+{
+  "schema": "historical-evidence-index/v1",
+  "generated_utc": "2026-11-08T15:15:47.036667+00:00",
+  "records": [
+    {
+      "repository_path": "reports/representation_v2/formal_matrix/formal_model_manifest.json",
+      "sha256": "2d811552c6e01989d2be5ad739d2a0b2a5879dcaf5fff785982cb0f57e01af31",
+      "bytes": 116995,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/representation_v2/formal_matrix/formal_scores.json",
+      "sha256": "85339541a739af72e2e44cad565fdbf6e68c88ec2a9bd115abdc2dd07bd2db7c",
+      "bytes": 113709,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/representation_v2/formal_matrix/formal_results_summary.md",
+      "sha256": "3b394358a2cb3686525980ae3ce4945181b951b4a7b7274c520eb2c8e6e4b88e",
+      "bytes": 9260,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/representation_v2/exploratory/context_interaction_long/exploratory_model_manifest.json",
+      "sha256": "b89cf2ba548e550099d90574f1f4aac9107d057caa84113bf2864ebb8ca212e1",
+      "bytes": 14997,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/representation_v2/exploratory/context_interaction_long/exploratory_plan.json",
+      "sha256": "6b2b9ff289d45f9dc87c416ca30feeb2d43d0caa40f1e4e5fc39ae18e428415f",
+      "bytes": 1545,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/representation_v2/exploratory/context_interaction_long/exploratory_scores.json",
+      "sha256": "78462607229e6a629e0c0f750f790074d4eba136ca0fad3994aaa6e90f68f95b",
+      "bytes": 21975,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "historical only; original provenance gaps apply"
+    },
+    {
+      "repository_path": "reports/correction_v2_20261107/analysis/analysis.json",
+      "sha256": "9ede689ec5befe4dbaabe54d9db4468db8a85875a9a6494de358db0ddb44fa15",
+      "bytes": 85999,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    },
+    {
+      "repository_path": "reports/corrected_formal_extension_20261107/analysis/analysis.json",
+      "sha256": "b8db904aa6a6cd4f232cb92711f94840db11553a4867515f42b474e47149f200",
+      "bytes": 1792959,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    },
+    {
+      "repository_path": "reports/correction_v2_20261107/confirmation/confirmation_summary.json",
+      "sha256": "1626420290d5efb17fcc283bc37187aaf95c3935fa87684e9b07cea03773df1a",
+      "bytes": 11880749,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    },
+    {
+      "repository_path": "reports/correction_v2_20261107/confirmation_verification/verification_manifest.json",
+      "sha256": "b74bf2453460e2587e96ec132a0b6f9b5f09e7935f4c4217339050c5109cc393",
+      "bytes": 104902,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    },
+    {
+      "repository_path": "reports/information_extension_20261108/fresh_analysis/C/analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3",
+      "bytes": 18506,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    },
+    {
+      "repository_path": "reports/information_extension_20261108/fresh_analysis/D/analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c",
+      "bytes": 18490,
+      "storage": "Original repository location preserved; no duplicate event/model payload in this archive",
+      "role": "complete separately frozen study; keep current primary and secondary roles distinct"
+    }
+  ],
+  "historical_gap_boundary": "Old f100 catalog-order mismatch, unrecovered old engine/prototype hashes and missing outputs claimed by the historical modification package are not evidence supporting current primary conclusions. Complete later experiments do not retroactively validate missing earlier artifacts.",
+  "original_audit_excerpt": {
+    "source_path": "E:\\JINST REP\\_audit_20261107\\evidence_findings.txt",
+    "source_sha256": "8f8cd70443c9330d53a522f5b213d61ecbafbe284753587b46e5383638d8de02",
+    "selection": "Exact text from E1 [P1] up to, excluding, E5 [P2]",
+    "excerpt_sha256": "4e63a00a416fd8933a72c6aff83dbd9e06160424c410504e1577f171d99914f2",
+    "boundary": "Original dated internal audit observations; no inference of fabrication or unperformed work."
+  }
+}

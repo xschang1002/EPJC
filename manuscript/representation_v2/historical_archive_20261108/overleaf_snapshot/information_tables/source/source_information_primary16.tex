@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{All 16 prespecified contrasts on the source validation set ($N=100,042$ eligible events). These selected-checkpoint scores are descriptive; no fresh-event confidence interval is assigned. All quantities are in nats per eligible event. $\Delta$ is Raw-minus-Corrected NLL, averaged over five paired optimizer seeds; gain differences are more-information minus less-information. Seed SD is the sample SD across those five seeds, not a confidence interval or variation across independent datasets. $n_+$ counts positive seeds out of 5; zeros are not counted. Minimum and maximum retain adverse seed directions.}
+\label{tab:information-source16}
+\begin{tabular}{llrrrrr}
+\toprule
+Contrast & Train & Mean & Seed SD & Minimum & Maximum & $n_+/5$ \\
+\midrule
+$\Delta_{\mathrm{Hidden5}}$ & 10\% & $+0.005816$ & $0.000753$ & $+0.004758$ & $+0.006637$ & 5/5 \\
+$\Delta_{\mathrm{Coarse2}}$ & 10\% & $+0.010700$ & $0.001138$ & $+0.009150$ & $+0.012058$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}$ & 10\% & $+0.003423$ & $0.001628$ & $+0.001031$ & $+0.005143$ & 5/5 \\
+$\Delta_{\mathrm{Full5}}$ & 10\% & $+0.001999$ & $0.001677$ & $-0.000158$ & $+0.003785$ & 4/5 \\
+\midrule
+$\Delta_{\mathrm{Hidden5}}$ & 100\% & $+0.006126$ & $0.001026$ & $+0.005257$ & $+0.007301$ & 5/5 \\
+$\Delta_{\mathrm{Coarse2}}$ & 100\% & $+0.010979$ & $0.001078$ & $+0.010059$ & $+0.012673$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}$ & 100\% & $+0.003296$ & $0.001165$ & $+0.002283$ & $+0.005261$ & 5/5 \\
+$\Delta_{\mathrm{Full5}}$ & 100\% & $+0.001653$ & $0.001033$ & $+0.000289$ & $+0.003201$ & 5/5 \\
+\midrule
+$\Delta_{\mathrm{Coarse2}}-\Delta_{\mathrm{Hidden5}}$ & 10\% & $+0.004884$ & $0.000940$ & $+0.003738$ & $+0.005976$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}-\Delta_{\mathrm{Coarse2}}$ & 10\% & $-0.007277$ & $0.002145$ & $-0.009249$ & $-0.004007$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Coarse8}}$ & 10\% & $-0.001425$ & $0.002060$ & $-0.004455$ & $+0.000976$ & 1/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Hidden5}}$ & 10\% & $-0.003817$ & $0.001589$ & $-0.006407$ & $-0.002297$ & 0/5 \\
+\midrule
+$\Delta_{\mathrm{Coarse2}}-\Delta_{\mathrm{Hidden5}}$ & 100\% & $+0.004854$ & $0.000626$ & $+0.004059$ & $+0.005597$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}-\Delta_{\mathrm{Coarse2}}$ & 100\% & $-0.007683$ & $0.000268$ & $-0.008089$ & $-0.007412$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Coarse8}}$ & 100\% & $-0.001643$ & $0.000861$ & $-0.002870$ & $-0.000732$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Hidden5}}$ & 100\% & $-0.004473$ & $0.001367$ & $-0.006900$ & $-0.003643$ & 0/5 \\
+\bottomrule
+\end{tabular}
+\end{table}

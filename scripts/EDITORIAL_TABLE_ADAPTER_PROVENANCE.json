@@ -1,0 +1,10 @@
+{
+  "original_source_sha256": "56afba89403519ba5f3a18882334d8062a7ba3d390f335a94c02ab4565f70782",
+  "adapter_sha256": "f42255469cea6ce62d447f39658caced255baa04451415a5ef7619166e3d6b33",
+  "changes": [
+    "replace host-specific root with package-relative root",
+    "require new --output directory; keep all input validations",
+    "apply the final approved exploratory-t caption wording"
+  ],
+  "scientific_formula_or_values_changed": false
+}

@@ -1,0 +1,1 @@
+Four panels compare Raw and Corrected source-only within-cell residual-mean variation across increasingly informative inputs, in physical and standardized units; Full zero is marked as theoretical.

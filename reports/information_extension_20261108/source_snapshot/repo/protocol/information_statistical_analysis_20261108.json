@@ -1,0 +1,414 @@
+{
+  "schema": "fresh-catalog-statistical-analysis/v1",
+  "status": "FROZEN_FRESH_STATISTICAL_ANALYSIS",
+  "study_id": "information_extension_20261108",
+  "recorded_utc": "2026-11-07T19:32:07.662173+00:00",
+  "decision_record": {
+    "path": "../_research_extension_20261108/RESEARCH_DECISIONS.json",
+    "sha256": "7c12cacd093e620f342cfe0497877f442cb5626d19f4685fff0c5f75235b7ba6"
+  },
+  "freeze_boundary": "Freeze final analysis plan, implementations, declared240 model roster and complete training analysis before official C/D generation. No formal fresh events have been used to design these analyses.",
+  "catalogs": {
+    "labels": [
+      "C",
+      "D"
+    ],
+    "launched_events_each": 500000,
+    "analysis": "Report each catalog separately; no primary pooling or cross-catalog selection.",
+    "coverage_scope": "95% families apply separately per catalog; not joint95% coverage over both catalogs."
+  },
+  "models": {
+    "new_information": 80,
+    "previous_frozen": 160,
+    "unique_total": 240,
+    "new_contexts_increasing": [
+      "Hidden5",
+      "Coarse2",
+      "Coarse8",
+      "Full5"
+    ],
+    "new_representations": [
+      "Raw",
+      "CorrectedPhysics"
+    ],
+    "fractions": [
+      "f010",
+      "f100"
+    ],
+    "optimizer_seeds": [
+      3101,
+      3102,
+      3103,
+      3104,
+      3105
+    ]
+  },
+  "primary_estimand": {
+    "event_gain": "g_i,h,f=(1/5)sum_seed[logp_C(i,h,f,seed)-logp_Raw(i,h,f,seed)]",
+    "overall": "mean of g_i over S1 eligible events in the fixed launched-stratum design",
+    "model_scope": "Fixed already-trained and selected checkpoints; source-validation selection happened before fresh generation.",
+    "not_density_ensemble": true,
+    "not_optimizer_seed_sampling_ci": true,
+    "gain_units": "nat per eligible event",
+    "positive_gain_favors": "CorrectedPhysics"
+  },
+  "primary_labels": [
+    "Hidden5/f010",
+    "Coarse2/f010",
+    "Coarse8/f010",
+    "Full5/f010",
+    "Hidden5/f100",
+    "Coarse2/f100",
+    "Coarse8/f100",
+    "Full5/f100"
+  ],
+  "primary_contrasts": [
+    {
+      "name": "gain:Hidden5/f010",
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Coarse2/f010",
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Coarse8/f010",
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Full5/f010",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Hidden5/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Coarse2/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Coarse8/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain:Full5/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "gain_change:Coarse2_minus_Hidden5/f010",
+      "weights": [
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Coarse8_minus_Coarse2/f010",
+      "weights": [
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Full5_minus_Coarse8/f010",
+      "weights": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Full5_minus_Hidden5/f010",
+      "weights": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Coarse2_minus_Hidden5/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Coarse8_minus_Coarse2/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gain_change:Full5_minus_Coarse8/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "gain_change:Full5_minus_Hidden5/f100",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "contrast_direction": "Every interaction is more-information gain minus less-information gain; no monotonic direction assumed.",
+  "bootstrap": {
+    "method": "Exact paired nonparametric multinomial within each of42 fixed launched strata.",
+    "n_resamples": 2000,
+    "seed": 20261108,
+    "batch_size": 32,
+    "blas_threads": 1,
+    "stratum_definition": "7 fixed p bins x3 thicknesses x2 charges, as catalog group_id.",
+    "null_atom": "For stratum g, each eligible event has probability1/n_launched,g; merge all physical S0 events into one atom with probability n_ineligible,g/n_launched,g and zero score numerator / zero eligibility denominator. Technical failures are not S0 and prevent COMPLETE status.",
+    "denominator": "For each replicate sum eligible weighted scores divided by total weighted S1 count; each group divides by its own weighted S1 count.",
+    "pairing": "One draw per stratum/replicate is shared by all models, seeds, primary gains and derived contrasts. Independent RNG streams spawned per stratum from fixed master seed.",
+    "uncertainty_included": [
+      "finite event sampling conditional on fixed models and simulator settings",
+      "eligible-rate and across-stratum eligible-mixture variation at fixed launched counts"
+    ],
+    "uncertainty_excluded": [
+      "retraining variability",
+      "population of optimizer seeds",
+      "new physics list, geometry, parameter, or transport-model uncertainty",
+      "unknown serial dependence in a pseudorandom stream"
+    ],
+    "intervals": "Report pointwise95% percentile intervals and centered max-absolute-t simultaneous bands. Standardization uses bootstrap SD of each coordinate; max-t95th percentile uses all supplied contrasts. Deterministic coordinates receive zero width. Approximate bootstrap coverage, not an exact finite-sample guarantee.",
+    "global_family": 16,
+    "group_families": "For eight primary gains, each42-group family and additionally the full8x42=336 group family; these are distinct from the global16 family.",
+    "physical_group_uncertainty": "Within-stratum resampling keeps launched counts fixed but S1 counts random; conditional group means and globally event-weighted means remain coherent."
+  },
+  "optimizer_variation": {
+    "report": "Per seed paired global NLL difference; mean, sampleSD, min,max,sign count.",
+    "limit": "Five seeds share training and evaluation data; optimizer spread is not five independent data experiments.",
+    "event_ci_per_seed": "Not required in primary scope; no additional family is silently added."
+  },
+  "secondary_old160": {
+    "report": "All160 frozen models, all previously fixed comparisons and seed exceptions, separately C/D; mean/sampleSD/range per existing comparison families.",
+    "bootstrap": "No new2000-resample CI family for the160 legacy models.",
+    "role": "Descriptive robustness/reference, not substitutes for any new equal-structure80 cell."
+  },
+  "group_follow_up": {
+    "group_count": 42,
+    "status": "Predeclared fresh follow-up of the earlier post-hoc A/B pattern; original A/B analysis remains post-hoc.",
+    "report": "All groups, counts, gains, seed spread, prescribed bands, event-weighted reconstruction; do not select negative regions after seeing C/D.",
+    "boundary": "Counts of negative group means are neither independent trials nor proof of a regional-failure theorem; event share of negative-mean bins is not the fraction of individual events harmed."
+  },
+  "exact_density_decomposition": {
+    "scope": "New80 models; each seed, momentum bin and42 physical group, then arithmetic seed means/spread.",
+    "formula": "NLL = -base_logpdf - spline_logabsdet + log_s + log_support_cdf",
+    "paired_sign": "Raw term minus CorrectedPhysics term, whose sum reconstructs Raw NLL minus CorrectedPhysics NLL.",
+    "numerical_check": "Verify log_q_z and log_p_y using float64 aggregation of float32 saved components, atol1e-5 and rtol2e-6; report maximum reconstruction residual.",
+    "boundary": "Density-coordinate/Jacobian/support components are not unique location/scale/shape or causal contributions."
+  },
+  "operational_diagnostics": {
+    "residuals": "Per representation/fraction use the exact frozen center, mu and scale; report original-unit residual and standardized residual summaries without duplicating identical preprocessor rows as independent seed evidence.",
+    "location": [
+      "mean",
+      "median"
+    ],
+    "scale": [
+      "sampleSD",
+      "IQR"
+    ],
+    "shape": [
+      "(q90+q10-2q50)/(q90-q10)",
+      "(q99-q01)/IQR",
+      "q01,q10,q25,q50,q75,q90,q99"
+    ],
+    "pit": [
+      "mean",
+      "median",
+      "IQR",
+      "median coverage P(U<=.5)",
+      "predictiveIQR coverage P(.25<=U<=.75)",
+      "central90coverage",
+      "lower/upper1% and5% frequencies"
+    ],
+    "pit_reference": "Uniform(0,1) under correct continuous conditional distribution; use stable logCDF/logSF for tails and verify complement.",
+    "boundary": "Operational summaries are nonorthogonal and group pooling can conceal finer errors. Finite-bin centering may alter pooled spread despite exact-condition variance invariance. No auxiliary model calibration or lambda-center models are added."
+  },
+  "source_location_analysis": {
+    "input": "Existing source diagnostic pool only, never C/D; exact split and UID digest bound by analysis manifest.",
+    "partition": "56 equal-width p bins on[.3,1.0] x6 exact(t,q) strata, a common refinement of7 reporting bins and2/8 conditioner bins.",
+    "contexts": "Compute event-weighted variance of fine-bin means around each retained-condition-cell mean for Hidden5,Coarse2,Coarse8.",
+    "preprocessing": "Use frozen per representation/fraction preprocessing. Globalmu cancels from location differences; identical original-unit rows across fractions are not replication.",
+    "Full5": "Exact p is observed; unobserved-p conditional-mean burden is theoretically0. Do not interpret finite-binRMS as a measured nonzero remaining Full burden.",
+    "boundary": "Binned source-only descriptive approximation to conditional-mean variation, not fresh performance, exact nonlinear approximation error, or a causal likelihood attribution."
+  },
+  "practical_effect": {
+    "definition": "exp(Delta) is geometric-mean paired density ratio over events and fixed paired models;100*expm1(Delta) is its percentage change.",
+    "example": ".0015nat/event corresponds to1.00150112556, approximately.1501126% in geometric mean density ratio.",
+    "not_claimed": [
+      "eventwise uniform improvement",
+      "prediction accuracy percentage",
+      "downstream simulation or physics-analysis benefit",
+      "new equivalence test using historical.02nat margin"
+    ],
+    "cumulative": "N*Delta only summarizes cumulative log-score difference for N events; does not establish downstream utility.",
+    "interactions": "Exponentiating a difference of gains gives a ratio of density ratios, not a direct single-model gain."
+  },
+  "runtime": {
+    "absolute_deadline_unix": 1794121884.342842,
+    "per_catalog_bootstrap_max_seconds": 900,
+    "resume_must_not_reset_deadline": true,
+    "synthetic_benchmark": "../_research_extension_20261108/information_uncertainty_benchmark.json",
+    "synthetic_benchmark_sha256": "7aafddb0b622c41ef34899def40b3155de6693f62f897597ad8baf06dce6be46",
+    "two_catalog_bootstrap_forecast_with2_5_safety_seconds": 165.6000000075437
+  },
+  "implementation_sha256": {
+    "src/representation_flow/information_analysis.py": "eeebb53d2d4eb992e93aad8c055eff6f7e8aba67146247bc2fe3cff1238f5df1",
+    "src/representation_flow/information_uncertainty.py": "c61c7e3b88fb34e808eb3f56e4e4ca1d8649ef5543a66bfd492441966ac3f25f",
+    "src/representation_flow/run_information_analysis.py": "64c1c90b6cd074662f7eb2a1827c3ab2add62764ec6dfbd243d70e75a56f3d69",
+    "tests/test_information_analysis.py": "be58ee57ddb88d1419c0f2aed92eb5ca897aaf2823a2bd3220bb170dd5dda1b3",
+    "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+    "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+    "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+    "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+    "src/representation_flow/score_correction_confirmation.py": "1d5a41e6f0a389cc81b98fb79b02645e51cc312fd04603999433fda661ba21ce",
+    "src/representation_flow/analyze_correction_study.py": "a5e4b44d50e71e4d8c7e6823e8c830ea89a03ba9f9c924cc7ddeb67f690fb85b",
+    "src/representation_flow/checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+    "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+    "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+    "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba"
+  },
+  "validation": {
+    "synthetic_tests": "9 passed in3.06s; tests/test_information_analysis.py; includes complete80-model adapter, provenance rejection, density accounting, S0 mixture, paired resampling and source56 diagnostics.",
+    "fresh_data_used": false,
+    "new_inference_or_training_for_analysis_design": false
+  },
+  "completion_policy": "No COMPLETE scientific analysis after failed model/data/UID/hash/eligibility/reconstruction gates or deadline. Preserve partial logs and all negative/inconclusive results; never select scope from observed score.",
+  "analysis_entrypoint": "python -m representation_flow.run_information_analysis {validation,fresh}; explicit paths required for fresh metadata; nonempty output never overwritten.",
+  "output_schemas": {
+    "validation": "information-source-analysis/v1: COMPLETE_INFORMATION_SOURCE_ANALYSIS; full80 validation replay",
+    "fresh": "information-fresh-analysis/v1: COMPLETE_INFORMATION_FRESH_ANALYSIS; separateC/D",
+    "optimizer_group_variation": "group_seed_variation.csv contains all336 new primary groups with five named seed values, mean/sampleSD/range/signs; distinct from event bootstrapSE",
+    "event_uncertainty": "primary_uncertainty.csv16;group_uncertainty.csv336;uncertainty.json;bootstrap_replicates.npz",
+    "density_components": "per-seed physical42 and momentum7 groups plus density_component_seed_summary.csv",
+    "predictive_diagnostics": "PIT/coverage per model physical42 and momentum7 groups; no selection"
+  },
+  "frozen_utc": "2026-11-07T19:33:28.274576+00:00",
+  "freeze_authorization": "Root approved final statistical freeze after evidence_audit final source/mathematical/API review and9 synthetic tests. No formal C/D data generated or used for this analysis design.",
+  "frozen_implementations_must_not_change": true
+}

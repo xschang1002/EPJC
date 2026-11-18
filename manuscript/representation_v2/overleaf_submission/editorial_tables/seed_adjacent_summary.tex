@@ -1,0 +1,23 @@
+% Post-hoc to known C/D outcomes; no fitting or catalog pooling.
+\begin{table}[!htbp]
+\centering
+\normalsize
+\setlength{\tabcolsep}{3pt}
+\caption{Post-hoc optimizer-seed sensitivity of the adjacent information steps. Effects and SD are in $10^{-3}$ nat per eligible event. $N,M_2,M_8,E$ denote No direct momentum, 2-bin momentum, 8-bin momentum and Exact momentum. Here $G$ is Raw-minus-BB-centered NLL. Signs are positive/negative counts among the same five paired seeds. Every leave-one-out (LOO) mean averages four seeds; its range is not a confidence interval. C and D remain separate evaluations of the same trained models. All 16 contrasts per catalog and full seed ranges are retained in the supplementary seed tables.}\label{tab:seed_adjacent_summary}
+\begin{tabular}{lllrrr}
+\toprule Catalog & More minus less & Train (\%) & Mean (SD) & $+/-$ & LOO mean range\\ \midrule
+C & $M_2-N$ & 10 & 4.127 (0.767) & 5/0 & [3.905, 4.344]\\
+C & $M_8-M_2$ & 10 & -7.317 (2.210) & 0/5 & [-8.100, -6.799]\\
+C & $E-M_8$ & 10 & -1.237 (2.137) & 1/4 & [-1.958, -0.547]\\
+C & $M_2-N$ & 100 & 4.662 (0.809) & 5/0 & [4.375, 4.888]\\
+C & $M_8-M_2$ & 100 & -7.908 (0.441) & 0/5 & [-8.024, -7.766]\\
+C & $E-M_8$ & 100 & -1.437 (0.673) & 0/5 & [-1.639, -1.242]\\
+D & $M_2-N$ & 10 & 4.222 (1.046) & 5/0 & [3.910, 4.452]\\
+D & $M_8-M_2$ & 10 & -7.302 (2.233) & 0/5 & [-8.156, -6.789]\\
+D & $E-M_8$ & 10 & -1.445 (2.087) & 1/4 & [-2.120, -0.723]\\
+D & $M_2-N$ & 100 & 4.653 (0.837) & 5/0 & [4.368, 4.869]\\
+D & $M_8-M_2$ & 100 & -7.864 (0.526) & 0/5 & [-7.993, -7.692]\\
+D & $E-M_8$ & 100 & -1.673 (0.805) & 0/5 & [-1.909, -1.415]\\
+\bottomrule
+\end{tabular}
+\end{table}

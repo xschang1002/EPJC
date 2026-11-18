@@ -1,0 +1,3367 @@
+{
+  "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+  "frozen_before_confirmation": true,
+  "models": [
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "d38e2b132d1c05fa5817d289ff9810dcbe79b0b1c74142aad9e34e8d02bb5b73"
+        },
+        "predictions": {
+          "bytes": 3984930,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "984b1b89020c91511b76c3975286b05d9d4c18a6eaad0cf034050d236da970cb"
+        },
+        "run_manifest": {
+          "bytes": 10809,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "836126fd5f177f46a89f01faafc5431fa2fdacfb2bed42a7d5eaccffc49f2b1e"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f010__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "710bbf9736b151647a64faf8e9ebc601122995e731dfaead593ecd4d5a4b3969"
+        },
+        "predictions": {
+          "bytes": 3985341,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "b87412fb19617374564216f218b3bd25449b36b02fc92ea990eaff87e7507fa7"
+        },
+        "run_manifest": {
+          "bytes": 10808,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "d69bef99bbc95bbadaa5ac0629704ef84d6eaf03d9b45847605048db98fbcc7f"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f010__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "dac7bc56943419583073088be662339bc9ee57a8b6aaaed8da79228d48f0f9e4"
+        },
+        "predictions": {
+          "bytes": 3985619,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "29fba7b67bed18bccece57d40364973f87986ad01fff1f3ea69fb599a0229ec9"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "3a8e8ec243eef47472b2d10705fa091c959a7e10a1a47087531d1be1cc1ffb3f"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f010__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "c4ee629d435792b0d2ae62146b61d45b3cc4a1fbffb58b359ce0ba97ff485b99"
+        },
+        "predictions": {
+          "bytes": 3985284,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "b16ed99bc3110ee604ebd37f3161be45726112bdf745df78419b5d55d1ab0c58"
+        },
+        "run_manifest": {
+          "bytes": 10793,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "5cab159ffdf2385d4fb667f48085538429eada8d1c377db9c7481c0fe6f6a143"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f010__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "289f3b07e6b3dcf42e1a861eec8a78d34b0a957e1f161902d689e6741a930903"
+        },
+        "predictions": {
+          "bytes": 3983639,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "2ab51b7ccef4d7adc0aee70bbce5f375622d1a9bca870f1a78b516f20867484b"
+        },
+        "run_manifest": {
+          "bytes": 10799,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "b49f09e0814709038bf06b0adaf0d53d09771f0b681fbe243a8d77740214336c"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f010__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "1043c7d40af7f8fa974a7492e93c43779d005b6958688d8d3ff9b85f09548c60"
+        },
+        "predictions": {
+          "bytes": 4603270,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "ba425a9a4d419a9a6c46964102f6aeb9dc044ace85b554d26096db6fdcc99508"
+        },
+        "run_manifest": {
+          "bytes": 11080,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "f856ed5ec944af4016c9f760e60f749440da09f3817460903c3a7a0cf80d8eef"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "db053b037f139a3e412a2ea4d0ffe26021c8e150779eecdf8bc7f9b7a6e71b6e"
+        },
+        "predictions": {
+          "bytes": 4602230,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "2831e88206e119c3dcebdffd25e3e3951b08ba15690b5f43fad66c9623d8d485"
+        },
+        "run_manifest": {
+          "bytes": 11088,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "57514357ef202aaef65835858c2d371f4421c0adedd7dab86a33026b0caa3959"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "36a3b346ad20a92c8cd550f80b1a2c599b5880a71ca75b29d14aa0b9f021ca25"
+        },
+        "predictions": {
+          "bytes": 4602601,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "7c6a3ebdd858fa9130c42170868774cd99084fd32008367026339b8253dac42a"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "68e40492660530181dbd91fe2d7c0419fcc2fe832beb1661e0fc24c914a22d8a"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "0e6b4b48fbeb96626ab07347a60e7d1c59729b0b924cc1bf5ccc5614e360a47b"
+        },
+        "predictions": {
+          "bytes": 4602793,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "7bfd5f53044cb332263f87f5857422e097544a273bf2a1eba4945cf348fec85d"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "e5a8d9871d9637a16afbc0863e0e34c5e6769ff7bdb906ebee7c964dd1c5cfc2"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "367bc7eecfaa8b3eed3fdafd406a9f06185a2833bbf9c7b80dd10aaab4a7bfed"
+        },
+        "predictions": {
+          "bytes": 4604262,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "f31f7505015ee76973178a002fa22e20c78e396162f4050592031c7c3c4f34bd"
+        },
+        "run_manifest": {
+          "bytes": 11077,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "d2d5bb222a9b400fc79f295933364011b13fc47524bac923957709320938b4c7"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "0d7ac2046e728012fadb97300f5f612ed4b6af64894c95afb6045ac276ce779d"
+        },
+        "predictions": {
+          "bytes": 3985419,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "7913a88247b2afa88b6576a2acbe4b0489f626875574761ee69cdd346339ed85"
+        },
+        "run_manifest": {
+          "bytes": 10811,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "1104743e6a55bab113e2b106a703957070974d7b4592f00b6faf2a8e97d6c474"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f100__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "995905e83faf2696093e0dd35e68c0a2fc476dac27bd772674afcb8b8b5a25bb"
+        },
+        "predictions": {
+          "bytes": 3986016,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "ba45316a55fe3b72e026324a6fd603d214b3b2b2fb8f1850dfd072fd21a4b888"
+        },
+        "run_manifest": {
+          "bytes": 10808,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "24ff1b3e8217207311bae99b6d8a7f79aedcef265c6d6ad2fb86d4ccd1b6fa36"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f100__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "3b38121631fc6ff2830764057a58a468db120c9d18d4008ca225b9d82380993d"
+        },
+        "predictions": {
+          "bytes": 3984564,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "74fc0a10773eb6114452da5e328f9e6baa730ba0f5c03b99df9a93486ae15764"
+        },
+        "run_manifest": {
+          "bytes": 10812,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "fc1c2d4e1d2b9ef54e3b2b1611a389ee08b9556b2e4f8ee1ab6c9bfc216eb61b"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f100__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "8796303a92cde8db233db566ca362b82c0a3ab99d07b215b355bba37c5e4e340"
+        },
+        "predictions": {
+          "bytes": 3987221,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "a4fa1e971f1e8dc47b27d03f1ac4949c2e0cf63fe5ec664ea76cc597c5b49193"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "4ee520bfe98e04a0ddd8e81eefc770d1edf1aa3dd20d2c5735dfa8318ec1c10a"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f100__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "a7733e2da36a24e7b4a493f382d3f3c32e4ab2cba6dced0499a70916c55b3e00"
+        },
+        "predictions": {
+          "bytes": 3986523,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "0b96f0cd94faa723ad7c7bb021f3edf608fe47ae3fdb3c6fb5e2e8931b6ad135"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "bd41d95b77cd491d3fe01d48db9f20f8668cf2b191f2a71e11eb94c04fde0365"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__Raw__Small__f100__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": true,
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "b0641e6ff4d101d85f0e46f61e409e3d1cde8c34864b6a6104df2aa2adf3c9d0"
+        },
+        "predictions": {
+          "bytes": 4605740,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "f30c6574f057af97240d400a658d3758e79db877be2bcc72463a6acac33f46d8"
+        },
+        "run_manifest": {
+          "bytes": 11081,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "3df1559f6abe74e2c06af30a0f747d53b6b54d37255280e280f02cb44cf39b59"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "25ac0fe028ba36ce4f24e213927d714ace839ecdc3160e890fd563507f04a12f"
+        },
+        "predictions": {
+          "bytes": 4604727,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "d31f12fb64040ce7042addfa65b08915efbfb392f9df88d7772f64e1846376f1"
+        },
+        "run_manifest": {
+          "bytes": 11069,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "0c4e28f5dc7ebec93eb76296fbbb01db02651ec318064a4ac221d9a1d0c95dda"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "dfabc6695352f07af32610d29747850f4c4c15c1a3bc0c47b96e096a7febb737"
+        },
+        "predictions": {
+          "bytes": 4605721,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "d79c187275e783101c0f58d571b5d447bccae27d72ddb24e67d9d2b0c17822f0"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "0b94af8a5b91afd4f235fa4f859fe0e6210fdfee45eedb5027c526410ed9fe4d"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "82d8fe5cc9b6d3657b604eddf1e3f5c682cc6407ded33afa44884d9ee2fe7be5"
+        },
+        "predictions": {
+          "bytes": 4605612,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "6d065db14478322931b24ce0d96dc45ba1ee7807ec1c7f24380e34b353c40056"
+        },
+        "run_manifest": {
+          "bytes": 11081,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "ea59413505b0fefadd21a88aa901af149874fcae4aaa2124743dfc97914156ca"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "0682c34075db7431353fbcd46716fa749e3d80e78437d70ace127967b11a1fc5"
+        },
+        "predictions": {
+          "bytes": 4607674,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "e6c5e4256d5b4e5a640cfd1fe30cbed927682098ac73cb2d416ff0581dd997f9"
+        },
+        "run_manifest": {
+          "bytes": 11078,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "049230c76d7e810fb99927582ac753d2bf1faa9ffd9ece6912d1d19ffc695412"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": true,
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "90ba71f38a789ee450fbbf344399168f2f5cfaad29b839ff7add4ef85896d57d"
+        },
+        "predictions": {
+          "bytes": 3982870,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "e7fe9ff51d9f471a6fabd92b056fc9f7dbf446c104986aacc5b99c1e7973096e"
+        },
+        "run_manifest": {
+          "bytes": 10872,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "e33df36de594bb81ae9aa44699126502279a1ec52cd34b57237a652324f3a78b"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f010__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "3392a6796339f58fa0ad1ecd198d3e2dc93f3cba9fa9d1111fac4e443932af47"
+        },
+        "predictions": {
+          "bytes": 3983750,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "132417f52fc27649c0df296963d463b14bd62287e63244dcf236d027ee58fcc1"
+        },
+        "run_manifest": {
+          "bytes": 10856,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "dd8269ad4299957402b9e9ef37df9cdf4728ac5ab7dca516e036b0ff1a1ce7ba"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f010__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "c510a523faa1fdbfaa0930e0e47400063ce5711e9ead938f0216765696778200"
+        },
+        "predictions": {
+          "bytes": 3983907,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "89276ba27cff048d7cc7ab215fce0b13c416187624793ccd0138388c3f0819c2"
+        },
+        "run_manifest": {
+          "bytes": 10845,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "c4afb5ec89f17ddddee22521fb20d056a310c15224d70d1b1f94691dfa3df8ac"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f010__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "ec094e84c83ae0653ee5060cd39c2daed3a55bb3945589b8ee2aade819830456"
+        },
+        "predictions": {
+          "bytes": 3984224,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "405040a7c7cad1e26c1643ba83f13ae93b56ccf5d0179767d8f535ae1b388069"
+        },
+        "run_manifest": {
+          "bytes": 10856,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "f43c0e6c303f6a51584ca698275f02673a01e398bf8c378c212d82e7683b8479"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f010__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "ce8b67d75ebdc33402fdc0c55cadea896474064a3dd4dbae4d5cfa2f9b695920"
+        },
+        "predictions": {
+          "bytes": 4694659,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "96ac44f9cfd567e76f643e8d0bc7adbee746542f4215eae0db292adc8d496ada"
+        },
+        "run_manifest": {
+          "bytes": 11109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "5a8b684fcae3600ea3059e2097adf79c877d8ce9a2ec942ec3113cea68232d4c"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f010__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "eaac0e30171e56e8ec07f87a42344d925ee757de5f6e089c2d9fb0e983bad997"
+        },
+        "predictions": {
+          "bytes": 4695765,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "25a4cb23a7e44da266a7134db575733907caf4da1b9750a9edc67c1c403c630d"
+        },
+        "run_manifest": {
+          "bytes": 11098,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "ab47bea05324802ea1d427cce77b7fd303bac54ba4ee032b43f969dc01d1c2b1"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f010__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "12e6f9a50401d9280b69ab262a375289596fd21c61d06e28201cdbd871526b70"
+        },
+        "predictions": {
+          "bytes": 3983660,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "aaa8118c97515f7af6dda12c01990a94c1f37f304aee40c76ad580217397b767"
+        },
+        "run_manifest": {
+          "bytes": 10856,
+          "path": "runs/corrected_full__Raw__Large__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "e8e099d02ef73e1386419957a7909bb0831f401f0110a724906400f565c6de04"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f010__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "bca61fb4f0c8a2d4ad248816a37b7ae33f1101513a490740b19c7edb5f39210b"
+        },
+        "predictions": {
+          "bytes": 4693852,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "5d6f72a5c6000b9365dd69165d75da07adcb0ecc0f0a56ed2caef699dafd38e3"
+        },
+        "run_manifest": {
+          "bytes": 11118,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "25641b6b7c6928ae0e22281c8cf93853b62ab1efe41b4f799df3e769c9361b63"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f010__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571445,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "183480cedbcef50ef362332e02d688ae5b098f7226ab09551dfa71b7cfdc23dc"
+        },
+        "predictions": {
+          "bytes": 4695442,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "327e3c197b4ea3b7e9eb5fed9ad1a55e64f626b2abac7a8fcc639d9a5144566c"
+        },
+        "run_manifest": {
+          "bytes": 11100,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "ed5c0ef9398b2766ae84d80895e276309b44859aa31f733da66c0124ada3946f"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f010__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571445,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "167621facff13ca1fbb69fc7b5a8061fbdff8f852437918ea647fd31bec67ab8"
+        },
+        "predictions": {
+          "bytes": 4694098,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "98dcf1f7d2f04b99e3cd238e74a3c190cdd958599cd38ee8575a4b555c01330d"
+        },
+        "run_manifest": {
+          "bytes": 11092,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "0e278ead7c2a58d7bb6047216b61015f8a501c40f20fcf12b83d0ce7862741f7"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f010__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "8863437da9da2e25d0157aa5cf0a0310a43dd984bf3ec0ed0bfad0a8e726ee0c"
+        },
+        "predictions": {
+          "bytes": 4693572,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "f5c30a649a2b63f3b3ef802beeaff2f442ff9af59d1ba01270b8e8a046241feb"
+        },
+        "run_manifest": {
+          "bytes": 11099,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "d3e465d91feb8eda8a01fa4912cca963db4a6f29b190782422162fb158587c07"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f010__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069109,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "f14d04686611e623fbd084214fa64b956941ad0c33a8dabf19d20138559d5198"
+        },
+        "predictions": {
+          "bytes": 4692725,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "2171b3ef5e9d3110823e4a12336ffe4df8bdd4840a95479cda575fe9cd6c7595"
+        },
+        "run_manifest": {
+          "bytes": 11113,
+          "path": "runs/corrected_full__Simple__Large__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "ec1d98e303c863a38cd92ee30cc873bb6f02f0effb4c08cc2ee9badb07cbb6f5"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f010__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571445,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "85075c0e3c08e6fed44c33b9b9e4dbd1adc7f8f7d28550253f9a5efc9682cd6f"
+        },
+        "predictions": {
+          "bytes": 4692964,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "436ec99c4593515b85b53dba3a090f455374b0238f839dd88e6a7fae6b95a2c0"
+        },
+        "run_manifest": {
+          "bytes": 11096,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "10004ee863c1fd14921d4841b94a8f00eee3fd52d857e6c934385493c4984ab4"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f010__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571445,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "71063fd3e16a155bb5766564b7233a3893c638ba972277aaeff1f7d9796b5993"
+        },
+        "predictions": {
+          "bytes": 4695571,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "302b5255a2a1aa5c6fbff6ba639c4b6af65d6e1104130d81624526600410b527"
+        },
+        "run_manifest": {
+          "bytes": 11099,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "11970e0a32c73f16fef30b8d5e7ba356dcdccfe54f2be52139df02745112a1ee"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f010__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571445,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "0f05332d3ab5f88c42908262a9833b8330dec9bfb92eca57bb48d900883d5bc1"
+        },
+        "predictions": {
+          "bytes": 4694390,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "d154bef33d727df7405fe4451641bdfd414a878ac363999cba1fae33f8bcabba"
+        },
+        "run_manifest": {
+          "bytes": 11092,
+          "path": "runs/corrected_full__Simple__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "17186d7acfeb594298175b6e7de2a11dae236d232d4d56c43382d5d1b15d0895"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f010__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069301,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "f0795fef83b2854ae4d548028c31a31e2ecaa79e8acd28d819f9b74a87c99e06"
+        },
+        "predictions": {
+          "bytes": 4699344,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "9bdd185e41872f67dde85ccc41e88c8cd60d39b628ab227e310459987e68d39f"
+        },
+        "run_manifest": {
+          "bytes": 12112,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "28b5b850974ba188f8194ec1d0b2e806c9bf6ffb41d9bbed03fdc5205a685860"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f010__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069301,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "1fa6330a43cb2fb94dd148389eb59b6ca26470adcfe146ea55347639fbe22290"
+        },
+        "predictions": {
+          "bytes": 4699459,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "a7766d131f2118770667ca5e30c6ed113d5a16dff269442cb9394537af814f0b"
+        },
+        "run_manifest": {
+          "bytes": 12130,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "1f4081d6008149f76642637b1d3eb02d1541706731d6ea5c2911239b4fe4d143"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f010__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069301,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "c3f0c390865637b20fe3d3761138c3e5466cce9f47f3497636e6f5cc4bf7551f"
+        },
+        "predictions": {
+          "bytes": 4700799,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "2016f8788a2217b49e0843f5735f866b9598ae94d3672443e9286d4560465e88"
+        },
+        "run_manifest": {
+          "bytes": 12125,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "249862e83832e486dedb52bae41438309ddd035e43004516d49818cb406227ef"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f010__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069301,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "abf70385f25daa58af17e96996da30221f9e0107606c3ee3b7594a164b6260f6"
+        },
+        "predictions": {
+          "bytes": 4698817,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "57ba78244e2ba161bf11176b6081091401791ce10b2d3a352cde73116f697ef4"
+        },
+        "run_manifest": {
+          "bytes": 12125,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "ee0a7d0f20b2a7012070345b100db60bd02edde739b5c17cbfd33c8873c90d2f"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f010__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571637,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "74e4c35943dd601733aa5822816d163159994f6f85b0fcb387e7c4e012af5bb7"
+        },
+        "predictions": {
+          "bytes": 4700553,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "0a57841031abc64ab62d44de6993eb87aed5534a9112150bc97eb6da688a9ed1"
+        },
+        "run_manifest": {
+          "bytes": 12128,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "806ec3f5e8dd580d5d798f2fbf9b78955c0ae4bea52caf081ff1acaa4a7a6786"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f010__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571637,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "1c1fb84e890115c2146fa55e568869807e8a1b94c94e65f2951fb35a01f579d9"
+        },
+        "predictions": {
+          "bytes": 4700365,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "76c575435f4c10eaf35aab29080fd239738772fcfdfc64f90ca8e8be54db0a29"
+        },
+        "run_manifest": {
+          "bytes": 12132,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "8b55c777841fc8cc5a98510054a0dec442efe32cfcb71495179c5c203e994d6d"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f010__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069301,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "36a446445feb26fdc00af2a49ab10ff20e022ec4a5bbaad286087887cec845ac"
+        },
+        "predictions": {
+          "bytes": 4699435,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "a8095e8a20ac64626b67fad1afa90ecbc1918d5509545c54ee91c0fd522037b7"
+        },
+        "run_manifest": {
+          "bytes": 12115,
+          "path": "runs/corrected_full__Learned__Large__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "a8d2c285f4e3f4924fe708d729fa0be3e448bbba3e0b48369740502f96ee097a"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f010__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571637,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "ab5f960835f0816302d5e9ae365cb7e7f0c0378b0ace40c5514eb7d8212c7db5"
+        },
+        "predictions": {
+          "bytes": 4700840,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "e4062ae2f55855991ff44eb5a5af832d91c9c12c420681c6268c74f06e24bcd2"
+        },
+        "run_manifest": {
+          "bytes": 12107,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "ea70ea43d20841ab383024b4fdca03ba5143a9a015c642a43b55134de72975d4"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f010__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571637,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "866d5a8eb5f942ad31c23a5202496fa6cb6943e9a5b6b7d431476e2cae20c848"
+        },
+        "predictions": {
+          "bytes": 4700252,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "bebbf5605cdf5c20b485fa40b06f883f9e2d56cc03f2696b484ca1f2b6bcfd69"
+        },
+        "run_manifest": {
+          "bytes": 12135,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "1d8f3603e97c59399d4c5598178b7f0e9f3ad267792bd1c7f6fc132c4383eebb"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f010__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571637,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "5ebb0470a1c40e751a9f71edb1aa33f17614c3876b64b18df4a9b51935d62fd8"
+        },
+        "predictions": {
+          "bytes": 4700272,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "1c6230cbcf467519ce32e2cb188077fa61c81098ff723f35aaee976e85a0b251"
+        },
+        "run_manifest": {
+          "bytes": 12118,
+          "path": "runs/corrected_full__Learned__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "0a0ab4fbc04952cf287d7653270afffb1d61748d08f0a2d19326a232fbcfd944"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f010__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069237,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "5a79916e1ac252cf6e1581645afff8a0fd1fc5c08846e2fc30992e17e3f22ceb"
+        },
+        "predictions": {
+          "bytes": 4604565,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "ab0fd26d695815e18bb1a4f8d12ae0837ef5ab21191bead2a2de814760c7e7ea"
+        },
+        "run_manifest": {
+          "bytes": 11125,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "8e08bf310837a7c5a0c3255127cee2d38d7feea71b1645b1f59a511e4b55dd6e"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069237,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "53c612939193fb009ef4072b2996d3a786f11f4ebe633cbba6652f47a8730ac7"
+        },
+        "predictions": {
+          "bytes": 4601452,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "7cb9e468270b325a952cfed93679e33849a4a5350cc1cd196a77d35e19dc44ca"
+        },
+        "run_manifest": {
+          "bytes": 11123,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "b5534d7bc862a9c78215bc0303f1301f271421b936aee0c2657c57b80209cb82"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069237,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "871bf990fd8c81b13df1d379cdb48ea38f6e6ba7b108dd5028351a1fe6510f79"
+        },
+        "predictions": {
+          "bytes": 4605309,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "970aaea0085a1124eda9030070c068cc0c1d5ee119cfe9a63ec2ce1a5273d082"
+        },
+        "run_manifest": {
+          "bytes": 11131,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "e792d8ab84d9bd2bf2206d3531e06d8fd25c2a625299cce1e9744f78a7b1c103"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069237,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "be2bfc9d0bd1bd505819696a2baccb0317420e817dfcaa8fa5402c4c719f3918"
+        },
+        "predictions": {
+          "bytes": 4601152,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "3e56cc3d290320d6206a200b3adf230ce4965d68a161aa50b577f35605b19760"
+        },
+        "run_manifest": {
+          "bytes": 11127,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "578c8595656825710bd7f283f6b717b07a7e38edb9d5f6b6b73f6fb074041115"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1069237,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "d9cfc43fdbb83611779a4c5531437d050fb87bd85c158ce19468edb203aa846f"
+        },
+        "predictions": {
+          "bytes": 4603770,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "ccc3d533f1112b67bb77dd657206401846a42b78acd604fc37ae45114c8f494c"
+        },
+        "run_manifest": {
+          "bytes": 11126,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "f0e9ba97d1296bc836bd2f9af3540a4fd51a037431f7ef6824ec124a7f447a5f"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "0ee3a1eb5a9a3c47234e3fa510baad7a62497a80733b0ca35a0e711bf504b3f2"
+        },
+        "predictions": {
+          "bytes": 3984170,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "f98f5e972155cf9f0b50e4fd5d21abfa25001b97e803b12233c8c3264b042211"
+        },
+        "run_manifest": {
+          "bytes": 10837,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "5726f278ce423c381307a2b3b73a08ee4586aec4eb2876d4c722124c7f901336"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f030__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "4583d1eeea4403dcf8065f4a0ff27eb279a74a735528c6dab44a670e513e47a9"
+        },
+        "predictions": {
+          "bytes": 3984228,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "639aafb29c80a87d83bd7a234a70414d3d63f26d575646c5758ae42f8bbe8426"
+        },
+        "run_manifest": {
+          "bytes": 10849,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "dfdab88bdd8d7e31cf9e9dcf61029cb051b2204245ba19d73168b513e84384d7"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f030__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "4a6058d050cd1953092242b2606627b49dc3468468d603ede75ff4546062a0ec"
+        },
+        "predictions": {
+          "bytes": 3984719,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "477964580edd06a7311610773cdb1297ba81d310a74e6404bd3a21b1d688a9fb"
+        },
+        "run_manifest": {
+          "bytes": 10845,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "1550aaf3501830276d16c66a6076d30b2508fec18b8316491b1a995fe320f2c7"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f030__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "3df9cfaba828f3a14e20e07c64db54f4f52fb092e04beb52b76a3f13b42a91be"
+        },
+        "predictions": {
+          "bytes": 3986267,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "45e0384665593144eca21510b70acece6c41790ee91efadac5e12633c58c91b5"
+        },
+        "run_manifest": {
+          "bytes": 10850,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "6ccaa95508e87431bd0bd62b48c9ecf1843c476bdcf67cf957ac8c5665541342"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Small__f030__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "d5236aa4a37acf4413f5cb72bb1b7ee20541b315a8f4239e400707f5537d8b8e"
+        },
+        "predictions": {
+          "bytes": 3986448,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "cca059dd46ff6d06018b539765a72ed7efded0aef7f605daa10ea285818b4bdc"
+        },
+        "run_manifest": {
+          "bytes": 10863,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "29a846ce242d430164f8a697c1f9d815c99842f61cdb3ed2366d0a0a1dc3cf90"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f030__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "83dcc42dce790590f920ea199ff2f5526ac408d327a910c143f5b609ccc9e988"
+        },
+        "predictions": {
+          "bytes": 3985792,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "cc5ed84a2fe402691f7ef6f34250dacc0bf5f3bab08ec8fd0c037d6b620bb11b"
+        },
+        "run_manifest": {
+          "bytes": 10864,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "e2db8e24d445e41be85ac38966114bf23607b91d012327242e8538db805c2f47"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Small__f030__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "671feb4abdbcd853936afa7a122ea71124aa25533407bcbee3dfb8b7f7167ac6"
+        },
+        "predictions": {
+          "bytes": 3984413,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "5065f487d0ecf2662b0453992c90ca3c153d2ae3bea5f42d98637bbcf9fc74a8"
+        },
+        "run_manifest": {
+          "bytes": 10855,
+          "path": "runs/corrected_full__Raw__Large__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "67fcdfa6b13e32b44baf530a44bff90e973b50837686d37cea385f078f451e45"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f030__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "51c2f3e99abeb776b81f4c5651577ec6000d5bd54b3f1580482eaf2abcc206ac"
+        },
+        "predictions": {
+          "bytes": 3985070,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "5e5a0bc08b1922bfd66769be7d65fc42b94eca99de628cfc9b4409e1857b87a1"
+        },
+        "run_manifest": {
+          "bytes": 10856,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "cbf4e6da77d74620e4ba419ce3495adddccb8b87a5e8953add0b4d375f103c99"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Small__f030__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "1e8862cdd8aa3dc732536e1bf8522b2fb910fc6d367fa24463f7dc68a0002eba"
+        },
+        "predictions": {
+          "bytes": 3985188,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "eb09ce4a88f05f69bbe92a44a1c92f67cc06fc68e064e7f8e51168ad67acb77c"
+        },
+        "run_manifest": {
+          "bytes": 10849,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "322f989eb8be186c01be7115c1b02570dbec8b86230d5ad25233b4aa6318f96f"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Small__f030__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "9860687718dee01db9b9eb78513a973530d002bbcf446573de499817f94875b2"
+        },
+        "predictions": {
+          "bytes": 3986223,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "a58da1e1c29cb13b6adf6ccc1b0d27e62fddbde221a2de2c0c6a40210ae2fd64"
+        },
+        "run_manifest": {
+          "bytes": 10855,
+          "path": "runs/corrected_full__Raw__Small__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "0e532d627886f73ceda66cc28da66663c3039d0f8fd2d3d2b71906a9d3454f27"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Small__f030__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "ca7e1a0cc86f29177ac1200d0bc9351004ebfb9e9262cee750ab6cb201dd5b5e"
+        },
+        "predictions": {
+          "bytes": 4688684,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "35a2ad1c71d06c1bad12c607f0f40dc07dabd51ce52da0af72a821803ff79443"
+        },
+        "run_manifest": {
+          "bytes": 11102,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "ed602c0dc61303f6a98f21976ea8351932710b7baab25da5f034de72504c2ad1"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f030__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "48d1cabe79e5a8c60a8d08a63c35d88f5f7a5d7c240ea8d60274e0a7713b8d60"
+        },
+        "predictions": {
+          "bytes": 4688967,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "d6be103b38076197dd2b31d14b6a3d37e19b32df524f28eeb6e54c032b2e23f1"
+        },
+        "run_manifest": {
+          "bytes": 11099,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "fcda7177163b043b26176806da87bacb88bca74e534392ac297975bf50349c73"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f030__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "7f160c3bce1d5396ee1b9d1a7a0f6d3d0ea844f134e3e696cc97b3a543f313d4"
+        },
+        "predictions": {
+          "bytes": 4689950,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "c3ea73783e4f2783f9e1d26aaed0e5ec7fbc798ae93d5799abb63733a3c84375"
+        },
+        "run_manifest": {
+          "bytes": 11105,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "46e2d33496188bb879eee3785c2abc17cb7d161318d91e50ba9aeabae5b43bd4"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f030__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "7bf3dceafe9079a74d8d9f767ba1e93ec30a91745cf3e0e55fd10e0beabd2237"
+        },
+        "predictions": {
+          "bytes": 4689443,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "781862ef54290f7a8acc7ce35f2bd5a4f1cb48aac3dc38038a22d91e25fee6d0"
+        },
+        "run_manifest": {
+          "bytes": 11107,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "55a281711ae47aa22c9dffcb89f99fd3a18afb83a23c4e97310cb1ac16303ec9"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f030__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "e64b610379c648a39aff2af2c6a9ed443781058e019393af9a21a9b497bbd9e9"
+        },
+        "predictions": {
+          "bytes": 4689063,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "0f0ce1b9163e7ba3a4f74074840e5583fd45bfac467db5a3fd78c1c9f5a782d6"
+        },
+        "run_manifest": {
+          "bytes": 11108,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "29a45930ff1abd4f5115c85e813737952199afbedddcc8798f01bf3215ca34a9"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f030__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "447b6f2f6dc958d6b2dff4d9e2e14df9354b9b53633668b326a6cf071521d5aa"
+        },
+        "predictions": {
+          "bytes": 4690752,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "b67fdcc26e1ae58f4643e5053ccbe202007d28f135ecaf95f12cfa986b609a9b"
+        },
+        "run_manifest": {
+          "bytes": 11100,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "557c8267656a7e7555c17e6dd78b5e44012af69ea794c557f1d8c4b11e610008"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f030__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028341,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "7e267e2213cdb665c722ab74b5fdd659ead5bfb572e268d195bcbc5a0157428f"
+        },
+        "predictions": {
+          "bytes": 4687785,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "2ebedef525e68e0a6aea53b96f638b54d68ba0782c7407ae97302d6ac140087a"
+        },
+        "run_manifest": {
+          "bytes": 11100,
+          "path": "runs/corrected_full__Simple__Large__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "0d5492a2ee26ae4537618e3f1b304c58ce92fc02b0f47652fdbf1eca39925470"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f030__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "b547abffd2f41d3d6ed566338e817dd68558d3d47aefbd2b8fad4b67dd4ec672"
+        },
+        "predictions": {
+          "bytes": 4689550,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "8cef41ed1de8fec06ccae92a7163cead6f14b08d9d89752ea265761df1d801f7"
+        },
+        "run_manifest": {
+          "bytes": 11103,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "a9fd0155d49196fc2b2afef475def7099dbe6a88b0f887258a38db0acab841dd"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f030__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "5c9d1e2a1f4d2dea834b2e6664a544bea2368dffc3da96a956c14d2ec502196e"
+        },
+        "predictions": {
+          "bytes": 4690908,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "34e4096bfabe17db917e8cbbebbb97fa05d46d7394fec892bbd7a407d9d65922"
+        },
+        "run_manifest": {
+          "bytes": 11102,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "ae71e1a30719f9efc7b8a691a1648f070c92f066b535de5205ac2813ebd7bf40"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f030__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530677,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "4670e450750fddfd52848bc48a752711a25693affa15d67bdc88cd4817b701af"
+        },
+        "predictions": {
+          "bytes": 4690335,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "5c4e12b1e81ec99a28bdfd673c83cbf2827591b09f91ab96c7d6e5fe74b1de66"
+        },
+        "run_manifest": {
+          "bytes": 11110,
+          "path": "runs/corrected_full__Simple__Small__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "cbe5210db1f6597cc93ee3b72f2fd01661a82c09be07212d582358541605b2a2"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f030__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028533,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "42008a3b5dd05414ae75c2468db2186d1d2075d8a46a187114cd31944b1c87d7"
+        },
+        "predictions": {
+          "bytes": 4703123,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "083f8b14d13f122bda90fdefacb894c57f522f3114f750c720cdcf9dea44603b"
+        },
+        "run_manifest": {
+          "bytes": 12133,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "650d80e0b31c09333aae2af6f877e7ed4db0a60e5820a87e534725e11ec9f9d1"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f030__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028533,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "ab605888bdb69fa046863d06df80a3726d2bd724eab5253adcc8eec8eb1c2e83"
+        },
+        "predictions": {
+          "bytes": 4705132,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "9be3eb4e342ca5a1728a03b3ef4a901477a6103dbe8c679a71d46c41dc158354"
+        },
+        "run_manifest": {
+          "bytes": 12134,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "246cd7964d9e8dc5f63e9db86a03d1b15e5baae6e719f713b048233314cc11d6"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f030__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028533,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "a858f217d7c63ab3321cdb882873d1bdbed02c40ec9637a6aad13d2806d8235d"
+        },
+        "predictions": {
+          "bytes": 4702274,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "f329aef08ae97a7f6fc7626a0d0c3bfb957b5496e3702030fa246baa00efc706"
+        },
+        "run_manifest": {
+          "bytes": 12148,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "d505a1a561192591b9e5fec02f5f25a04c452b0a33501979a1ed6ef7562bd597"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f030__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028533,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "facd32ea84952574ba4b9c32887f0694ae1669dead8b02a8bee984f0a5bca6ab"
+        },
+        "predictions": {
+          "bytes": 4702798,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "abf349322f53b21de5464dacc5a4c11eead051909c367764821db26401257690"
+        },
+        "run_manifest": {
+          "bytes": 12124,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "6a22923a8349ffcf3126240851c43534724ef4bb8a3a37171e63a6cef275251e"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f030__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530869,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "f29e5a629350574c44d0900b9dd6970e53eb315a32a32e8e9f28bb4a7495a60c"
+        },
+        "predictions": {
+          "bytes": 4704855,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "01a9c85e40d3292c37c838818103839def1f058cf8c8792665adc4c4d6633f23"
+        },
+        "run_manifest": {
+          "bytes": 12137,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "9ae65ff73df78e69df1dd4401aa9ba3c18faa279b22facef2f4623672f3abc20"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f030__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028533,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "fca5d767ed4eaf5da963edf099e016110cfdd05ef334c4cc934707633d127857"
+        },
+        "predictions": {
+          "bytes": 4702900,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "80e3bbf0781a61c8736c94d88701d67ecf70afad9b8636de2080994677f0ba5a"
+        },
+        "run_manifest": {
+          "bytes": 12144,
+          "path": "runs/corrected_full__Learned__Large__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "b542dd03f25714b2b308682cb96a5ab85f2c03944049456e248cda50153ffd46"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f030__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530869,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "0f840f81010ae393fb0c927031a7057bb78dd63efa2fe5c7e4aead05fdbbea16"
+        },
+        "predictions": {
+          "bytes": 4704896,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "247f7e5081779017dc58b6e8f336071350a61e98df2418308b8e6ba4554ade72"
+        },
+        "run_manifest": {
+          "bytes": 12122,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "e111231b1cf7392cbff383e0f6dec392f6e3ee2a4e493a645f00a6951866b201"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f030__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530869,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "d4585a2ff37ed3bde26ffba0c9ec9f25bb2ea60127dbd32cbc5155b20af40469"
+        },
+        "predictions": {
+          "bytes": 4703057,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "6338fd5d054c987cf6ae01be94562c08c0dc53652b2dc6bdb85c53fbbc58ec07"
+        },
+        "run_manifest": {
+          "bytes": 12125,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "0debd8c41288c35d8f64cc80ba11829f64ca58f4344e1eeef61d2f19d12aa0ec"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f030__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530869,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "ad0477c969defa746f1a70d60005b3fb6c975045165fda3672a16e641c08a6de"
+        },
+        "predictions": {
+          "bytes": 4704266,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "05fcaba8682d794b49afd61d19d13e0397f1c79b89d747e814ab197fc08efff0"
+        },
+        "run_manifest": {
+          "bytes": 12133,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "d375524310b70dddffd4881f5362eafae3b267dd0a240b66f9d76b64a1c28963"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f030__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530869,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "38404991e90d36da0c97427d3cddcb7fb489719a789fc5b713fd77edd0648bfe"
+        },
+        "predictions": {
+          "bytes": 4702818,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "02da516c1212521f26637b63733d813819a375bbc053ce1c30ea78383641e91e"
+        },
+        "run_manifest": {
+          "bytes": 12113,
+          "path": "runs/corrected_full__Learned__Small__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "4b8953dfdf37af06ba13c53ccaf0839e79c7c9a3693fb9ccb48c0edc850cac93"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f030__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028469,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "de265d02108b1f5dfe285a432e6db18297dc388e2eac3aad876aeae5b00c230e"
+        },
+        "predictions": {
+          "bytes": 4604033,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "acb84f50438b6ae9aacbef681e184b22a688a27b2f87eb05b49bd8c03304c36f"
+        },
+        "run_manifest": {
+          "bytes": 11137,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "5289806ed6d193b9fd74f9da67f3e2600e7054e664b7f55c3b7164d26c362e64"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028469,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "79ae1704ce103085b6bdb0f4ddc8c14dabb5952db7a73b32bf648d063515f867"
+        },
+        "predictions": {
+          "bytes": 4605220,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "bf78ee218ed8d2908ceef931dbeff365c41ff8ffa00f41b0513014ad62081e3d"
+        },
+        "run_manifest": {
+          "bytes": 11121,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "3e6f24ea05b9940d6835fe810aa0cbe8bc2f88090c25c300d8b5db0bfccf5ad3"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028469,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "3cef3862f4b6d0c5829f701a64b10826105901cfd4a2bb98b7ed1a735bd32ce5"
+        },
+        "predictions": {
+          "bytes": 4603664,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "49d2c25f6ab352ad7eda5112fc75fde51da0fac2eb0725de11402cdae60aed3a"
+        },
+        "run_manifest": {
+          "bytes": 11139,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "a457eae441b6171dc949de2c4c4cd2313a772f160213e14160227e9b32f24897"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028469,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "a2bc11a93c603b55fe8fd9a21a1a8e3a42f42a3ae0a68cc638038e09f2f4b767"
+        },
+        "predictions": {
+          "bytes": 4602815,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "18f017d067b2e2086db02f397cecccd7f7b8dcefbbde2bc6d7c392db7ea4afed"
+        },
+        "run_manifest": {
+          "bytes": 11134,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "75bc956ea30183a39b62e8acf4f9056f45d7a6c90507a93dd9abb932be8205b8"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530805,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101/checkpoint.pt",
+          "sha256": "a91a9f329da87debc06924785f70d5318fab43ff275127d6eda80aa7bbcffec9"
+        },
+        "predictions": {
+          "bytes": 4606009,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101/predictions.npz",
+          "sha256": "159776a4b6267a1b52788cfd0f487a0ec2ea5023a21fafef7625ff395d99d0ec"
+        },
+        "run_manifest": {
+          "bytes": 11120,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101/run_manifest.json",
+          "sha256": "092183e7d6f9af00715e4e91be636faddb50315e130f3307da563453f9391870"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+      "sample_fraction": 0.3,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530805,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102/checkpoint.pt",
+          "sha256": "605931d94362541f657755d9b1fe659d5164e5a48562c51e42cd9580c4ba41b0"
+        },
+        "predictions": {
+          "bytes": 4605748,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102/predictions.npz",
+          "sha256": "8fcff1573ce2d1fd6038d0a394f66379fa20906cbc368696f815637460061c55"
+        },
+        "run_manifest": {
+          "bytes": 11133,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102/run_manifest.json",
+          "sha256": "fdebb41847ab464178f84a04d7c467f15922875c28b64f9a2f9281b507830788"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+      "sample_fraction": 0.3,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 2028469,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "afa353d0301217dfce44f9f4bd71265abd52b9d102d363d2af62839d6a1ba516"
+        },
+        "predictions": {
+          "bytes": 4605206,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "0eb2097c45729e7a338b14e9f9108403a9fd74d4daac90c8e41d2fa63589ab29"
+        },
+        "run_manifest": {
+          "bytes": 11134,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "f9e57916ce35d21caf3b0d3ecff3db820f4516d8f36286bc6c4af08aa2498bc4"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530805,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103/checkpoint.pt",
+          "sha256": "ea3067e5330741977ccf067a0f8fc1c15fd6d96655a1cc7f43d727c650fc5bdb"
+        },
+        "predictions": {
+          "bytes": 4605333,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103/predictions.npz",
+          "sha256": "c073cca7ccf80f4845591b09e8ebdfb8aab94acfc463e7e140e1f42e07c5cd50"
+        },
+        "run_manifest": {
+          "bytes": 11123,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103/run_manifest.json",
+          "sha256": "634256081114f440ef4e3382ec9b4ccf62a028033f7f68b7c0df31d4250328f7"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+      "sample_fraction": 0.3,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530805,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104/checkpoint.pt",
+          "sha256": "defc4727da87a69d6767fc2ba55df38c7051fcb38180fa9f925f406b526f21ef"
+        },
+        "predictions": {
+          "bytes": 4605293,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104/predictions.npz",
+          "sha256": "3af199c9aa69a236ca6ce65cf83da8635f7dff095787da69b10bbf21af49243a"
+        },
+        "run_manifest": {
+          "bytes": 11126,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104/run_manifest.json",
+          "sha256": "9eb228e10c4b7f33134062e86bf6ca50e2711d36ed81178ba40ce1c3efb47773"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+      "sample_fraction": 0.3,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 1530805,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105/checkpoint.pt",
+          "sha256": "f7db8493664f2ff857d20dd488b8945563ad5fedbacf56e2254f0f5cc7205f21"
+        },
+        "predictions": {
+          "bytes": 4605974,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105/predictions.npz",
+          "sha256": "da9b8dd86bffa3d3ba5682da8ed9358ec6dc2122dfb3118ebc29d3d5bf2ed9e9"
+        },
+        "run_manifest": {
+          "bytes": 11126,
+          "path": "runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105/run_manifest.json",
+          "sha256": "7feda62f2b8aab76b266edd1773cf2302abd46a965e77b8eec15e45880f48fcf"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+      "sample_fraction": 0.3,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "e7869437d0e1d4fb2c12184a7353871a3352a32ba6e8d80317f704647168435d"
+        },
+        "predictions": {
+          "bytes": 3984774,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "ed6b2407a2422cc3ab42a819098a6556c31b685c5a85cef9e3bfeae262ce082a"
+        },
+        "run_manifest": {
+          "bytes": 10866,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "e9660146e2d5e9c5e00d01d80f66fcc7d437933286e3b553b23f18fbd815bce8"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f100__sub4101__seed3101",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "13436263eead8e2016c2ed1ddd41103b972ea5deef7e484ff07d2b8d48a186db"
+        },
+        "predictions": {
+          "bytes": 3983539,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "f4b758d5ea8029062e6ac98916c448701ef7fbf9b30381a4e7bfc27ea7f56061"
+        },
+        "run_manifest": {
+          "bytes": 10855,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "8930e0be11fb2a48e24bdfba0d097821a139e5bf2f25b5a8b5cdcd889c36b416"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f100__sub4101__seed3102",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "ad86d8617686f795ab14536701f838e4544462aac9d8428579847814b46252dc"
+        },
+        "predictions": {
+          "bytes": 3985665,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "887694386fcdf4dab12cf019e0cb019103be3d6469f175c072b102fa4e978651"
+        },
+        "run_manifest": {
+          "bytes": 10857,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "03c3cd3005d0cc7a6a5b4c3af7b0bd261c465a596ad0e37422b876a4548a8876"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f100__sub4101__seed3103",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "8aa44d5f3ce3e9ccab9ce44033417d0848bc06af97a4e56d285dac6cea7028fc"
+        },
+        "predictions": {
+          "bytes": 3983493,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "4edc84b4b1f6002814dc2cc2af5f454e0118a48cc58295ff7105804123d333ab"
+        },
+        "run_manifest": {
+          "bytes": 10856,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "ee2dc642fb8c76ae2a5a531f5775b851d02e45b71ec4b55c5e02723f5c96d453"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f100__sub4101__seed3104",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "5235059c4f1af3efbc57dd6c9bc6a47e664fc999dcfb3b17b4507150075425d1"
+        },
+        "predictions": {
+          "bytes": 3983918,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "cd5a9702dba2aa0c25ff57997ef6ed9ba3fb5def4f69a386a26c7c2725453c47"
+        },
+        "run_manifest": {
+          "bytes": 10861,
+          "path": "runs/corrected_full__Raw__Large__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "0745b1b06a32b29c86a83ce184f47ad122837346a1b8f640cb2c4640e17456f2"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Raw__Large__f100__sub4101__seed3105",
+      "representation": "Raw",
+      "reused": false,
+      "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "3cb45d77b8a9bbbf8d7201a3957bfaf5a9a486c53426fcd74ed14a3f006a1427"
+        },
+        "predictions": {
+          "bytes": 4689600,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "a373222a19e52c93d689f1ea4ad9ffa2d3872b6b285d67859fabe94216d8a5dd"
+        },
+        "run_manifest": {
+          "bytes": 11094,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "80d3b7baced6cbdc102f6af767599cb19189dd5922f4a5136dd09b0b54ba0645"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f100__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "6d14caff29569e4197b15a6ec60b35676d56ecee5cf6adf38797d89ae93e105a"
+        },
+        "predictions": {
+          "bytes": 4688980,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "98f8c3cb9df2fa86d8a86492708cedbb62658aa89551c5a89bb1a022ba581d03"
+        },
+        "run_manifest": {
+          "bytes": 11114,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "fd1f0b703ae3826ccb7a36e1b53640ea9d4bbe016661736ccd627d37da7dbfaa"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f100__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "f386afcab0505f0329d5f7db85436841718df0a2b9656394b808f4e1ef6bd750"
+        },
+        "predictions": {
+          "bytes": 4689136,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "1d9d1ea260f7e912785af1746433d80590bc451ed0d80775ec0c107c0756643b"
+        },
+        "run_manifest": {
+          "bytes": 11111,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "af8df031f605fb4630ad31c0ba3c1986ebe5e8e95612c7ec472182a333d7e0e0"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f100__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887989,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "f9b7e92bf4a99a50c4dda653ab34b56bf380b05307a693dfc1a2bd122fa773e5"
+        },
+        "predictions": {
+          "bytes": 4691589,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "e11c6d0919ca8ad1a94f6ab917d4741c70644ea5d50df83645d5eb1944595a39"
+        },
+        "run_manifest": {
+          "bytes": 11101,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "eb8909db4a184f32b014703b8eec184222d6c03c740347c58dddbec2fd7d696a"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f100__sub4101__seed3101",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887989,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "3a13253c81006d49fa50e5fee034930c76eea272bc8ae98353b427d545e6f19c"
+        },
+        "predictions": {
+          "bytes": 4690317,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "9a1dd1ba2fc32a1fc7d3bb28c8367d9ff7917f774930e8e751b8092779c4da95"
+        },
+        "run_manifest": {
+          "bytes": 11112,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "de30828195fab1420a1e24ec64c6e518a351a2a66bba92149f56b4789857eab9"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f100__sub4101__seed3102",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "9e443b8421bad7da1e49be0535bfefa8d8042cc237e7ac6f660c299be3c818c5"
+        },
+        "predictions": {
+          "bytes": 4689400,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "ff11bef7aff355efbf2956b2e615e15ed40e1a446d1eceef32e6f13b0c8883df"
+        },
+        "run_manifest": {
+          "bytes": 11112,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "4f34cf61cf24197304e9fe1595636934c6c6881a399ceee6de1359da339db072"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f100__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385653,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "af42096ccc7a392acacf1280100b84fe5a298d9892603a4e2164e711b6899737"
+        },
+        "predictions": {
+          "bytes": 4691074,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "e39801214d106b4d31d958be7faea03e98856dec949e68a480759c24142696c6"
+        },
+        "run_manifest": {
+          "bytes": 11109,
+          "path": "runs/corrected_full__Simple__Large__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "4205247736dc5f98c726ec4c135a5c18fc36c1863dd3a4614fa3a10af867449a"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Large__f100__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887989,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "46bfad1975f48e744d8be23ffce9d6c74ae67f939e08e61aee695e08ab238188"
+        },
+        "predictions": {
+          "bytes": 4689996,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "4cfa451678f2bb202a58b01af6ee1e4a3220b5a227f79dc91c2d8b71e8fa7a6d"
+        },
+        "run_manifest": {
+          "bytes": 11111,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "15d672eafc3b0ab7d245e7c9c1d986c0f2be3c6d2378ab10e59d75908b176d0b"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f100__sub4101__seed3103",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887989,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "b1d191bc9c8f5fbc603ecb10ab7cd0e8d9dd21a9e0ab5443f28a2df9c3e89904"
+        },
+        "predictions": {
+          "bytes": 4690917,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "8451179b72b91e983cba15862f3f4a6993d824adbcda14fe1d2d319cd4f9a57d"
+        },
+        "run_manifest": {
+          "bytes": 11102,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "5c84fa30aa7cf9d8ba395092a3c748fe01690bd5cf3d6b81ad0410cb9e58d0ef"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f100__sub4101__seed3104",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887989,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "21b561efd64fbadd611fd300903812c19f3986db7c2b1313f6f2a4cb005e8d4b"
+        },
+        "predictions": {
+          "bytes": 4691286,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "58fa9c7186f9cd347cb6bfb6b0d5c219503e13a6263ff375a4d498ccd1b33569"
+        },
+        "run_manifest": {
+          "bytes": 11108,
+          "path": "runs/corrected_full__Simple__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "790ce5d6a1d4f70fe67a56825596aef9c06da0229d0acac9023721a7e18278b9"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Simple__Small__f100__sub4101__seed3105",
+      "representation": "Simple",
+      "reused": false,
+      "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385845,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "cfb8266ce5ce8b4b7cf826dda73308d559d6ec6e12f111d2d2bb2dd79fb5eec4"
+        },
+        "predictions": {
+          "bytes": 4696859,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "8e6498aacc164c2e1806ac621959dd917986c2319629b14d2885f9390e9b4b82"
+        },
+        "run_manifest": {
+          "bytes": 12145,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "3a4bddc6f6c70af628564ce2f8e6fafd6073cd0942cab67bca6c2e2ce534d43c"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f100__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385845,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "c6f1bb9375cd4c7219c22ba4b98a634e952be628da3a17d1737b28592c7571bd"
+        },
+        "predictions": {
+          "bytes": 4699787,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "c1254128798e4366cb3b0a090a8f6b0162a2d2c9573c0c99b1914f0464e91229"
+        },
+        "run_manifest": {
+          "bytes": 12141,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "a6a704371b7467fc0b61bb42f643a3faaba9d48e8aee140e071df6ac1f2c3b10"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f100__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385845,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "132e42cb1c3f82b13d80cd6edcd91ecd98c9a225f1e6bb7231ef5e80170d9f21"
+        },
+        "predictions": {
+          "bytes": 4698421,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "12e5ce3f45b30700a66ebc5dcfd612dee6d1b7a82566f165190362da7f658374"
+        },
+        "run_manifest": {
+          "bytes": 12139,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "8e7204449ad2438431d979cb437103715a5463aae313e11a65d55091bd793ed6"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f100__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385845,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "afb98ca17d186431d61307ac2220addfad6a61ac042e53186df24362377e8e7c"
+        },
+        "predictions": {
+          "bytes": 4695178,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "76eae62099c33a35ca5adf2c528e33cb39b8b46865b0a851687ff0a38783dec8"
+        },
+        "run_manifest": {
+          "bytes": 12138,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "908dcc82d160ac7f3da5777f10cdbfaedfe2864d17d2a336ec51838c438de831"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f100__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385845,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "f89c6bd21853d62e70466ac381d29d447220812309f8e3d9600f1bb783b636ed"
+        },
+        "predictions": {
+          "bytes": 4697024,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "91fd226621cab875b0405ea8b32509eddaa93e9780fcd11367473e1b79d4e9f2"
+        },
+        "run_manifest": {
+          "bytes": 12146,
+          "path": "runs/corrected_full__Learned__Large__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "8ef14937f0acd89aeea53f459d86495d1764ca31674ae1301178f5d392ed483d"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Large__f100__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888181,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "87d614df9de7217bfc92ddf57958f50436701c9c09783b315101fc5940690d1e"
+        },
+        "predictions": {
+          "bytes": 4697849,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "dff378d8d5b3b8cf68a9898c78809b7063330efbf939198fb984b5c01a959624"
+        },
+        "run_manifest": {
+          "bytes": 12137,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "ad29a90d95acaec43aab2331da6010eca6b35c559da4e2b1e848087b51b10fb9"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f100__sub4101__seed3101",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888181,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "eee36e7e7baa689f7bf5fd2db2995c44a88696091fcb7489f747d8ff359a5ece"
+        },
+        "predictions": {
+          "bytes": 4698599,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "6bcbb7c47a3beea07123e001924704ed14d9baa65b28417dbe8eea8867d0f4dc"
+        },
+        "run_manifest": {
+          "bytes": 12136,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "c8e648cc3046a9aafc4bb027cf39156aa1fe8209a4f46bf671f1b808ff9b6f09"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f100__sub4101__seed3102",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888181,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "50006f5ece7f82c6cf012dec0527524b990f82ee20eaf2c5ecc5a46fb63c63e5"
+        },
+        "predictions": {
+          "bytes": 4698180,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "1968ec6bffd666fc2ffa01ab221e9eb04ec633b3c54713c6ce6f8d2501b2ead1"
+        },
+        "run_manifest": {
+          "bytes": 12142,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "09a049bb235201316e1b81e568ab06c7842ef9d430bfe3f9580ac6f5e8deb55f"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f100__sub4101__seed3103",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888181,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "e51109dba239753025f47420179e001da0d840294a458fe4b9cb98067940e2ed"
+        },
+        "predictions": {
+          "bytes": 4699143,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "8395865720c1443be161c29e903fbd97adacb7ef1e8761e46209877bf9318966"
+        },
+        "run_manifest": {
+          "bytes": 12148,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "3454df932027611fecaba629a6fd4f8f8bf8a07967622fc02e8d608f4d1ff8ce"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f100__sub4101__seed3104",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888181,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "489ee682894304b5fb8abafd150b138a04f142d84aa721cfc449c31e65d4742a"
+        },
+        "predictions": {
+          "bytes": 4700369,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "3c71c8a979a1bdf64939bb2ad252ee065e1def5e5b5aad105c680bb73dacace4"
+        },
+        "run_manifest": {
+          "bytes": 12131,
+          "path": "runs/corrected_full__Learned__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "bfb32749d1dc7749226e3818179c971a88374c09a457e15228d78b2c0d048852"
+        }
+      },
+      "capacity": "Small",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__Learned__Small__f100__sub4101__seed3105",
+      "representation": "Learned",
+      "reused": false,
+      "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385781,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "d719db23c084f74eb002e90522b88c86ea64c508d386ebdf253872733a6b0569"
+        },
+        "predictions": {
+          "bytes": 4603211,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "23bf6b34d28afc2dda5e1a21222a95c0e316a3afc6fb79dd3f2922d3d67cbd45"
+        },
+        "run_manifest": {
+          "bytes": 11128,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "f51117296367f3cdcc5ece5b97667960b9e269c78e137b4623edff6b4e4b37f8"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385781,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "56ca01757d1c2e3ea5998175e5214a6084c717ae2c1b514396c4a296b99237d7"
+        },
+        "predictions": {
+          "bytes": 4603162,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "7508fd4ffff6a62d8b289e428940dd1604c389da0a4212f49bd7f6ad8ab340e6"
+        },
+        "run_manifest": {
+          "bytes": 11137,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "f14f83623fab0ca68c6c1f798c809bcbdeced8c279fc1d8b152fc5a6693859c0"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385781,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "fbf358b71720f30c50fb466ff73c57836e450a9c52307ce4a71bd0012b7fa771"
+        },
+        "predictions": {
+          "bytes": 4603930,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "67313bcec5758b17b22a9fb41c0bd364ba9c58b8cab251f4f439c0ee3387390a"
+        },
+        "run_manifest": {
+          "bytes": 11123,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "9bc742629f492a6943e474b81ff244fac6070be9cf4170751306eef331a6a81e"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385781,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "d80f2e291a2bd605e0df1595d11d290cec5532608db813c72f38642f812c6514"
+        },
+        "predictions": {
+          "bytes": 4606236,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "5e80b11713638334b0aa82e4ff824dda8f5a52526173c2f687b41f3bedffe862"
+        },
+        "run_manifest": {
+          "bytes": 11118,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "3c5381319bda854331c62bb44b0ca6074c506f09c4e2eadfd7ea99b7c56516e4"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifact_root": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study",
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 5385781,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "747fdd53685c52613d071f7e571d74d13f450eed6a01b8f89b571934d84f892e"
+        },
+        "predictions": {
+          "bytes": 4606369,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "89143ee6548af56b11ce376fed35f57a9084c69e01abef684fcfd987af1ea0dc"
+        },
+        "run_manifest": {
+          "bytes": 11127,
+          "path": "runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "d3bb2f7ef9c65a0e73732fcb318c7319db20603f386326f185ad9298fc9f6f71"
+        }
+      },
+      "capacity": "Large",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "matrix_cell_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+      "representation": "CorrectedPhysics",
+      "reused": false,
+      "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    }
+  ],
+  "schema": "corrected-formal-checkpoint-freeze-v1"
+}

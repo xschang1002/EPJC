@@ -1,0 +1,55 @@
+% Generated post-hoc to known C/D outcomes. Do not edit numerical cells.
+% Requires booktabs and longtable. Numeric effects are shown x 10^-3 nat/eligible event.
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{llrrrrl}
+\caption{Post-hoc paired optimizer-seed sensitivity on catalog C. All values except signs/fractions are in $10^{-3}$ nat per eligible event. $H,C2,C8,F$ denote Hidden5, Coarse2, Coarse8 and Full5. Signs list positive/negative/zero counts among five seeds. Each leave-one-out (LOO) mean averages the remaining four seeds; its range is not a confidence interval. C and D use the same five trained-seed pairs and are not pooled.}\label{tab:seed_sensitivity_C}\\
+\toprule Contrast & Train (\%) & Mean (SD) & Seed range & $+/ - /0$ & LOO mean range & LOO sign\\ \midrule \endfirsthead
+\toprule Contrast & Train (\%) & Mean (SD) & Seed range & $+/ - /0$ & LOO mean range & LOO sign\\ \midrule \endhead
+$G_{H}$ & 10 & 6.272 (0.811) & [5.091, 7.058] & 5/0/0 & [6.075, 6.567] & positive\\
+$G_{C2}$ & 10 & 10.399 (1.099) & [8.722, 11.643] & 5/0/0 & [10.088, 10.818] & positive\\
+$G_{C8}$ & 10 & 3.082 (1.596) & [0.821, 4.583] & 5/0/0 & [2.707, 3.647] & positive\\
+$G_{F}$ & 10 & 1.845 (1.855) & [-0.619, 3.899] & 4/1/0 & [1.331, 2.461] & positive\\
+$G_{H}$ & 100 & 6.233 (1.125) & [5.069, 7.679] & 5/0/0 & [5.871, 6.524] & positive\\
+$G_{C2}$ & 100 & 10.895 (1.060) & [9.564, 12.443] & 5/0/0 & [10.507, 11.227] & positive\\
+$G_{C8}$ & 100 & 2.987 (1.211) & [1.978, 5.000] & 5/0/0 & [2.484, 3.239] & positive\\
+$G_{F}$ & 100 & 1.550 (0.923) & [0.491, 2.979] & 5/0/0 & [1.192, 1.814] & positive\\
+$G_{C2}-G_{H}$ & 10 & 4.127 (0.767) & [3.262, 5.019] & 5/0/0 & [3.905, 4.344] & positive\\
+$G_{C8}-G_{C2}$ & 10 & -7.317 (2.210) & [-9.390, -4.184] & 0/5/0 & [-8.100, -6.799] & negative\\
+$G_{F}-G_{C8}$ & 10 & -1.237 (2.137) & [-3.999, 1.645] & 1/4/0 & [-1.958, -0.547] & negative\\
+$G_{F}-G_{H}$ & 10 & -4.427 (1.796) & [-7.407, -2.726] & 0/5/0 & [-4.852, -3.682] & negative\\
+$G_{C2}-G_{H}$ & 100 & 4.662 (0.809) & [3.758, 5.809] & 5/0/0 & [4.375, 4.888] & positive\\
+$G_{C8}-G_{C2}$ & 100 & -7.908 (0.441) & [-8.474, -7.443] & 0/5/0 & [-8.024, -7.766] & negative\\
+$G_{F}-G_{C8}$ & 100 & -1.437 (0.673) & [-2.218, -0.632] & 0/5/0 & [-1.639, -1.242] & negative\\
+$G_{F}-G_{H}$ & 100 & -4.683 (1.226) & [-6.658, -3.297] & 0/5/0 & [-5.030, -4.190] & negative\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{llrrrrl}
+\caption{Post-hoc paired optimizer-seed sensitivity on catalog D. All values except signs/fractions are in $10^{-3}$ nat per eligible event. $H,C2,C8,F$ denote Hidden5, Coarse2, Coarse8 and Full5. Signs list positive/negative/zero counts among five seeds. Each leave-one-out (LOO) mean averages the remaining four seeds; its range is not a confidence interval. C and D use the same five trained-seed pairs and are not pooled.}\label{tab:seed_sensitivity_D}\\
+\toprule Contrast & Train (\%) & Mean (SD) & Seed range & $+/ - /0$ & LOO mean range & LOO sign\\ \midrule \endfirsthead
+\toprule Contrast & Train (\%) & Mean (SD) & Seed range & $+/ - /0$ & LOO mean range & LOO sign\\ \midrule \endhead
+$G_{H}$ & 10 & 6.401 (0.778) & [5.344, 7.326] & 5/0/0 & [6.169, 6.665] & positive\\
+$G_{C2}$ & 10 & 10.623 (1.277) & [8.786, 12.172] & 5/0/0 & [10.235, 11.082] & positive\\
+$G_{C8}$ & 10 & 3.320 (1.609) & [0.878, 4.898] & 5/0/0 & [2.926, 3.931] & positive\\
+$G_{F}$ & 10 & 1.876 (1.836) & [-0.491, 4.072] & 4/1/0 & [1.327, 2.467] & positive\\
+$G_{H}$ & 100 & 6.543 (1.194) & [5.473, 7.943] & 5/0/0 & [6.193, 6.810] & positive\\
+$G_{C2}$ & 100 & 11.196 (1.030) & [9.843, 12.587] & 5/0/0 & [10.848, 11.534] & positive\\
+$G_{C8}$ & 100 & 3.332 (1.181) & [2.379, 5.241] & 5/0/0 & [2.855, 3.571] & positive\\
+$G_{F}$ & 100 & 1.659 (0.973) & [0.371, 3.059] & 5/0/0 & [1.309, 1.981] & positive\\
+$G_{C2}-G_{H}$ & 10 & 4.222 (1.046) & [3.301, 5.469] & 5/0/0 & [3.910, 4.452] & positive\\
+$G_{C8}-G_{C2}$ & 10 & -7.302 (2.233) & [-9.356, -3.888] & 0/5/0 & [-8.156, -6.789] & negative\\
+$G_{F}-G_{C8}$ & 10 & -1.445 (2.087) & [-4.331, 1.255] & 1/4/0 & [-2.120, -0.723] & negative\\
+$G_{F}-G_{H}$ & 10 & -4.525 (1.713) & [-7.221, -2.631] & 0/5/0 & [-4.998, -3.851] & negative\\
+$G_{C2}-G_{H}$ & 100 & 4.653 (0.837) & [3.790, 5.794] & 5/0/0 & [4.368, 4.869] & positive\\
+$G_{C8}-G_{C2}$ & 100 & -7.864 (0.526) & [-8.549, -7.346] & 0/5/0 & [-7.993, -7.692] & negative\\
+$G_{F}-G_{C8}$ & 100 & -1.673 (0.805) & [-2.704, -0.727] & 0/5/0 & [-1.909, -1.415] & negative\\
+$G_{F}-G_{H}$ & 100 & -4.884 (1.447) & [-7.334, -3.581] & 0/5/0 & [-5.209, -4.271] & negative\\
+\bottomrule
+\end{longtable}
+\endgroup

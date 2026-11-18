@@ -1,0 +1,1447 @@
+{
+  "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+  "frozen_before_confirmation": true,
+  "models": [
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "d38e2b132d1c05fa5817d289ff9810dcbe79b0b1c74142aad9e34e8d02bb5b73"
+        },
+        "predictions": {
+          "bytes": 3984930,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "984b1b89020c91511b76c3975286b05d9d4c18a6eaad0cf034050d236da970cb"
+        },
+        "run_manifest": {
+          "bytes": 10809,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "836126fd5f177f46a89f01faafc5431fa2fdacfb2bed42a7d5eaccffc49f2b1e"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "710bbf9736b151647a64faf8e9ebc601122995e731dfaead593ecd4d5a4b3969"
+        },
+        "predictions": {
+          "bytes": 3985341,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "b87412fb19617374564216f218b3bd25449b36b02fc92ea990eaff87e7507fa7"
+        },
+        "run_manifest": {
+          "bytes": 10808,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "d69bef99bbc95bbadaa5ac0629704ef84d6eaf03d9b45847605048db98fbcc7f"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "dac7bc56943419583073088be662339bc9ee57a8b6aaaed8da79228d48f0f9e4"
+        },
+        "predictions": {
+          "bytes": 3985619,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "29fba7b67bed18bccece57d40364973f87986ad01fff1f3ea69fb599a0229ec9"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "3a8e8ec243eef47472b2d10705fa091c959a7e10a1a47087531d1be1cc1ffb3f"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "c4ee629d435792b0d2ae62146b61d45b3cc4a1fbffb58b359ce0ba97ff485b99"
+        },
+        "predictions": {
+          "bytes": 3985284,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "b16ed99bc3110ee604ebd37f3161be45726112bdf745df78419b5d55d1ab0c58"
+        },
+        "run_manifest": {
+          "bytes": 10793,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "5cab159ffdf2385d4fb667f48085538429eada8d1c377db9c7481c0fe6f6a143"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571381,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "289f3b07e6b3dcf42e1a861eec8a78d34b0a957e1f161902d689e6741a930903"
+        },
+        "predictions": {
+          "bytes": 3983639,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "2ab51b7ccef4d7adc0aee70bbce5f375622d1a9bca870f1a78b516f20867484b"
+        },
+        "run_manifest": {
+          "bytes": 10799,
+          "path": "runs/correction__Full__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "b49f09e0814709038bf06b0adaf0d53d09771f0b681fbe243a8d77740214336c"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571573,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "2f92c8d4c728bf1bb62748f5226e55ec6ebeb72311ec779fd498c2359d7531ca"
+        },
+        "predictions": {
+          "bytes": 4584330,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "ad86efd8e92671d8533feee13654ae2652c75839a7f5deec399f345d0daa95ca"
+        },
+        "run_manifest": {
+          "bytes": 11233,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "96dcbb33b6702348d2e6a3a459bb81dd901b34eca3736c5840408a803912af94"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571573,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "626c445ba669784a6714ce303c1d19780df4e6ebcf972459a5c7679d1543bcc9"
+        },
+        "predictions": {
+          "bytes": 4582550,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "ba8da5fe3ccf959d1e49c8313d8b6d607d1415c3eea2d90d807427afc3568e3a"
+        },
+        "run_manifest": {
+          "bytes": 11214,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "51a55d9d628fd5fb61e710cb2920e53bd06c6972434606c6cf97ad6ad09f6414"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571573,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "a092a80989c967a99b3aef7a9c75231ddb01c6c18a0ddbce49e6059b4b9f97ba"
+        },
+        "predictions": {
+          "bytes": 4583281,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "fa2fe022fa8ec1d3dd83d38bb5858466d0a3bb0cfa21d5c7499356ae7d778dc3"
+        },
+        "run_manifest": {
+          "bytes": 11225,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "a013ac3868fad4556e350bbc2eb57ce12cba66585aa2360123b60cf6eeea7423"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571573,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "1e6d96ba6617ad3217083324c6015af97d544d84328a85e7f958af615b099e9c"
+        },
+        "predictions": {
+          "bytes": 4584336,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "8e320f33f0a26c45402bca2056e80382c244bcf0ebe2791f57e159eafe3146fe"
+        },
+        "run_manifest": {
+          "bytes": 11220,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "5f383f5a8572ebb6ae250cddb9382c40cca2b77082986a079b50a8110097268d"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571573,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "d5f70a545bda43709069336af2d91cf05e3df267182cdb619e2466e363446f96"
+        },
+        "predictions": {
+          "bytes": 4583577,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "45cafcfd48293c43f1e0726df91bc4258fbbd6ef03232e1e6659c911aae15e18"
+        },
+        "run_manifest": {
+          "bytes": 11223,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "feec521c687364577efa64af3c4444d4f51ae00a7105beb9e4dd483cdea3a7c5"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "1043c7d40af7f8fa974a7492e93c43779d005b6958688d8d3ff9b85f09548c60"
+        },
+        "predictions": {
+          "bytes": 4603270,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "ba425a9a4d419a9a6c46964102f6aeb9dc044ace85b554d26096db6fdcc99508"
+        },
+        "run_manifest": {
+          "bytes": 11080,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "f856ed5ec944af4016c9f760e60f749440da09f3817460903c3a7a0cf80d8eef"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "db053b037f139a3e412a2ea4d0ffe26021c8e150779eecdf8bc7f9b7a6e71b6e"
+        },
+        "predictions": {
+          "bytes": 4602230,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "2831e88206e119c3dcebdffd25e3e3951b08ba15690b5f43fad66c9623d8d485"
+        },
+        "run_manifest": {
+          "bytes": 11088,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "57514357ef202aaef65835858c2d371f4421c0adedd7dab86a33026b0caa3959"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "36a3b346ad20a92c8cd550f80b1a2c599b5880a71ca75b29d14aa0b9f021ca25"
+        },
+        "predictions": {
+          "bytes": 4602601,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "7c6a3ebdd858fa9130c42170868774cd99084fd32008367026339b8253dac42a"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "68e40492660530181dbd91fe2d7c0419fcc2fe832beb1661e0fc24c914a22d8a"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "0e6b4b48fbeb96626ab07347a60e7d1c59729b0b924cc1bf5ccc5614e360a47b"
+        },
+        "predictions": {
+          "bytes": 4602793,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "7bfd5f53044cb332263f87f5857422e097544a273bf2a1eba4945cf348fec85d"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "e5a8d9871d9637a16afbc0863e0e34c5e6769ff7bdb906ebee7c964dd1c5cfc2"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569077,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "f8d69bb1a618d445b8bdfb1170f33461cd0b40f891f6736a472304a218621190"
+        },
+        "predictions": {
+          "bytes": 3982336,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "07837b7a5fc1dda1d304e65567ac0bc602e8998fc83be0ed27b77d6d5d02a23b"
+        },
+        "run_manifest": {
+          "bytes": 10827,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "d14404ff2886844beef3298a7788626c7e8f95465ac8560410ef09f77b6c4cf1"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 571509,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "367bc7eecfaa8b3eed3fdafd406a9f06185a2833bbf9c7b80dd10aaab4a7bfed"
+        },
+        "predictions": {
+          "bytes": 4604262,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "f31f7505015ee76973178a002fa22e20c78e396162f4050592031c7c3c4f34bd"
+        },
+        "run_manifest": {
+          "bytes": 11077,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "d2d5bb222a9b400fc79f295933364011b13fc47524bac923957709320938b4c7"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569077,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "73338d30b75012c4eed3d1a1ccb9cd51d2c7f619ec4432390c7ba29e71cbe639"
+        },
+        "predictions": {
+          "bytes": 3982459,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "463515d38db07c77e22dfba86d0fd66025e0dc1815cdc6bf764854370e345248"
+        },
+        "run_manifest": {
+          "bytes": 10840,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "52ba8c63705e806234842e7cc4260d10510191da32f0b5dab7d60eabf42ca134"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569077,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "e3fd1d98a8142c8aa66340c5e082a69d9c40f9f7a9b7d910b7c974a31bdcdee2"
+        },
+        "predictions": {
+          "bytes": 3984185,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "9851e9172ab9354782392244b3cbd9737455db58f5049c74ce879d7e37e6e1ba"
+        },
+        "run_manifest": {
+          "bytes": 10823,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "60775ee15bb4397b716850cd5d98e771e5209b2d7cdc7b2624ce68aff8d26914"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569077,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "6996151078facad6227018c57fb87a0cf745f73ec9156539cbf0162f1e4b4fdc"
+        },
+        "predictions": {
+          "bytes": 3982503,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "77e92a713f560232933d932552610a59ce7b4204492fdcf7c72c1e38c504f3b4"
+        },
+        "run_manifest": {
+          "bytes": 10829,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "6dc9cda10717dc84dd339e3e6d30b68661b95960245c15cd762c02d28ac1ce2d"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569077,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "fb970e5186da5fa6d3028727390412cd2fd0a0630e761db1acfd1f72fd7775e1"
+        },
+        "predictions": {
+          "bytes": 3982459,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "2e33f671995ef47e2af19b11e206be5f1cd5619154aa5f39ac39157ce778ffff"
+        },
+        "run_manifest": {
+          "bytes": 10831,
+          "path": "runs/correction__Hidden__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "dc688542691f1f69566e5327963e76d6efe6d007d6e7efd69a71f50cf11cf787"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569269,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "776ca0e2009150d4588709f68c0c47344ac7dd3a8039810949f655edf93aed64"
+        },
+        "predictions": {
+          "bytes": 4580000,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "aa2b252e224de3109723ce5bf755eea4d0527e4714876a6e6e6daef8bcd52e87"
+        },
+        "run_manifest": {
+          "bytes": 11253,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "1a55d1b7cc99a85992dbdb91b43b7a2f512fedc63441d6ceb9c24dd21a76ca08"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569269,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "2666f015d7c9d4b8989e9b9f1bba00b823596f616bc625342b4f3048ab34f5b7"
+        },
+        "predictions": {
+          "bytes": 4579633,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "a59b4210b8fcc56a05bc9701430f6d94de78a85f77f781c6359802230c867ef2"
+        },
+        "run_manifest": {
+          "bytes": 11265,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "a6cdc93d9d48880a0cb54b4e03754bcbd5879c29ce2fd03b5b1a1df5e16ba6f8"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569269,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "5113d17e084b42045bf3917f75189b62537b19279d19bea2436104837d81e0a6"
+        },
+        "predictions": {
+          "bytes": 4579416,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "691e16d29712bd461ad6336c201a7a86b2d71d9af1cb807854b0fdf717dcf429"
+        },
+        "run_manifest": {
+          "bytes": 11250,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "c6f0531c96bfeda55385b797970d84e0b825ad0cdb873ac33783853b68154dc0"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569269,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "6d362d8048e39a0f3917fec6486eca23a207cf1f185e749656eb259bbf5d1658"
+        },
+        "predictions": {
+          "bytes": 4580273,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "b15aedeee2cd0addbf1999cff861218f091955a3c0f4fd485ec6810634a258ce"
+        },
+        "run_manifest": {
+          "bytes": 11249,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "b09013f9691be4500d407374468e27a67713e8cd421921e942f556a61a154c57"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569269,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "fb23ccfe0384121e6f2a2c80b8e97e7579996a7e9cc550465f077f195721006e"
+        },
+        "predictions": {
+          "bytes": 4578727,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "81b7a3e93619edf1a6776c244f3f5e5f210fb2427732b33ab90f206bb04892a8"
+        },
+        "run_manifest": {
+          "bytes": 11255,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "1403fe2c8e268ad7f61a971477a95174a2b6631c6f4fd3e0056e6b256ec8d2d5"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569205,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+          "sha256": "c20038d312302146893e476cd32c88567c7256615cfee83fd4cd8afe29a74808"
+        },
+        "predictions": {
+          "bytes": 4602249,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102/predictions.npz",
+          "sha256": "66de4d79b13b094971fa9e55bfd34b9c091ef8de77dc45d12dafc0318c452075"
+        },
+        "run_manifest": {
+          "bytes": 11087,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+          "sha256": "eb285961a5b2d2f619c10561b20c00fd09dccbc46ebf823514bea08117f49b55"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "sample_fraction": 0.1,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569205,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+          "sha256": "4b3dd6c0f1d3d35aab938ff8c960943ed736f7789069288f20b50725cf13dee6"
+        },
+        "predictions": {
+          "bytes": 4602568,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101/predictions.npz",
+          "sha256": "8742c560d072b3ec017ace1b2f2bc059dae5d7eec044df0ea6a7cf46d1f78a4c"
+        },
+        "run_manifest": {
+          "bytes": 11105,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+          "sha256": "405f056b03a86e3627c45b804cd8cb9a8a85863641f9e6276143a5df82409930"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "sample_fraction": 0.1,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569205,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+          "sha256": "0714c54c6157f35677c9a03f31bb2dd21e34a6f25c5ac00324cd9950d0d6ff30"
+        },
+        "predictions": {
+          "bytes": 4602502,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103/predictions.npz",
+          "sha256": "eec7eecf1deb6b6858efeb78632061155ea99f4241131c5dc6cd53b95dcbc8b1"
+        },
+        "run_manifest": {
+          "bytes": 11112,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+          "sha256": "df52bc4e9645a95760427f68c6c6f04aea96cc55d6f094315a76203aa36c19d2"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "sample_fraction": 0.1,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569205,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+          "sha256": "f79a90b21a552287cfb29dd1663c78922a51cbb153aa033a7c1cfd87467415cb"
+        },
+        "predictions": {
+          "bytes": 4601933,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104/predictions.npz",
+          "sha256": "b6f7cb81fbb4706b1dbf75dc428aa5eba0277ef33fd2942fc48292bbf567c652"
+        },
+        "run_manifest": {
+          "bytes": 11115,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+          "sha256": "bbefd80db9953945cbf908596164b09fe7cb40adb3ef5e5971dde83f1904e22f"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "sample_fraction": 0.1,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 569205,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+          "sha256": "6b14a3507be778021c70a4d96f9c154cb02cbb102f7a80e1824f18607743579c"
+        },
+        "predictions": {
+          "bytes": 4603434,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105/predictions.npz",
+          "sha256": "3df2dfaef2b26c73654b1fef285bbe69f78454b1f8a0c14513436d155aa71d40"
+        },
+        "run_manifest": {
+          "bytes": 11095,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+          "sha256": "de930fe0071a469737f8d44bc8bfae883f048a37f06fe65c0e6efa78491b70d3"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "sample_fraction": 0.1,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "0d7ac2046e728012fadb97300f5f612ed4b6af64894c95afb6045ac276ce779d"
+        },
+        "predictions": {
+          "bytes": 3985419,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "7913a88247b2afa88b6576a2acbe4b0489f626875574761ee69cdd346339ed85"
+        },
+        "run_manifest": {
+          "bytes": 10811,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "1104743e6a55bab113e2b106a703957070974d7b4592f00b6faf2a8e97d6c474"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "995905e83faf2696093e0dd35e68c0a2fc476dac27bd772674afcb8b8b5a25bb"
+        },
+        "predictions": {
+          "bytes": 3986016,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "ba45316a55fe3b72e026324a6fd603d214b3b2b2fb8f1850dfd072fd21a4b888"
+        },
+        "run_manifest": {
+          "bytes": 10808,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "24ff1b3e8217207311bae99b6d8a7f79aedcef265c6d6ad2fb86d4ccd1b6fa36"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "3b38121631fc6ff2830764057a58a468db120c9d18d4008ca225b9d82380993d"
+        },
+        "predictions": {
+          "bytes": 3984564,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "74fc0a10773eb6114452da5e328f9e6baa730ba0f5c03b99df9a93486ae15764"
+        },
+        "run_manifest": {
+          "bytes": 10812,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "fc1c2d4e1d2b9ef54e3b2b1611a389ee08b9556b2e4f8ee1ab6c9bfc216eb61b"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "8796303a92cde8db233db566ca362b82c0a3ab99d07b215b355bba37c5e4e340"
+        },
+        "predictions": {
+          "bytes": 3987221,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "a4fa1e971f1e8dc47b27d03f1ac4949c2e0cf63fe5ec664ea76cc597c5b49193"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "4ee520bfe98e04a0ddd8e81eefc770d1edf1aa3dd20d2c5735dfa8318ec1c10a"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4887925,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "a7733e2da36a24e7b4a493f382d3f3c32e4ab2cba6dced0499a70916c55b3e00"
+        },
+        "predictions": {
+          "bytes": 3986523,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "0b96f0cd94faa723ad7c7bb021f3edf608fe47ae3fdb3c6fb5e2e8931b6ad135"
+        },
+        "run_manifest": {
+          "bytes": 10801,
+          "path": "runs/correction__Full__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "bd41d95b77cd491d3fe01d48db9f20f8668cf2b191f2a71e11eb94c04fde0365"
+        }
+      },
+      "context_label": "Full",
+      "representation": "Raw",
+      "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888117,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "6838a65ae6fde2d2df0d69e1343405afdecb1194707fd37ee33d6703cfe27d97"
+        },
+        "predictions": {
+          "bytes": 4585706,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "8a35694b2f21f0dc9ea3f7a7b0d66ce1a0da3da22b5c9390f425307de7481192"
+        },
+        "run_manifest": {
+          "bytes": 11234,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "b4f5dae3365775963c71c58cd60f26558fc9c83896e855103633110f65d95eff"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888117,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "e8996bf72f76d119757a2017946cd02ac8802f7aa3c6a1094132656adddabfcd"
+        },
+        "predictions": {
+          "bytes": 4584996,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "b185a3d21a61e170357ec80c54c44c3ac4124ccf6b2de248a02322d8ee8cc299"
+        },
+        "run_manifest": {
+          "bytes": 11218,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "14a232c8047ba5b4872ee2202a638aac54c18c05e34d1c43ef25e3fe384470ce"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888117,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "0ab6334352effc172f0856bf86567a28cc16f2d49d56f812a6ebf08b8489d418"
+        },
+        "predictions": {
+          "bytes": 4585176,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "ec852ced5f04de3b836f420c0bdec66b502a2d99e8d7db319c3d8ec93abd6f3c"
+        },
+        "run_manifest": {
+          "bytes": 11223,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "77b595ac05ec620ef056ba3f60075e3507bb48fe92e5bb5631733710c061ae22"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888117,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "40c2e44534e1f35fb9ee8825729e1c462249d34d9cb81d1bb90f9f5fe2174f65"
+        },
+        "predictions": {
+          "bytes": 4585827,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "25e7f2d94723e721f0d20c7f81b6e17aeb9984b9f0141c8ce912e0b29652bb14"
+        },
+        "run_manifest": {
+          "bytes": 11224,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "2483f708662fe59af2c099fcafb21736caab23fbd6af220e387b8dc97a69b0ac"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888117,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "c53b4a2fba00721a2bc0aab78000261ca0390bfd61b1a13dcde3cdbc2c45b032"
+        },
+        "predictions": {
+          "bytes": 4584438,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "50fb598d5036ca85664c9b2978482bc65595d4dc7bd5d15fe5f651bfb45e9270"
+        },
+        "run_manifest": {
+          "bytes": 11221,
+          "path": "runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "e737cdfb7d4a7639cec958a53d41f38908933d040f20d9abdd83452c0abcd154"
+        }
+      },
+      "context_label": "Full",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "b0641e6ff4d101d85f0e46f61e409e3d1cde8c34864b6a6104df2aa2adf3c9d0"
+        },
+        "predictions": {
+          "bytes": 4605740,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "f30c6574f057af97240d400a658d3758e79db877be2bcc72463a6acac33f46d8"
+        },
+        "run_manifest": {
+          "bytes": 11081,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "3df1559f6abe74e2c06af30a0f747d53b6b54d37255280e280f02cb44cf39b59"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "25ac0fe028ba36ce4f24e213927d714ace839ecdc3160e890fd563507f04a12f"
+        },
+        "predictions": {
+          "bytes": 4604727,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "d31f12fb64040ce7042addfa65b08915efbfb392f9df88d7772f64e1846376f1"
+        },
+        "run_manifest": {
+          "bytes": 11069,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "0c4e28f5dc7ebec93eb76296fbbb01db02651ec318064a4ac221d9a1d0c95dda"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "dfabc6695352f07af32610d29747850f4c4c15c1a3bc0c47b96e096a7febb737"
+        },
+        "predictions": {
+          "bytes": 4605721,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "d79c187275e783101c0f58d571b5d447bccae27d72ddb24e67d9d2b0c17822f0"
+        },
+        "run_manifest": {
+          "bytes": 11070,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "0b94af8a5b91afd4f235fa4f859fe0e6210fdfee45eedb5027c526410ed9fe4d"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "82d8fe5cc9b6d3657b604eddf1e3f5c682cc6407ded33afa44884d9ee2fe7be5"
+        },
+        "predictions": {
+          "bytes": 4605612,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "6d065db14478322931b24ce0d96dc45ba1ee7807ec1c7f24380e34b353c40056"
+        },
+        "run_manifest": {
+          "bytes": 11081,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "ea59413505b0fefadd21a88aa901af149874fcae4aaa2124743dfc97914156ca"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4888053,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "0682c34075db7431353fbcd46716fa749e3d80e78437d70ace127967b11a1fc5"
+        },
+        "predictions": {
+          "bytes": 4607674,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "e6c5e4256d5b4e5a640cfd1fe30cbed927682098ac73cb2d416ff0581dd997f9"
+        },
+        "run_manifest": {
+          "bytes": 11078,
+          "path": "runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "049230c76d7e810fb99927582ac753d2bf1faa9ffd9ece6912d1d19ffc695412"
+        }
+      },
+      "context_label": "Full",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885621,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "d89a6ff9876ada2ceb5b5859cdc22d3dfd0581f49f079ce0797c4176544b981e"
+        },
+        "predictions": {
+          "bytes": 3983983,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "59e1f0df4480d477a4e643a35b75f3be0faba430fa6a43ed4a8f26df345f1fc9"
+        },
+        "run_manifest": {
+          "bytes": 10835,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "ad75f6f68037c7db8277a8f48f6010a08a663d96dcf533f68caa2754b3b3b771"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885621,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "66da8320c89efb0184d560b3de1a0f8a1d216d1fce61b1d65efe343a68116c7b"
+        },
+        "predictions": {
+          "bytes": 3983897,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "210aca09a635f9319d1ab171dbc04f383556f8c9bf2a97bae0bd0dbcc8df02af"
+        },
+        "run_manifest": {
+          "bytes": 10835,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "123d51987a070c9bc9c43851af5de49ff9ea4d064e38d58d45818a54d3ffb289"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885621,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "0c0ec22e7ece28428577161e9e2c4513d87498fa8070f543a4bc24fb4c145a83"
+        },
+        "predictions": {
+          "bytes": 3982891,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "075035f859073f7aa3447625b8ad0e1d317fc00468fb326199a560addbe9fd65"
+        },
+        "run_manifest": {
+          "bytes": 10837,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "31159fa796ea8d8a4ac02c9fe116edc7a244ecc6104741fd0216fe5d68aead30"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885621,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "fa7eb9eda8e8b78f59cea8cd6d8b915b6672d7ddcbbe26660337c4c1c76ef791"
+        },
+        "predictions": {
+          "bytes": 3986236,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "cbb5bd93d4013703b901f02dbeb21cda657090466cb2f03bfd52469d21247189"
+        },
+        "run_manifest": {
+          "bytes": 10834,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "149936808d2a04cb0df56581aaa0cdfbbb40972c4f09aba77d8f793471fcb375"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885621,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "e58d7c00c8424cffa26d15c8161d0906eae96aaa98670c27574366a3d3660bab"
+        },
+        "predictions": {
+          "bytes": 3982601,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "89b11eaa88bf9e93db5bc03324658dc68e6d41eb7ebfc699916b60f45be237ce"
+        },
+        "run_manifest": {
+          "bytes": 10843,
+          "path": "runs/correction__Hidden__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "aa5b0db56808a51b5a316f0b6dbc6a9a701d5542c473b8c922cd0b1099d54366"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "Raw",
+      "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885813,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "95fc3f6630839bcd4ca9766b7e88cd184ffd0073f0503e21bf001cb7575ece7d"
+        },
+        "predictions": {
+          "bytes": 4578299,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "078e915cc38c302f7c8fa9c5b302eced4a6e7de55247153e7bcbfab2c21ce5ae"
+        },
+        "run_manifest": {
+          "bytes": 11268,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "2dec8f6f3dd5eccd0a6ad695a34ecfd23f08ea492b3d24ea92460ac6bff2bf67"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885813,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "a22e8139bbb8141e197f6a196c662a7f3293bb0b72832e1ac7728b5d8d21f25f"
+        },
+        "predictions": {
+          "bytes": 4578652,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "033cab962f62b64f6f5f76c6e62d35b439effa38499b77813e37c63c7f28778a"
+        },
+        "run_manifest": {
+          "bytes": 11258,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "ac4f14dd88822775181786c2f49f32d4edf3fc6fb5f3a350c115cf6a5f685b2d"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885813,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "35c340beffcd2cbc74ad09e1286a39e0d68e407969d9d2cd3b652a6660f72b68"
+        },
+        "predictions": {
+          "bytes": 4579727,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "fb7f0d8012dcadacf7d233c3516bf15f361f09bd59c9cabbce277524f1baf514"
+        },
+        "run_manifest": {
+          "bytes": 11256,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "db67ff493a9421b4b96b26e1f0e86badef22cdce3dd51199f51d1c579e3eabcc"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885813,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "ae36e0ee9cdad619d4fa1f653275365e866273f6fd3d2a204b8203a7d6692020"
+        },
+        "predictions": {
+          "bytes": 4578922,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "1ceb56487d46d22b39b00d17026b6e954825c990c7399973adeec96c73f9bef7"
+        },
+        "run_manifest": {
+          "bytes": 11250,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "9fa61e9dbd401579b9891f6b5526693a48f925a6d8d23639432f1201cd467747"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885749,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+          "sha256": "d862941ca33f915b3bda81950c0f416602f2c007f64f94edf75bb0fc9b315c44"
+        },
+        "predictions": {
+          "bytes": 4605860,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101/predictions.npz",
+          "sha256": "b5c625f513e302a38601f5361661708fb8db047a16821e9ca37111d923acf463"
+        },
+        "run_manifest": {
+          "bytes": 11103,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+          "sha256": "a67943b3274ba1986a26d960a31c413a929fb62a043f310549919ed22465bfbe"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "sample_fraction": 1.0,
+      "seed": 3101
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885813,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "c855cea99358eb28b5a8362d33e508060393c522d254e761a3d13bfec731f98e"
+        },
+        "predictions": {
+          "bytes": 4579600,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "929695a4fa0e76b74b6382bc95291494a9e6684619a4910d98bac24013c74857"
+        },
+        "run_manifest": {
+          "bytes": 11260,
+          "path": "runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "a3d8cd0d1b22617948cde516b0d58323792784ca890d17aa238fb649a1a41775"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "HistoricalIncorrectPhysics",
+      "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885749,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+          "sha256": "3406d7434087b02cd9ebd743c5ad14554d47e855396545756f35e2f387d230ce"
+        },
+        "predictions": {
+          "bytes": 4602720,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102/predictions.npz",
+          "sha256": "c01be335de1f82f3e977aeba8b8f5d1da1ec2b829d116b8208bf5a56736b1002"
+        },
+        "run_manifest": {
+          "bytes": 11109,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+          "sha256": "d314b42ea6083b22ea7c9f5f7a9a73bab0affeeb226e7227ce3df2ce5f9ea934"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "sample_fraction": 1.0,
+      "seed": 3102
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885749,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+          "sha256": "fc0d6cbb6b81c492eb37c52428e95dbbfb0835c86d4660cc601df39fc603fa39"
+        },
+        "predictions": {
+          "bytes": 4603386,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103/predictions.npz",
+          "sha256": "c88f37458fb6ffdf875d850716e80d9d4696750c98324e7f5c192a3d9d583601"
+        },
+        "run_manifest": {
+          "bytes": 11111,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+          "sha256": "bb8d6542a4cae03c63d9fd54ea112a8e7f2722e990ca9c7445ef99fa209f2ab1"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "sample_fraction": 1.0,
+      "seed": 3103
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885749,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+          "sha256": "656a69a388f266f1a953388d12596e83bb1c160e255a0ee65970462edd8e0792"
+        },
+        "predictions": {
+          "bytes": 4603806,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104/predictions.npz",
+          "sha256": "280f1e02cfdce384921da04176a88464ddb48f63be5074a4ec9e15ada4a5975a"
+        },
+        "run_manifest": {
+          "bytes": 11102,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+          "sha256": "4b186233ee140c737a9eb4a73f0f19671ee6878d4dcbd68d90a80c9859d76b52"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "sample_fraction": 1.0,
+      "seed": 3104
+    },
+    {
+      "artifacts": {
+        "checkpoint": {
+          "bytes": 4885749,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+          "sha256": "dc8494758fac3312f982fff9b2e0a457f5d556ad77ea2fc5286e43d2c0628d8e"
+        },
+        "predictions": {
+          "bytes": 4603012,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105/predictions.npz",
+          "sha256": "f1bbe972c12f995108fa7071fcedb3bbe4c9fe964ab93a736705a3435b47bf79"
+        },
+        "run_manifest": {
+          "bytes": 11114,
+          "path": "runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+          "sha256": "998e72e93b272775f74b6f5e3077965d80f7014ae603f8cea98f05c71bc44362"
+        }
+      },
+      "context_label": "Hidden",
+      "representation": "CorrectedPhysics",
+      "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "sample_fraction": 1.0,
+      "seed": 3105
+    }
+  ],
+  "schema": "correction-checkpoint-freeze-v1"
+}

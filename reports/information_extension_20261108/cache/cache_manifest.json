@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "name": "indices_f010.npy",
+      "sha256": "db491942e571b8d889fe129e0db15caca40da0b6d5c1b04d772ae647f9d058be"
+    },
+    {
+      "name": "indices_f100.npy",
+      "sha256": "211804ad83f878316cae94ba4a1cd7a7b3348892036e4f5f3fb20591da44bce4"
+    },
+    {
+      "name": "indices_validation.npy",
+      "sha256": "4bcab438fbc9ff8bf5c96ba8afb43d5170f7bcf5e9d2e913eedfc9af030d6a81"
+    },
+    {
+      "name": "preprocessing.json",
+      "sha256": "dc6d108d9444033ab1d33ff777c76d12dacbd5be43d5f739ebcfa81288e3415a"
+    }
+  ],
+  "fractions": {
+    "f010": {
+      "events": 59953,
+      "ordered_uid_sha256": "53dc70b9a7bf8b5fb319992f96bae3ebc232a666ae27b4e9921449fdf5d74a6b"
+    },
+    "f100": {
+      "events": 599526,
+      "ordered_uid_sha256": "b9a5330a98c55ee5b5a37202b979d2caba0ac2fc69db6475c78c7705ac894083"
+    }
+  },
+  "loader_sources": {
+    "engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba"
+  },
+  "protocol_sha256": "04e090738632dff793e6cfc262504d27ef1bce2b3620f2b7cbe3a3d5bd94397f",
+  "source_cache_manifest_sha256": "d98a845f97c1ed1407428002df02dd728a829c606ec84506f1ee5ceed65ca2af",
+  "source_data": {
+    "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+    "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+  },
+  "validation_events": 100042,
+  "validation_uid_sha256": "348aa1b40169d3e31a7b2cbe9716c38b97b4d98612de8e343220b9e8fe19b109"
+}

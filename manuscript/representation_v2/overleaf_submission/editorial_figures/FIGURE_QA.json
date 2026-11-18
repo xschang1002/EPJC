@@ -1,0 +1,775 @@
+{
+  "schema": "editorial-figure-visual-review/v1",
+  "status": "PASS_21_EDITORIAL_FIGURES_REVIEWED",
+  "generated_utc": "2026-11-08T15:17:35.830169+00:00",
+  "figure_count": 21,
+  "review_type": "Agent visual inspection of exported PNGs; not author approval or a journal compliance certificate",
+  "visual_review": {
+    "direct_full_figure_views": [
+      "information_gain_ladder",
+      "information_gain_changes",
+      "information_absolute_nll",
+      "information_exact_density_terms",
+      "information_source_location",
+      "information_local_C_Hidden5_f100"
+    ],
+    "complete_local_review": "All 16 local 42-row figures inspected in four 2x2 contact sheets; PDF extraction independently verifies all 42 labels.",
+    "clipping_or_overlap_observed": false,
+    "seed_markers_and_intervals_retained": true,
+    "legend_and_axis_units_consistent": true,
+    "theoretical_exact_momentum_zero_open_markers": true
+  },
+  "technical_checks": {
+    "schema": "editorial-figure-technical-review/v1",
+    "status": "PASS_TECHNICAL_CHECKS_VISUAL_REVIEW_PENDING",
+    "generated_utc": "2026-11-08T15:15:49.705702+00:00",
+    "figure_count": 21,
+    "figures": [
+      {
+        "figure": "information_absolute_nll",
+        "png_sha256": "01324c7dee32f97564f469cecc6ca385e2e28d9889376f852a5b3cbcee4ba9f3",
+        "pdf_sha256": "84e6e1cbc29aaa152aebe803398ba09e6601f0acfa601b80fe475f508695be1b",
+        "pixels": [
+          2125,
+          1653
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 140.00000000000443,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/HEXXCU+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": null
+      },
+      {
+        "figure": "information_exact_density_terms",
+        "png_sha256": "f6d51c6b2b005457f817d4ad02cb71610ca4f0951f07fc683251fac7fba6a129",
+        "pdf_sha256": "3c7c813d5a866dc6cb9ff80245d5fedcb8ca801d88e5dea6416f75c32fb4c004",
+        "pixels": [
+          2125,
+          1771
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 149.99999999999972,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/DEXOAF+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": null
+      },
+      {
+        "figure": "information_gain_changes",
+        "png_sha256": "c087856223717d6d5c4852a1906c4afb003d168944c8e3d64571665454392695",
+        "pdf_sha256": "eadf273303e4cd8835dd9b5a09048553f44cf375060d8be47df86ada1b4d0fed",
+        "pixels": [
+          2125,
+          1712
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 144.99999999998442,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/GYCODY+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/DQIFZV+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": null
+      },
+      {
+        "figure": "information_gain_ladder",
+        "png_sha256": "c3ccada425f915037050df8eb087d9231ab5ceae3ff2dbb1414a0ff40463b71b",
+        "pdf_sha256": "2776acefb1a26b9667ac1c2a44b3e59474a5ff4dbcba308086bbdb363fae31b0",
+        "pixels": [
+          2125,
+          1712
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 144.99999999998442,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BHVXEK+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": null
+      },
+      {
+        "figure": "information_local_C_Coarse2_f010",
+        "png_sha256": "bbbc7ebec7b2280f133f3be1e2e8083209e7e84aa8ca99cc4ba8839bb539bbcf",
+        "pdf_sha256": "97db547cbdad9888c0535eaafc84c420e9ecc2e3fe87e4d6e185fd7c1fdf1c47",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Coarse2_f100",
+        "png_sha256": "b8fc1a6151e67f4309c1ad46d39350f7b3f138a4c974724dc9e9ef4a8b210431",
+        "pdf_sha256": "064fde3de56cfb3543f5d7b7a82ed9792b0ceb18d7d3f0d3f27a06dfabf90786",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Coarse8_f010",
+        "png_sha256": "cb210ae7d83eb76a14cffeda38a81711b34c43b2018e74fd8d78e9b302c105ab",
+        "pdf_sha256": "64f5d33036712da30801dd0bbca413eb54a712096fafd0adc85448af73b330fc",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Coarse8_f100",
+        "png_sha256": "6f80f29bad539332c3e22ebf2bfcc6b70b62f65d25ec9bcc6478b022a6e44e55",
+        "pdf_sha256": "e08e824ac9770f8faf844d1b52b83fd758ffaae50cd6f3bc1355c9be10246558",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Full5_f010",
+        "png_sha256": "ac81b7347059736d9d50e0cfc8209971da6afdeeca0802c3930357b95523e806",
+        "pdf_sha256": "0c8aa051603bb27c6ef04d0e0be406f69ad63dc5d7ad2deb2e25bfdbc6923f44",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FNMZEA+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Full5_f100",
+        "png_sha256": "b408262b96b11e8553665b6cf91eae7631fcd4818cfa11223b10876d7841cbed",
+        "pdf_sha256": "49d6badabbb16426fea1bbbabee97710eee5ebbb090955fb6ea437b0103708a1",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FNMZEA+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Hidden5_f010",
+        "png_sha256": "8e7a3994cf936d4942df3e6620fd51de8b9f1531460678f1668fcc6f92ead8de",
+        "pdf_sha256": "f0d973a7a5e7676336137f3a6818c5d313f53070f94faa9e8db909d56d4c1458",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_C_Hidden5_f100",
+        "png_sha256": "12dfd958f0350f6eafb84c3749af9ae64a9b8f5ae8fb4f5af8b9dfdc5753f8b6",
+        "pdf_sha256": "8b6be2e4c2b82359eca1ddffb317bc7d1431a2f4e12839f6613f486d4e41deec",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/FWIKBV+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Coarse2_f010",
+        "png_sha256": "5f1df811fd88a2557cdef367cd4581c99bfebd5c5ceca77c1c4ba2934db7dad6",
+        "pdf_sha256": "b4c9dcbfb7800a5711b52ca14c9b89f1fae7b82cd1940b328050ab9c344a6cf1",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Coarse2_f100",
+        "png_sha256": "661f760ee56818d6f9b3e798da9a6c68019dc9135cd16b10a4813b975dd6b135",
+        "pdf_sha256": "25d5882421eb037a02f783709aa26bfcfba10aee9eb13cd0ab46be603087ad4f",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Coarse8_f010",
+        "png_sha256": "b95e14c01ef02cc2b1d9035d22a6ac3dd5e144f880f49727fe39dec5e8756209",
+        "pdf_sha256": "c7e53ff0ba2008bfa62a3292619baf68f3f7c4ec46de7b2d7f2d2f63da2a70a9",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Coarse8_f100",
+        "png_sha256": "e2ef8fcd8a4ce8a544f7db87e954a112d697f70bc74921251ae211de0a0f1714",
+        "pdf_sha256": "9388b9eef8abd38844b39552713b4ac39f095887d3bb6648dc954f8300b3d7dc",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Full5_f010",
+        "png_sha256": "0b6dc5ee7d66b154e615af8bfb64a763ae05f392e9103458200e5eb9c9143869",
+        "pdf_sha256": "268cd80f13770c66390a744f71e53341ea7702c28de2adc9709b7615e64fbcb6",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/CHRLQM+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Full5_f100",
+        "png_sha256": "6fe024bbaa2ff7458231cdc5a2896827f4934b845136bb271fcbd0bf3f3b493b",
+        "pdf_sha256": "fb71fbe2801d2732fbd8d83fd52d30b87994d7b4cac53362bdbd42a959a6bb28",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/CHRLQM+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Hidden5_f010",
+        "png_sha256": "d1711e09587a767088dc299dea88de1e213c3c2bdd9791b82feb6bba57c33e08",
+        "pdf_sha256": "fb3589851abeb63d9343ba1d53341ed55988bc364644f18b20981f45c3e2ac04",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_local_D_Hidden5_f100",
+        "png_sha256": "c4e23d006584fccac610984b8a0766f52ee838f2b8092c223456ad35cf8d8fa2",
+        "pdf_sha256": "f8e02e14ef5496988e0075f053508c0b34f393879d3f962f599d26ef96757785",
+        "pixels": [
+          2125,
+          2480
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 210.00000000000668,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/BMLHGJ+DejaVuSans",
+            "embedded": true
+          },
+          {
+            "base_font": "/CPUQYB+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": true
+      },
+      {
+        "figure": "information_source_location",
+        "png_sha256": "0368ff81ba7749274bab08b61ee230b581bc35eb89fabd21f9326ec8816b5b58",
+        "pdf_sha256": "d7bad9282405f764724258baa90e538d1ff8377185cd769dfcb1333803d08837",
+        "pixels": [
+          2125,
+          1712
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "width_mm": 179.99999999998556,
+        "height_mm": 144.99999999998442,
+        "opaque": true,
+        "embedded_fonts": [
+          {
+            "base_font": "/ELYBDD+DejaVuSans",
+            "embedded": true
+          }
+        ],
+        "old_internal_display_labels_present": false,
+        "local_42_group_labels_present": null
+      }
+    ],
+    "numeric_invariance_sha256": "ab907ffe0a93cbcd55fadb01446fe300e7fc1ad6a3f923f93223bf53528f55cf",
+    "original_figure_files_unchanged": 107,
+    "visible_labels_and_42_group_coverage_checked": true,
+    "locator_artist_note": "Matplotlib creates extra ticks beyond the axes view limits; the renderer raw artist-bounds check lists these non-rendered ticks. PDF extraction and visual review concern actual visible labels.",
+    "scientific_changes": false,
+    "scientific_or_publisher_compliance_certification": false
+  },
+  "numeric_input_invariance": {
+    "aggregate_hash_after": "cc4ab4e5e82b2b730deb68c42dcf6d9a3de0d7c1fb2649e650c0a3676c1bc253",
+    "aggregate_hash_before": "cc4ab4e5e82b2b730deb68c42dcf6d9a3de0d7c1fb2649e650c0a3676c1bc253",
+    "all_input_manifests_and_file_hashes_identical": true,
+    "all_seed_points_and_local_groups_retained": true,
+    "data_ids_and_filenames_unchanged": true,
+    "no_estimator_or_interval_changes": true,
+    "original_files_unchanged": 107,
+    "original_manifest_sha256": "c40b60f1357cb83cc21c84c6044e237e7720b080368b7f7725dd81f563515e56",
+    "physical_panel_collapse": [
+      {
+        "maximum_absolute_difference_GeV_c": 6.776263578034403e-21,
+        "omitted_duplicate_series": "f010",
+        "other_values_GeV_c": [
+          1.2557059978865474e-05,
+          1.24200746056313e-05,
+          9.64643807230856e-06
+        ],
+        "reason": "Same diagnostic data and fixed center; global-mu subtraction cancels in within-cell variance. Remaining differences are floating-point arithmetic.",
+        "representation": "Raw",
+        "retained_series": "f100",
+        "retained_values_GeV_c": [
+          1.255705997886548e-05,
+          1.2420074605631306e-05,
+          9.646438072308564e-06
+        ]
+      },
+      {
+        "maximum_absolute_difference_GeV_c": 1.6940658945086007e-21,
+        "omitted_duplicate_series": "f010",
+        "other_values_GeV_c": [
+          1.1053868600623282e-05,
+          1.0843255401354272e-05,
+          9.517094328450003e-06
+        ],
+        "reason": "Same diagnostic data and fixed center; global-mu subtraction cancels in within-cell variance. Remaining differences are floating-point arithmetic.",
+        "representation": "CorrectedPhysics",
+        "retained_series": "f100",
+        "retained_values_GeV_c": [
+          1.105386860062328e-05,
+          1.0843255401354272e-05,
+          9.517094328450001e-06
+        ]
+      }
+    ],
+    "status": "PASS_IDENTICAL_FROZEN_NUMERIC_INPUTS"
+  },
+  "raw_matplotlib_artist_warning_resolution": [
+    {
+      "figure": "information_gain_changes",
+      "latent_locator_label": "0.010",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_absolute_nll",
+      "latent_locator_label": "−9.040",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Hidden5_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Hidden5_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Coarse2_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Coarse2_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Coarse8_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Coarse8_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Full5_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_C_Full5_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Hidden5_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Hidden5_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Coarse2_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Coarse2_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Coarse8_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Coarse8_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Full5_f010",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    },
+    {
+      "figure": "information_local_D_Full5_f100",
+      "latent_locator_label": "0.20",
+      "present_in_pdf": false
+    }
+  ],
+  "caption_changes_required": {
+    "information_gain_changes": "Four categorical contrasts are vertical rows; numeric gain difference and event uncertainty bars are horizontal.",
+    "information_source_location": "Three panels: (a) one physical-unit result in MeV/c using saved f100 values; (b) 10% standardized; (c) 100% standardized. No duplicate raw-unit panel.",
+    "all_current_information_figures": "Use BB-centered and No direct momentum / 2-bin momentum / 8-bin momentum / Exact momentum in prose. Internal IDs and filenames stay unchanged."
+  },
+  "scope": [
+    "No frozen src, protocols, checkpoints or analysis outputs changed",
+    "No model training/inference or new bootstrap resampling",
+    "No main.tex or supplementary.tex edit by this renderer task",
+    "Original 107 information figure files preserved byte-for-byte"
+  ],
+  "limitations": [
+    "Final main/supplement TeX placement still requires root typesetting review.",
+    "Dense 42-row local plots should be placed at full usable width; contact-sheet thumbnails are for QA, not manuscript embedding.",
+    "Color is supplemented by markers/labels; no automated accessibility certification is claimed."
+  ]
+}

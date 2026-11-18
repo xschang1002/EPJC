@@ -1,0 +1,22 @@
+{
+  "schema": "editorial-revision/v1",
+  "title": "Non-monotonic benefits of physical target centering in conditional models of pion momentum loss",
+  "display_names": "historical_archive_20261108/DISPLAY_NAME_MAP.json",
+  "historical_archive": "historical_archive_20261108/README.md",
+  "main": "overleaf_submission/main.tex",
+  "supplement": "overleaf_submission/supplementary.tex",
+  "qa": "../../reports/review_completion_20261109/FINAL_SCIENTIFIC_QA.json",
+  "new_scientific_claims": false,
+  "frozen_code_changed": false,
+  "new_training": false,
+  "canonical_registries_byte_preserved": true,
+  "submission_ready": false,
+  "human_verification_completed": false,
+  "remote_publication_performed": false,
+  "pages": {
+    "main": 15,
+    "supplementary": 13
+  },
+  "last_revision": "2026-11-09 reviewer completion and aggregate package",
+  "reproduction_archive": "physical_centering_reproducibility_20261109.zip"
+}

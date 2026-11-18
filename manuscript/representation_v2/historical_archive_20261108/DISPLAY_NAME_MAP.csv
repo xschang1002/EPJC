@@ -1,0 +1,13 @@
+namespace,paper_display_name,immutable_internal_id,scope,meaning_and_limit
+representation,Raw,Raw,Current primary and secondary models,Uncentered response; fitted residual mean and common scale still apply.
+representation,BB-centered,CorrectedPhysics,Current primary and corrected secondary models,"Bethe–Bloch-centered; nominal electronic mean-loss center, with existing physical approximations unchanged."
+representation,Linear center,Simple,Fitted-center secondary comparisons,Training-only fitted linear center; not an untrained heuristic.
+representation,Polynomial-ridge center,Learned,Fitted-center secondary comparisons,Training-only polynomial-ridge center; not a jointly trained neural representation.
+primary_conditioner,No direct momentum,Hidden5,Current primary80 only,Five nominal input coordinates; exact momentum remains in the center and support.
+primary_conditioner,2-bin momentum,Coarse2,Current primary80 only,Two-bin neural momentum encoding; frozen edges and other input coordinates unchanged.
+primary_conditioner,8-bin momentum,Coarse8,Current primary80 only,Eight-bin neural momentum encoding; frozen edges and other input coordinates unchanged.
+primary_conditioner,Exact momentum,Full5,Current primary80 only,"Exact momentum in the neural conditioner, as well as center/support."
+earlier_conditioner,Exact momentum,Full,Earlier matched correction and historical Full runs; identify cohort,Earlier five-input Full is an internal label distinct from current Full5.
+earlier_conditioner,Earlier no direct momentum (two inputs),Hidden,Earlier correction/historical Hidden runs only,Do not silently relabel earlier two-input Hidden as the five-input Hidden5 design.
+historical_representation,H (erroneous preliminary center),HistoricalIncorrectPhysics,Explicit historical comparator and documented controlled reruns,Intentional name for the preserved mixed-unit center; no BB-centered alias.
+historical_figure_label,H (erroneous preliminary center),Physics,Original pre-correction plots/reports only,Original Physics image/text labels denote the erroneous center; their bytes remain unchanged.

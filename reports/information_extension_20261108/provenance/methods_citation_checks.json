@@ -1,0 +1,22 @@
+{
+  "scope": "Targeted methods attribution and existing PIT reference verification; not a comprehensive literature or publication-status audit",
+  "checked_utc_date": "2026-11-08",
+  "sources": [
+    {
+      "key": "DurkanEtAl2019",
+      "url": "https://proceedings.neurips.cc/paper/2019/hash/7ac71d433f282034e088473244df8c02-Abstract.html",
+      "version": "NeurIPS2019 published proceedings",
+      "locator": "title/authors/venue and abstract",
+      "support": "Rational-quadratic spline module for normalizing flows with analytic invertibility; cited as architecture antecedent, not evidence for present numerical results",
+      "action": "Added verified bibliographic record and methods attribution"
+    },
+    {
+      "key": "GneitingBalabdaouiRaftery2007",
+      "url": "https://academic.oup.com/jrsssb/article/69/2/243/7109375",
+      "version": "JRSSB69(2),243-268,2007; existing record preserved",
+      "locator": "primary publisher abstract retrieved in search; direct page and author PDF fetch unavailable",
+      "support": "Identifies PIT among forecast calibration diagnostic tools; no new empirical or theorem claim attributed from inaccessible full text",
+      "action": "Reuse existing bibliography record beside operational PIT diagnostic description"
+    }
+  ]
+}

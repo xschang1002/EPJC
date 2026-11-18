@@ -1,0 +1,42 @@
+{
+  "schema": "independent-support-audit-reconciliation/v1",
+  "status": "PASS_LEDGER_INPUT_STANDARDIZATION_AND_COMPONENTS",
+  "generated_utc": "2026-11-08T13:14:21.906297+00:00",
+  "catalogs": [
+    {
+      "block": "C",
+      "eligible_events": 499285,
+      "uid_hash_equal": true,
+      "events_hash_equal": true,
+      "actual_float32_margin_quantiles_equal": true,
+      "exact_difference_minimum": 0.2957799299620092,
+      "float32_subtraction_minimum": 0.2957799434661865
+    },
+    {
+      "block": "D",
+      "eligible_events": 499275,
+      "uid_hash_equal": true,
+      "events_hash_equal": true,
+      "actual_float32_margin_quantiles_equal": true,
+      "exact_difference_minimum": 0.29788136715069413,
+      "float32_subtraction_minimum": 0.2978813648223877
+    }
+  ],
+  "input_margin_review": {
+    "path": "E:\\JINST REP\\_support_audit_20261108\\input_margin_review.json",
+    "sha256": "ba5076f8b823d58b323036b18a33afefe0cf25b88440babe19a67f10117abe0a"
+  },
+  "standardization_replay": {
+    "path": "E:\\JINST REP\\_support_audit_20261108\\standardization_replay.json",
+    "sha256": "1e4213f1b4a2aa988bfe8430d9d6a0264ece2084f6dac86964a1210ab8c9f144"
+  },
+  "saved_support_audit": {
+    "path": "support_audit.json",
+    "sha256": "d7d4ab3e9e3dd7e56d3d9e3c762b91d01b5442483d05e8e6696ea6fd73a85662"
+  },
+  "registered_model_catalog_pairs": 480,
+  "standardization_arrays_bitwise_replayed": 960,
+  "standardization_values_bitwise_replayed": 479308800,
+  "standardization_bitwise_mismatches": 0,
+  "no_neural_evaluation_or_refitting": true
+}

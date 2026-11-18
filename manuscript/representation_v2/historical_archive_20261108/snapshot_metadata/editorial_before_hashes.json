@@ -1,0 +1,914 @@
+[
+  {
+    "Path": "before_manuscript\\authorship.json",
+    "SHA256": "7184347DBFFB258204E593765DDE4D8B6FEC3E9E506C9D0F7DAFF93B3FCA902A"
+  },
+  {
+    "Path": "before_manuscript\\CLAIM_EVIDENCE_MATRIX.md",
+    "SHA256": "9DE8BAAED36449A9E73899108241878023864176D16DAAEE4FFD114342EFECB1"
+  },
+  {
+    "Path": "before_manuscript\\claims.csv",
+    "SHA256": "5EA7C1BD7B8F3CA337A5504884FAB0570E64CDC91EFA5FE890B5DD4E203800EC"
+  },
+  {
+    "Path": "before_manuscript\\consistency_manifest.json",
+    "SHA256": "6C9B6773004C3904DF6C82F9096A7B7D34220AFD94945184B679B59BAA793B34"
+  },
+  {
+    "Path": "before_manuscript\\draft_agent.md",
+    "SHA256": "F27DC08DB901A152A8AECC55BBE5F06D806EDC1C3E074F25056C0B86FE919368"
+  },
+  {
+    "Path": "before_manuscript\\FIGURE_TABLE_PLAN.md",
+    "SHA256": "54A7C53326A7AE6546B7AB19B06EED03808F5D059F009FD9BEF2879130183526"
+  },
+  {
+    "Path": "before_manuscript\\manuscript_manifest.json",
+    "SHA256": "0157254E3C890C21AE86D65098BACD4B7270579C730D320F1407E57B38957D0E"
+  },
+  {
+    "Path": "before_manuscript\\OUTLINE.md",
+    "SHA256": "21B9C5BBC5D892DCFC5C664CFE137ACA0C1FF1704D704E832B3FEE5E7A399225"
+  },
+  {
+    "Path": "before_manuscript\\README.md",
+    "SHA256": "C78CFBD1D0DE8C25D6E1C9EC8E3B14655784B4B8DDCBC3918FBD8169230BF75D"
+  },
+  {
+    "Path": "before_manuscript\\reporting_coverage.json",
+    "SHA256": "BFE40F7E2EE7EEB0A4D48BB35558E5B0721AEC6AA01AC8E6F93DADE3A69ACAB9"
+  },
+  {
+    "Path": "before_manuscript\\RESULTS_SCAFFOLD.md",
+    "SHA256": "2967DD535519833285AA3B6BCB61E31F6C3F5A9DE0B3F295369474A257971E19"
+  },
+  {
+    "Path": "before_manuscript\\source_manifest.json",
+    "SHA256": "674FB02709F7210DAD8205DCAFFA0BA177E22692423BFE4FD1F2E77CD81A2452"
+  },
+  {
+    "Path": "before_manuscript\\WRITING_FREEZE.md",
+    "SHA256": "C6F10F5EAC7F477023A816B308C88726BB16F2B59F9365713C15D380FADF15FC"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\confirmation.pdf",
+    "SHA256": "1730C4AAF711C29338C21922C2DB04C8F282F216A5B6C1B5AF8EE8F6766685DA"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\confirmation.png",
+    "SHA256": "10E69A7D9D231D703A339720E48A27B85468B6F31F80A44A3D2AC8FE3F30E983"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\confirmation.tex",
+    "SHA256": "89D7874EAB768B9B30AC14044599D2F1448892313A3B19D6097FC9C4D95C28E0"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig1_full_hidden_interaction.pdf",
+    "SHA256": "94F06265EA16FC6E5D8313879B7953C75825BEA787C516F223A84150CBF310ED"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig1_full_hidden_interaction.png",
+    "SHA256": "BCAC9F53B3634819D3858CF576C8D25CAB718F586F2A428495E12EB336FB8BD0"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig2_mechanism_location_nll.pdf",
+    "SHA256": "BFDCB89A4E10BD721F1D9202E9BAF7A7D81B29A08819FED517E8FB11DF99EB5D"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig2_mechanism_location_nll.png",
+    "SHA256": "D8050618C9436D04C9E9D244017106CE3997686B05029B6910BA56C2978BA683"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig3_support_decomposition.pdf",
+    "SHA256": "8FA2D0A0DCCE346CB2AF2B269EFBEFCB16D0E0170FDE2ACC9E36368655357AAE"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig3_support_decomposition.png",
+    "SHA256": "E0D1C3CB3A798D04F2E2032E6999B8B2532EBFF45010DF778848B15287B967EF"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig4_independent_confirmation.pdf",
+    "SHA256": "DDFA45D8A92F97A8F29AF87B0D93ABCA59E9063E5375B7EF638C7EE82C487119"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig4_independent_confirmation.png",
+    "SHA256": "10E69A7D9D231D703A339720E48A27B85468B6F31F80A44A3D2AC8FE3F30E983"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig5_hidden_interaction_detail.pdf",
+    "SHA256": "717A793EA5E0B89C9DF6B81D834DD2A20E95FAC249C2C725D6DCAEC947892F55"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\fig5_hidden_interaction_detail.png",
+    "SHA256": "0837A0A8A0A403F7F1F0C152774A275FEFE927DF8F7CDC603CF46C2ED258EB9C"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\figures_manifest.json",
+    "SHA256": "CED55A2EE9CD0B8A106B7B1CBCDF2F967C83FDD4AFD631F3214FD16BC6F74D1B"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\generate_figures.py",
+    "SHA256": "8FA7CEEF1C096E122D9550B4F3EB92705CD0279F4FEE6C9EC90C1FB4619D2886"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\interaction.pdf",
+    "SHA256": "717A793EA5E0B89C9DF6B81D834DD2A20E95FAC249C2C725D6DCAEC947892F55"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\interaction.png",
+    "SHA256": "0837A0A8A0A403F7F1F0C152774A275FEFE927DF8F7CDC603CF46C2ED258EB9C"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\interaction.tex",
+    "SHA256": "341FB4D8A0E1D02E31C542140F25C200D0ED9B4723821BD8003E6E9BC7B9BD00"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\likelihood_decomposition.pdf",
+    "SHA256": "9A2DD59809D9B3A3ECEE0F2F41701B22CB9A11055F4DFB30DEA68721672EC0BE"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\likelihood_decomposition.png",
+    "SHA256": "E0D1C3CB3A798D04F2E2032E6999B8B2532EBFF45010DF778848B15287B967EF"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\likelihood_decomposition.tex",
+    "SHA256": "6241092DF694B566FCFDD361DCF3D68E602BD4E5F702AB81E184405A447D89CD"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\mechanism.pdf",
+    "SHA256": "BFDCB89A4E10BD721F1D9202E9BAF7A7D81B29A08819FED517E8FB11DF99EB5D"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\mechanism.png",
+    "SHA256": "D8050618C9436D04C9E9D244017106CE3997686B05029B6910BA56C2978BA683"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\mechanism.tex",
+    "SHA256": "9C0966D25C4D6CE788196545F7F5996A4686264FF977C9B905E71F39B3ACB07C"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\overview.pdf",
+    "SHA256": "94F06265EA16FC6E5D8313879B7953C75825BEA787C516F223A84150CBF310ED"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\overview.png",
+    "SHA256": "BCAC9F53B3634819D3858CF576C8D25CAB718F586F2A428495E12EB336FB8BD0"
+  },
+  {
+    "Path": "before_manuscript\\figures_agent\\overview.tex",
+    "SHA256": "46532FADB3208D259BB25F4F8B64B57277C1FC55D3B888FD7B2D45913C369BF3"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\build_information_tables.py",
+    "SHA256": "DE6C9157BD2CA8E1DD79085AA173753AB31734F21D88A75B89E8E7883758E746"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\correction_figures_manifest.json",
+    "SHA256": "3243505CE2CEDF9712B4DF6EF2213186C830F3F1423E4FE4E7EFA07D58C1829D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\correction_final_tables.tex",
+    "SHA256": "67DBE7F6F283CBE13631EE1C694DDB673D8BCA95E9F9B31B8B212A7CF3A7320A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\earlier_corrected_results.tex",
+    "SHA256": "B527DE2B5F75C34611A1E1A0B0824AF648F7EDCB6FDC69A89FC32D2895BCE987"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures_manifest.json",
+    "SHA256": "CED55A2EE9CD0B8A106B7B1CBCDF2F967C83FDD4AFD631F3214FD16BC6F74D1B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\generate_figures.py",
+    "SHA256": "8FA7CEEF1C096E122D9550B4F3EB92705CD0279F4FEE6C9EC90C1FB4619D2886"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\generate_information_figures.py",
+    "SHA256": "853D2A05EFC0A2B17D261FD460DF694B6939DBC7F6523CB068DAB5BCDDD4F301"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\main.tex",
+    "SHA256": "D4C0D2EC56A45EA449806ADFD2D8752DBE7C08B0BD27C2C1B4F9E8D606E5EE7B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\README.md",
+    "SHA256": "9DC8F23E9E81FE2DF1CCD577447044ED0DAC807A89326C94409D89A8050F78D5"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\references.bib",
+    "SHA256": "1B4F483536AB26A9F11220FC0FD7245919DE69E8461743056DA901E8544DCA11"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\related_work.tex",
+    "SHA256": "46B4463FF732C0160EA177DA2DD8A9BBA8E7CFCBCB4F04632F17F928D87B4352"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\supplementary.tex",
+    "SHA256": "20C191CEA902065C9C0236410797BE10A15AB8312A8F3E16D577EB278EB38A86"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\support_audit_tables.tex",
+    "SHA256": "9790221795E5ED76553E5B56C8A2340B3CEC825384581C4C953F682895381A54"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\confirmation.pdf",
+    "SHA256": "1730C4AAF711C29338C21922C2DB04C8F282F216A5B6C1B5AF8EE8F6766685DA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\confirmation.png",
+    "SHA256": "10E69A7D9D231D703A339720E48A27B85468B6F31F80A44A3D2AC8FE3F30E983"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_analytic_centers.pdf",
+    "SHA256": "A07908DF26227D18EE1A1D85D64C33D4F27E2343BC78E45C8BC37790A2E69932"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_analytic_centers.png",
+    "SHA256": "153466F0CF3015C3DA30BBF84A56E61A3889ED46E7DA0558083AD8F287FA3B82"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_confirmation.pdf",
+    "SHA256": "223FE8081F8A1A7865869036382AD46F91872128D677F7D06392D29EE22A9BFC"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_confirmation.png",
+    "SHA256": "B95CC0E932D4CC4B7EE2A389529183726FEC315693F28B519F10ECDC45D5120E"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_detail.pdf",
+    "SHA256": "8FCA4267E87F1BA036E2002DCA35624BEC70977F146DFEBBA468FEC7428CBE24"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_detail.png",
+    "SHA256": "28F9AC16A2A5E1E883136030004F50327E4938F4E882AC23C1FDDD6D2CCC3000"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_overview.pdf",
+    "SHA256": "F3DC87A9EC83D0E67A70D8D84FD92FAD7C7529535196FA9234538FCD04620BD2"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_core_overview.png",
+    "SHA256": "F4A45963FF13AD6A2F234AFBC42697DAB0A076252DFCF607B6202685201A7B34"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_full_confirmation.pdf",
+    "SHA256": "EE1799590218831304A75F7CE0CD753AD56DBB993F6E8D79F19D031466B233C5"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_full_confirmation.png",
+    "SHA256": "8B547B6E10CDB741CA39AB222B835F65061417061787F875017D27EA2391C2A3"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_full_matrix.pdf",
+    "SHA256": "A89A08A4FA36582C0E01DFD588472F409323F680F3ABE59012F95114362819A6"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_full_matrix.png",
+    "SHA256": "5390988BE4C86F0DFCCFC117A09665FCBD613B116590E25E1F0CE2A3B9358452"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_within_condition.pdf",
+    "SHA256": "06DB1C9DA3573AD13C69D80CBBD9305F8E5FBC3061891FEB0BF03646DED02DDE"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\correction_within_condition.png",
+    "SHA256": "5E7ECA6BFF81FEFB2D66ACCDF2D11DB79FAC26532F90A177D17F51E620B24BA2"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig1_full_hidden_interaction.pdf",
+    "SHA256": "94F06265EA16FC6E5D8313879B7953C75825BEA787C516F223A84150CBF310ED"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig1_full_hidden_interaction.png",
+    "SHA256": "BCAC9F53B3634819D3858CF576C8D25CAB718F586F2A428495E12EB336FB8BD0"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig2_mechanism_location_nll.pdf",
+    "SHA256": "BFDCB89A4E10BD721F1D9202E9BAF7A7D81B29A08819FED517E8FB11DF99EB5D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig2_mechanism_location_nll.png",
+    "SHA256": "D8050618C9436D04C9E9D244017106CE3997686B05029B6910BA56C2978BA683"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig3_support_decomposition.pdf",
+    "SHA256": "8FA2D0A0DCCE346CB2AF2B269EFBEFCB16D0E0170FDE2ACC9E36368655357AAE"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig3_support_decomposition.png",
+    "SHA256": "E0D1C3CB3A798D04F2E2032E6999B8B2532EBFF45010DF778848B15287B967EF"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig4_independent_confirmation.pdf",
+    "SHA256": "DDFA45D8A92F97A8F29AF87B0D93ABCA59E9063E5375B7EF638C7EE82C487119"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig4_independent_confirmation.png",
+    "SHA256": "10E69A7D9D231D703A339720E48A27B85468B6F31F80A44A3D2AC8FE3F30E983"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.pdf",
+    "SHA256": "717A793EA5E0B89C9DF6B81D834DD2A20E95FAC249C2C725D6DCAEC947892F55"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.png",
+    "SHA256": "0837A0A8A0A403F7F1F0C152774A275FEFE927DF8F7CDC603CF46C2ED258EB9C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\interaction.pdf",
+    "SHA256": "717A793EA5E0B89C9DF6B81D834DD2A20E95FAC249C2C725D6DCAEC947892F55"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\interaction.png",
+    "SHA256": "0837A0A8A0A403F7F1F0C152774A275FEFE927DF8F7CDC603CF46C2ED258EB9C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\likelihood_decomposition.pdf",
+    "SHA256": "9A2DD59809D9B3A3ECEE0F2F41701B22CB9A11055F4DFB30DEA68721672EC0BE"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\likelihood_decomposition.png",
+    "SHA256": "E0D1C3CB3A798D04F2E2032E6999B8B2532EBFF45010DF778848B15287B967EF"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\mechanism.pdf",
+    "SHA256": "BFDCB89A4E10BD721F1D9202E9BAF7A7D81B29A08819FED517E8FB11DF99EB5D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\mechanism.png",
+    "SHA256": "D8050618C9436D04C9E9D244017106CE3997686B05029B6910BA56C2978BA683"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\overview.pdf",
+    "SHA256": "94F06265EA16FC6E5D8313879B7953C75825BEA787C516F223A84150CBF310ED"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\figures\\overview.png",
+    "SHA256": "BCAC9F53B3634819D3858CF576C8D25CAB718F586F2A428495E12EB336FB8BD0"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\FIGURE_MANIFEST.json",
+    "SHA256": "C40B60F1357CB83CC21C84C6044E237E7720B080368B7F7725DD81F563515E56"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\generate_information_figures.py",
+    "SHA256": "853D2A05EFC0A2B17D261FD460DF694B6939DBC7F6523CB068DAB5BCDDD4F301"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_absolute_nll.alt.txt",
+    "SHA256": "07955C2E879D156697900278C9CF40329808E8D12368F4696E31A66495A31404"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_absolute_nll.caption.txt",
+    "SHA256": "F0879E514DD47C2AF0FBB1530BEF6DAA3B0835293AC9691D7D0A1BF8ABA8871B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_absolute_nll.pdf",
+    "SHA256": "C76013C99800191F74D8814FDE1F9DA19989D330A832DC5B05B970B92F7141C8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_absolute_nll.png",
+    "SHA256": "AB40A5DD98FB0061948136AFD1DABAD29233FD2CCAA0B2BFC5A53251050C997A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_exact_density_terms.alt.txt",
+    "SHA256": "EB6E9A5451E020CB2A6A7A58DFEB0AD7137C2030AB99CB49EBECD0581CFA1AF2"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_exact_density_terms.caption.txt",
+    "SHA256": "1D68A8B5FDB07D3B53E5FC1F09A0AA7E204845067C0465962AA7AEED366D2F56"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_exact_density_terms.pdf",
+    "SHA256": "D6B65D5C24186E512213B96B5765AD5A89034C3DDBE12D795032CE5664C65E60"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_exact_density_terms.png",
+    "SHA256": "0FCE2A26DDC14346002CEF9C2E8A759D77E7E1D1593D2A740A6BB027BC7A9086"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_changes.alt.txt",
+    "SHA256": "10137FBDF98E05DCD4B6808496E7F6EFFB21886FFD60317A35176312C77DE65B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_changes.caption.txt",
+    "SHA256": "7C4169E1D611646BA73770AB44A0F93A06050315637307F96399BED54C1D8F31"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_changes.pdf",
+    "SHA256": "0DC8DBB68E286E2CEF7B844F96AFA8C588FC6E1173E790E55DED0E44EECE7C45"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_changes.png",
+    "SHA256": "89F476FA2D2FF0735BD553432659BE8E8701FE3E64FC03E06302345725F60D75"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_ladder.alt.txt",
+    "SHA256": "10137FBDF98E05DCD4B6808496E7F6EFFB21886FFD60317A35176312C77DE65B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_ladder.caption.txt",
+    "SHA256": "4FC8314B27BD9D86FECF0DAA361F4B1E19637AD98109A418107246243E4AFEA8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_ladder.pdf",
+    "SHA256": "FC98F42D14E9377B671476C74B8F86A6E2CF66BEB15981FF3017FD185CA76D80"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_gain_ladder.png",
+    "SHA256": "CD4F7F00C781E5A97E9E1D6546F52F6CF44B4F88A68AC93C70935AFDF907EC21"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.alt.txt",
+    "SHA256": "A7607AA4127C5A4C4F93AD39055D637941ACEF4F7862CE16A5535F4A88176C18"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.pdf",
+    "SHA256": "5416A2DB9D624159FE901DF868659CA82935AE9633F4380D61015AEFE64BEEB9"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.png",
+    "SHA256": "7EAA1606C6DEC664EBBAA16DE56C7ECBF9BE479422B4D588FECCFBCF650225A9"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.alt.txt",
+    "SHA256": "1B529D8EDFF10B5B2322556FB394F3F860FEC40B5680852D4B3538AB1257CCF3"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.pdf",
+    "SHA256": "91F6CD8294C315F30711294D7439DE145FBDAEBE6A34036E088544FE4E3B3D90"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.png",
+    "SHA256": "6AD04BC54C16D418C470FC36B14C2DCB689BFF8F089ACD7DDE2635220C4F7F36"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.alt.txt",
+    "SHA256": "F31E9EFDAAC089536F94AB987E94AA8FED1EB69D8998AEF8C507D41AC42822E2"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.pdf",
+    "SHA256": "1D7716BFDEA4BBBD4986E6D374944339C81DEF5412DDF9237DC9969816BCDC24"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.png",
+    "SHA256": "00E57FDD644590A17948F4B0AED7D250FEB39FECD603D2EE06980052B188EAA4"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.alt.txt",
+    "SHA256": "0075D27357957EB50BE01EA404F0B14BB0525BD6A6FB405BEDFDBA08E8181420"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.pdf",
+    "SHA256": "2160D7C9D82D81545D2B2BDB074E823CE6A80FB38B0331DB3F73374FC5991E14"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.png",
+    "SHA256": "DE7E1839053AF92378379CB148350050AC9DDEEA57306A1E2E96C9202CE5BDC8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.alt.txt",
+    "SHA256": "25517A73781F209379490EF5A974B6A932E3D67C8648F22655EBC746E1C8CCDE"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.pdf",
+    "SHA256": "A9E7C9A7D7BB0DA8CCE2F1B9A10737D07B8895338B2122DF262D29BF382B2753"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.png",
+    "SHA256": "4E9971BDE29EF9A646BFB35539701F14F573737F01330D3B7EA88FE41000824B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.alt.txt",
+    "SHA256": "6F6838B9937EADB8A41845DCAE929099F8CB9DA2CE914CB5E343EB8397183A5D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.pdf",
+    "SHA256": "8E207AC0E03E44D594594B79FFB28F97D893FF5302DAA45FC02FFACB98A362D4"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.png",
+    "SHA256": "BCE39B5A1B04A5D7E856FAA2C37C9E4FFFFEE84D83A622084AB2546F4364E448"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.alt.txt",
+    "SHA256": "CC9312785E3F8627A1239C85084B4A698FD8077A084D601FCD34683BD0ACFFD8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.pdf",
+    "SHA256": "04936F406AB4F75E45189F7CAC86E6B4139DF1FC1D7FC1FD3858D9BFF6FB3275"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.png",
+    "SHA256": "5DEEF29294C2E01E402823BF1362F55B0E38F90AF3860C8840DE0F4D35E92959"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.alt.txt",
+    "SHA256": "56E65A8D2F64FA747A715D55D16B9BE980F37000BA464D443C13F23B66D0CE48"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.pdf",
+    "SHA256": "61E0F908F3F361D474B876DF199C2ECC7750DFCA02D8B6EBECC7DC97C39B508A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.png",
+    "SHA256": "C484FFA147741E2086C8905CCA25E66B8742039552A3803405EF69277B7457DB"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.alt.txt",
+    "SHA256": "DFA21A3CEC81350B8C490AEF75ECE5B48448809326013E9BC9E452A78B2CAF0C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.pdf",
+    "SHA256": "F411194E32CFB3809B76241336B97CD73CEDAABAC9E9D1AB7EF25754FF800CCD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.png",
+    "SHA256": "5B5C4A0A38D3A9707D644B3F9E0514D13FF51CFD9516D8C6A20B86517EC64242"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.alt.txt",
+    "SHA256": "55A067A588EE5F5C0BAB9F5339878E722DE13D78750CCA4665C06BF16E3D558B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.pdf",
+    "SHA256": "486B08FA53D74925C0D0100133265FABAE6CA210C022235E32D9E75B856DAC68"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.png",
+    "SHA256": "89A3B9987A244E93F8A79F9FD68634C72F84D278E99BCC68B54681101F47ACB1"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.alt.txt",
+    "SHA256": "DAEB39550B752990C5D5743D22D8EA95883EB9787EBE4ABFAB33843E296EC71B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.pdf",
+    "SHA256": "1D16540A12B36493514D3D5BA25E392EB5F149AFD26D6C01CAE65EE485AA9912"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.png",
+    "SHA256": "30E940636B2919F264A455E35E5CB346B73FA57A96E07B201FAAD08D67566C66"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.alt.txt",
+    "SHA256": "A7D6197E4D60AAE7E52D1EDC5E13204DFF59422624683CC76E1AE6B6013FDDDB"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.pdf",
+    "SHA256": "71D67ED3008630CFC7635D1BF7BD8B9F60D60D0CDE138AB54576D2036D1DD99B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.png",
+    "SHA256": "9683892DD052CAB2331B28ABAF7E05AB0486F704EAE594D275FF928E4316BE10"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.alt.txt",
+    "SHA256": "A91A6BA4AB526B40D842577E3B1D191B68BCDC61A6287257CBDFBD5B917C7C10"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.pdf",
+    "SHA256": "CE7BFC43BE99FB4E52C9FA4C61AB871BC6349D51189A4D467E50118500DA4470"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.png",
+    "SHA256": "EA3C78A951422726E57AD101BD78EBEFA48EEFEBCA87F473B8AEABE3EEF487B2"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.alt.txt",
+    "SHA256": "2BD83F061418A75D92709A625ACD3E17010F105DB294EE28775BAAD4100A3FD7"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.pdf",
+    "SHA256": "41EA455443521345E5B5985C4ECA2BCC0398DF8D3768B4E2AF42DE268D16A80F"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.png",
+    "SHA256": "5C23085855B013035C63E47FC37F3AA72A5B3038C3CDFD08B1EDDB62D449FCBD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.alt.txt",
+    "SHA256": "557690CAA923C090EC9B8CB29BD5D58DDE7D6B7E4FD96D71182D53EE7F7199A1"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.pdf",
+    "SHA256": "395ACFA69B29490C5FB6C353A1C36253BABE44B6649E0644E1E65E229788A810"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.png",
+    "SHA256": "B8D7AD0D1663C84E5E3FCA6EEB10686796BB05A7440558454B922519D089E2CA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.alt.txt",
+    "SHA256": "D5BF604A5ACDC9756642C7283EF43956B5D277E640F031210D5B63C882BF6D99"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.caption.txt",
+    "SHA256": "043D79D48796FADDE7DA09A3CFFED9A8B60AA3833B7075032A61D3A056FC4019"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.pdf",
+    "SHA256": "5C6F16825780E7E24F114944AEFF94B76CA572651C00B2B0E17B4B70FF6BE6EA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.png",
+    "SHA256": "B049973037F9FD9176CE282FCA61CCBA36D1196ADBCA4D5FC3F64612129377FD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_source_location.alt.txt",
+    "SHA256": "0188859FF69B5B7CA6264494B4BD6783172FF9D99CEB3843A613F1AF82F7A5FA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_source_location.caption.txt",
+    "SHA256": "017A4F747646E2EC0F98BF868A4DBAE008C23BD0CAE527DB33D661C7D54985AC"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_source_location.pdf",
+    "SHA256": "120F40E548E864F392106AB36CD6DEA9DBD3ACE66F36EA85632F4690A26B9DDD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\information_source_location.png",
+    "SHA256": "E9E9DF0F53A22D6024A60572F127770E32B6FA8F09358C9D0A6F73E05DC3C99A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\analysis.json",
+    "SHA256": "7A71784CCB7C44149ED5F4C81BBA21E161E5E4833C7E3C543AFC76B1B51E34E3"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\density_component_diagnostics.json",
+    "SHA256": "C1FD4BC40FDE0811AF09679044B68B0814C021DD25286A0B138E33CFB469EFEA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\group_seed_variation.csv",
+    "SHA256": "D1618BF20BCDE2FCD39DE36D21D7FBB4AB7B3F20E7A8A6938A850AD7F46D4A6D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\model_summary.csv",
+    "SHA256": "7F7C7F2F4293CFD4A0F047066E492ABAA51C29BF681A1A2159BEECE0200F24C0"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\primary_contrast_summary.csv",
+    "SHA256": "F9855D8133889C27AA5E3E3EFCB3ABCB71AD35ED233F9C28BE371F43E5899E1D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\primary_seed_contrasts.csv",
+    "SHA256": "74128E62B9C15488950EEA148D1248010ADE453C2AB01464571BECC00E448B94"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\C\\uncertainty.json",
+    "SHA256": "AEC7433A7B6FD335176D5D419036E9479E3D8690F9B58097AAF06C73E33D0D6B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\analysis.json",
+    "SHA256": "2F8E8BDAA41EBB796BE56D11437924D5F25A27DEB35CBD1A9732228D1139B32C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\density_component_diagnostics.json",
+    "SHA256": "D4DCF1190947916E5D531A3F2F8C65165FCBD5A9DA38B4FCEBA47349674ADCDD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\group_seed_variation.csv",
+    "SHA256": "FB87B78E93D95DDEDA6B898FA11DEC37A214AA592C5E19D407551463D3C75359"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\model_summary.csv",
+    "SHA256": "B72885621319716CB7870D0E625F1F6A8378ADB5AF552821E5FE54231097CE09"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\primary_contrast_summary.csv",
+    "SHA256": "4BF9B48A451DA9736AF1292EE0C783C4ADF8A9C6FE3E3D0C4F803A84F441CB87"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\primary_seed_contrasts.csv",
+    "SHA256": "32CD0132654FF25495E53DC7F9D134D827081D80E36D2D91C666ABC6F65FFAAA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\D\\uncertainty.json",
+    "SHA256": "91B651C9421CBE91402E5085F0E00CB9B7D97E6E6AC8D99B38463A836117E807"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\analysis.json",
+    "SHA256": "9859E39AAF3B0613D1E49B748EEC4BDB61C15F820B159638D290C9C22DC001A7"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\density_component_diagnostics.json",
+    "SHA256": "282D3B8AE1CF9519502456A9AD90596AD4B3064F0FC8C545B763B7A780BBDB6A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\group_seed_variation.csv",
+    "SHA256": "B33B65119980BD49AE7DFD9155BF87B7BBEB146DE67887CE3E745B21E4FFF5A1"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\model_summary.csv",
+    "SHA256": "26E053C9015C509A4A3C4F400117FC2F5FAB2C48534A10855796530CC7653EF4"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\primary_contrast_summary.csv",
+    "SHA256": "8890D35B41B6072D301B6281116DFB79C3CCFBA60AC1A1C0A734251A6754C7CD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\primary_seed_contrasts.csv",
+    "SHA256": "59A88A60F2C0359CC7CD1A72DC23D4D25AF78250B596408FD737D1EFD940DF7D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_figures\\source_tables\\source\\source_location_diagnostics.json",
+    "SHA256": "A47A5280FEA3236C9DE0C604CA9E8A08D9F7A2E21CB59BCB38A95541E72EBE65"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.csv",
+    "SHA256": "911559586997BDF325BBCEA58C505B15364703D504722DB7116DA422C47183D0"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.tex",
+    "SHA256": "4D9518299A08ABE70B893226D20174F7D1C85214E32E82D2060A987458BBCE31"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.csv",
+    "SHA256": "BAFD24307891D0F338FF380EF0A5FBA0A06A2F760F2B5DB5480422998331AB0E"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.tex",
+    "SHA256": "7C0FE9B9B28BBC212C4F1B375D18D1234C30956DC3A008760959871F14054876"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\fresh_information_primary16.tex",
+    "SHA256": "931D84F31B22A4F17F82C0FAE7792439A8B3A54258C9A02161B553EBF69D1F59"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\table_data.json",
+    "SHA256": "0749BFF45BD03C94A0CD177C95A6A79DFF93AD1370FE755F73048E5C3D404291"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\TABLE_MANIFEST.json",
+    "SHA256": "13F0C1F6BF8D16D0608CB6A5938BEAB79456A8BCC9B4CB2D6A1AFD10F3C61F8E"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\build_information_tables.py",
+    "SHA256": "DE6C9157BD2CA8E1DD79085AA173753AB31734F21D88A75B89E8E7883758E746"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\generate_information_figures.py",
+    "SHA256": "853D2A05EFC0A2B17D261FD460DF694B6939DBC7F6523CB068DAB5BCDDD4F301"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\ANALYSIS_MANIFEST.json",
+    "SHA256": "16DA3E60E19112A442E5C4439624B0CFA309C37DDD23FFFCA5135D05C909E67B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\analysis.json",
+    "SHA256": "7A71784CCB7C44149ED5F4C81BBA21E161E5E4833C7E3C543AFC76B1B51E34E3"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_contrast_summary.csv",
+    "SHA256": "F9855D8133889C27AA5E3E3EFCB3ABCB71AD35ED233F9C28BE371F43E5899E1D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_seed_contrasts.csv",
+    "SHA256": "74128E62B9C15488950EEA148D1248010ADE453C2AB01464571BECC00E448B94"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\uncertainty.json",
+    "SHA256": "AEC7433A7B6FD335176D5D419036E9479E3D8690F9B58097AAF06C73E33D0D6B"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\ANALYSIS_MANIFEST.json",
+    "SHA256": "EC12E42F3933DEF209D4CB11E94CEE92A254D69AB64EA3807F2229AAA04617A7"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\analysis.json",
+    "SHA256": "2F8E8BDAA41EBB796BE56D11437924D5F25A27DEB35CBD1A9732228D1139B32C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_contrast_summary.csv",
+    "SHA256": "4BF9B48A451DA9736AF1292EE0C783C4ADF8A9C6FE3E3D0C4F803A84F441CB87"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_seed_contrasts.csv",
+    "SHA256": "32CD0132654FF25495E53DC7F9D134D827081D80E36D2D91C666ABC6F65FFAAA"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\uncertainty.json",
+    "SHA256": "91B651C9421CBE91402E5085F0E00CB9B7D97E6E6AC8D99B38463A836117E807"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_information_primary16.csv",
+    "SHA256": "800861C3F0944C4F3E04FEB5EFFDC36568ECC23CDD3F1537B01F796770AB29F8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_information_primary16.tex",
+    "SHA256": "5090F3C94B14124C0B174EA54C7D79C81E7F720AFD4FDFC910E4ABCDE2ECEE1D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\table_data.json",
+    "SHA256": "44E5EBEF67E7F025346348D6D8D8B6D6BF5A4A6543896DEEB0AC8E718F0673F7"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\TABLE_MANIFEST.json",
+    "SHA256": "3011F3EE4231DAB58584BA538059BB0D7C12E0F04E22892E1A233B0AA95ED8A9"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_snapshot\\build_information_tables.py",
+    "SHA256": "DE6C9157BD2CA8E1DD79085AA173753AB31734F21D88A75B89E8E7883758E746"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_snapshot\\generate_information_figures.py",
+    "SHA256": "853D2A05EFC0A2B17D261FD460DF694B6939DBC7F6523CB068DAB5BCDDD4F301"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_tables\\source\\ANALYSIS_MANIFEST.json",
+    "SHA256": "83AD9C50CCA04F651B34C6C4189FE15DAED9085230936A5628ED146EB9843E5C"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_tables\\source\\analysis.json",
+    "SHA256": "9859E39AAF3B0613D1E49B748EEC4BDB61C15F820B159638D290C9C22DC001A7"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_contrast_summary.csv",
+    "SHA256": "8890D35B41B6072D301B6281116DFB79C3CCFBA60AC1A1C0A734251A6754C7CD"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_seed_contrasts.csv",
+    "SHA256": "59A88A60F2C0359CC7CD1A72DC23D4D25AF78250B596408FD737D1EFD940DF7D"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\seed_sensitivity\\seed_adjacent_summary.tex",
+    "SHA256": "8233226B0A6E8B3F3F4D63717C0505912F688311FCF1B3A9FD6F9E52825DDF51"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\seed_sensitivity\\seed_exploratory_t_summary.tex",
+    "SHA256": "9B3F8C48F8E3F6BE5C37E1E88A2AF76E23F7A8C10FC3937F77C1619220F0810A"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\seed_sensitivity\\seed_full_summary.tex",
+    "SHA256": "76A1561A75C554CF3AB7F043C2B1645488DA6EC6D581ADA0F53849BAFA8F23EC"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\__pycache__\\build_information_tables.cpython-312.pyc",
+    "SHA256": "BE2A01663C385F4578E3A58D3428F0C473A7C98B288CA82EBD2ACE7AF41967C8"
+  },
+  {
+    "Path": "before_manuscript\\overleaf_submission\\__pycache__\\generate_information_figures.cpython-312.pyc",
+    "SHA256": "F8667A701E28C33FDD55E3A044C1DB2E4651F349E98D9BD29AFCCE92738FC93B"
+  }
+]

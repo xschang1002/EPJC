@@ -1,0 +1,273 @@
+{
+  "schema": "fresh-catalog-protocol/v1",
+  "status": "DRAFT_NOT_AUTHORIZED_TO_GENERATE",
+  "draft_note": "Final freeze must bind all240 predetermined candidate IDs and completed artifacts, the final statistical plan, complete numerical/source dependencies and the new environment record before any C/D input event is generated. No human source review is claimed.",
+  "authorization": {
+    "source": "user_message",
+    "approval_text": "可运行一整晚，约 8–12 小时",
+    "scope_interpretation": "Manuscript refinements; new intermediate-information and equal-parameter-structure experiments; fresh independent Geant4 evaluation; paired event uncertainty and mechanism diagnostics. Preserve prior accepted science.",
+    "source_record": "_research_extension_20261108/AUTHORIZATION_AND_BUDGET.json; root delegated explicit new Geant4 authorization"
+  },
+  "simulation": {
+    "physics_list": "FTFP_BERT",
+    "material": "G4_Si",
+    "world_material": "G4_Galactic",
+    "production_cut_mm": 0.01,
+    "max_step_over_thickness": 0.1,
+    "record_secondary_steps": true,
+    "momentum_range_GeV_c": [
+      0.3,
+      1.0
+    ],
+    "momentum_bins": 7,
+    "thickness_mm": [
+      0.1,
+      0.3,
+      1.0
+    ],
+    "pdg": [
+      211,
+      -211
+    ],
+    "cells": 42,
+    "eligibility": "forward_first_visit_nonaborted_positive_exit_momentum",
+    "target": "delta_p_GeV_c=p_in_GeV_c-p_out_GeV_c; Y<p_in; negative_Y_allowed"
+  },
+  "catalogs": [
+    {
+      "block_id": "C",
+      "run_id": "fresh-c-500k-20261108",
+      "events": 500000,
+      "beam_seed": 2026110801,
+      "transport_master_seed": 126110801,
+      "launched_events_by_chunk": [
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11904,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11904,
+        11905,
+        11904,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11904
+      ]
+    },
+    {
+      "block_id": "D",
+      "run_id": "fresh-d-500k-20261108",
+      "events": 500000,
+      "beam_seed": 2026110802,
+      "transport_master_seed": 126110802,
+      "launched_events_by_chunk": [
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11905,
+        11905,
+        11905,
+        11904,
+        11905,
+        11904,
+        11905,
+        11905,
+        11904,
+        11904
+      ]
+    }
+  ],
+  "engineering_smoke": {
+    "run_id": "fresh-engineering-4200-20261108",
+    "beam_seed": 2026110800,
+    "transport_master_seed": 126110800,
+    "events": 4200,
+    "excluded_from_all_formal_analysis": true
+  },
+  "source_files": [
+    {
+      "root_key": "repo",
+      "path": "protocol/confirmation_guard.py",
+      "sha256": "a10994b3e5c65e5e107ecad4dd6e5e824b2949d0c20141c2729771028ed955a7",
+      "bytes": 2542
+    },
+    {
+      "root_key": "repo",
+      "path": "src/data_contract/beam_schedule.py",
+      "sha256": "06a12eaeed885a93ae3931d2641b8d9fe18af1d852224ad4a8073c9da6a2a07c",
+      "bytes": 2311
+    },
+    {
+      "root_key": "repo",
+      "path": "src/data_contract/merge_chunks.py",
+      "sha256": "d77258838c2ed86b20a0ba68f3a36497eb58d20e80a1c586809f22310c09423f",
+      "bytes": 9729
+    },
+    {
+      "root_key": "repo",
+      "path": "src/data_contract/primary_visit.py",
+      "sha256": "f3d36d92bba966b00d16622cef1b78c469407b9c692f24d352af173d0fbe6679",
+      "bytes": 2615
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/audit_cut_log.py",
+      "sha256": "622ba20b01e56cd2c138a1099d99e399cab814d49ab325b15974caf7ceffd80c",
+      "bytes": 2322
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/audit_step_limit.py",
+      "sha256": "e6e022d0dddf0f3e06aec85a2f14c7de626a68bcc0335fa19098cf307bd80db0",
+      "bytes": 1704
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/audit_w0.py",
+      "sha256": "ee8907231f7b7970c33a184d37563cfb067e864bbbc266096d4db372f1c2615f",
+      "bytes": 6534
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/fresh_catalog_runner.py",
+      "sha256": "e2538925e49be40edca6f783f19dbbdb6c8c605f14dbab8689808bc4b35ada18",
+      "bytes": 23776
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/make_beam_chunks.py",
+      "sha256": "1dafdf3ef982b491ba171e2ff6faa3a9a268168a479e9e724c3bf7d2780a3d36",
+      "bytes": 3675
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/run_chunks.py",
+      "sha256": "4d76719c942ebd0f942e8b9340873baefe4a77c36ce9a6f99a7021325232a1dc",
+      "bytes": 6501
+    },
+    {
+      "root_key": "repo",
+      "path": "src/simulation/w0_smoke.py",
+      "sha256": "154a7e5481787ba2190b92ec4a6aba1add78a616df0005c9b2493829306879f2",
+      "bytes": 24463
+    }
+  ],
+  "seed_inventory": {
+    "root_key": "audit",
+    "path": "fresh_seed_exclusion_inventory.json",
+    "sha256": "df466f3751bde43f54e3a964f4e61e6d52713d1e7d33909221854fb2b73ef11e",
+    "bytes": 83492
+  },
+  "runtime": {
+    "python": "3.12.13",
+    "runtime_number": 1141,
+    "runtime_string": "$Name: geant4-11-04-patch-01 [MT]$",
+    "binding_sha256": "a6e4e442b7ff3cac8dbbbaa3624a3d0fd9eab0d91aaaf17c0fa4ce8cf3d2ce14",
+    "dataset_names": [
+      "G4ABLA3.3",
+      "G4CHANNELING2.0",
+      "G4EMLOW8.8",
+      "G4ENSDFSTATE3.0",
+      "G4INCL1.3",
+      "G4NDL4.7.1",
+      "G4PARTICLEXS4.2",
+      "G4PII1.3",
+      "G4SAIDDATA2.0",
+      "PhotonEvaporation6.1.2",
+      "RadioactiveDecay6.1.2",
+      "RealSurface2.2"
+    ],
+    "dataset_tree_sha256": "941e38bdcdc93563ca626f16740526c023c323c1c1363d1cc33774230ff45f10"
+  },
+  "budget_record": {
+    "root_key": "audit",
+    "path": "AUTHORIZATION_AND_BUDGET.json",
+    "sha256": "1236fafd1fbd5bfa086a1f28972d5c91e52bd7994ce94866315aff72102f200e",
+    "bytes": 1806
+  },
+  "minimum_free_bytes": 42949672960,
+  "generation_forecast_seconds": 19000,
+  "reserved_scoring_analysis_seconds": 7200,
+  "expected_model_count": 240,
+  "expected_model_ids": [],
+  "model_union": null,
+  "analysis_plan": null,
+  "resampling_design": "42 fixed launched-event strata; retain each stratum count, including physical S0 null atoms. Models share each event; pair before resampling; optimizer seeds are not event/catalog replicates. C/D are reported separately; no catalog selection.",
+  "eligibility_note": "Use the current corrected forward-first-visit contract. Nonforward, decayed and other S0 physical outcomes are retained with null continuous targets. Aborted events are technical failures and cause fail-closed acceptance.",
+  "formal_output_layout": "External output root / {C,D} / beam, runs, logs, merged, fresh_catalog_manifest.json; output root must not exist. Entire scientific event stream remains available; no automatic model scoring.",
+  "metadata_caveat": "The historical w0_smoke child emits a default beam_seed metadata value when external event inputs are supplied; authoritative fresh beam seed comes from the frozen plan and input catalog, linked by beam_input_sha256. Historical code is not modified.",
+  "analysis_plan_semantic_contract": {
+    "schema": "fresh-catalog-statistical-analysis/v1",
+    "status": "FROZEN_FRESH_STATISTICAL_ANALYSIS",
+    "expected_path": "protocol/information_statistical_analysis_20261108.json"
+  },
+  "source_validation_analysis": null,
+  "source_validation_semantic_contract": {
+    "schema": "information-source-analysis/v1",
+    "status": "COMPLETE_INFORMATION_SOURCE_ANALYSIS",
+    "expected_models": 80,
+    "model_count": 80,
+    "all_validation_predictions_replayed": true,
+    "bind_to": "model_union.information_freeze SHA and protocol_sha256"
+  }
+}

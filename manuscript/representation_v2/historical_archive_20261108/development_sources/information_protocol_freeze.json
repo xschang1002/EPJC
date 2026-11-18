@@ -1,0 +1,211 @@
+{
+  "benchmark_sha256": "ac597432c2aeb0a7115b8a265659fd2be1026b9a371d83a5a77ceea0c9770119",
+  "common_identity": {
+    "budget": {
+      "deadline_unix": 1794121884.342842,
+      "maximum_wall_seconds": 43200,
+      "started_unix": 1794078684.342842
+    },
+    "cache_sha256": "125131106a2c4f185987254e85a6755c68cb13063512a31349491f06109dbf4a",
+    "environment": {
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "torch": "2.14.1+cpu",
+      "torch_threads": 1,
+      "workers": 4
+    },
+    "protocol_sha256": "04e090738632dff793e6cfc262504d27ef1bce2b3620f2b7cbe3a3d5bd94397f",
+    "source_data": {
+      "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+      "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+    },
+    "source_files": {
+      "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+      "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+      "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+      "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+      "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+      "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+      "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+      "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4"
+    }
+  },
+  "generated_utc": "2026-11-07T19:23:17.534630+00:00",
+  "protocol": {
+    "analysis_scope": "8 gains plus 6 adjacent-gain differences plus 2 endpoint differences, paired over five shared-data seeds. Validation descriptive because it selected checkpoints. Fresh-event uncertainty plan frozen separately before official catalog generation.",
+    "capacity": {
+      "context_dim": 5,
+      "hidden_width": 32,
+      "label": "Small"
+    },
+    "checkpoint_selection": "Minimum source-validation original-unit mean NLL using float32 selection at update1/every500/final; export float32 event scores and float64 summary.",
+    "contexts": [
+      {
+        "boundary": "left-closed/right-open except final closed; exact p remains in center and support",
+        "columns": [
+          "zero",
+          "(thickness_mm-.3)/.7",
+          "charge",
+          "zero",
+          "zero"
+        ],
+        "dimension": 5,
+        "edges_GeV_c": null,
+        "hidden_momentum_columns": [
+          0,
+          3
+        ],
+        "momentum_encoding": "zero",
+        "momentum_range_GeV_c": [
+          0.3,
+          1.0
+        ],
+        "name": "Hidden5",
+        "schema": "information-context/v1"
+      },
+      {
+        "boundary": "left-closed/right-open except final closed; exact p remains in center and support",
+        "columns": [
+          "(p_encoded-.65)/.35",
+          "(thickness_mm-.3)/.7",
+          "charge",
+          "log(p_encoded/.65)",
+          "zero"
+        ],
+        "dimension": 5,
+        "edges_GeV_c": [
+          0.3,
+          0.65,
+          1.0
+        ],
+        "hidden_momentum_columns": [],
+        "momentum_encoding": "fixed_bin_midpoint",
+        "momentum_range_GeV_c": [
+          0.3,
+          1.0
+        ],
+        "name": "Coarse2",
+        "schema": "information-context/v1"
+      },
+      {
+        "boundary": "left-closed/right-open except final closed; exact p remains in center and support",
+        "columns": [
+          "(p_encoded-.65)/.35",
+          "(thickness_mm-.3)/.7",
+          "charge",
+          "log(p_encoded/.65)",
+          "zero"
+        ],
+        "dimension": 5,
+        "edges_GeV_c": [
+          0.3,
+          0.3875,
+          0.475,
+          0.5625,
+          0.65,
+          0.7375,
+          0.825,
+          0.9125,
+          1.0
+        ],
+        "hidden_momentum_columns": [],
+        "momentum_encoding": "fixed_bin_midpoint",
+        "momentum_range_GeV_c": [
+          0.3,
+          1.0
+        ],
+        "name": "Coarse8",
+        "schema": "information-context/v1"
+      },
+      {
+        "boundary": "left-closed/right-open except final closed; exact p remains in center and support",
+        "columns": [
+          "(p_encoded-.65)/.35",
+          "(thickness_mm-.3)/.7",
+          "charge",
+          "log(p_encoded/.65)",
+          "zero"
+        ],
+        "dimension": 5,
+        "edges_GeV_c": null,
+        "hidden_momentum_columns": [],
+        "momentum_encoding": "exact",
+        "momentum_range_GeV_c": [
+          0.3,
+          1.0
+        ],
+        "name": "Full5",
+        "schema": "information-context/v1"
+      }
+    ],
+    "eligibility": "forward",
+    "equal_structure_boundary": "Five input columns and equal nominal parameter counts do not imply equal active weights or effective model class: padded-zero input weights receive no data gradient.",
+    "expected_cells": 80,
+    "fresh_evaluation_policy": "All new80 training analysis and complete old160+new80 model union must be frozen before official new independent Geant4 catalog generation. Engineering smoke and timing are separate and not scientific evidence.",
+    "historical_replay_claimed": false,
+    "main_data": {
+      "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+      "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+    },
+    "optimization": {
+      "batch_size": 512,
+      "eval_batch_size": 8192,
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 0.0003,
+      "max_updates": 20000,
+      "torch_threads_per_worker": 1,
+      "validation_every": 500
+    },
+    "pairing": "For each seed, identical model structure/initial weights across all contexts and representations; identical ordered subset and full minibatch-index trace across context/representation within fraction.",
+    "preprocessing": {
+      "center": "Raw zero; CorrectedPhysics frozen nominal all-MeV silicon center using exact p_in, thickness and charge. Quantization never changes center/support inputs.",
+      "mu": "mean_subset(Y-center), per representation; same subset across contexts/seeds.",
+      "reestimation_on_evaluation": false,
+      "scale": "population std_subset(Y), ddof=0, shared across representations and contexts.",
+      "subsets": "first round(f*Ntrain) events ordered by SHA256(4101:event_uid), nested fractions."
+    },
+    "previous_results_role": "Historical robustness/reference only; no previous fit substitutes for a new equal-structure cell.",
+    "primary_conditioner_contrasts": [
+      "Coarse2_minus_Hidden5",
+      "Coarse8_minus_Coarse2",
+      "Full5_minus_Coarse8",
+      "Full5_minus_Hidden5"
+    ],
+    "primary_gain": "Delta=NLL_Raw-NLL_Corrected=mean(logp_Corrected-logp_Raw); positive favors corrected.",
+    "purpose": "Test a nested neural-information ladder under identical five-column architecture while keeping true momentum in the target center and support. All 80 models are newly trained.",
+    "quantization_rationale": "Equal-width 2 and 8 partitions of fixed physical range [0.3,1.0] GeV/c, strictly nested. Bin midpoints are a controlled coarse momentum-resolution proxy, not measured instrument resolution. Boundaries are fixed before these fits and are not tuned from their scores.",
+    "representations": [
+      "Raw",
+      "CorrectedPhysics"
+    ],
+    "runtime_policy": {
+      "benchmark_updates": 1000,
+      "deadline_must_not_reset": true,
+      "forecast_safety_factor": 1.35,
+      "global_budget_file": "_research_extension_20261108/AUTHORIZATION_AND_BUDGET.json",
+      "workers": 4
+    },
+    "sample_fractions": [
+      0.1,
+      1.0
+    ],
+    "schema": "information-study/v1",
+    "seeds": [
+      3101,
+      3102,
+      3103,
+      3104,
+      3105
+    ],
+    "split": {
+      "diagnostic_fraction": 0.3,
+      "validation_fraction": 0.1
+    },
+    "status": "FIXED_TRAINING_DESIGN",
+    "study_id": "information_extension_20261108",
+    "subset_catalog_id": 4101
+  },
+  "schema": "information-protocol-freeze/v1",
+  "status": "FROZEN_INFORMATION_PROTOCOL",
+  "training_execution_approved": true
+}

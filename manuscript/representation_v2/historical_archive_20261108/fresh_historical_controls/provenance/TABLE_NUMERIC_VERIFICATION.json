@@ -1,0 +1,1741 @@
+{
+  "schema": "editorial-evidence-tables/v1",
+  "status": "NUMERIC_VERIFICATION_PASS_LAYOUT_PENDING",
+  "primary_rows": 32,
+  "secondary_rows": 82,
+  "secondary_current_rows": 46,
+  "secondary_historical_rows": 36,
+  "seed_table_rows": {
+    "seed_adjacent_summary.tex": 12,
+    "seed_full_summary.tex": 32,
+    "seed_exploratory_t_summary.tex": 32
+  },
+  "secondary_seed_rows_reconstructed": 410,
+  "primary_seed_rows_reconstructed": 160,
+  "all_secondary_contrasts_retained": true,
+  "no_scientific_values_changed": true,
+  "large_width_check": {
+    "frozen_run_manifests_checked": 60,
+    "all_hashes_match_freeze": true,
+    "hidden_width": 128
+  },
+  "source_files": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\FROZEN_CHECKPOINT_MANIFEST.json",
+      "sha256": "9c8b5b008aee17d0cfc4fd4be5f56fa19ea17d2fc3662816888c5c7ff660b6f3"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f010__sub4101__seed3101\\run_manifest.json",
+      "sha256": "e33df36de594bb81ae9aa44699126502279a1ec52cd34b57237a652324f3a78b"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f010__sub4101__seed3104\\run_manifest.json",
+      "sha256": "dd8269ad4299957402b9e9ef37df9cdf4728ac5ab7dca516e036b0ff1a1ce7ba"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f010__sub4101__seed3103\\run_manifest.json",
+      "sha256": "c4afb5ec89f17ddddee22521fb20d056a310c15224d70d1b1f94691dfa3df8ac"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f010__sub4101__seed3102\\run_manifest.json",
+      "sha256": "f43c0e6c303f6a51584ca698275f02673a01e398bf8c378c212d82e7683b8479"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f010__sub4101__seed3101\\run_manifest.json",
+      "sha256": "5a8b684fcae3600ea3059e2097adf79c877d8ce9a2ec942ec3113cea68232d4c"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f010__sub4101__seed3102\\run_manifest.json",
+      "sha256": "ab47bea05324802ea1d427cce77b7fd303bac54ba4ee032b43f969dc01d1c2b1"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f010__sub4101__seed3105\\run_manifest.json",
+      "sha256": "e8e099d02ef73e1386419957a7909bb0831f401f0110a724906400f565c6de04"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f010__sub4101__seed3103\\run_manifest.json",
+      "sha256": "25641b6b7c6928ae0e22281c8cf93853b62ab1efe41b4f799df3e769c9361b63"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f010__sub4101__seed3104\\run_manifest.json",
+      "sha256": "d3e465d91feb8eda8a01fa4912cca963db4a6f29b190782422162fb158587c07"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f010__sub4101__seed3105\\run_manifest.json",
+      "sha256": "ec1d98e303c863a38cd92ee30cc873bb6f02f0effb4c08cc2ee9badb07cbb6f5"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f010__sub4101__seed3101\\run_manifest.json",
+      "sha256": "28b5b850974ba188f8194ec1d0b2e806c9bf6ffb41d9bbed03fdc5205a685860"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f010__sub4101__seed3102\\run_manifest.json",
+      "sha256": "1f4081d6008149f76642637b1d3eb02d1541706731d6ea5c2911239b4fe4d143"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f010__sub4101__seed3103\\run_manifest.json",
+      "sha256": "249862e83832e486dedb52bae41438309ddd035e43004516d49818cb406227ef"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f010__sub4101__seed3104\\run_manifest.json",
+      "sha256": "ee0a7d0f20b2a7012070345b100db60bd02edde739b5c17cbfd33c8873c90d2f"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f010__sub4101__seed3105\\run_manifest.json",
+      "sha256": "a8d2c285f4e3f4924fe708d729fa0be3e448bbba3e0b48369740502f96ee097a"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101\\run_manifest.json",
+      "sha256": "8e08bf310837a7c5a0c3255127cee2d38d7feea71b1645b1f59a511e4b55dd6e"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102\\run_manifest.json",
+      "sha256": "b5534d7bc862a9c78215bc0303f1301f271421b936aee0c2657c57b80209cb82"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103\\run_manifest.json",
+      "sha256": "e792d8ab84d9bd2bf2206d3531e06d8fd25c2a625299cce1e9744f78a7b1c103"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104\\run_manifest.json",
+      "sha256": "578c8595656825710bd7f283f6b717b07a7e38edb9d5f6b6b73f6fb074041115"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105\\run_manifest.json",
+      "sha256": "f0e9ba97d1296bc836bd2f9af3540a4fd51a037431f7ef6824ec124a7f447a5f"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f030__sub4101__seed3101\\run_manifest.json",
+      "sha256": "5726f278ce423c381307a2b3b73a08ee4586aec4eb2876d4c722124c7f901336"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f030__sub4101__seed3102\\run_manifest.json",
+      "sha256": "dfdab88bdd8d7e31cf9e9dcf61029cb051b2204245ba19d73168b513e84384d7"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f030__sub4101__seed3103\\run_manifest.json",
+      "sha256": "1550aaf3501830276d16c66a6076d30b2508fec18b8316491b1a995fe320f2c7"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f030__sub4101__seed3104\\run_manifest.json",
+      "sha256": "29a846ce242d430164f8a697c1f9d815c99842f61cdb3ed2366d0a0a1dc3cf90"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f030__sub4101__seed3105\\run_manifest.json",
+      "sha256": "67fcdfa6b13e32b44baf530a44bff90e973b50837686d37cea385f078f451e45"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f030__sub4101__seed3101\\run_manifest.json",
+      "sha256": "ed602c0dc61303f6a98f21976ea8351932710b7baab25da5f034de72504c2ad1"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f030__sub4101__seed3102\\run_manifest.json",
+      "sha256": "fcda7177163b043b26176806da87bacb88bca74e534392ac297975bf50349c73"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f030__sub4101__seed3103\\run_manifest.json",
+      "sha256": "46e2d33496188bb879eee3785c2abc17cb7d161318d91e50ba9aeabae5b43bd4"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f030__sub4101__seed3104\\run_manifest.json",
+      "sha256": "55a281711ae47aa22c9dffcb89f99fd3a18afb83a23c4e97310cb1ac16303ec9"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f030__sub4101__seed3105\\run_manifest.json",
+      "sha256": "0d5492a2ee26ae4537618e3f1b304c58ce92fc02b0f47652fdbf1eca39925470"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f030__sub4101__seed3101\\run_manifest.json",
+      "sha256": "650d80e0b31c09333aae2af6f877e7ed4db0a60e5820a87e534725e11ec9f9d1"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f030__sub4101__seed3102\\run_manifest.json",
+      "sha256": "246cd7964d9e8dc5f63e9db86a03d1b15e5baae6e719f713b048233314cc11d6"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f030__sub4101__seed3103\\run_manifest.json",
+      "sha256": "d505a1a561192591b9e5fec02f5f25a04c452b0a33501979a1ed6ef7562bd597"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f030__sub4101__seed3104\\run_manifest.json",
+      "sha256": "6a22923a8349ffcf3126240851c43534724ef4bb8a3a37171e63a6cef275251e"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f030__sub4101__seed3105\\run_manifest.json",
+      "sha256": "b542dd03f25714b2b308682cb96a5ab85f2c03944049456e248cda50153ffd46"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101\\run_manifest.json",
+      "sha256": "5289806ed6d193b9fd74f9da67f3e2600e7054e664b7f55c3b7164d26c362e64"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102\\run_manifest.json",
+      "sha256": "3e6f24ea05b9940d6835fe810aa0cbe8bc2f88090c25c300d8b5db0bfccf5ad3"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103\\run_manifest.json",
+      "sha256": "a457eae441b6171dc949de2c4c4cd2313a772f160213e14160227e9b32f24897"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104\\run_manifest.json",
+      "sha256": "75bc956ea30183a39b62e8acf4f9056f45d7a6c90507a93dd9abb932be8205b8"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105\\run_manifest.json",
+      "sha256": "f9e57916ce35d21caf3b0d3ecff3db820f4516d8f36286bc6c4af08aa2498bc4"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f100__sub4101__seed3101\\run_manifest.json",
+      "sha256": "e9660146e2d5e9c5e00d01d80f66fcc7d437933286e3b553b23f18fbd815bce8"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f100__sub4101__seed3102\\run_manifest.json",
+      "sha256": "8930e0be11fb2a48e24bdfba0d097821a139e5bf2f25b5a8b5cdcd889c36b416"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f100__sub4101__seed3103\\run_manifest.json",
+      "sha256": "03c3cd3005d0cc7a6a5b4c3af7b0bd261c465a596ad0e37422b876a4548a8876"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f100__sub4101__seed3104\\run_manifest.json",
+      "sha256": "ee2dc642fb8c76ae2a5a531f5775b851d02e45b71ec4b55c5e02723f5c96d453"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Raw__Large__f100__sub4101__seed3105\\run_manifest.json",
+      "sha256": "0745b1b06a32b29c86a83ce184f47ad122837346a1b8f640cb2c4640e17456f2"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f100__sub4101__seed3101\\run_manifest.json",
+      "sha256": "80d3b7baced6cbdc102f6af767599cb19189dd5922f4a5136dd09b0b54ba0645"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f100__sub4101__seed3102\\run_manifest.json",
+      "sha256": "fd1f0b703ae3826ccb7a36e1b53640ea9d4bbe016661736ccd627d37da7dbfaa"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f100__sub4101__seed3103\\run_manifest.json",
+      "sha256": "af8df031f605fb4630ad31c0ba3c1986ebe5e8e95612c7ec472182a333d7e0e0"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f100__sub4101__seed3104\\run_manifest.json",
+      "sha256": "4f34cf61cf24197304e9fe1595636934c6c6881a399ceee6de1359da339db072"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Simple__Large__f100__sub4101__seed3105\\run_manifest.json",
+      "sha256": "4205247736dc5f98c726ec4c135a5c18fc36c1863dd3a4614fa3a10af867449a"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f100__sub4101__seed3101\\run_manifest.json",
+      "sha256": "3a4bddc6f6c70af628564ce2f8e6fafd6073cd0942cab67bca6c2e2ce534d43c"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f100__sub4101__seed3102\\run_manifest.json",
+      "sha256": "a6a704371b7467fc0b61bb42f643a3faaba9d48e8aee140e071df6ac1f2c3b10"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f100__sub4101__seed3103\\run_manifest.json",
+      "sha256": "8e7204449ad2438431d979cb437103715a5463aae313e11a65d55091bd793ed6"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f100__sub4101__seed3104\\run_manifest.json",
+      "sha256": "908dcc82d160ac7f3da5777f10cdbfaedfe2864d17d2a336ec51838c438de831"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__Learned__Large__f100__sub4101__seed3105\\run_manifest.json",
+      "sha256": "8ef14937f0acd89aeea53f459d86495d1764ca31674ae1301178f5d392ed483d"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101\\run_manifest.json",
+      "sha256": "f51117296367f3cdcc5ece5b97667960b9e269c78e137b4623edff6b4e4b37f8"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102\\run_manifest.json",
+      "sha256": "f14f83623fab0ca68c6c1f798c809bcbdeced8c279fc1d8b152fc5a6693859c0"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103\\run_manifest.json",
+      "sha256": "9bc742629f492a6943e474b81ff244fac6070be9cf4170751306eef331a6a81e"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104\\run_manifest.json",
+      "sha256": "3c5381319bda854331c62bb44b0ca6074c506f09c4e2eadfd7ea99b7c56516e4"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\corrected_formal_extension_20261107\\study\\runs\\corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105\\run_manifest.json",
+      "sha256": "d3bb2f7ef9c65a0e73732fcb318c7319db20603f386326f185ad9298fc9f6f71"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\legacy_contrast_summary.csv",
+      "sha256": "e0533edd4809f6a0c1464c197889518c7bb6fc2a0a6a2b219eb1328e0bb37765"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\legacy_seed_contrasts.csv",
+      "sha256": "5a3360042057313d545b4f39a536e6f2b16ad7af7373db7696f224fe5d1d4d35"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\primary_contrast_summary.csv",
+      "sha256": "f9855d8133889c27aa5e3e3efcb3abcb71ad35ed233f9c28be371f43e5899e1d"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\primary_seed_contrasts.csv",
+      "sha256": "74128e62b9c15488950eea148d1248010ade453c2ab01464571becc00e448b94"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\primary_uncertainty.csv",
+      "sha256": "6e739158585d910e0297c12316d87a0effc2fd442725059f6753b86c6fd65a41"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.tex",
+      "sha256": "4d9518299a08abe70b893226d20174f7d1c85214e32e82d2060a987458bbce31"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\legacy_contrast_summary.csv",
+      "sha256": "7c0ce55cdee3b78f267c488e36ba55e087d2e04f57ccab0b58171900252d04a2"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\legacy_seed_contrasts.csv",
+      "sha256": "79c32a2c481a7a7cf069dbd6058f30617d1073c3d2a6232d966e9ea8f51aef43"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\primary_contrast_summary.csv",
+      "sha256": "4bf9b48a451da9736af1292ee0c783c4adf8a9c6fe3e3d0c4f803a84f441cb87"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\primary_seed_contrasts.csv",
+      "sha256": "32cd0132654ff25495e53dc7f9d134d827081d80e36d2d91c666abc6f65ffaaa"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\primary_uncertainty.csv",
+      "sha256": "bddcb49cda289dd40dd01df2948b544d488539eb933e936e9252ed9096397d8a"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.tex",
+      "sha256": "7c0fe9b9b28bbc212c4f1b375d18d1234c30956dc3a008760959871f14054876"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\positioning_revision_20261108\\seed_sensitivity\\results\\seed_sensitivity.csv",
+      "sha256": "dda7e16cdbeeee469b3468e6d357d08ce23ae7b1f26ce00592f45c731d58ec14"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\positioning_revision_20261108\\seed_sensitivity\\results\\exploratory_t_intervals.csv",
+      "sha256": "62dadc5c9085a3014f53a08d072f7c685943e6b60aae732f03d564ac2ed91502"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\seed_sensitivity\\seed_adjacent_summary.tex",
+      "sha256": "8233226b0a6e8b3f3f4d63717c0505912f688311fcf1b3a9fd6f9e52825ddf51"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\seed_sensitivity\\seed_full_summary.tex",
+      "sha256": "76a1561a75c554cf3ab7f043c2b1645488da6ec6d581ada0f53849bafa8f23ec"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\seed_sensitivity\\seed_exploratory_t_summary.tex",
+      "sha256": "9b3f8c48f8e3f6be5c37e1e88a2af76e23f7a8c10fc3937f77c1619220f0810a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\current_secondary_C.tex",
+      "sha256": "2ccc653b1c04159589490dbd29b0aac65b2d926922228861e039743ce282f752",
+      "bytes": 2813
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_C.tex",
+      "sha256": "7dd6d8510a0320577f3e34b4b29888910e0c959500d50e47dab79cb306b0e583",
+      "bytes": 2635
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\fresh_C_primary16.tex",
+      "sha256": "191c328353397ef3f187ce0436b0c35c0a3b5923b90fa55b7676874305cd8894",
+      "bytes": 2435
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\current_secondary_D.tex",
+      "sha256": "6c14c894cf77fb2b1a369bfde95976656522a4761f91141d00c1a583c793ce4b",
+      "bytes": 2813
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_D.tex",
+      "sha256": "c2d78681a9114de799ac2546e5a23e2f309148727b57c2c8f3f9f87f2e3aeef9",
+      "bytes": 2635
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\fresh_D_primary16.tex",
+      "sha256": "070313b738831b4e74f42d6f885343d81fda86901753e719e61667d87879f5f6",
+      "bytes": 2435
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\seed_adjacent_summary.tex",
+      "sha256": "56fef2311c2e426b9e9dbb90d6d9db127b17c8ac3d250def2f544d6077f9a644",
+      "bytes": 1652
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\seed_full_summary.tex",
+      "sha256": "9e9ebd05f0dacaea9a101e6d08c83bca43d6a918b734ad4b1777d15905a6a7f3",
+      "bytes": 4819
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\seed_exploratory_t_summary.tex",
+      "sha256": "a5c2ded7872ed579f6f2d6f4d45bf364423b1c10c39be7209810bd7c547d4877",
+      "bytes": 4015
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\fresh_information_primary16.tex",
+      "sha256": "25efbfa2690c0cc727523483a49ee121139a743717fdb9741ab36368d2470481",
+      "bytes": 94
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\current_secondary_CD.tex",
+      "sha256": "0eaf78a588eb2ee3d9a80b59bd7d2da6b17f07d3b82287c5904d9b9607cc9c1e",
+      "bytes": 98
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_CD.tex",
+      "sha256": "da2b8fbf7f37eb3021f5ed4b88d1dbc25d68739309085363f10972785fb5d6fa",
+      "bytes": 104
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\complete_secondary_CD.tex",
+      "sha256": "dcbd1e34666afb95c97da49084e1a345ea83283b84c53970d3536664ea8c8070",
+      "bytes": 202
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\display_names.tex",
+      "sha256": "a189238b9f07e654719b393c3beb01ad6bf01f022c650e4115b3c938aa391629",
+      "bytes": 610
+    }
+  ],
+  "script": {
+    "path": "E:\\JINST REP\\_editorial_revision_20261108\\render_evidence_tables.py",
+    "sha256": "56afba89403519ba5f3a18882334d8062a7ba3d390f335a94c02ab4565f70782"
+  },
+  "secondary_numeric_rows": [
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.845 (1.855)",
+        "[-0.619, +3.899]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+2.410 (0.887)",
+        "[+1.453, +3.740]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.898 (1.669)",
+        "[-3.777, +0.454]",
+        "2/3/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.790 (1.524)",
+        "[+0.355, +4.266]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+3.234 (1.139)",
+        "[+1.557, +4.331]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-1.088 (2.265)",
+        "[-4.135, +1.964]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.398 (0.908)",
+        "[+0.446, +2.774]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.105 (0.819)",
+        "[+0.416, +2.203]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.839 (0.500)",
+        "[-1.564, -0.256]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.907 (1.425)",
+        "[+0.587, +4.292]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+2.725 (1.285)",
+        "[+1.569, +4.567]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-1.199 (0.705)",
+        "[-2.375, -0.470]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.550 (0.923)",
+        "[+0.491, +2.979]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+1.681 (0.626)",
+        "[+1.089, +2.747]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.881 (1.112)",
+        "[-1.961, +0.376]",
+        "2/3/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+2.264 (1.534)",
+        "[+0.562, +4.135]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+2.233 (2.011)",
+        "[-0.730, +4.339]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-1.136 (1.359)",
+        "[-3.538, -0.259]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+0.055 (1.812)",
+        "[-1.946, +1.897]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.509 (1.758)",
+        "[-2.509, +2.188]",
+        "2/3/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.714 (1.417)",
+        "[-2.788, +1.209]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010_minus_f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "+0.295 (1.313)",
+        "[-1.778, +1.739]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010_minus_f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_C.tex",
+      "numeric_cells": [
+        "-0.474 (2.488)",
+        "[-2.947, +3.704]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+1.845 (1.855)",
+        "[-0.619, +3.899]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+6.610 (0.454)",
+        "[+6.219, +7.107]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-4.766 (2.021)",
+        "[-6.939, -2.320]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+1.504 (1.458)",
+        "[-0.455, +3.070]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-87.341 (0.562)",
+        "[-87.946, -86.725]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+88.845 (1.283)",
+        "[+87.183, +90.710]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+0.341 (0.922)",
+        "[-0.182, +1.980]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+93.952 (0.737)",
+        "[+92.976, +95.051]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-93.611 (1.523)",
+        "[-94.996, -90.996]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+1.550 (0.923)",
+        "[+0.491, +2.979]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+6.774 (1.298)",
+        "[+4.717, +8.262]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-5.224 (0.968)",
+        "[-6.491, -4.225]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+0.824 (1.361)",
+        "[-0.398, +2.946]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-87.317 (1.152)",
+        "[-89.181, -86.362]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+88.140 (1.694)",
+        "[+86.231, +90.155]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+0.726 (1.240)",
+        "[-1.174, +2.035]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "+94.091 (1.357)",
+        "[+92.386, +95.860]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "C",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_C.tex",
+      "numeric_cells": [
+        "-93.365 (2.274)",
+        "[-96.181, -91.547]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.876 (1.836)",
+        "[-0.491, +4.072]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+2.381 (0.891)",
+        "[+1.465, +3.677]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.715 (1.750)",
+        "[-3.726, +0.671]",
+        "2/3/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.902 (1.481)",
+        "[+0.496, +4.325]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+3.102 (1.220)",
+        "[+1.338, +4.415]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-1.062 (2.089)",
+        "[-3.974, +1.692]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.543 (0.950)",
+        "[+0.511, +2.951]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.253 (0.728)",
+        "[+0.463, +2.164]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.630 (0.545)",
+        "[-1.384, -0.012]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+2.143 (1.377)",
+        "[+0.757, +4.422]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+2.965 (1.086)",
+        "[+2.140, +4.520]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-1.124 (0.709)",
+        "[-2.281, -0.416]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.659 (0.973)",
+        "[+0.371, +3.059]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+1.911 (0.688)",
+        "[+1.255, +3.059]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.737 (1.113)",
+        "[-2.055, +0.480]",
+        "2/3/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+2.348 (1.704)",
+        "[+0.413, +4.514]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Learned_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+2.389 (2.208)",
+        "[-0.874, +4.762]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Simple_minus_Raw"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-1.130 (1.364)",
+        "[-3.556, -0.340]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.027 (1.745)",
+        "[-2.059, +2.076]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f030",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.600 (1.750)",
+        "[-2.424, +2.194]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f100",
+        "capacity": "Small_minus_Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.689 (1.537)",
+        "[-2.858, +1.479]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010_minus_f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "+0.216 (1.221)",
+        "[-1.811, +1.310]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "formal120",
+        "fraction_tag": "f010_minus_f100",
+        "capacity": "Large",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "current_secondary_D.tex",
+      "numeric_cells": [
+        "-0.446 (2.565)",
+        "[-2.781, +3.912]",
+        "1/4/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+1.876 (1.836)",
+        "[-0.491, +4.072]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+6.678 (0.494)",
+        "[+6.119, +7.237]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-4.803 (2.044)",
+        "[-6.961, -2.333]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+1.474 (1.483)",
+        "[-0.554, +3.059]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-87.745 (0.581)",
+        "[-88.257, -87.104]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+89.219 (1.403)",
+        "[+87.453, +91.315]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+0.402 (0.878)",
+        "[-0.094, +1.964]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+94.424 (0.666)",
+        "[+93.509, +95.388]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f010",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-94.022 (1.430)",
+        "[-95.262, -91.545]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+1.659 (0.973)",
+        "[+0.371, +3.059]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+7.029 (1.396)",
+        "[+4.863, +8.680]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-5.369 (0.957)",
+        "[-6.788, -4.492]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+0.675 (1.271)",
+        "[-0.563, +2.470]",
+        "3/2/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-87.613 (1.201)",
+        "[-89.562, -86.610]",
+        "0/5/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "Raw_minus_HistoricalIncorrectPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+88.289 (1.740)",
+        "[+86.371, +90.657]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+0.984 (1.088)",
+        "[-0.578, +2.145]",
+        "4/1/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "+94.642 (1.426)",
+        "[+92.827, +96.424]",
+        "5/0/0"
+      ]
+    },
+    {
+      "catalog": "D",
+      "source_key": {
+        "scope": "core60",
+        "fraction_tag": "f100",
+        "capacity": "Small",
+        "context": "Full_minus_Hidden",
+        "contrast": "HistoricalIncorrectPhysics_minus_CorrectedPhysics"
+      },
+      "file": "historical_secondary_D.tex",
+      "numeric_cells": [
+        "-93.658 (2.211)",
+        "[-96.280, -91.893]",
+        "0/5/0"
+      ]
+    }
+  ],
+  "semantics": {
+    "secondary": "Descriptive mean/sampleSD/min/max/sign counts across five paired optimizer seeds; no event CI was generated.",
+    "primary": "Original 16-family approximate95% simultaneous event-bootstrap intervals, fixed fitted models, C/D separate.",
+    "seed": "Post-hoc seed sensitivity. LOO is not a CI. Optional n=5 t intervals are nominal, unadjusted and separate from event bootstrap.",
+    "historical": "Earlier two-input Hidden is not the new nominal-five-input Hidden5. H is an erroneous-center control.",
+    "repeated_models": "New/earlier Exact-momentum Small10/100 states overlap; duplicated contrasts are not independent evidence."
+  }
+}

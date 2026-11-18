@@ -1,0 +1,182 @@
+{
+  "schema": "independent-information-numerical-delivery-review/v1",
+  "status": "PASS_COMPLETE_INFORMATION_NUMERICAL_REVIEW",
+  "generated_utc": "2026-11-07T20:34:39.916933+00:00",
+  "elapsed_seconds": 100.89771509170532,
+  "source_validation": {
+    "models": 80,
+    "saved_validation_NLLs_independently_recomputed": 80,
+    "paired_structure_and_batch_traces": true,
+    "source_analyzer_full_replay_confirmed": true,
+    "additional_model_inference_performed": false,
+    "reported_maximum_all_event_replay_error": 0.0,
+    "maximum_NLL_recomputation_error": 0.0
+  },
+  "fresh_catalogs": [
+    {
+      "block": "C",
+      "models": 240,
+      "eligible_events": 499285,
+      "launched_events": 500000,
+      "score_component_files_verified": 2640,
+      "maximum_density_reconstruction_error": 2.384185791015625e-06,
+      "primary_contrasts": 16,
+      "primary_seed_contrasts": 80,
+      "groups": 336,
+      "legacy_contrasts": 41,
+      "legacy_seed_contrasts": 205,
+      "all2000_bootstrap_draws_independently_replayed": true,
+      "interval_families_checked": [
+        16,
+        42,
+        336
+      ]
+    },
+    {
+      "block": "D",
+      "models": 240,
+      "eligible_events": 499275,
+      "launched_events": 500000,
+      "score_component_files_verified": 2640,
+      "maximum_density_reconstruction_error": 2.384185791015625e-06,
+      "primary_contrasts": 16,
+      "primary_seed_contrasts": 80,
+      "groups": 336,
+      "legacy_contrasts": 41,
+      "legacy_seed_contrasts": 205,
+      "all2000_bootstrap_draws_independently_replayed": true,
+      "interval_families_checked": [
+        16,
+        42,
+        336
+      ]
+    }
+  ],
+  "total_model_evaluations": 480,
+  "chronology_unix": {
+    "source_freeze": 1794081410.731874,
+    "source_analysis": 1794081600.669686,
+    "union_freeze": 1794081606.436934,
+    "fresh_plan": 1794081608.408639,
+    "generation_start": 1794081694.123553,
+    "generation_complete": 1794083006.63099,
+    "scoring_start": 1794083009.4677289,
+    "scoring_complete": 1794083401.572421
+  },
+  "checker_sha256": "6aa3109b7fb5b1203cd928a472e8e735afa26f2d766ad82489c9cd33966629c2",
+  "checked_files": [
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\verify_information_delivery.py",
+      "bytes": 35620,
+      "sha256": "6aa3109b7fb5b1203cd928a472e8e735afa26f2d766ad82489c9cd33966629c2"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\protocol\\fresh_catalog_20261108.json",
+      "bytes": 38442,
+      "sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\FROZEN_FRESH_MODEL_UNION.json",
+      "bytes": 336603,
+      "sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\EXPECTED_FRESH_MODELS.json",
+      "bytes": 139413,
+      "sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_seed_exclusion_inventory.json",
+      "bytes": 83492,
+      "sha256": "df466f3751bde43f54e3a964f4e61e6d52713d1e7d33909221854fb2b73ef11e"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\AUTHORIZATION_AND_BUDGET.json",
+      "bytes": 1806,
+      "sha256": "1236fafd1fbd5bfa086a1f28972d5c91e52bd7994ce94866315aff72102f200e"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\study\\scores.json",
+      "bytes": 1089429,
+      "sha256": "f59f5b1413590cc73e46d117555df3898a23c4650685e9e30597fe41e8c5ffbc"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\study\\FROZEN_CHECKPOINT_MANIFEST.json",
+      "bytes": 124274,
+      "sha256": "5dcf919e20a0163b0cc87c8c5d18502c6931c756b0571f508fce8eab75e73900"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\GENERATION_COMPLETE.json",
+      "bytes": 7416,
+      "sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\scoring_summary.json",
+      "bytes": 2627,
+      "sha256": "1ff3fd3e2c73ac99ac475f7ea5c5d6cad0eb11d1dd24f5a7dc62dc25e403a86d"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\source_analysis_retry1\\analysis.json",
+      "bytes": 7706,
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\source_analysis_retry1\\ANALYSIS_MANIFEST.json",
+      "bytes": 1957,
+      "sha256": "83ad9c50cca04f651b34c6c4189fe15daed9085230936a5628ed146eb9843e5c"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\analysis.json",
+      "bytes": 18506,
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\ANALYSIS_MANIFEST.json",
+      "bytes": 2765,
+      "sha256": "16da3e60e19112a442e5c4439624b0cfa309c37ddd23fffca5135d05c909e67b"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\analysis.json",
+      "bytes": 18490,
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\ANALYSIS_MANIFEST.json",
+      "bytes": 2765,
+      "sha256": "ec12e42f3933def209d4cb11e94cee92a254d69ab64ea3807f2229aaa04617a7"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\C\\score_manifest.json",
+      "bytes": 1307986,
+      "sha256": "dfe2941b8caeb6c5739387e0d70878448bb036380af65aafbdfcbdeb270b82bc"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\C\\fresh_catalog_manifest.json",
+      "bytes": 18715,
+      "sha256": "5eb78ae154f78d70ad6c4e840ae0d51c1ce2408a4535614e127f65fa4266267d"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\C\\beam\\catalog.json",
+      "bytes": 14373,
+      "sha256": "6a3f3397e869d58a2332a4c511d5714ff2b091cc27786ed54095f0d675d9b58d"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\D\\score_manifest.json",
+      "bytes": 1307981,
+      "sha256": "f46ed4139c5c719ab4cc7337261935d3cd67acd217df13c812d2a6c58cdf2cbf"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\D\\fresh_catalog_manifest.json",
+      "bytes": 18779,
+      "sha256": "19f2fafedfa1ddecb3e4e04830abc191ee912d3ce6f1284f3b9bc958cc73fc27"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\D\\beam\\catalog.json",
+      "bytes": 14374,
+      "sha256": "5de1187e16fc1add60373a421c4ac2a2148f3a17f8a5a870add515a260ea32ff"
+    }
+  ],
+  "scope": "Read-only complete-result verification; all2000 event-bootstrap draws replayed per catalog. No model inference, fitting, checkpoint choice or data generation.",
+  "method_limit": "Independent arithmetic implementation/replay, not an independent justification of bootstrap assumptions or finite-sample coverage.",
+  "privacy": "Receipt contains aggregate checks only; no event arrays or individual event identities."
+}

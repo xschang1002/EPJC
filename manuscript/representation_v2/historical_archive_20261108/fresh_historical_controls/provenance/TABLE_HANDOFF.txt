@@ -1,0 +1,18 @@
+表格已完成，仅编辑 canonical overleaf_submission/editorial_tables 新目录；旧结果与旧表未改。
+
+当前补充材料入口：
+  editorial_tables/fresh_information_primary16.tex：C/D各16个主对照。
+  editorial_tables/seed_full_summary.tex：C/D全部32行seed/LOO表。
+  editorial_tables/seed_exploratory_t_summary.tex：原有32行探索性t区间。
+  editorial_tables/current_secondary_CD.tex：C/D各23个Full中心/容量/训练比例对照。
+  editorial_tables/display_names.tex：论文显示名与冻结标识映射。
+正文如需12行邻接seed摘要：editorial_tables/seed_adjacent_summary.tex。
+历史独立入口：editorial_tables/historical_secondary_CD.tex（C/D各18项，不属于新信息阶梯）；all41总入口complete_secondary_CD.tex只供完整档案。
+
+统计语义：主表CI是固定已训练模型下16-family事件bootstrap区间，五seed SD是优化随机性；两者不能混为一个置信区间。次要23项表只展示原有五seed均值、sampleSD、min/max、正/负/零计数，无新增事件CI。LOO区间非CI；t表是既有post-hoc n=5名义未校正区间。C/D不合并。
+对照正负：D(A,B)=NLL(A)-NLL(B)，正值支持第二个模型。因此Linear-minus-Raw为负值时，是Linear更好；未为叙事翻转源表符号。最后5项比较BB的gain，不是绝对容量排序。
+
+所有82 secondary汇总由410个保存seed contrasts独立重算；32 primary汇总由160个seed contrasts重算，CI原值逐格对应保存primary_uncertainty.csv；seed/LOO/t表逐行核对。全部显示名称改变不改变数值。
+Large真实width=128：60个Large run_manifest均与冻结清单SHA一致且hidden_width=128。
+
+数字校验：TABLE_NUMERIC_VERIFICATION.json；最终数字+视觉验收：TABLE_DELIVERY_QA.json；独立10页预览：table_preview/editorial_table_preview.pdf。主/补整稿分页由root再验收。

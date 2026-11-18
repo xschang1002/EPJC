@@ -1,0 +1,3852 @@
+{
+  "schema": "fresh-model-roster/v1",
+  "status": "FIXED_BEFORE_NEW_FORMAL_TRAINING_COMPLETION_AND_FRESH_GENERATION",
+  "recorded_utc": "2026-11-07T19:20:45.740654+00:00",
+  "expected_models": 240,
+  "expected_model_ids": [
+    "correction__Full__Raw__Small__f010__sub4101__seed3102",
+    "correction__Full__Raw__Small__f010__sub4101__seed3104",
+    "correction__Full__Raw__Small__f010__sub4101__seed3103",
+    "correction__Full__Raw__Small__f010__sub4101__seed3101",
+    "correction__Full__Raw__Small__f010__sub4101__seed3105",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+    "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "correction__Hidden__Raw__Small__f010__sub4101__seed3101",
+    "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "correction__Hidden__Raw__Small__f010__sub4101__seed3102",
+    "correction__Hidden__Raw__Small__f010__sub4101__seed3103",
+    "correction__Hidden__Raw__Small__f010__sub4101__seed3104",
+    "correction__Hidden__Raw__Small__f010__sub4101__seed3105",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+    "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "correction__Full__Raw__Small__f100__sub4101__seed3102",
+    "correction__Full__Raw__Small__f100__sub4101__seed3101",
+    "correction__Full__Raw__Small__f100__sub4101__seed3103",
+    "correction__Full__Raw__Small__f100__sub4101__seed3104",
+    "correction__Full__Raw__Small__f100__sub4101__seed3105",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+    "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+    "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+    "correction__Hidden__Raw__Small__f100__sub4101__seed3101",
+    "correction__Hidden__Raw__Small__f100__sub4101__seed3102",
+    "correction__Hidden__Raw__Small__f100__sub4101__seed3103",
+    "correction__Hidden__Raw__Small__f100__sub4101__seed3104",
+    "correction__Hidden__Raw__Small__f100__sub4101__seed3105",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+    "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+    "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105",
+    "corrected_full__Raw__Large__f010__sub4101__seed3101",
+    "corrected_full__Raw__Large__f010__sub4101__seed3104",
+    "corrected_full__Raw__Large__f010__sub4101__seed3103",
+    "corrected_full__Raw__Large__f010__sub4101__seed3102",
+    "corrected_full__Simple__Large__f010__sub4101__seed3101",
+    "corrected_full__Simple__Large__f010__sub4101__seed3102",
+    "corrected_full__Raw__Large__f010__sub4101__seed3105",
+    "corrected_full__Simple__Large__f010__sub4101__seed3103",
+    "corrected_full__Simple__Small__f010__sub4101__seed3101",
+    "corrected_full__Simple__Small__f010__sub4101__seed3102",
+    "corrected_full__Simple__Large__f010__sub4101__seed3104",
+    "corrected_full__Simple__Large__f010__sub4101__seed3105",
+    "corrected_full__Simple__Small__f010__sub4101__seed3103",
+    "corrected_full__Simple__Small__f010__sub4101__seed3104",
+    "corrected_full__Simple__Small__f010__sub4101__seed3105",
+    "corrected_full__Learned__Large__f010__sub4101__seed3101",
+    "corrected_full__Learned__Large__f010__sub4101__seed3102",
+    "corrected_full__Learned__Large__f010__sub4101__seed3103",
+    "corrected_full__Learned__Large__f010__sub4101__seed3104",
+    "corrected_full__Learned__Small__f010__sub4101__seed3101",
+    "corrected_full__Learned__Small__f010__sub4101__seed3102",
+    "corrected_full__Learned__Large__f010__sub4101__seed3105",
+    "corrected_full__Learned__Small__f010__sub4101__seed3103",
+    "corrected_full__Learned__Small__f010__sub4101__seed3104",
+    "corrected_full__Learned__Small__f010__sub4101__seed3105",
+    "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+    "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+    "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+    "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+    "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+    "corrected_full__Raw__Large__f030__sub4101__seed3101",
+    "corrected_full__Raw__Large__f030__sub4101__seed3102",
+    "corrected_full__Raw__Large__f030__sub4101__seed3103",
+    "corrected_full__Raw__Small__f030__sub4101__seed3101",
+    "corrected_full__Raw__Large__f030__sub4101__seed3104",
+    "corrected_full__Raw__Small__f030__sub4101__seed3102",
+    "corrected_full__Raw__Large__f030__sub4101__seed3105",
+    "corrected_full__Raw__Small__f030__sub4101__seed3103",
+    "corrected_full__Raw__Small__f030__sub4101__seed3104",
+    "corrected_full__Raw__Small__f030__sub4101__seed3105",
+    "corrected_full__Simple__Large__f030__sub4101__seed3101",
+    "corrected_full__Simple__Large__f030__sub4101__seed3102",
+    "corrected_full__Simple__Large__f030__sub4101__seed3103",
+    "corrected_full__Simple__Large__f030__sub4101__seed3104",
+    "corrected_full__Simple__Small__f030__sub4101__seed3101",
+    "corrected_full__Simple__Small__f030__sub4101__seed3102",
+    "corrected_full__Simple__Large__f030__sub4101__seed3105",
+    "corrected_full__Simple__Small__f030__sub4101__seed3103",
+    "corrected_full__Simple__Small__f030__sub4101__seed3104",
+    "corrected_full__Simple__Small__f030__sub4101__seed3105",
+    "corrected_full__Learned__Large__f030__sub4101__seed3101",
+    "corrected_full__Learned__Large__f030__sub4101__seed3102",
+    "corrected_full__Learned__Large__f030__sub4101__seed3103",
+    "corrected_full__Learned__Large__f030__sub4101__seed3104",
+    "corrected_full__Learned__Small__f030__sub4101__seed3101",
+    "corrected_full__Learned__Large__f030__sub4101__seed3105",
+    "corrected_full__Learned__Small__f030__sub4101__seed3102",
+    "corrected_full__Learned__Small__f030__sub4101__seed3103",
+    "corrected_full__Learned__Small__f030__sub4101__seed3104",
+    "corrected_full__Learned__Small__f030__sub4101__seed3105",
+    "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+    "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+    "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+    "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+    "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+    "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+    "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+    "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+    "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+    "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+    "corrected_full__Raw__Large__f100__sub4101__seed3101",
+    "corrected_full__Raw__Large__f100__sub4101__seed3102",
+    "corrected_full__Raw__Large__f100__sub4101__seed3103",
+    "corrected_full__Raw__Large__f100__sub4101__seed3104",
+    "corrected_full__Raw__Large__f100__sub4101__seed3105",
+    "corrected_full__Simple__Large__f100__sub4101__seed3101",
+    "corrected_full__Simple__Large__f100__sub4101__seed3102",
+    "corrected_full__Simple__Large__f100__sub4101__seed3103",
+    "corrected_full__Simple__Small__f100__sub4101__seed3101",
+    "corrected_full__Simple__Small__f100__sub4101__seed3102",
+    "corrected_full__Simple__Large__f100__sub4101__seed3104",
+    "corrected_full__Simple__Large__f100__sub4101__seed3105",
+    "corrected_full__Simple__Small__f100__sub4101__seed3103",
+    "corrected_full__Simple__Small__f100__sub4101__seed3104",
+    "corrected_full__Simple__Small__f100__sub4101__seed3105",
+    "corrected_full__Learned__Large__f100__sub4101__seed3101",
+    "corrected_full__Learned__Large__f100__sub4101__seed3102",
+    "corrected_full__Learned__Large__f100__sub4101__seed3103",
+    "corrected_full__Learned__Large__f100__sub4101__seed3104",
+    "corrected_full__Learned__Large__f100__sub4101__seed3105",
+    "corrected_full__Learned__Small__f100__sub4101__seed3101",
+    "corrected_full__Learned__Small__f100__sub4101__seed3102",
+    "corrected_full__Learned__Small__f100__sub4101__seed3103",
+    "corrected_full__Learned__Small__f100__sub4101__seed3104",
+    "corrected_full__Learned__Small__f100__sub4101__seed3105",
+    "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+    "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+    "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+    "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+    "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+    "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+    "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+    "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+    "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+    "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+    "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+    "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+    "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+    "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+    "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+    "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+    "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+    "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+    "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+    "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+    "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+    "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+    "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+    "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+    "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+    "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+    "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+    "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+    "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+    "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+    "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+    "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+    "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+    "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+    "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+    "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+    "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+    "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+    "information__Full5__Raw__Small__f010__sub4101__seed3101",
+    "information__Full5__Raw__Small__f010__sub4101__seed3102",
+    "information__Full5__Raw__Small__f010__sub4101__seed3103",
+    "information__Full5__Raw__Small__f010__sub4101__seed3104",
+    "information__Full5__Raw__Small__f010__sub4101__seed3105",
+    "information__Full5__Raw__Small__f100__sub4101__seed3101",
+    "information__Full5__Raw__Small__f100__sub4101__seed3102",
+    "information__Full5__Raw__Small__f100__sub4101__seed3103",
+    "information__Full5__Raw__Small__f100__sub4101__seed3104",
+    "information__Full5__Raw__Small__f100__sub4101__seed3105",
+    "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+    "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+    "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+    "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+    "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+    "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+    "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+    "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+    "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+    "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105"
+  ],
+  "models": [
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+        "representation": "HistoricalIncorrectPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "core",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "correction_v2_20261107",
+        "run_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f010__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f010__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f010__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f010__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f030__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Small__f030__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f030__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f030__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f030__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f030__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f030",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Raw__Large__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3101",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3102",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Large__f100__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3103",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3104",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Simple__Small__f100__sub4101__seed3105",
+        "representation": "Simple",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Large__f100__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3101",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3102",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3103",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3104",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__Learned__Small__f100__sub4101__seed3105",
+        "representation": "Learned",
+        "context_label": "Full",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+      "cohort": "legacy160",
+      "root_key": "full",
+      "checkpoint_kind": "legacy",
+      "labels": {
+        "study_id": "corrected_formal_extension_20261107",
+        "run_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full",
+        "capacity": "Large",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Hidden5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse2",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Coarse8",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f010__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f010__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f010__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f010__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f010__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f100__sub4101__seed3101",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f100__sub4101__seed3102",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f100__sub4101__seed3103",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f100__sub4101__seed3104",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__Raw__Small__f100__sub4101__seed3105",
+        "representation": "Raw",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f010",
+        "seed": 3105
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3101
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3102
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3103
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3104
+      }
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "cohort": "information80",
+      "root_key": "information",
+      "checkpoint_kind": "information",
+      "labels": {
+        "study_id": "information_extension_20261108",
+        "run_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+        "representation": "CorrectedPhysics",
+        "context_label": "Full5",
+        "capacity": "Small",
+        "fraction_tag": "f100",
+        "seed": 3105
+      }
+    }
+  ],
+  "decision_file_sha256": "7c12cacd093e620f342cfe0497877f442cb5626d19f4685fff0c5f75235b7ba6",
+  "selection_policy": "All declared cells; no fit is dropped or selected based on performance. Formal new model artifacts must be attached to this existing roster only."
+}

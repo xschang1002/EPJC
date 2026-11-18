@@ -1,0 +1,45 @@
+{
+  "approval_text_required": "批准冻结当前主批次选择并运行两块各 500k confirmation",
+  "blocks": [
+    {
+      "beam_seed": 20261012,
+      "block_id": "a",
+      "events": 500000,
+      "run_id": "confirmation-500k-a-20261011",
+      "transport_master_seed": 31415927
+    },
+    {
+      "beam_seed": 20261013,
+      "block_id": "b",
+      "events": 500000,
+      "run_id": "confirmation-500k-b-20261011",
+      "transport_master_seed": 16180339
+    }
+  ],
+  "confirmation_enabled": false,
+  "guard_requirement": "protocol/confirmation_guard.py must return ALLOW_CONFIRMATION before any confirmation path is created",
+  "mechanism_model": "joint_anchor_residual_k2",
+  "model_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "selection_candidate": {
+    "model": "unanchored_mdn_k2",
+    "report": "reports/main_1000000_selection_candidate.json",
+    "rule": "argmin mean validation full_nll across ten main-batch seeds"
+  },
+  "source_frozen_protocol": "protocol/frozen_protocol.json",
+  "source_frozen_protocol_sha256": "fca889e64fa5f66998f06d1daa7b35f126ce605e245f4223271e962798438e9e",
+  "source_main_manifest": "manifests/main_1000000_merged.json",
+  "source_main_manifest_sha256": "0c60ebcf3a006a35a976ad67bc3bb0c633be826fdf447c125f68b646ced213a7",
+  "split_rule": "confirmation is untouched; no train/validation split or threshold fitting",
+  "status": "READY_PENDING_EXPLICIT_APPROVAL"
+}

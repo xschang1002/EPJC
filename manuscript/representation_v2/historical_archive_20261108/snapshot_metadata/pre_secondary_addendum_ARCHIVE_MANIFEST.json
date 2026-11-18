@@ -1,0 +1,449 @@
+{
+  "schema": "pre-editorial-historical-archive/v1",
+  "status": "PRESERVED_EXACT_SOURCE_AND_ASSETS",
+  "generated_utc": "2026-11-08T15:15:47.039666+00:00",
+  "before_hash_inventory_sha256": "3758e2ad416a04976414dc16fa3c322c57beceba8891260d9f06691bb0691c5a",
+  "entrypoint": "overleaf_snapshot/supplementary.tex",
+  "copied_files": [
+    {
+      "archive_path": "overleaf_snapshot/correction_final_tables.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\correction_final_tables.tex",
+      "sha256": "67dbe7f6f283cbe13631ee1c694ddb673d8bca95e9f9b31b8b212a7cf3a7320a",
+      "bytes": 12765,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/earlier_corrected_results.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\earlier_corrected_results.tex",
+      "sha256": "b527de2b5f75c34611a1e1a0b0824af648f7edcb6fdc69a89fc32d2895bce987",
+      "bytes": 15194,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_confirmation.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_confirmation.pdf",
+      "sha256": "223fe8081f8a1a7865869036382ad46f91872128d677f7d06392d29ee22a9bfc",
+      "bytes": 27572,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_detail.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_detail.pdf",
+      "sha256": "8fca4267e87f1ba036e2002dca35624bec70977f146dfebba468fec7428cbe24",
+      "bytes": 21756,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_full_confirmation.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_full_confirmation.pdf",
+      "sha256": "ee1799590218831304a75f7ce0cd753ad56dbb993f6e8d79f19d031466b233c5",
+      "bytes": 30024,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_full_matrix.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_full_matrix.pdf",
+      "sha256": "a89a08a4fa36582c0e01dfd588472f409323f680f3abe59012f95114362819a6",
+      "bytes": 28673,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_within_condition.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_within_condition.pdf",
+      "sha256": "06db1c9da3573ad13c69d80cbbd9305f8e5fbc3061891feb0bf03646ded02dde",
+      "bytes": 26036,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/likelihood_decomposition.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\likelihood_decomposition.pdf",
+      "sha256": "9a2dd59809d9b3a3ecee0f2f41701b22cb9a11055f4dfb30dea68721672ec0be",
+      "bytes": 29556,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/mechanism.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\mechanism.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/overview.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\overview.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/information_tables/source/source_information_primary16.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\information_tables\\source\\source_information_primary16.tex",
+      "sha256": "5090f3c94b14124c0b174ea54c7d79c81e7f720afd4fdfc910e4abcde2ecee1d",
+      "bytes": 2713,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/seed_sensitivity/seed_exploratory_t_summary.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\seed_sensitivity\\seed_exploratory_t_summary.tex",
+      "sha256": "9b3f8c48f8e3f6be5c37e1e88a2af76e23f7a8c10fc3937f77c1619220f0810a",
+      "bytes": 3832,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/seed_sensitivity/seed_full_summary.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\seed_sensitivity\\seed_full_summary.tex",
+      "sha256": "76a1561a75c554cf3ab7f043c2b1645488da6ec6d581ada0f53849bafa8f23ec",
+      "bytes": 4748,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/supplementary.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\supplementary.tex",
+      "sha256": "20c191cea902065c9c0236410797be10a15ab8312a8f3e16d577eb278eb38a86",
+      "bytes": 16607,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/support_audit_tables.tex",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\support_audit_tables.tex",
+      "sha256": "9790221795e5ed76553e5b56c8a2340b3cec825384581c4c953f682895381a54",
+      "bytes": 5571,
+      "role": "exact pre-editorial full-supplement dependency"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/confirmation.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\confirmation.pdf",
+      "sha256": "1730c4aaf711c29338c21922c2db04c8f282f216a5b6c1b5af8ee8f6766685da",
+      "bytes": 24362,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/confirmation.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_analytic_centers.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_analytic_centers.pdf",
+      "sha256": "a07908df26227d18ee1a1d85d64c33d4f27e2343bc78e45c8bc37790a2e69932",
+      "bytes": 25945,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_analytic_centers.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_analytic_centers.png",
+      "sha256": "153466f0cf3015c3da30bbf84a56e61a3889ed46e7da0558083ad8f287fa3b82",
+      "bytes": 338935,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_confirmation.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_confirmation.png",
+      "sha256": "b95cc0e932d4cc4b7ee2a389529183726fec315693f28b519f10ecdc45d5120e",
+      "bytes": 397571,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_detail.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_detail.png",
+      "sha256": "28f9ac16a2a5e1e883136030004f50327e4938f4e882ac23c1fddd6d2ccc3000",
+      "bytes": 246212,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_overview.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_overview.pdf",
+      "sha256": "f3dc87a9ec83d0e67a70d8d84fd92fad7c7529535196fa9234538fcd04620bd2",
+      "bytes": 24324,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_core_overview.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_core_overview.png",
+      "sha256": "f4a45963ff13ad6a2f234afbc42697dab0a076252dfcf607b6202685201a7b34",
+      "bytes": 365572,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_full_confirmation.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_full_confirmation.png",
+      "sha256": "8b547b6e10cdb741ca39ab222b835f65061417061787f875017d27ea2391c2a3",
+      "bytes": 425847,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_full_matrix.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_full_matrix.png",
+      "sha256": "5390988be4c86f0dfccfc117a09665fcbd613b116590e25e1f0ce2a3b9358452",
+      "bytes": 451460,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/correction_within_condition.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\correction_within_condition.png",
+      "sha256": "5e7eca6bff81fefb2d66accdf2d11db79fac26532f90a177d17f51e620b24ba2",
+      "bytes": 308271,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig1_full_hidden_interaction.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig1_full_hidden_interaction.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig1_full_hidden_interaction.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig1_full_hidden_interaction.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig2_mechanism_location_nll.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig2_mechanism_location_nll.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig2_mechanism_location_nll.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig2_mechanism_location_nll.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig3_support_decomposition.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig3_support_decomposition.pdf",
+      "sha256": "8fa2d0a0dcce346cb2af2b269efbefcb16d0e0170fde2acc9e36368655357aae",
+      "bytes": 29556,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig3_support_decomposition.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig3_support_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig4_independent_confirmation.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig4_independent_confirmation.pdf",
+      "sha256": "ddfa45d8a92f97a8f29af87b0d93abca59e9063e5375b7ef638c7ee82c487119",
+      "bytes": 24362,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig4_independent_confirmation.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig4_independent_confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig5_hidden_interaction_detail.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/fig5_hidden_interaction_detail.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/interaction.pdf",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\interaction.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/interaction.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\interaction.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/likelihood_decomposition.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\likelihood_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/mechanism.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\mechanism.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "overleaf_snapshot/figures/overview.png",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures\\overview.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "role": "unchanged historical or earlier corrected figure asset"
+    },
+    {
+      "archive_path": "snapshot_metadata/references.bib",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\references.bib",
+      "sha256": "1b4f483536ab26a9f11220fc0fd7245919de69e8461743056da901e8544dca11",
+      "bytes": 9945,
+      "role": "pre-editorial bibliography or figure provenance"
+    },
+    {
+      "archive_path": "snapshot_metadata/figures_manifest.json",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\figures_manifest.json",
+      "sha256": "ced55a2ee9cd0b8a106b7b1cbcdf2f967c83fdd4afd631f3214fd16bc6f74d1b",
+      "bytes": 1152,
+      "role": "pre-editorial bibliography or figure provenance"
+    },
+    {
+      "archive_path": "snapshot_metadata/correction_figures_manifest.json",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_manuscript\\overleaf_submission\\correction_figures_manifest.json",
+      "sha256": "3243505ce2cedf9712b4df6ef2213186c830f3f1423e4fe4e7efa07d58c1829d",
+      "bytes": 5108,
+      "role": "pre-editorial bibliography or figure provenance"
+    },
+    {
+      "archive_path": "snapshot_metadata/editorial_before_hashes.json",
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\before_hashes.json",
+      "sha256": "3758e2ad416a04976414dc16fa3c322c57beceba8891260d9f06691bb0691c5a",
+      "bytes": 44448,
+      "role": "original editorial backup inventory"
+    },
+    {
+      "archive_path": "development_sources/correction_runtime_receipt.json",
+      "source_path": "E:\\JINST REP\\_audit_20261107\\FINAL_RUNTIME_VERIFIED.json",
+      "sha256": "401b555b49dfa742ff852a67620758671be91fcb5ef4271ceec975e9c2255ba5",
+      "bytes": 4878,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/correction_contract_tests.json",
+      "source_path": "E:\\JINST REP\\_audit_20261107\\correction_implementation_verification.json",
+      "sha256": "c1d6b4e9e2bfae008c4a0c6b4b81494bb2412b60a480404cd427bac1561565c7",
+      "bytes": 972,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/correction_experiment_identity.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\correction_v2_20261107\\study\\experiment_identity.json",
+      "sha256": "aead0da64bab658cd5e2a535abcd920c21a6ee01f9e8a1cd6ce7de7f7562f2ce",
+      "bytes": 1677,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/information_protocol_freeze.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\PROTOCOL_FREEZE.json",
+      "sha256": "28802b0f0d6e5f512b3d5cdc259bae2e354daf8c6177f93ab3969dfd90eb304f",
+      "bytes": 8588,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/information_checkpoint_freeze.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\study\\FROZEN_CHECKPOINT_MANIFEST.json",
+      "sha256": "5dcf919e20a0163b0cc87c8c5d18502c6931c756b0571f508fce8eab75e73900",
+      "bytes": 124274,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/information_source_analysis.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\source_analysis\\analysis.json",
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7",
+      "bytes": 7706,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/fresh_generation_complete.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\GENERATION_COMPLETE.json",
+      "sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474",
+      "bytes": 7416,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "development_sources/fresh_model_union.json",
+      "source_path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\FROZEN_FRESH_MODEL_UNION.json",
+      "sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2",
+      "bytes": 336603,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "historical_package_claims/VERSION_2_0_COMPARISON.md",
+      "source_path": "E:\\JINST REP\\_audit_20261107\\low-pion-research-main\\VERSION_2_0_COMPARISON.md",
+      "sha256": "f888927089dfbf3612f2a40643da10998848eed6f1bc5859572ca63361483957",
+      "bytes": 9332,
+      "role": "unchanged source record; historical status/date retained"
+    },
+    {
+      "archive_path": "historical_package_claims/VERSION_2_0_MANIFEST.json",
+      "source_path": "E:\\JINST REP\\_audit_20261107\\low-pion-research-main\\VERSION_2_0_MANIFEST.json",
+      "sha256": "5b43693e0d04689e70b4bdce70e3352e67944157c6e543377bf0d80976518757",
+      "bytes": 1912,
+      "role": "unchanged source record; historical status/date retained"
+    }
+  ],
+  "dependency_closure": {
+    "tex": [
+      "correction_final_tables.tex",
+      "earlier_corrected_results.tex",
+      "information_tables/source/source_information_primary16.tex",
+      "seed_sensitivity/seed_exploratory_t_summary.tex",
+      "seed_sensitivity/seed_full_summary.tex",
+      "supplementary.tex",
+      "support_audit_tables.tex"
+    ],
+    "graphics": [
+      "figures/correction_core_confirmation.pdf",
+      "figures/correction_core_detail.pdf",
+      "figures/correction_full_confirmation.pdf",
+      "figures/correction_full_matrix.pdf",
+      "figures/correction_within_condition.pdf",
+      "figures/likelihood_decomposition.pdf",
+      "figures/mechanism.pdf",
+      "figures/overview.pdf"
+    ],
+    "bibliography": []
+  },
+  "original_audit_excerpt": {
+    "source_path": "E:\\JINST REP\\_audit_20261107\\evidence_findings.txt",
+    "source_sha256": "8f8cd70443c9330d53a522f5b213d61ecbafbe284753587b46e5383638d8de02",
+    "selection": "Exact text from E1 [P1] up to, excluding, E5 [P2]",
+    "excerpt_sha256": "4e63a00a416fd8933a72c6aff83dbd9e06160424c410504e1577f171d99914f2",
+    "boundary": "Original dated internal audit observations; no inference of fabrication or unperformed work."
+  },
+  "protected_registry_files_read_only": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\claims.csv",
+      "sha256": "5ea7c1bd7b8f3ca337a5504884fab0570e64cdc91efa5fe890b5dd4e203800ec"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\source_manifest.json",
+      "sha256": "674fb02709f7210dad8205dcaffa0ba177e22692423bfe4fd1f2e77cd81a2452"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\consistency_manifest.json",
+      "sha256": "6c9b6773004c3904df6c82f9096a7b7d34220afd94945184b679b59baa793b34"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\manuscript_manifest.json",
+      "sha256": "0157254e3c890c21ae86d65098bacd4b7270579c730d320f1407e57b38957d0e"
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\RESULTS_SCAFFOLD.md",
+      "sha256": "2967dd535519833285aa3b6bcb61e31f6c3f5a9de0b3f295369474a257971e19"
+    }
+  ],
+  "no_compiled_full_pdf_duplicated": true,
+  "no_current_main_or_supplement_edited": true,
+  "no_numerical_sources_protocols_or_results_modified": true,
+  "author_publication_declaration": "User-reported internal/unpublished/unsubmitted on 2026-11-08; not externally independently verified."
+}

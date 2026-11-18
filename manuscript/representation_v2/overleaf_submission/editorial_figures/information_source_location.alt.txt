@@ -1,0 +1,1 @@
+Three panels show Raw and BB-centered source location burden: one common physical-unit panel above two training-scale-standardized panels. Exact momentum is marked as theoretical zero.

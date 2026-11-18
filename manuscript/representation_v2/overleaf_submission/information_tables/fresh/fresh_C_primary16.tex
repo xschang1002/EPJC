@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{All 16 prespecified contrasts for fresh catalog C ($N=499,285$ eligible events from 500,000 launches). The event intervals are approximate 95\% simultaneous max-$|t|$ intervals over all 16 contrasts within this catalog, using 2000 paired resamples within the 42 launched strata with an aggregated $S=0$ atom. All quantities are in nats per eligible event. $\Delta$ is Raw-minus-Corrected NLL, averaged over five paired optimizer seeds; gain differences are more-information minus less-information. Seed SD is the sample SD across those five seeds, not a confidence interval or variation across independent datasets. $n_+$ counts positive seeds out of 5; zeros are not counted. Event intervals condition on the fixed fitted models; C/D families are separate and not pooled.}
+\label{tab:information-C-primary16}
+\begin{tabular}{llrrrrr}
+\toprule
+Contrast & Train & Mean & Seed SD & 95\% lower & 95\% upper & $n_+/5$ \\
+\midrule
+$\Delta_{\mathrm{Hidden5}}$ & 10\% & $+0.006272$ & $0.000811$ & $+0.005709$ & $+0.006835$ & 5/5 \\
+$\Delta_{\mathrm{Coarse2}}$ & 10\% & $+0.010399$ & $0.001099$ & $+0.009844$ & $+0.010954$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}$ & 10\% & $+0.003082$ & $0.001596$ & $+0.002741$ & $+0.003423$ & 5/5 \\
+$\Delta_{\mathrm{Full5}}$ & 10\% & $+0.001845$ & $0.001855$ & $+0.001580$ & $+0.002110$ & 4/5 \\
+\midrule
+$\Delta_{\mathrm{Hidden5}}$ & 100\% & $+0.006233$ & $0.001125$ & $+0.005661$ & $+0.006804$ & 5/5 \\
+$\Delta_{\mathrm{Coarse2}}$ & 100\% & $+0.010895$ & $0.001060$ & $+0.010287$ & $+0.011502$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}$ & 100\% & $+0.002987$ & $0.001211$ & $+0.002653$ & $+0.003321$ & 5/5 \\
+$\Delta_{\mathrm{Full5}}$ & 100\% & $+0.001550$ & $0.000923$ & $+0.001300$ & $+0.001799$ & 5/5 \\
+\midrule
+$\Delta_{\mathrm{Coarse2}}-\Delta_{\mathrm{Hidden5}}$ & 10\% & $+0.004127$ & $0.000767$ & $+0.003838$ & $+0.004417$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}-\Delta_{\mathrm{Coarse2}}$ & 10\% & $-0.007317$ & $0.002210$ & $-0.007780$ & $-0.006854$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Coarse8}}$ & 10\% & $-0.001237$ & $0.002137$ & $-0.001496$ & $-0.000978$ & 1/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Hidden5}}$ & 10\% & $-0.004427$ & $0.001796$ & $-0.004975$ & $-0.003879$ & 0/5 \\
+\midrule
+$\Delta_{\mathrm{Coarse2}}-\Delta_{\mathrm{Hidden5}}$ & 100\% & $+0.004662$ & $0.000809$ & $+0.004395$ & $+0.004929$ & 5/5 \\
+$\Delta_{\mathrm{Coarse8}}-\Delta_{\mathrm{Coarse2}}$ & 100\% & $-0.007908$ & $0.000441$ & $-0.008447$ & $-0.007368$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Coarse8}}$ & 100\% & $-0.001437$ & $0.000673$ & $-0.001656$ & $-0.001219$ & 0/5 \\
+$\Delta_{\mathrm{Full5}}-\Delta_{\mathrm{Hidden5}}$ & 100\% & $-0.004683$ & $0.001226$ & $-0.005204$ & $-0.004162$ & 0/5 \\
+\bottomrule
+\end{tabular}
+\end{table}

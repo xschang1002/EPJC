@@ -1,0 +1,31 @@
+{
+  "scope": "Saved aggregate diagnostic records; no event rows or model inference",
+  "catalogs": {
+    "C": {
+      "predictive_diagnostics.json": {
+        "path": "reports/information_extension_20261108/fresh_analysis/C/predictive_diagnostics.json",
+        "sha256": "d5c757dda4e05be6ef1c08ff7bbe72ecd67fbdd16b88a3a953b6d380ce0fb54e"
+      },
+      "residual_diagnostics.json": {
+        "path": "reports/information_extension_20261108/fresh_analysis/C/residual_diagnostics.json",
+        "sha256": "14771d53de19515d28eea8591e888f11be68964464bf47d0ca45cead174033f7"
+      }
+    },
+    "D": {
+      "predictive_diagnostics.json": {
+        "path": "reports/information_extension_20261108/fresh_analysis/D/predictive_diagnostics.json",
+        "sha256": "1883139667073443bd7397c1249dfbaed600ed7a0ebf9d91515526dd7258f65b"
+      },
+      "residual_diagnostics.json": {
+        "path": "reports/information_extension_20261108/fresh_analysis/D/residual_diagnostics.json",
+        "sha256": "79c6c1b981213c84ca91193ac3b95166a031637f25e1b0e5ae12c666d267ec2a"
+      }
+    }
+  },
+  "paper_locations": [
+    "EPJC main Sect. 5.5: regional median and interquartile coverage plus residual median drift",
+    "EPJC main Sect. 6: physical reference, silicon Sternheimer screening, and Landau-Bichsel bulk plateau",
+    "EPJC supplement Sect. S2.2: likelihood accounting, residual quantiles, and predictive calibration"
+  ],
+  "rebuild": "python reproduce.py --output reproduced"
+}

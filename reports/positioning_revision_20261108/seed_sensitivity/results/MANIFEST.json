@@ -1,0 +1,106 @@
+{
+  "schema": "posthoc-seed-sensitivity-artifacts/v1",
+  "status": "COMPLETE_POSTHOC_SEED_SENSITIVITY",
+  "generated_utc": "2026-11-08T12:00:15.092722+00:00",
+  "analysis_intent": "post_hoc_to_known_C_D_results",
+  "inputs": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\protocol\\information_statistical_analysis_20261108.json",
+      "sha256": "178d9011ddf25ab8d2777d185fec0f8d006fe4646dc56af99924af412a000f1a",
+      "bytes": 16526
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\independent_information_numerical_review.json",
+      "sha256": "03b29a14973d25a01a864bb8eb725e5ee89eaffe9f3c9dea3cef9c432624af3a",
+      "bytes": 7571
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3",
+      "bytes": 18506
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\ANALYSIS_MANIFEST.json",
+      "sha256": "16da3e60e19112a442e5c4439624b0cfa309c37ddd23fffca5135d05c909e67b",
+      "bytes": 2765
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\primary_seed_contrasts.csv",
+      "sha256": "74128e62b9c15488950eea148d1248010ade453c2ab01464571becc00e448b94",
+      "bytes": 4455
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\C\\primary_contrast_summary.csv",
+      "sha256": "f9855d8133889c27aa5e3e3efcb3abcb71ad35ed233f9c28be371f43e5899e1d",
+      "bytes": 2019
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c",
+      "bytes": 18490
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\ANALYSIS_MANIFEST.json",
+      "sha256": "ec12e42f3933def209d4cb11e94cee92a254d69ab64ea3807f2229aaa04617a7",
+      "bytes": 2765
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\primary_seed_contrasts.csv",
+      "sha256": "32cd0132654ff25495e53dc7f9d134d827081d80e36d2d91c666abc6f65ffaaa",
+      "bytes": 4450
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\fresh_analysis\\D\\primary_contrast_summary.csv",
+      "sha256": "4bf9b48a451da9736af1292ee0c783c4adf8a9c6fe3e3d0c4f803a84f441cb87",
+      "bytes": 2016
+    }
+  ],
+  "analysis_script": {
+    "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\analyze_seed_sensitivity.py",
+    "sha256": "1b2657b0846b4979732d3bd641bcd409909d05e74fd8d11cfa55a804bb62ba07",
+    "bytes": 17660
+  },
+  "outputs": [
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\seed_sensitivity.json",
+      "sha256": "d01b0812e1eaef51824c7093cc59f9697da2318c4d61ccb5455ef66238a2701b",
+      "bytes": 48178
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\seed_sensitivity.csv",
+      "sha256": "dda7e16cdbeeee469b3468e6d357d08ce23ae7b1f26ce00592f45c731d58ec14",
+      "bytes": 7420
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\paired_seed_values.csv",
+      "sha256": "9845e98188df748f0b3b8ad8af28b817f2db80cf26027a07faa50a2792210a6a",
+      "bytes": 9075
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\leave_one_seed_out.csv",
+      "sha256": "30ec872bf6426cf46170e09a5251dc6e85844e4dcdbfdde4cc9c30ec72e4d4e0",
+      "bytes": 13095
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\seed_sensitivity.tex",
+      "sha256": "76a1561a75c554cf3ab7f043c2b1645488da6ec6d581ada0f53849bafa8f23ec",
+      "bytes": 4748
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\SCIENTIFIC_INTERPRETATION.md",
+      "sha256": "babc3df3e3636788242f46bdd195cb40334780fbec0693d887416b8022bc33d5",
+      "bytes": 4028
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\exploratory_t_intervals.csv",
+      "sha256": "62dadc5c9085a3014f53a08d072f7c685943e6b60aae732f03d564ac2ed91502",
+      "bytes": 6199
+    },
+    {
+      "path": "E:\\JINST REP\\_positioning_revision_20261108\\seed_sensitivity\\results\\exploratory_t_intervals.tex",
+      "sha256": "9b3f8c48f8e3f6be5c37e1e88a2af76e23f7a8c10fc3937f77c1619220f0810a",
+      "bytes": 3832
+    }
+  ],
+  "no_training_or_inference": true
+}

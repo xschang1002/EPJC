@@ -1,0 +1,79 @@
+{
+  "confirmation_enabled": false,
+  "data": {
+    "development_events": 200000,
+    "development_manifest_sha256_tree": "284ea967a259902659921f68d8f58d7a72fa6d4317763c036476fde9cd11f933",
+    "development_matrix_completed_seeds": [
+      101,
+      102,
+      103
+    ],
+    "development_run_id": "development-200k-20261011",
+    "formal_matrix_pilot_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "split_rule": "sha256(event_uid) threshold 0.2 validation",
+    "train_q99_fractional_loss": 0.001975409054316485
+  },
+  "environment": {
+    "binding": "geant4-pybind==0.1.3",
+    "geant4_runtime": "$Name: geant4-11-04-patch-01 [MT]$",
+    "material": "G4_Si",
+    "os": "Windows_x64",
+    "physics_list": "FTFP_BERT",
+    "python": "3.12.13"
+  },
+  "freeze_note": "Protocol settings frozen for audit; confirmation data generation remains disabled.",
+  "governance": {
+    "approval_required_before_production": false,
+    "confirmation_gate": "CLOSED_UNTIL_SEPARATE_EXPLICIT_APPROVAL",
+    "frozen_protocol_sha256": null,
+    "human_freeze_approval": {
+      "approval_text": "批准当前候选，进入 W6 冻结准备",
+      "approved_at_utc": "2026-10-10 18:10:39 UTC",
+      "source": "user_message"
+    },
+    "source_candidate_sha256": "5e756879ffaea26c3fa22f396c8bbd2e2b16e5231e1c338c7619a7ebb8ae4ec6"
+  },
+  "model_policy_candidate": {
+    "confirmation_model_selection": null,
+    "models": [
+      "anchor_independent",
+      "shared_gaussian",
+      "conditional_gaussian",
+      "conditional_student_t_df3",
+      "frozen_anchor_k2",
+      "joint_anchor_residual_k2",
+      "conditional_gate_anchor_k2",
+      "learned_center_k2",
+      "unanchored_mdn_k2"
+    ],
+    "selection": "report all models and seeds; choose only after predeclared validation rule"
+  },
+  "simulation": {
+    "charges": [
+      211,
+      -211
+    ],
+    "full_secondary_step_policy": "all_secondary_tracks_all_volumes",
+    "max_step_over_thickness": 0.1,
+    "momentum_bins": 7,
+    "process_control_policy": "descriptive_only",
+    "production_cut_mm": 0.01,
+    "thickness_mm": [
+      0.1,
+      0.3,
+      1.0
+    ]
+  },
+  "status": "PRODUCTION_FROZEN"
+}

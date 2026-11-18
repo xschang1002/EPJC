@@ -1,0 +1,51 @@
+\section{Related work}
+\label{sec:related_target_centering}
+
+Physical knowledge enters learned models through several interfaces. Hybrid
+process models combine mechanistic structure with learned quantities
+\citep{PsichogiosUngar1992}; physics-informed neural networks use
+differential-equation residuals in the objective
+\citep{RaissiPerdikarisKarniadakis2019}; APHYNITY learns a constrained
+correction to incomplete dynamics \citep{YinEtAl2021}. These approaches motivate
+studying which part of a prediction problem is assigned to the physical
+description and which part remains statistical. Here the physical prescription
+defines the response coordinate, and the flow learns its conditional density.
+
+Residual targets have a direct precedent in $\Delta$-machine learning, where
+a learned correction augments an inexpensive quantum-chemical baseline
+\citep{RamakrishnanEtAl2015}. Conditional transformation models extend response
+transformation to distributional regression by estimating transformations
+that depend on explanatory variables \citep{HothornKneibBuhlmann2014}.
+These lines connect baseline correction with conditional distribution
+modeling. Our center is prescribed before flow fitting, so the experimental
+variable is the residual task presented to a matched density estimator.
+
+Response parameterization can affect both model adequacy and optimization.
+Box and Cox studied transformations that make a simple regression and error
+model appropriate, comparing likelihoods on the original response scale with
+the Jacobian included \citep{BoxCox1964}. PopArt changes target normalization
+while compensating the output layer to preserve the unnormalized predictor,
+relating normalization to modified squared-loss SGD updates
+\citep{VanHasseltEtAl2016}. For squared-loss kernel regression, target power
+across kernel eigenfunctions links target--model alignment to generalization
+\citep{CanatarBordelonPehlevan2021}. Together these results show why an
+information-preserving coordinate choice can still matter to a restricted
+learner. Our arms share a global target scale and fit a residual offset,
+focusing the comparison on input-dependent centering.
+
+Normalizing flows permit tractable density evaluation through change of
+variables. Conditional masked autoregressive flows incorporate explanatory
+inputs into their transformations \citep{PapamakariosPavlakouMurray2017},
+and neural spline flows provide monotone rational-quadratic maps with analytic
+inverses \citep{DurkanEtAl2019}. Flow expressiveness also depends on depth,
+parameterization and numerical conditioning \citep{KoehlerMehtaRisteski2021}.
+Numerical conditioning concerns the invertible map and its Jacobian, distinct
+from the physical information supplied to the neural conditioner.
+
+These studies establish residual modeling and coordinate choice as relevant
+tools; they do not determine the ordering of finite spline-flow NLLs under
+restricted neural inputs. Our contribution is the controlled information-axis
+comparison for a prescribed physical target center. Matched raw-target
+baselines separate centering benefit from the absolute benefit of additional
+neural information, and regional evaluations test how aggregate changes are
+distributed across the physical domain.

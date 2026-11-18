@@ -1,0 +1,5 @@
+# Python 3.12; tested versions for archived aggregate presentation replay.
+# No PyTorch/Geant4: checkpoint bytes are hashed, never deserialized.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2

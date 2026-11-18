@@ -1,0 +1,29 @@
+{
+  "status": "FIGURE_ASSETS_GENERATED",
+  "generator": "generate_figures.py",
+  "outputs": {
+    "overview": "overview.pdf",
+    "interaction": "interaction.pdf",
+    "mechanism": "mechanism.pdf",
+    "likelihood_decomposition": "likelihood_decomposition.pdf",
+    "confirmation": "confirmation.pdf",
+    "png_previews": [
+      "overview.png",
+      "interaction.png",
+      "mechanism.png",
+      "likelihood_decomposition.png",
+      "confirmation.png"
+    ]
+  },
+  "inputs": [
+    "reports/representation_v2/formal_matrix/formal_scores.json",
+    "reports/representation_v2/exploratory/compatibility_diagnostics_long.json",
+    "reports/representation_v2/exploratory/mechanism_connection_audit.json",
+    "reports/representation_v2/exploratory/independent_confirmation_scores.json"
+  ],
+  "notes": [
+    "All panels are generated from frozen reports; no model fitting or data generation is performed.",
+    "The mechanism scatter is descriptive and must not be described as a causal estimate.",
+    "The confirmation blocks are independent of current representation-v2 development decisions but have a disclosed legacy provenance boundary."
+  ]
+}

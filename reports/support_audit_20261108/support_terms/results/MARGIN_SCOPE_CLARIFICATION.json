@@ -1,0 +1,14 @@
+{
+  "schema": "support-input-margin-scope-clarification/v1",
+  "status": "COMPLETE",
+  "generated_utc": "2026-11-08T13:14:21.921295+00:00",
+  "reason": "Distinguish the exact difference of float32 input values in float64 from subtraction rounded in float32; both are legitimate but numerically different metrics.",
+  "original_support_sha256": "b1b23f2f0e128d04a7361d03b07519ba25452052d7a48656409de3584f306b64",
+  "revised_support_sha256": "d7d4ab3e9e3dd7e56d3d9e3c762b91d01b5442483d05e8e6696ea6fd73a85662",
+  "original_model_statistics_hash": "8ce5e659e869cb087e6b3b4936e2ce5b74043e2faed3eb7eee2120504dc24670",
+  "all_model_component_statistics_unchanged": true,
+  "original_manifest_sha256": "e207d214278d652f14a238073d8d0207559580d321962f754f7f9a31e99ac3de",
+  "reconciliation_sha256": "8460e011f8200daf237ff99555720486268103aeb3eca346d3e7114303d665ea",
+  "additional_reads": "Only p_in/y catalog arrays and companion aggregate audit records; no 5280-component rehash, model forward, training, or simulation.",
+  "postprocessor_sha256": "fbdfe781534d285f2d1e663f2d7bffb78bdb7bd8371913308a6dfca1cff6e9a7"
+}

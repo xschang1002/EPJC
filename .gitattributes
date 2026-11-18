@@ -1,0 +1,6 @@
+# Direct Git portability without Git LFS:
+# Preserve exact byte-for-byte SHA-256 digests across Windows, macOS, and Linux checkouts.
+* -text
+*.npz binary
+*.pdf binary
+*.png binary

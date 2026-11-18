@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "bytes": 108520148,
+      "path": "attribution_seed101.jsonl",
+      "sha256": "3ccabbf831234f75bac3e5897a021dd562554b5232e6e1da7330fc14ea4164d7"
+    },
+    {
+      "bytes": 1010,
+      "path": "attribution_seed101.summary.json",
+      "sha256": "441d09cfda2641b845822d7f402c7bd857d61c079506520f0a80995b427ecbab"
+    },
+    {
+      "bytes": 108520148,
+      "path": "attribution_seed102.jsonl",
+      "sha256": "3ccabbf831234f75bac3e5897a021dd562554b5232e6e1da7330fc14ea4164d7"
+    },
+    {
+      "bytes": 1010,
+      "path": "attribution_seed102.summary.json",
+      "sha256": "97befa7b983325bde4d63c78682eb3b3d5ab4feaa4f89ea6ecdcbacea5ca4936"
+    },
+    {
+      "bytes": 108520148,
+      "path": "attribution_seed103.jsonl",
+      "sha256": "3ccabbf831234f75bac3e5897a021dd562554b5232e6e1da7330fc14ea4164d7"
+    },
+    {
+      "bytes": 1010,
+      "path": "attribution_seed103.summary.json",
+      "sha256": "c4f7da1aebe621499a9f6e8d36c2c3a661174b5b650c4cc86a2b542386b53b4f"
+    },
+    {
+      "bytes": 4070,
+      "path": "checkpoint_seed101.json",
+      "sha256": "88f850e135204f9327090759b06d2c43e2c7b83e460ae9e5b0d03fdfeb9e6348"
+    },
+    {
+      "bytes": 4074,
+      "path": "checkpoint_seed102.json",
+      "sha256": "8ef00ffc68c4f964405283a493c2866621e3d6ab5b219705717db026725d4129"
+    },
+    {
+      "bytes": 4070,
+      "path": "checkpoint_seed103.json",
+      "sha256": "26076e8d6d24ae41d55cc3f012d3499ab6451c91a32b12736661b1914a6825d3"
+    },
+    {
+      "bytes": 623412813,
+      "path": "predictions_all_seed101.jsonl",
+      "sha256": "46b8c3bfcd7910e137abb5067629c239e041630e01981b26ae37ec88f19ab70d"
+    },
+    {
+      "bytes": 623412689,
+      "path": "predictions_all_seed102.jsonl",
+      "sha256": "aa287f29065ad95fb78bcdf1c9b2066d2c2d47e88477668766ad9663f496c5d4"
+    },
+    {
+      "bytes": 623412685,
+      "path": "predictions_all_seed103.jsonl",
+      "sha256": "19d8a4cd0d46ba56c138ae5b9c0401fb38fd8a17807af1f5bebeb8b834b21061"
+    },
+    {
+      "bytes": 70307991,
+      "path": "predictions_seed101.jsonl",
+      "sha256": "f0d5e61af7e73599fd1bef853d564339bea685e9a0d5149168e44e0676040516"
+    },
+    {
+      "bytes": 70307842,
+      "path": "predictions_seed102.jsonl",
+      "sha256": "ecbb8dd7d7649deef36269dfee081a5c96e2b416d986b1227ae371a89a5fc2fb"
+    },
+    {
+      "bytes": 70307949,
+      "path": "predictions_seed103.jsonl",
+      "sha256": "57c2585d4da1b62a5aff390828beeabde7471cd0b2fdd40407c9434ff35c0ed0"
+    },
+    {
+      "bytes": 998,
+      "path": "scores_seed101.json",
+      "sha256": "0e363dc6e2b9b205a882174d90035c919b424e00f1ef5ce80489e57101654f99"
+    },
+    {
+      "bytes": 998,
+      "path": "scores_seed102.json",
+      "sha256": "214c4b787a9f67f32e6135d18872397321cbe0c30c27bbbf85b01e03272f4281"
+    },
+    {
+      "bytes": 998,
+      "path": "scores_seed103.json",
+      "sha256": "073ce23fde5cf73aea42e95184ec7ba79f1e738185742c459359cd23b96de3db"
+    }
+  ],
+  "root": "E:\\JINST REP\\pion-material-study\\runs\\formal_matrix_development_200k",
+  "sha256_tree": "d38ba2071b1c629d867e17b724a6fb5b6b4dd3d6132da832ff3484234e936e40"
+}

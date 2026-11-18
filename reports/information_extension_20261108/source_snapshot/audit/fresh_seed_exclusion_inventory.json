@@ -1,0 +1,1895 @@
+{
+  "schema": "fresh-seed-exclusion-inventory/v1",
+  "generated_utc": "2026-11-07T19:17:44.993190+00:00",
+  "scope": "All six retained legacy beam catalogs and all retained FTFP_BERT run manifests, including engineering and process-control runs; source metadata only, no legacy event arrays read",
+  "beam_seeds": [
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20262000,
+    20262001
+  ],
+  "transport_master_seeds": [
+    314159,
+    314160,
+    16180339,
+    27182818,
+    31415927
+  ],
+  "transport_seeds": [
+    9911,
+    9912,
+    9913,
+    9914,
+    197901,
+    314159,
+    400000,
+    400001,
+    400002,
+    400003,
+    400004,
+    400005,
+    777777,
+    4488773,
+    15995214,
+    18810897,
+    26636722,
+    27308917,
+    36251191,
+    41405089,
+    47035624,
+    52207215,
+    54219609,
+    56008470,
+    59914390,
+    63589740,
+    68433810,
+    73335051,
+    74079523,
+    104213145,
+    115426950,
+    115504705,
+    124039609,
+    131960793,
+    168760276,
+    180610248,
+    186512454,
+    219784817,
+    229201682,
+    240048517,
+    240275458,
+    261769819,
+    262139958,
+    270677332,
+    279164942,
+    280937473,
+    328983692,
+    351544474,
+    356590782,
+    375807509,
+    376242906,
+    389404613,
+    399863655,
+    414779473,
+    429781625,
+    431897242,
+    435939694,
+    453892559,
+    455395803,
+    458598983,
+    467951334,
+    483295918,
+    488632056,
+    496989323,
+    515418990,
+    523000963,
+    524795323,
+    533471182,
+    571822368,
+    573034600,
+    611430598,
+    612008119,
+    612801303,
+    647882221,
+    691133836,
+    697485711,
+    698408366,
+    708973974,
+    711264365,
+    720683674,
+    723384846,
+    724056784,
+    728909311,
+    736060538,
+    749159702,
+    772384528,
+    772692680,
+    782047778,
+    796883230,
+    813690645,
+    832510562,
+    834891563,
+    848819433,
+    893476034,
+    894042449,
+    904288761,
+    907679177,
+    914035431,
+    932138428,
+    933734259,
+    936742470,
+    954711632,
+    984073780,
+    986319640,
+    987500844,
+    1005570862,
+    1010404268,
+    1013699333,
+    1018934531,
+    1028079154,
+    1028136927,
+    1063985087,
+    1092802809,
+    1095311460,
+    1108346755,
+    1113379143,
+    1125638122,
+    1127963022,
+    1157050268,
+    1158969851,
+    1162794079,
+    1172237349,
+    1173360390,
+    1178069487,
+    1186886064,
+    1190106075,
+    1193444949,
+    1198712090,
+    1199677447,
+    1208072013,
+    1212040450,
+    1238667235,
+    1239233852,
+    1247963129,
+    1253332349,
+    1254675430,
+    1258649405,
+    1262030524,
+    1265716689,
+    1347825185,
+    1357202464,
+    1360882003,
+    1375744628,
+    1392414087,
+    1394399206,
+    1427252920,
+    1434438318,
+    1435119145,
+    1435434442,
+    1437744235,
+    1438489247,
+    1457251595,
+    1473943174,
+    1475473968,
+    1490422240,
+    1494622722,
+    1498403552,
+    1520778807,
+    1524887010,
+    1526468431,
+    1530045753,
+    1558562572,
+    1566623901,
+    1567506336,
+    1575018237,
+    1578236924,
+    1602866919,
+    1608609974,
+    1617902470,
+    1626421036,
+    1633970946,
+    1636967383,
+    1641893964,
+    1666676163,
+    1668302061,
+    1668622392,
+    1674111300,
+    1682284777,
+    1685114095,
+    1721902250,
+    1730224310,
+    1746207871,
+    1785589781,
+    1789811789,
+    1797990885,
+    1798602042,
+    1801349610,
+    1816500158,
+    1827339725,
+    1827376266,
+    1853212734,
+    1864224883,
+    1896783014,
+    1897687192,
+    1903427381,
+    1918757449,
+    1931348639,
+    1966757754,
+    1967444902,
+    1967985470,
+    1968309697,
+    1973045847,
+    1994294020,
+    1995166741,
+    2001240530,
+    2005036509,
+    2010930054,
+    2041792192,
+    2046012755,
+    2048609633,
+    2056322656,
+    2060027469,
+    2066695382,
+    2085088163,
+    2089054547,
+    2093564691,
+    2110143653,
+    2112297755,
+    2113825118,
+    2118284096,
+    2136317236,
+    2139070606,
+    2140146983
+  ],
+  "run_ids": [
+    "confirmation-500k-a-20261011",
+    "confirmation-500k-b-20261011",
+    "development-200k-20261011",
+    "main-1m-20261011",
+    "pilot-10000-20261010",
+    "w1-probe-42"
+  ],
+  "sources": [
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\confirmation_500k_a\\catalog.json",
+      "sha256": "cc8e3090542ddfd120ad22bb497fbb92d01d129d90357f7c6170d17cfdcde8d0"
+    },
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\confirmation_500k_b\\catalog.json",
+      "sha256": "7e0075b94b093633d425dc689ecef1e0ae278f044b8ffce9dc16699bcd4fef45"
+    },
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\development_200k\\catalog.json",
+      "sha256": "0ecfc27132b61847b1935059b04b63cd1cc62ea1284661ff5ad2a0eb1423ade2"
+    },
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\main_1000000\\catalog.json",
+      "sha256": "0f5c41d85e951db2590e7fd400e881568feae48dae5325bbd974dc5c3dbabaab"
+    },
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\pilot_10000\\catalog.json",
+      "sha256": "bb24cb68b3892e0dc202f4d64911c51f7ea42c26a7208915d2ad8f7dc882ff8e"
+    },
+    {
+      "kind": "beam_catalog",
+      "path": "E:\\JINST REP\\pion-material-study\\data\\beam_manifests\\w1_probe_42\\catalog.json",
+      "sha256": "2ca5449a89b2bd611ad6c3bb495669026f048a47ea8059bb6e7fc6ee3c014e07"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\near_vacuum_1000\\manifest.json",
+      "sha256": "e1ea4d1b0d36ceefd5cffd92806e3f748a6a70aec47dcb9f13d549c389242713"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full_chunk_00_probe\\manifest.json",
+      "sha256": "d56e095e122adebb5cb752923b0acb19854ebb48dd62b49635d02a2faf1a9f83"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_off_pion_hadElastic_1000\\manifest.json",
+      "sha256": "92432c6999d7af8b666e76c522d8833f438060debc74c0fe2a2142f31123c67a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_off_pion_hadElastic_1000_same_seed\\manifest.json",
+      "sha256": "e45c7f31182a7bf6693010359ace57782c244b46bde5fdacd5bb41d81e1cb979"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_off_pion_inelastic_10\\manifest.json",
+      "sha256": "093915d846a73bdf896c0a048581aa145b1708d114d6c675699c56fd513864a8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_off_pion_inelastic_1000\\manifest.json",
+      "sha256": "57c99702ea243150a3aefd42de3673b38c66cc050be90e60270ce8bd10b8a8c5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_off_pi_inelastic_10\\manifest.json",
+      "sha256": "27e3fd9c6531b0993dbfaf8235cb12d495798326f5c43150bf2e7dc4607b2f18"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\process_reference_1000\\manifest.json",
+      "sha256": "3f60adce0b6d8f78c769c2d6cfe39016f87a078fbb8867897fca996bdff4b74c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\replay_target_chunk_19\\manifest.json",
+      "sha256": "cba721caa0160d276db8dd3c950d4bf46a55f744c6c1a4c55bae8e3101524149"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\replay_target_chunk_3\\manifest.json",
+      "sha256": "d5264a01b94bfbccd74433e9eef117a1b2c1f9d91c5bf0db6e59a947b2aaffb8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_cut001_1000\\manifest.json",
+      "sha256": "c0a7af521f83f417c2b9237478e5f4177b3eb6d76b0e41472f725964c2f1eae4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_cut01_1000\\manifest.json",
+      "sha256": "fff654fb61917d3292b1febdd3ba9d7b19f7fd50c532c70f09975a6144741425"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_cut1_1000\\manifest.json",
+      "sha256": "9bcce09d9c80cc5fa240a7a094e8a611fbb369f5d76273f63882106f76c645b5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_cut001_1000\\manifest.json",
+      "sha256": "7b0c2b62780506a188fb66427c7b62327abdbb98523db41188c78f13251651ba"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_cut01_1000\\manifest.json",
+      "sha256": "3ab4171b91e80ce283c50f2369df322ab729a665fa884568eddc74bdf7585f5d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_cut1_1000\\manifest.json",
+      "sha256": "b111acc15968b3edb926537a81355c4fd7c8a23402af7f588e5ee61fa075125a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_step005_1000\\manifest.json",
+      "sha256": "be42165e4560fa06044d97cd5d66617857fb54d78e502df8d6366fa62e57338f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_step01_1000\\manifest.json",
+      "sha256": "a1b547b5acc677aa72ce7cb5de62fd7262cc631484fb0ffacb498bb3f352da33"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_paired_step05_1000\\manifest.json",
+      "sha256": "76869145162619b8fa1986505f5cf1e733c2829e742731eb9291f415c163f79c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_step005_1000\\manifest.json",
+      "sha256": "1368beb6f1990392c5e6b105a77b1d4f4c132ca63c668a07e8489705b861acc9"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_step01_1000\\manifest.json",
+      "sha256": "ce372f118c87ef12f0d94467420101ad5b64020d630dac09fa2067aac5a2aa3a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\scan_step05_1000\\manifest.json",
+      "sha256": "d5690f651a2c2c8787545474e4f74e3a13c57fe8fd5490dc272650dece3bff65"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w0_cut_probe_10_h\\manifest.json",
+      "sha256": "0c48a04f92e38827f0cfa6bf05d1349bd3fbf4d432600edd9137502e7da0ab30"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w0_cut_step_probe_10_i\\manifest.json",
+      "sha256": "f1529c800472e2141fa6ceaa0d17558c43c46981df6f1d39e36c9dafea93890d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w0_smoke_100_e\\manifest.json",
+      "sha256": "42485215572418a2fd80e4e35907e3816275136a259feae0cc97d4fb8ff5e47a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w0_smoke_100_f\\manifest.json",
+      "sha256": "fa514e710d8e0bb060cd58962c37756673f4e827d2887d6e7b656b8de692408d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_full_secondary_probe_chunk_00\\manifest.json",
+      "sha256": "176e2a02c77afd46edc5d9c713ce0360b16fecbed0fab3df49161665a9a8ca27"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42_chunk_00\\manifest.json",
+      "sha256": "5f701bfdb9d1219d2cefca6b73acecfb3d1638ce87a5a4cfbee1b84c3731fa31"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_00\\manifest.json",
+      "sha256": "ef2689ed0862cc30ac325809693c59b4f92352737f6daacb75a7c8d950136e51"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_01\\manifest.json",
+      "sha256": "c62db14855e5fd2595480b4605df406eab9b467f18c68eb5d83b88ece63f9570"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_02\\manifest.json",
+      "sha256": "46c1401241d52e8323f03ea1794469fadb8343f04881a9b174569ede8691801d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_03\\manifest.json",
+      "sha256": "3a985a188c9a90767b57caed82c4c41e69f96b9e680cffc6c2bcf96fda864ebc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_04\\manifest.json",
+      "sha256": "d00a1892821bce16fc789b222b1c5f4e9dacfd6a1a3f63340903c8d369cd0228"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_05\\manifest.json",
+      "sha256": "78fe87af013fe1903185015a9db312799a7549db587bf1e880a3c0c3d7e2df11"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_06\\manifest.json",
+      "sha256": "3d31979f23c9d4c02148fa6c4dce27542a10d286a00c3c46e451ab623bc4a4b6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_07\\manifest.json",
+      "sha256": "7e5964a73c7b338f10ca0888a7c13ec39d1e5a929a2e7930aa253754ce3fb1ea"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_08\\manifest.json",
+      "sha256": "90f9c482ef26c8f6bf9a58fa823ec4d054a7c4b4ce2536407db4133b7e3b75da"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_09\\manifest.json",
+      "sha256": "39dd90ec370af1e515a4598611936119a086fb6cd94f9bb7c7ffb73945a463d8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_10\\manifest.json",
+      "sha256": "64f69542299b99d46f2ad687f66f1d3793d7547c7824f305e2755c4f23db79ed"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_11\\manifest.json",
+      "sha256": "ecf3ba7f4bf39014f35c117f53704e19d6181aebc41c819dbccd238b4c78eabc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_12\\manifest.json",
+      "sha256": "7c0bc28a456a17c49acce080e2d69942a7798034d49f3b2e68e3b61e8d273f11"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_13\\manifest.json",
+      "sha256": "0d499a8364460b93e8fc5a4b37302ccac417a0872a6f92c9598233e871f03820"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_14\\manifest.json",
+      "sha256": "aa47cb3d76364230c0e0587daac223da177ba5f5993b642a6d7561cb9ece8c88"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_15\\manifest.json",
+      "sha256": "ed98cac00e7140efa2c2cc28b20348609c907075fd89bfd8dc817843cc536058"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_16\\manifest.json",
+      "sha256": "73f58691d3944beb429d092a115ec06653a11e8002448949f45a645fd64d5d0b"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_17\\manifest.json",
+      "sha256": "1e9b92c6d42ffb8a1ed6559e2ad6ba5a75d8b21e3b2829475d67bfc58784b939"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_18\\manifest.json",
+      "sha256": "f9fd2c79ab7a49bcb3f7937adf2c2f910a6f0cfc052ce308633506316e781e79"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_19\\manifest.json",
+      "sha256": "2c90c0713c3eca92394ba5215925927f98d87ea210bcd38f2d2cc1a8b3a5d596"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_20\\manifest.json",
+      "sha256": "2d3523d4bcc27f45033bcbc64c622e5a7b6791d9b6768a55876f9a6bd4cb521b"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_21\\manifest.json",
+      "sha256": "1ae567bdf1cd936f0c13b69037413d554f8a82b9e07af8b1d1912d6566b6f85f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_22\\manifest.json",
+      "sha256": "eb3216978c88ed7851f5572468143cde12d1bf40a62c1d9f28ef9864d0d944e2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_23\\manifest.json",
+      "sha256": "a96a8b1dcb315e40494cc02549970fc5372ccef5d0607ef742332c2362972068"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_24\\manifest.json",
+      "sha256": "b3bae8d7ef945bfdbab39bb641ccde264d44f1b904674f1211084d69c72db57a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_25\\manifest.json",
+      "sha256": "aa347db748ef10400545be979cbbddae1865378013e8b0cd4932e519c4b2a50f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_26\\manifest.json",
+      "sha256": "f0a862aefab4ba9573536636cbf5a7008f8b5a2902f3ac9fb07464fa1f57e6a3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_27\\manifest.json",
+      "sha256": "1e86e720bcce48bd0e7b350b6e623bbb06e4c113ae510ffa04c0e49e8514e031"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_28\\manifest.json",
+      "sha256": "a45599fb44c3385397a6a10b256799650750ec8eafc845475dbd20406567ce1f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_29\\manifest.json",
+      "sha256": "81415f6e4082f17f6c38e9cb6d41ab3d6aa111b958d89f13c13f9e7014e2f790"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_30\\manifest.json",
+      "sha256": "9b8da61bd7b4708dfc785020b10ee1d8608ece10084408d0a2b6a61fe6b6d41a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_31\\manifest.json",
+      "sha256": "884a52efc91f4309a10414ddcad23267a2d23bebe788163a9a9667bd0de86d56"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_32\\manifest.json",
+      "sha256": "4eb3c3184fd52f8327709ccc22ca89c415623739a72c1cb9bbb6eb58dee8a8fc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_33\\manifest.json",
+      "sha256": "eb328004f8b61a2b3b23da75581ebf226592cb17f5864ed9c1decc2b542a52cf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_34\\manifest.json",
+      "sha256": "d19db34175f23fe521dbb4380e27201fef360743e64ed7f55ca6fa2373f322c5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_35\\manifest.json",
+      "sha256": "bf9dff7bd3928ec6fdcce0503f27c2878d8debd8d69c7e94cedd6a8a589c2123"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_36\\manifest.json",
+      "sha256": "1880244f67ef0845a49366d208f5be5ceaae2847b821c8dc0b5b1b417207a0c9"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_37\\manifest.json",
+      "sha256": "66b6fec6cdef4b5f89c7a129b37dd2461a5bb181d01bd1262af6df79b90df3a0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_38\\manifest.json",
+      "sha256": "865f04bd3b103b195ce611d662910b75523120e91d1861e19a27d0edaa408ef6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_39\\manifest.json",
+      "sha256": "f7c984a92dd3b6e2351631f80ba876162cd4fc3b7502292cd54741a659b2e31a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_40\\manifest.json",
+      "sha256": "ecf8e82bf68629c6fa88942455190e480e9f00a3ef0adfe528508945c1cb43d7"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_a_full\\chunk_41\\manifest.json",
+      "sha256": "200272fd3febb39ed70309c96374f324dd3cda6e96e9ef2787f7676c4083ad7f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_00\\manifest.json",
+      "sha256": "a086155e9f3f05921db1c3e63123f22eb63623548124ece26b27d0ed7c3ee9ad"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_01\\manifest.json",
+      "sha256": "e5c303682a5ecd9d1c4bd5dd20d59f236663f21ef681f422dd9e1d913ddff725"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_02\\manifest.json",
+      "sha256": "8b7dc562d07c8e681c322e81578b0ddc3984bdc809f0f1cfaef4748b2584dd73"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_03\\manifest.json",
+      "sha256": "cdcdfbccde724711857c7dcb17214cfde140c5c8cd64399093b6f5093ec11498"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_04\\manifest.json",
+      "sha256": "deb13fcb66e3e2496772840051b1026861e5f474e8aa7ea9c1e38ab110458ba8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_05\\manifest.json",
+      "sha256": "a0f8dbc1db5350d3d2f34ad85431013c519f6cedfcea2718c6232ada1931b71d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_06\\manifest.json",
+      "sha256": "693201181571b9bedb999ae5c982a5a7053e6fe292ae55c052502759a85a3bdc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_07\\manifest.json",
+      "sha256": "b075e9e232b97ac6bdc5be94836c2a6fbb24779f98bfa714b0b448a6dde14195"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_08\\manifest.json",
+      "sha256": "65ac64623ac0010f4af9f873e9f36212cb7576afca00218eae6ff5389a3d6953"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_09\\manifest.json",
+      "sha256": "7b601e09a0ef00696c83be4d48a2523fa6ae4b628c7536a3fe27b631bdd1d261"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_10\\manifest.json",
+      "sha256": "43acc459c33a4e4c347705f6cc133436546820d39905223bea852dcd2a0b9377"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_11\\manifest.json",
+      "sha256": "69b99b09b6b8e1cdfe7f7ee26f4e0fc58eaf69852ef7f9f4f87ddfecc8aeaf1d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_12\\manifest.json",
+      "sha256": "8b98f9d4b54e0d505c0f53e8593cdb087ff47fae7b12f3d2c0696d774a7b2189"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_13\\manifest.json",
+      "sha256": "a533db1cd403479c150d7e2556d299ae45d778d69e90c2e33f68ac8d79f74875"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_14\\manifest.json",
+      "sha256": "7b9c92d51403f97a5fc77011bcc01d3dccc22de6e2e6960465263d2db3e3acc0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_15\\manifest.json",
+      "sha256": "7818d63ea2311f4e7c5bc48bc7e96e08e1c9a06482df89ed6e5e48e49795ce3f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_16\\manifest.json",
+      "sha256": "fbc4b746fe7582c67b8ef3a288b74575fb6d62cb354b82410bad487659a32576"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_17\\manifest.json",
+      "sha256": "b78e619a90ad925b4c1992beedeea3e547f87c072f998854686ad1e440addad8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_18\\manifest.json",
+      "sha256": "4c934973b8be9782a8863af42c511047153942f8031b2baa3870d348945d0c99"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_19\\manifest.json",
+      "sha256": "dc3756b9834d2f4f18820e7e03f95f5faca4a3c794a02517251003a3fec45153"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_20\\manifest.json",
+      "sha256": "22f076644caaac1b83bf1211785b95bee0649b2a7f035e21cd2c82da16760c19"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_21\\manifest.json",
+      "sha256": "1ed316decda601f507f7ec72a896ce5b313a5048ffacec04e08b73202a464692"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_22\\manifest.json",
+      "sha256": "22dea358ad821fd754d2968aacf973c306dd0f6c619bccb70c328fa609700634"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_23\\manifest.json",
+      "sha256": "932c8a1d54e83f9229dd79c88386c6556135d9129cfb1d2060d848646662bfd4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_24\\manifest.json",
+      "sha256": "df0757ba76812c015ab8ac32ce544bbf3486275687c6920984920edb2eac39d2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_25\\manifest.json",
+      "sha256": "ec8ba98f8669b72ad5a3bb2ea3c097cad7a3ff1843588ef3168b40abe1c213bf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_26\\manifest.json",
+      "sha256": "2017104c899ab112ad26499b02a63b04011c7422fae421e884a7cdee5f1cd8bf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_27\\manifest.json",
+      "sha256": "9450ec8e7085cf5ca8566aafc012e238c6d206ddc7e13d1fc6f2dc617524b2b3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_28\\manifest.json",
+      "sha256": "46e55b750c7d4f67a91618d01acf7821c4c77a815fa9c03baeada6fc0425161f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_29\\manifest.json",
+      "sha256": "e7bfbf709f139cf119f0cda120f0dc8b91d04c26594f5fb0be9b174378a8dc29"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_30\\manifest.json",
+      "sha256": "8f8f88e49afdaaf3973832f57f9b6703ade2e1731c5d8f64ecbb0f9ccf5255fc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_31\\manifest.json",
+      "sha256": "7faeea44e0e3852e4ccb10c0ebc38f90a461cfd651d08115f6ad9914e2cd8219"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_32\\manifest.json",
+      "sha256": "48909451fe0621cdfd30d78de007147b903c32fdc99c23a691ac01638a42548a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_33\\manifest.json",
+      "sha256": "858c0ceb3896340caf32557ac9d05199a71a4864d1dd8231ada311d61f85de36"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_34\\manifest.json",
+      "sha256": "fa3fbe6eb206e6c1ae07a7bcd6891d04d3b13dce699a0da1ec9a9120d4b1adb1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_35\\manifest.json",
+      "sha256": "01b11bbef4ecc38c25a34087b752ac4aa521e2760a3dea8f9bbc0b2584d0b9dc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_36\\manifest.json",
+      "sha256": "9759555d0df1d7c6b10fc02872ea4d5ee2a963fe78092d7a6f6a2fd132f27a43"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_37\\manifest.json",
+      "sha256": "2d60e92cc1b8b6f8e08806a49472762c52076a92655852ad8eed1958b347f1bb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_38\\manifest.json",
+      "sha256": "b200675a2e991b1411151b722e2484694d05ed0e2bac283fe6f3b8d290f740c3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_39\\manifest.json",
+      "sha256": "1b94f4530c55cbdaefc8baf900c2f72ec31567fc900e363923df82183a7c0a7e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_40\\manifest.json",
+      "sha256": "3214070c3fb5b97c7426930e314a6d77370618b96615eb57301c1a1f35221aa8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\confirmation_500k_b_full\\chunk_41\\manifest.json",
+      "sha256": "4d1a23832e313eb9eaf0d890d5d27ae1a713c60c86fbfc8218eff383c506a9f1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_00\\manifest.json",
+      "sha256": "96487a03afb238a0bcd5f2b25dbec7defce45790503b4e310d315cde4c47ee38"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_01\\manifest.json",
+      "sha256": "b87c08b9a7816bc863f255726449d72d12ddcb3aa411c0e34a4f5149fbefcdfc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_02\\manifest.json",
+      "sha256": "918549fa1b1632b16b28dda63cd963e62fcb3d13dde9cca189a533627b979054"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_03\\manifest.json",
+      "sha256": "0efa38f7cdd0e6807235f2f8322033d61b9434f6b3918e8d030f45665e0f6084"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_04\\manifest.json",
+      "sha256": "90e099428185c6ac223aecab8c456a79f9d58acc7e2fab45e4878cb09ff10faf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_05\\manifest.json",
+      "sha256": "370b0d2aaf907b3d10fcacc77ed839b7f8387ee6a84d4b6cadfbbda01f0e4d23"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_06\\manifest.json",
+      "sha256": "5aa0d9c6f00079c3c135eb0a4a572214aecf431986a00266e4b2501e25c769a7"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_07\\manifest.json",
+      "sha256": "7aa075225a1825243201a1d74b335387863b73d429ad68860845522dbb2b71a8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_08\\manifest.json",
+      "sha256": "959c34c0961acb0450b12ce0229cfd81a8703068bc098b1a75771faab60f1329"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_09\\manifest.json",
+      "sha256": "fc3723202150e6a8d62a57a1e979a4ca2902b309f6887532608190c21b2cd39a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_10\\manifest.json",
+      "sha256": "4dadb4da39dc410782902688074a1cb5b1b47d1e81ea10d7b060f8ebb7338fed"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_11\\manifest.json",
+      "sha256": "eefd03ecff8c4539f18dc74e76e71e9d58a0c5109960438ad7eb167ca9550df5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_12\\manifest.json",
+      "sha256": "ad6d3441212001381ac2bae5260290308f89fbed8273f5eec17bab00bc87a9ce"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_13\\manifest.json",
+      "sha256": "7fed254c63827a4804362a38e402bc5f84b937d96d95469ae1e94df65fc6e0ee"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_14\\manifest.json",
+      "sha256": "994100ffadd89d6ce1a1ca5a512a9617ed8cae86759985b38bc22be780986081"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_15\\manifest.json",
+      "sha256": "3baf488a32f5a19b976c7795941aa4d3277248c58b89601c5e72242ffb934cc0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_16\\manifest.json",
+      "sha256": "6a8543797c5a00e8056376a9716b8c34ada0621f8e9fec22fd8b842ea9ac329f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_17\\manifest.json",
+      "sha256": "430ab9a28b0f4f3f79895504370257f37a6f5f1cf324299f42e7d57c962cdac0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_18\\manifest.json",
+      "sha256": "453af18093e8423cb826c7d4aac9730907a60a8ea856262e5e28c2bc0f147185"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_19\\manifest.json",
+      "sha256": "a424584412ffc3f3ce2578409b327a738d7d0c36208c491dd5176570ba644db6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_20\\manifest.json",
+      "sha256": "22c9fe058051115162a5f5a22f08a54d580724116718631377b9414452bfb07d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_21\\manifest.json",
+      "sha256": "dc04af2d9797b59023ede0b6586705c78706091a3bfc4ed073c6352d8bc434bf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_22\\manifest.json",
+      "sha256": "637f3fb9da0294517a10b0cc7518edb8ded85befb2a20c46230daff9fdd9f100"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_23\\manifest.json",
+      "sha256": "a3a2aea19a960d934b4c7dca737c9401530f767b98b0fbc1bf0377de4f714832"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_24\\manifest.json",
+      "sha256": "9d254159b91b685495d5d3d587423d8a5e8d469817600c839ca1c7e8b201b8ae"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_25\\manifest.json",
+      "sha256": "78cd54be3586f52dba5855207f3fb85b9e3aa68c3fd76bcd3f5ef2ebf0fd96d6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_26\\manifest.json",
+      "sha256": "376d1e3e0e2c1cd76e3d57a75501b74078aee3f5a9a64b0ce1fb4e545ae34c61"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_27\\manifest.json",
+      "sha256": "c408226ef7e1a2c57ca7f775fd7b1fa2cad64f7207ab2574e29ce7db7ca1b58c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_28\\manifest.json",
+      "sha256": "327e13bb4a6d076c4f41d81074e4c3feccd6608ab7e2c016e0c524c20b3424b4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_29\\manifest.json",
+      "sha256": "7c18632d502084374b891b27f80519752009d64be8f18357dfb1dafa2c8e0ebf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_30\\manifest.json",
+      "sha256": "ed83893e3889f0b8dfd0681a6ebac10741691d37c10c9d892c480f6c67f0239a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_31\\manifest.json",
+      "sha256": "7201f1aafe6c595e1a153a5f07e94d81a86ab0ae81f7d6e2dbab1693ceb76120"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_32\\manifest.json",
+      "sha256": "930669dcd7f4b32c14406ac75778b3da3e4b64fccfd8e48c6f7d9d0a94760b09"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_33\\manifest.json",
+      "sha256": "e7ba30f26412ded47100f2dfb6c032888e9b3eed39c477fdbab22a2cceebf56d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_34\\manifest.json",
+      "sha256": "6b77f824f2f2ff53bfbe0ce9e7e6ea85e4c8febbcb9c2958d0bdd31dcb4b9e3b"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_35\\manifest.json",
+      "sha256": "07f51d7b90f0dfcaffe28ef8356108307a517865368b475ad16483767e0749a9"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_36\\manifest.json",
+      "sha256": "16f99aa3a3567212e3d5ab5925a580e811066f49edbdc9c0614fce888440b6bb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_37\\manifest.json",
+      "sha256": "888e6b4e7d79e034692f51ad603b0e6735b85445b2b9748f9356dde71e9c1ab0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_38\\manifest.json",
+      "sha256": "245355623c55aca6100653d1eb8324b9440e1262387d511f1cd4fb481340926f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_39\\manifest.json",
+      "sha256": "628f151254236abdae0bcca73be535fae3102a00e000619bf24d0c80560bc11d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_40\\manifest.json",
+      "sha256": "6e11b9023a954544c94fc119bb7fe8883f9d71d544ad0ee46d996fcf5370f85d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\development_200k_full\\chunk_41\\manifest.json",
+      "sha256": "ecade9d598e2975f995e67e87020c5f3084dedbac76017e2e27ef3402727de23"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_00\\manifest.json",
+      "sha256": "edaebb6c729855279dd8a822aa0df934b6325dd1682267d9e8c0a93ca1e192ed"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_01\\manifest.json",
+      "sha256": "b7b7825f246d5d22d8ec5e8a749af7e341eac3a43e929f4ba1eb6d94152ba4b6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_02\\manifest.json",
+      "sha256": "881b1e7e05a8e4ed31d45fbe532c54f982507c0d711f8a8b1e16b1791a52610f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_03\\manifest.json",
+      "sha256": "550cc92db993d8541042dae380a9ed5a78c185cfb39af114943d4b714fe1a374"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_04\\manifest.json",
+      "sha256": "c2b07b42f5fa337e834fd70f4d1c5dbbfd9bd43d4a228ae6c1bb20b31638f5ef"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_05\\manifest.json",
+      "sha256": "832c70c6d4edb1e433de23a228004ea3bfb96311a76a01a2628a41c23e0ff96c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_06\\manifest.json",
+      "sha256": "e1d1ffb6b54b25f515f64287b893ed626dbc1a62c944dee66e2fae45e0bda351"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_07\\manifest.json",
+      "sha256": "a02ea3baa091b8c2b8e80bef6d988f849f2de6b43f3b9c0d114d7db8e904f25a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_08\\manifest.json",
+      "sha256": "faabf77e3bd6c2952b7bb5040643c29d9a4cd5e0abe71bb785ea93ad2a75a12c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_09\\manifest.json",
+      "sha256": "65e2785ba7ee5f05533c45c1f386ffb3f7b9630a849fc4cf26ddb761624d1c4a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_10\\manifest.json",
+      "sha256": "5139b65b8a4b04e292e9e0ae7a8b09a02c3a00ed68a6811b9be2b158cfe01bfc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_11\\manifest.json",
+      "sha256": "0b1ee102d7325637c78bbb08ab80261ba26fc62befe99e4225324d0f15398ea0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_12\\manifest.json",
+      "sha256": "ebee0d44401b42f320ae86601fb808f1811a4b7675ecfac0c79dfb4f5b7737f3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_13\\manifest.json",
+      "sha256": "eb91f1233679b7f49e9ba0ace58746b9a796158cd38a6c3d3ecbbe3cfa002f1e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_14\\manifest.json",
+      "sha256": "e467fe3d401f0f636d2a8f6f508efebad7b29952bdaa4317ced8bde3242f9fd2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_15\\manifest.json",
+      "sha256": "943adc0267ef07eb2277eaf478b6acf43ea3b15a7aa58c17f681468bbd82f0b5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_16\\manifest.json",
+      "sha256": "499b33d84551cdd95b502e1748c3ae39a58258b1faa83a36755d93d43ad3e8bd"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_17\\manifest.json",
+      "sha256": "07733816d83afdac00c6bfb2c8433e56978d0e4fb275d6b0ef2074d21c26fc0b"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_18\\manifest.json",
+      "sha256": "d29801ae74c36af9e391f91c1faeee978bc8dcdb856f803d4a611d3077aa63fa"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_19\\manifest.json",
+      "sha256": "efe79995dd573948385f84cceb007c8ea299179fadb14b1a402f8416dfe88498"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_20\\manifest.json",
+      "sha256": "7abfba67f5019e5df1b363d7238368fdc6ab19e654a36bf2a05d690c07374c9c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_21\\manifest.json",
+      "sha256": "197f1aea82a9de44ea955983cfd6efbc05c9e2e5ba8f7102b1de3a5a528e7f11"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_22\\manifest.json",
+      "sha256": "57ce968e24770a8f28247850d0d59c3c60ad79b6e9500309f8109b8961c28da5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_23\\manifest.json",
+      "sha256": "abc0c225509d93f36bbf96f2f971e9373ebf235ce2687eb995b78507a5af0946"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_24\\manifest.json",
+      "sha256": "3e665ee7d348f9dc941bdc0a518bcd33bc002298db21599dc92ee94d0617d7ed"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_25\\manifest.json",
+      "sha256": "85560dcf78f2d33cbca2931d30301970e8663a20c02da3caa87a48eab1e915f1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_26\\manifest.json",
+      "sha256": "eccc6552dccd8678829c611643e3eec75bb38547a0c0ed06e512ae13d20f2d54"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_27\\manifest.json",
+      "sha256": "7a87367ee40022a3ccb33b81a65731dd242900fd98f200b8f48cca2ce47fa858"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_28\\manifest.json",
+      "sha256": "5d786c18f20c799679acc529abf97f5c07587fb6770a46616f3fac23e12c118e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_29\\manifest.json",
+      "sha256": "67d56cacc5d7298f9fbc4e932615a51b5a82bea05ae76a1ef99a2a6cd7f99608"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_30\\manifest.json",
+      "sha256": "faba697ba6d21cc1bc5ee90eb240a9f1f1cbef959aa00ba434aaf9a6b469c169"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_31\\manifest.json",
+      "sha256": "8bfa36f8292553a5643348039f1f50210518c570ba5e526863142cf241e5db91"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_32\\manifest.json",
+      "sha256": "c2d92ad56d23e2ac7065a8a49bdedbbda732e98e3c6b73d8ded541b24c6ccbc4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_33\\manifest.json",
+      "sha256": "5580c18d790b05366fdd799e9ab57ea6f434a972dcd2607474b6a37a51cda443"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_34\\manifest.json",
+      "sha256": "f132bc622c48958946a40890d6985053936c30770ae5be3d3eee6d78c3054389"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_35\\manifest.json",
+      "sha256": "14998f64627109c77cbc3500f33ea4a4ed634d9b530bc62172b5f09ec5806bfa"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_36\\manifest.json",
+      "sha256": "659355a37840681b84f6d0d2bfc4003300b74e9bb331540e535af2cc1402e37c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_37\\manifest.json",
+      "sha256": "1cd3d4f6f6743cfd5e135d743fe8f9211b266f146146f3c783bbc31b3f9eed05"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_38\\manifest.json",
+      "sha256": "d1c80e9661c92daab194c9c36328bc158e036457550f64e1c07b74d13c458aa2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_39\\manifest.json",
+      "sha256": "870f0a3e9dec5522e06d9af8a20e7686fc9b1d8ab987d6217c00a1728df500e1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_40\\manifest.json",
+      "sha256": "53a344f689616964ab76397862aab608bd3cecc0720f938380e094c5528ef37e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\main_1000000_full\\chunk_41\\manifest.json",
+      "sha256": "ad222412597389cffbfd5351bb86a8cabf1e68f50a7141b0102e2568ff0bcc4d"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_00\\manifest.json",
+      "sha256": "db6583dcc903311431f016cb32b2f68b0846aa707b17b213a0c4401a2bf533d9"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_01\\manifest.json",
+      "sha256": "d06af9745c7b715d35680e24aab19618c9824eb220fc9c1ddcea9a6cb085e9d1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_02\\manifest.json",
+      "sha256": "d1ca52a2325c7b604801acab8a86a5ecad83307b8ea49d87f3d5af09c8425cbe"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_03\\manifest.json",
+      "sha256": "f14f29db1d951aae226e500141063295744730d7a6615099843d90b75b0f5c8e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_04\\manifest.json",
+      "sha256": "dac49cdb4d0e6a56065e2208923f38faa5b8f4780352a695a7a726085775f5b5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_05\\manifest.json",
+      "sha256": "c977f9f4af95a243677abcd07d42e9f1092fe7bf45f5f0079618483d1f128c00"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_06\\manifest.json",
+      "sha256": "01957eed62ac130afce52f5401f06b5a3e049c9d4bd6c9b1aff39b52b1602b85"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_07\\manifest.json",
+      "sha256": "c5b04ed1b8ccaa560afef2970f4a2c3d07852fb17711ec03377438b509427273"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_08\\manifest.json",
+      "sha256": "25d950536d75bf29b2ef84f2cf1a3417e0479a9487794494f8fee87a526af22a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_09\\manifest.json",
+      "sha256": "50bb35c127b3aaa81e8f54c6236278924f154526eaee22f8555aaa7117d8c3bf"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_10\\manifest.json",
+      "sha256": "cc1645efaf161363ab18d7fe255bb75867771852e96d4f2ab1160751115e8b99"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_11\\manifest.json",
+      "sha256": "5058ffc8477ea15ab84470a6b915b9e11bac0bca971d0aed1c6b46d8b0f4a480"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_12\\manifest.json",
+      "sha256": "00d33df6fa6acc95a7855b990210efa80be74f11361478179e2c638c5c14e902"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_13\\manifest.json",
+      "sha256": "9f31990a809d468c121430e788516de3ee96e6bf22faf6acbfd59c4447a4e81f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_14\\manifest.json",
+      "sha256": "a99d7cd45c6c3aa24aec47db8f3f8769b6c398b558521424f4236cc1196c5149"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_15\\manifest.json",
+      "sha256": "4085aa677596191df61747282f140cb29c160252be670727b25e6b7856e247f8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_16\\manifest.json",
+      "sha256": "9b44cb02f32f4453bcf5ea74f7492c689e05d7f3572701204259f1223acee7ab"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_17\\manifest.json",
+      "sha256": "ed6b9678c270156486c1d0848e2be4c69a325a877f6ee713eca3028f7b94788f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_18\\manifest.json",
+      "sha256": "9a1459eb3a8bdb566e2124c6a76256e8cc980ac303b5b441342fe93bd0b8b7d8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_19\\manifest.json",
+      "sha256": "f7f5ad9b3c305d31b8106cecf7dd0f4b09b1417dee401efb458328beef7b7409"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_20\\manifest.json",
+      "sha256": "d5e162e90696ac0d16e9cb97fe313fc700ff0069701ede777b79a7f69df696b8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_21\\manifest.json",
+      "sha256": "6e682cddc187d48079c3b0b65eaaf44f765a9f1a55c9df890177a87bf522bef7"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_22\\manifest.json",
+      "sha256": "df262debec0824ae8212a6ff5f101e2ae08f14ed2cb201cd2a7d2bc7fd5a66f3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_23\\manifest.json",
+      "sha256": "1e47b01c5b0ea451f4ede532f9ef36aaf52ff232d217923d349e75593f0e4b56"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_24\\manifest.json",
+      "sha256": "c7a858e620cbb27487c13dfce55cfc77a78c096fe4dd03575a8d415120fa1b35"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_25\\manifest.json",
+      "sha256": "6915b73214c5a651f52613215ffeec655249da7c171683d9821c03dedf6d3a24"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_26\\manifest.json",
+      "sha256": "e56b449698578a85989c2d7749a94309a561d7515c22b83d4fd184c36eea321c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_27\\manifest.json",
+      "sha256": "70ad1d125ff9b0f2cb0c0c992beaaec84694961b5a3812717969abe10086bc58"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_28\\manifest.json",
+      "sha256": "62ebadffc4a3d477bec102e19e1ecd9c415462e4944aedde20b92db7236c6374"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_29\\manifest.json",
+      "sha256": "afb0f10827c25f34f2f61d4f1bc1a954bf98ec50abbf777dc73f64e1411ce4f7"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_30\\manifest.json",
+      "sha256": "63303e3cf1aaac4af9fa532689b5d1c27a5b0dd907b6cba2651875388cb0f1e3"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_31\\manifest.json",
+      "sha256": "94e13474139691fba18c12fcf8c637afb308461b4f91170c96390773582372d8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_32\\manifest.json",
+      "sha256": "9b253295ab1efa4d4dfc81a01bc8b9d98d0d85c65fdbdbb6cce6fdcbade32683"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_33\\manifest.json",
+      "sha256": "cf791063f60b836a7e4df6296ee06f3318b1db17830d6098aa4fc1a6095d0554"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_34\\manifest.json",
+      "sha256": "74d0054f1c2ffa16657146a4b0bc6d284cd1ac1098d36b789dd1881f2cdc2334"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_35\\manifest.json",
+      "sha256": "ad91480d1d266d26abeaa28e33426e1422e68ad7a5981ddb9bb1b68777d07a4c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_36\\manifest.json",
+      "sha256": "d83ce39d7d8924df9543fe661b9dc28d238133ed7546f79d0ce4565db8c59867"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_37\\manifest.json",
+      "sha256": "6fb1cc2da7f520a71346db0dfcb870f3e61b0198821f7205acf3d0b12eea30f6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_38\\manifest.json",
+      "sha256": "98226f5a5b7e3002ed13d43e540847b9166900f5014c081d7fb3936e34cf3f90"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_39\\manifest.json",
+      "sha256": "65f9be367898b39b0c4e15d8fccd3052d1f54fe8f65b85b7a6b19aa3da13a0dc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_40\\manifest.json",
+      "sha256": "057280875f47f79a4ad38168457d1e8a8c8c97df9475b6999876c7bd93028054"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000\\chunk_41\\manifest.json",
+      "sha256": "061bad7196f94fe467550a59f625779c73b62e3e31db8d1591b1f7ed83759f28"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_00\\manifest.json",
+      "sha256": "e8262331ac69d07e83f8b0119ceeee5ab2a9ef59a07204ce5e0c7c87fdf9918f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_01\\manifest.json",
+      "sha256": "8bb8f0237565178c0170635e3b4abc5be43fcd452053ebad2e21de7975201a34"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_02\\manifest.json",
+      "sha256": "a475851e38821703fec39dab47cd13a8658d85743efe69ee124954e5de9ed931"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_03\\manifest.json",
+      "sha256": "14b47e17e0316bbf9dc225466c504ef8fc85c4fe4c00677a0f346a465ddb776e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_04\\manifest.json",
+      "sha256": "2f8e24f5de589c482a6b6ae733eda9c11f8ac0e1acc12d2541b82aea368ba212"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_05\\manifest.json",
+      "sha256": "7f93335d56a0ef5c7c15d5343ab456ec0d20bd81576357c8ee0abd7adcacde19"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_06\\manifest.json",
+      "sha256": "52e4661ebced4d4394b5872fd18881258a5125f92f701851ec13541a6698de00"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_07\\manifest.json",
+      "sha256": "bbb0b74442af848e43fb3828f556e5d9a0641035a3415c7445bd2e9d883c7ab6"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_08\\manifest.json",
+      "sha256": "7c7c603657a1e68cdd5552dee68f69792909ec7ed6911123dadf2609a1eb32ec"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_09\\manifest.json",
+      "sha256": "c903857b53114d0dffe892458ba0d21541a54c6d7e8438c6bc339c6d1c761b78"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_10\\manifest.json",
+      "sha256": "d1036428737bad665c656b7ada3cdbfde9ca4963a005c7486e423f89e862ce17"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_11\\manifest.json",
+      "sha256": "df911bb3140ca877eb9fafb4be670bad0ed6821f37e5faabbbb0ebcfbd8230c2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_12\\manifest.json",
+      "sha256": "61e9b0a3edddbe6e54fbb8929ce197aaa3d61147de95f5a11eece6211e3d18d2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_13\\manifest.json",
+      "sha256": "805d8d58e1c27f88d26c85f977a945519b0a6c3a963559bd1cf1795faae89d5f"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_14\\manifest.json",
+      "sha256": "fd6986220855bfbb7e0d59d193d98ee61ccb7f39569343f8faa08516c86b9f44"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_15\\manifest.json",
+      "sha256": "4f2707707fd0d2e954ee83c1b235e177bd80b80a37ad0a603896454ab9506196"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_16\\manifest.json",
+      "sha256": "953fd1974be843b53c65b743bdb8cc7b56910701fa2e663ea40e7e32cf6793bc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_17\\manifest.json",
+      "sha256": "a5b3f9d6906428736b24da4d699c85aa86ec8194eff8d876417a3386d1b49895"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_18\\manifest.json",
+      "sha256": "b0f8bd31f51e9eb1387ce55db76bd6cbe98168b036430ecd58b149861c2b71b1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_19\\manifest.json",
+      "sha256": "a1c14072f27a9c791513962155d21f9d421e77a52da70a80d6e634e18ca73b7a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_20\\manifest.json",
+      "sha256": "6e0dc02a66eb3857bbf6b49970240bfa21be49c348852e6fcfd0d55a1524f3eb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_21\\manifest.json",
+      "sha256": "b2324625103bf1f0c42bc61c8812bfd5ee1fdf2600d985cb691f16c87b7f2d57"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_22\\manifest.json",
+      "sha256": "6068be1ee5d3036a88b366923ab547b9b516a1f6e0d2f5a2e5fb08c97d609b21"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_23\\manifest.json",
+      "sha256": "33570bc043f23be8337c7dc29e4f1320d9f5c9e3d318f62f018f7e6756f6b1e1"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_24\\manifest.json",
+      "sha256": "4ecdd7a90876b0f8c519e807656ac33799b86650253ddce84476bb23b518113c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_25\\manifest.json",
+      "sha256": "3087752b8ac6ba0a6735b421492e4ba35102fde25da810c684494ee335221134"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_26\\manifest.json",
+      "sha256": "53501e6ddfbfa6a611e548e1a6d6ac4cb01f54935b639495ecee0971be8009e2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_27\\manifest.json",
+      "sha256": "a890e09c78c2d3737b253988c4eed05395c068940190fa34a70dd748f9827bfb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_28\\manifest.json",
+      "sha256": "c146f6ac1f7fd42aa06f416d0de6f14e383d048c13dc7ef8a933fc6b9e611147"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_29\\manifest.json",
+      "sha256": "e2526e3602b122ba5c454e1c00c1428aabb672027773d93d82aeda18a89ddf73"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_30\\manifest.json",
+      "sha256": "2a27a68c9d353b6dcbe3f83e8905588828de522b58c1d2de9355b4180d608e42"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_31\\manifest.json",
+      "sha256": "2a2431d2133ffc6ad85c9a48bc6e978058f79311218b5d8239a9a0e4b96d9c86"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_32\\manifest.json",
+      "sha256": "eeeb859c8d4bbfff708007621893966eb45c427bbf1d7e5ba3c5ad693bd18b29"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_33\\manifest.json",
+      "sha256": "6fb5f1421ba49171b38981516348223f88e80541213eeea3b48dceea10922dcb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_34\\manifest.json",
+      "sha256": "83a02a45f95f254f0c011ef631324d1100861074eab029d9e4e25d8c0a53b844"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_35\\manifest.json",
+      "sha256": "beb18250c7fe3e29a5168b4e9dac13d2ae1db302082f26c95f8e6bb0a2b4a3fb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_36\\manifest.json",
+      "sha256": "c8add1aa42d4120342f81a948febc9bf47e0f3e052f8e15750c7b4792bba4ffb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_37\\manifest.json",
+      "sha256": "f801ebb64c1965583009eca8865c3667d62373e9b470251ce13fa90e463d2edd"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_38\\manifest.json",
+      "sha256": "0633fdac2e2856d3f13ad9227f11b484be3e2a24c306f1b86bcc7f1399ba6760"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_39\\manifest.json",
+      "sha256": "ee9247c9e269ad91cb282334fdaf3b8beb9195fd34c67b870a3b00b7a1038949"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_40\\manifest.json",
+      "sha256": "7fa03f76e25eb8272bbc432fba4ceb5986af1e644b1322685ddbe1da177cca07"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\pilot_10000_full\\chunk_41\\manifest.json",
+      "sha256": "417b9cbab151b62d74dc3be8cf2b829e5fbd5fc26768269d3b1f1f0d2e255a80"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_00\\manifest.json",
+      "sha256": "9962209fe03c3e51497d39226a2e1f3c8f9669119eea4fea7e41046f9af844b4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_01\\manifest.json",
+      "sha256": "e93aed23fdfdf674382b77b7fc2aa6a4ae4912279bafe0c41a98f00a28c0cc26"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_02\\manifest.json",
+      "sha256": "4deed12ec99ef0ae99283ecc25d05e7864780a912eac07d2ea47b27e24ffeca5"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_03\\manifest.json",
+      "sha256": "4f2bf709b0c68ebf45710a925f5d192bbf3c9aa4192c4bbbf866180e7008c359"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_04\\manifest.json",
+      "sha256": "2c3aa02a33a7ad3f20cd2a482de5e421f53fe79cedfb73a0d45e9e7da4093d18"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_05\\manifest.json",
+      "sha256": "84d4b4bfb655b3ff0b719fca49597f65c5592f2e6151926f694c4f8a99a3bb19"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_06\\manifest.json",
+      "sha256": "9873c3df78e69426948412d6bb89e00e5e0978774377f3e8fcf5396170d91430"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_07\\manifest.json",
+      "sha256": "ef1698a476b2405f6c57096a2ab0784d5de1c558dbcf84e6e05e14075e79a6dc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_08\\manifest.json",
+      "sha256": "f98f9cf8e2207908dea29202afe7a428e8d882cd0eb8f9632a110824b38b5823"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_09\\manifest.json",
+      "sha256": "b7a0dbc9d1f4f0dc637f76f825199aaa6863c5c18616f881a37fcbf3f085f1f2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_10\\manifest.json",
+      "sha256": "caee7643443889057c2a02db2e130d105dd8bdd1b9af0463347e2fae845f31f9"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_11\\manifest.json",
+      "sha256": "02aa2f7a4e449f1099a3eea346d8c8753b1e78da6715f6d7a429bb2d5a1d8f31"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_12\\manifest.json",
+      "sha256": "9cdfe04a7b1f33a82e9d663c3f6cfe69c32bb1da523001fd6315823a04e522cd"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_13\\manifest.json",
+      "sha256": "eded86ceabf581854fc0df539411203a71d61f5863ecfb6b620f8215f801ff9e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_14\\manifest.json",
+      "sha256": "366c1e42c8ab4ed01da6d084ed31717ba20548899c7d553fb85d11af96df1800"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_15\\manifest.json",
+      "sha256": "ac33dbaa8e4e12c9fbe73a72ade6922c9d1efea95ac9e0898e5393a3314e2e97"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_16\\manifest.json",
+      "sha256": "79426498e5107afb2773547522f57ff2667ee3274c236328a0f1d9c7a52fae4e"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_17\\manifest.json",
+      "sha256": "13143a4fad1b2d10ea51b3939afff50e8c11f5e00078ac3f4984feaa5caf5c5c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_18\\manifest.json",
+      "sha256": "e31f9dfca88a3ffb54cb69e60ef5a650657256c946e3c8115b71fe98f7aa5494"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_19\\manifest.json",
+      "sha256": "2cce8a191cc605ef0684e7096e2aac24e6b5e70f3c0b0fcb32b884318ec17eae"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_20\\manifest.json",
+      "sha256": "6a16c85dac78b4073e3ce075a8a8838c6b0730e3fc4fcf336be0b99a4131af05"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_21\\manifest.json",
+      "sha256": "44e7e400d64a767b72c385ed25e1cac690b5bb81637679448ca623e80a9f0ea4"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_22\\manifest.json",
+      "sha256": "2c512df5e0036882bdb0e5a95d815d1f5f992caa45eafe1fd56d5e113a837d29"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_23\\manifest.json",
+      "sha256": "c4784566c2ae36e8c3aed13a4d35d578a7eb96072b9f0b62bf44d100f006c02a"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_24\\manifest.json",
+      "sha256": "93cef900d0f73d6b2d7f928ee301301f17d84896c73820dc02b82a00fc6a90ec"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_25\\manifest.json",
+      "sha256": "075a05109a972531b8c1645b6f512a803676530e2701cc1d115455f245ba6bcc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_26\\manifest.json",
+      "sha256": "0ad6303f385f5f59a91db92a765c1a2bbd1a726e8ab40a015de20da316a08310"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_27\\manifest.json",
+      "sha256": "4bcfcc183c8bc34ccaa3f630b733e35348244e9cf96ed5635c96ed69bf4e9cff"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_28\\manifest.json",
+      "sha256": "e917c9400c8146b69ea346d7c88d0983cd4b620d574827bbd3703db3469cf7b8"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_29\\manifest.json",
+      "sha256": "100b804ff7a0ccf00c8647edeb269d8ad1f4771703c26e2dea716c5ecebd2ed2"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_30\\manifest.json",
+      "sha256": "6c91d78f38e6405629015e676a0287db723a015365393cd68db58ab08744b9bb"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_31\\manifest.json",
+      "sha256": "5f7099588f66dbe547828d4a4e37fb378b512b19f2bcd0cb4cfbc2c91663fd59"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_32\\manifest.json",
+      "sha256": "c459e9029b0d93f819cac7993cc210c43f84fc852e303da24e32431cf8345039"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_33\\manifest.json",
+      "sha256": "d23c199e158182338e1e8aeb6e7fb65a2226a43f1894c26f8f7097c077e92b7c"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_34\\manifest.json",
+      "sha256": "1200f4503fd88b1ebe89cf9ab1b640be1857d70550e92c4c2775ad7874f30cee"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_35\\manifest.json",
+      "sha256": "84018da3b4da18a0d5d22640559048b39ec5ee7104b8facd3ae1e44cc00843d0"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_36\\manifest.json",
+      "sha256": "f52081f30f2abd06240aebb7d88c15232ed3ae44934c15e8acf6f94f294ac336"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_37\\manifest.json",
+      "sha256": "73b7f9586c2354f288ce513ee64e208567dee4a6813eaa04348ead92ff108c36"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_38\\manifest.json",
+      "sha256": "0707fd88a4a2113c8f4367b4c7c58f7f0f152fb10c9eaed436153fb8449c6b4b"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_39\\manifest.json",
+      "sha256": "9cc42abe7dc811586f52b9f228f6fa8c2826424ce10ccdd23f0881de391b1703"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_40\\manifest.json",
+      "sha256": "c6d33f636d11a1be62e6a23a1cf6c12ca0e38d36f644abdbc706b2b294397bcc"
+    },
+    {
+      "kind": "physics_run_manifest",
+      "path": "E:\\JINST REP\\pion-material-study\\runs\\w1_probe_42\\chunk_41\\manifest.json",
+      "sha256": "24bb81d8d800f1301616d1b54fa1e7c3ce26556300dcb86c14d70cc1065ff3f3"
+    }
+  ]
+}

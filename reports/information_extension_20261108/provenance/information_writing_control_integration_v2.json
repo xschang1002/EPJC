@@ -1,0 +1,267 @@
+{
+  "schema": "information-writing-control-integration/v1",
+  "status": "PASS",
+  "generated_utc": "2026-11-07T20:44:52.143494+00:00",
+  "old_claims_preserved": 41,
+  "new_claims": 21,
+  "total_claims": 62,
+  "old_sources_preserved": 37,
+  "new_sources": 23,
+  "total_sources": 60,
+  "human_verification": "unverified",
+  "submission_ready": false,
+  "numeric_facts_before": 1138,
+  "numeric_facts_after": 1481,
+  "new_evidence_bindings": [
+    {
+      "evidence_id": "E038",
+      "locator": "protocol/information_study_20261108.json",
+      "sha256": "8508b20d2d4c82cf009ff32da014fe4e8a58364cc4e92cbd11164ce1f7e362c1",
+      "bytes": 6249
+    },
+    {
+      "evidence_id": "E039",
+      "locator": "protocol/information_statistical_analysis_20261108.json",
+      "sha256": "178d9011ddf25ab8d2777d185fec0f8d006fe4646dc56af99924af412a000f1a",
+      "bytes": 16526
+    },
+    {
+      "evidence_id": "E040",
+      "locator": "reports/information_extension_20261108/source_analysis/analysis.json",
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7",
+      "bytes": 7706
+    },
+    {
+      "evidence_id": "E041",
+      "locator": "reports/information_extension_20261108/fresh_analysis/C/analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3",
+      "bytes": 18506
+    },
+    {
+      "evidence_id": "E042",
+      "locator": "reports/information_extension_20261108/fresh_analysis/D/analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c",
+      "bytes": 18490
+    },
+    {
+      "evidence_id": "E043",
+      "locator": "reports/information_extension_20261108/fresh_analysis/C/uncertainty.json",
+      "sha256": "aec7433a7b6fd335176d5d419036e9479e3d8690f9b58097aaf06c73e33d0d6b",
+      "bytes": 222263
+    },
+    {
+      "evidence_id": "E044",
+      "locator": "reports/information_extension_20261108/fresh_analysis/D/uncertainty.json",
+      "sha256": "91b651c9421cbe91402e5085f0e00cb9b7d97e6e6ac8d99b38463a836117e807",
+      "bytes": 222227
+    },
+    {
+      "evidence_id": "E045",
+      "locator": "reports/information_extension_20261108/provenance/GENERATION_COMPLETE.json",
+      "sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474",
+      "bytes": 7416
+    },
+    {
+      "evidence_id": "E046",
+      "locator": "reports/information_extension_20261108/provenance/FROZEN_FRESH_MODEL_UNION.json",
+      "sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2",
+      "bytes": 336603
+    },
+    {
+      "evidence_id": "E047",
+      "locator": "reports/information_extension_20261108/provenance/independent_information_numerical_review.json",
+      "sha256": "03b29a14973d25a01a864bb8eb725e5ee89eaffe9f3c9dea3cef9c432624af3a",
+      "bytes": 7571
+    },
+    {
+      "evidence_id": "E048",
+      "locator": "reports/information_extension_20261108/provenance/full20_rerun_identity_review.json",
+      "sha256": "39964c1183ba8b552ee0edbf4256c7ceec66d5e9dd2e6d21c6e20ca56bffe2b2",
+      "bytes": 320375
+    },
+    {
+      "evidence_id": "E049",
+      "locator": "reports/information_extension_20261108/source_analysis/source_location_diagnostics.json",
+      "sha256": "a47a5280fea3236c9de0c604ca9e8a08d9f7a2e21cb59bcb38a95541e72ebe65",
+      "bytes": 1597962
+    },
+    {
+      "evidence_id": "E050",
+      "locator": "reports/information_extension_20261108/fresh_analysis/C/density_component_diagnostics.json",
+      "sha256": "c1fd4bc40fde0811af09679044b68b0814c021dd25286a0b138e33cfb469efea",
+      "bytes": 925164
+    },
+    {
+      "evidence_id": "E051",
+      "locator": "reports/information_extension_20261108/fresh_analysis/D/density_component_diagnostics.json",
+      "sha256": "d4dcf1190947916e5d531a3f2f8c65165fcbd5a9da38b4fceba47349674adcdd",
+      "bytes": 925121
+    },
+    {
+      "evidence_id": "E052",
+      "locator": "reports/information_extension_20261108/provenance/analysis_runtime_dependency.json",
+      "sha256": "c3a2ea5b8efae9bc018960a11743d90ca053a98f9c31b39b9d2cf6fa81558eca",
+      "bytes": 1745
+    },
+    {
+      "evidence_id": "E053",
+      "locator": "reports/information_extension_20261108/provenance/initial_source_analysis_failure.json",
+      "sha256": "c569f255ce2130de6590bf927f7bebfc9d2501305e46a0ad35bcfd9389d03d6b",
+      "bytes": 189
+    },
+    {
+      "evidence_id": "E054",
+      "locator": "manuscript/representation_v2/overleaf_submission/information_figures/FIGURE_MANIFEST.json",
+      "sha256": "c40b60f1357cb83cc21c84c6044e237e7720b080368b7f7725dd81f563515e56",
+      "bytes": 39978
+    },
+    {
+      "evidence_id": "E055",
+      "locator": "reports/information_extension_20261108/fresh_analysis/C/predictive_diagnostics.json",
+      "sha256": "d5c757dda4e05be6ef1c08ff7bbe72ecd67fbdd16b88a3a953b6d380ce0fb54e",
+      "bytes": 2609312
+    },
+    {
+      "evidence_id": "E056",
+      "locator": "reports/information_extension_20261108/fresh_analysis/D/predictive_diagnostics.json",
+      "sha256": "1883139667073443bd7397c1249dfbaed600ed7a0ebf9d91515526dd7258f65b",
+      "bytes": 2609663
+    },
+    {
+      "evidence_id": "E057",
+      "locator": "reports/information_extension_20261108/study/FROZEN_CHECKPOINT_MANIFEST.json",
+      "sha256": "5dcf919e20a0163b0cc87c8c5d18502c6931c756b0571f508fce8eab75e73900",
+      "bytes": 124274
+    },
+    {
+      "evidence_id": "E058",
+      "locator": "reports/information_extension_20261108/PROTOCOL_FREEZE.json",
+      "sha256": "28802b0f0d6e5f512b3d5cdc259bae2e354daf8c6177f93ab3969dfd90eb304f",
+      "bytes": 8588
+    },
+    {
+      "evidence_id": "E059",
+      "locator": "reports/information_extension_20261108/provenance/actual_information_figures_qa.json",
+      "sha256": "5e02bfcb1a9b5b1f6ec2ff4b421442dd07242b3fc1631c05b600fda421159727",
+      "bytes": 17008
+    },
+    {
+      "evidence_id": "E060",
+      "locator": "reports/information_extension_20261108/provenance/information_mechanism_numeric_binding.json",
+      "sha256": "5175b5b687d6b527bd91dcef6bffbad65a145b53ba0248409ee24a761e0f6b54",
+      "bytes": 59546
+    }
+  ],
+  "checked_files": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\README.md",
+      "before_sha256": "bb71c56ece3e8bb867d470c28ef12d05fd35af5d1cbfa16defa039357eaf7870",
+      "after_sha256": "f65b32ee061f9cfb2b0cec1d940c38bf7a351366afd30847b8746351c74640b9",
+      "sha256": "f65b32ee061f9cfb2b0cec1d940c38bf7a351366afd30847b8746351c74640b9",
+      "bytes": 3570
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\OUTLINE.md",
+      "before_sha256": "ba0f445a0f1b22b2baf74c3fb444ef5ad0747fc07ec71e562ce7298eafdd7b7d",
+      "after_sha256": "cde9201a4d85ace388e806d23d77e07b34cafd1178d3e5b7d027a41380246e6d",
+      "sha256": "cde9201a4d85ace388e806d23d77e07b34cafd1178d3e5b7d027a41380246e6d",
+      "bytes": 3818
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\RESULTS_SCAFFOLD.md",
+      "before_sha256": "4c1a680e72fbf2c626556943d599e57a704a19daf2ce11c76c644127c6e12e37",
+      "after_sha256": "164ccd845f84908b2c683577f1c63f7f8708680b46e5c95f796941140e06f587",
+      "sha256": "164ccd845f84908b2c683577f1c63f7f8708680b46e5c95f796941140e06f587",
+      "bytes": 29738
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\CLAIM_EVIDENCE_MATRIX.md",
+      "before_sha256": "1b3b2a246a340248b8923e805c0769618b75212350c9db67516bf2882d7dbfb6",
+      "after_sha256": "64a1595054d04bd880af4628021b07160dcaa434e900208d853ee83cf884ea53",
+      "sha256": "64a1595054d04bd880af4628021b07160dcaa434e900208d853ee83cf884ea53",
+      "bytes": 26708
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\claims.csv",
+      "before_sha256": "ed210453e8463108ef9a1dc828047c4dc3e25eb6460b132b5ed76cbbe3dd446e",
+      "after_sha256": "a10dcdf13793314054bf470df119393acf602d502d77ac9cf6eb6d14c2f2ab91",
+      "sha256": "a10dcdf13793314054bf470df119393acf602d502d77ac9cf6eb6d14c2f2ab91",
+      "bytes": 11769
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\source_manifest.json",
+      "before_sha256": "5be741ae3bd83a08b957a9fe824240e1ad3574d72a1c5dfbe2b297ce5d8a5943",
+      "after_sha256": "be9a64a914a108e5a6b0c439b9d842b872df6f55a12cba40c1925cc99053b561",
+      "sha256": "be9a64a914a108e5a6b0c439b9d842b872df6f55a12cba40c1925cc99053b561",
+      "bytes": 37855
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\consistency_manifest.json",
+      "before_sha256": "874c8c0e811b67592266189cb608d245183fd0f85db012aab621329c988c42ca",
+      "after_sha256": "466a4f54c505ea0fd563fbf0550247ca1ee08c02e261eb8560dabe79c7ab5151",
+      "sha256": "466a4f54c505ea0fd563fbf0550247ca1ee08c02e261eb8560dabe79c7ab5151",
+      "bytes": 631525
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\WRITING_FREEZE.md",
+      "before_sha256": "720cf77b42ef908656efda8034d1c279a8680462bda1f9f493f30f9acdf1e8c1",
+      "after_sha256": "bf45f436e2784e60658f1c283de74958ff16222812d9b166fe72bfbbcbc190ce",
+      "sha256": "bf45f436e2784e60658f1c283de74958ff16222812d9b166fe72bfbbcbc190ce",
+      "bytes": 3130
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\FIGURE_TABLE_PLAN.md",
+      "before_sha256": "5ec7b4541691d5665c2e967a4506e2679e6dfe6b4f755d452d3267566673f0de",
+      "after_sha256": "7bc888fbcc7c258da3a66a13f19bb5338a17ca9699a16e77e06fe413fd80448e",
+      "sha256": "7bc888fbcc7c258da3a66a13f19bb5338a17ca9699a16e77e06fe413fd80448e",
+      "bytes": 3139
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\draft_agent.md",
+      "before_sha256": "a3d6d43b7e088b02b398d175778bec802d71c03529efd7873b256b26775dd2dc",
+      "after_sha256": "559b46c48200127158edb91ca7c1e05d7e00087adcee07d8e467bccad30394e5",
+      "sha256": "559b46c48200127158edb91ca7c1e05d7e00087adcee07d8e467bccad30394e5",
+      "bytes": 32401
+    },
+    {
+      "path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\manuscript_manifest.json",
+      "before_sha256": "e47efb60c9ec3dd85db99210fcfe11f2b3bae30d8f6eefe0d6fbccdd73ca04f9",
+      "after_sha256": "c2cdcee3f9b7b0a66623230d8ca3d3c071f2d28c74e7cdf69f305d2f8f21b198",
+      "sha256": "c2cdcee3f9b7b0a66623230d8ca3d3c071f2d28c74e7cdf69f305d2f8f21b198",
+      "bytes": 1318
+    }
+  ],
+  "unresolved_publication_tasks": [
+    "Named human source/claim verification",
+    "Author metadata and declarations",
+    "Final root-owned TeX/PDF consistency/layout review",
+    "Venue-specific author approval"
+  ],
+  "scope": "Writing controls and current canonical evidence locators only. No numerical src/protocol, main.tex or image changed. Exact earlier41 canonical lines, CSV prefix,37 source records and1138 facts preserved.",
+  "writing_tool_note": "The updater finished edits, then its own default-encoding final check failed under Windows GBK. Separate explicit-UTF8 verification completed before the mechanism additions; this v2 verifies the final62 claims/60 sources. No experiment or numerical analysis was rerun or changed.",
+  "observed_structural_checks": {
+    "source_manifest": {
+      "status": "pass",
+      "errors": 0,
+      "warnings": 60,
+      "warning_kind": "Local repository sources have no external DOI/URL identifiers; no metadata was invented."
+    },
+    "manuscript_manifest": {
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0
+    },
+    "consistency": {
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "methods": 17,
+      "results": 17,
+      "numeric_facts": 1481
+    },
+    "git_diff_check": {
+      "exit_code": 0,
+      "note": "Only Git working-copy LF/CRLF conversion advisories, no whitespace failures."
+    }
+  }
+}

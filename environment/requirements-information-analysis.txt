@@ -1,0 +1,5 @@
+# Additional runtime dependency for the frozen 2026-11-08 information study.
+# Install alongside the existing requirements-ml.txt / numerical environment.
+# The executed environment used Python3.12.13, NumPy2.5.3, Torch2.14.1+cpu.
+# This file documents environment setup; it does not amend numerical sources.
+threadpoolctl==3.7.0

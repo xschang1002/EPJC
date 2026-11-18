@@ -1,0 +1,11 @@
+{
+  "status": "READ_ONLY_AUDIT_OF_COMPLETED_C_D",
+  "requested_by": "user review: float32 support-boundary rounding and actual support log-CDF distributions",
+  "allowed": ["read all formal C/D eligible events", "compare frozen scoring event order and saved arrays", "compute deterministic aggregate diagnostics", "verify primary-source literature", "prepare evidence-grounded manuscript amendments"],
+  "forbidden": ["modify frozen scientific source or protocols", "modify event ledgers or saved model arrays", "new training", "new Geant4 simulation", "rerun checkpoint inference", "export private event rows or per-event arrays to public mirror"],
+  "small_positive_margin_definition": "Report explicit GeV/c thresholds and multiples of float32 spacing at p_in; the actual minimum and full quantiles remain primary descriptive quantities.",
+  "root_independent_thresholds_GeV_c": [1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2],
+  "root_independent_thresholds_ULP": [1, 2, 4, 8, 16, 128],
+  "simple_information_ladder": "not run; retain current scope limitation",
+  "public_release_or_submission": false
+}

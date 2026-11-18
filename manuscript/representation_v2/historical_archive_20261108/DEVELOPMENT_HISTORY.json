@@ -1,0 +1,90 @@
+{
+  "schema": "local-development-history/v1",
+  "status": "LOCAL_EVIDENCE_CHECKED_AUTHOR_PUBLICATION_DECLARATION_RECORDED",
+  "generated_utc": "2026-11-08T15:15:46.978684+00:00",
+  "events": [
+    {
+      "event": "Controlled correction-study execution began",
+      "utc": "2026-11-06T19:47:00.910042+00:00",
+      "basis": "local retrospective receipt anchored to original execution records",
+      "asia_shanghai": "2026-11-07T03:47:00.910042+08:00"
+    },
+    {
+      "event": "Correction core/Full training and all160 A/B scoring complete no later than",
+      "utc": "2026-11-06T21:43:49.393975+00:00",
+      "basis": "original completed-report copy receipt; an upper bound, not exact completion time",
+      "asia_shanghai": "2026-11-07T05:43:49.393975+08:00"
+    },
+    {
+      "event": "Current primary80 information protocol frozen",
+      "utc": "2026-11-07T19:23:17.534630+00:00",
+      "basis": "FROZEN_INFORMATION_PROTOCOL record binds the same corrected anchor and engine bytes",
+      "asia_shanghai": "2026-11-08T03:23:17.534630+08:00"
+    },
+    {
+      "event": "All80 primary checkpoints frozen",
+      "utc": "2026-11-07T19:56:50.731874+00:00",
+      "basis": "COMPLETE_INFORMATION_CHECKPOINT_FREEZE",
+      "asia_shanghai": "2026-11-08T03:56:50.731874+08:00"
+    },
+    {
+      "event": "Source validation replay complete",
+      "utc": "2026-11-07T20:00:00.669686+00:00",
+      "basis": "COMPLETE_INFORMATION_SOURCE_ANALYSIS",
+      "asia_shanghai": "2026-11-08T04:00:00.669686+08:00"
+    },
+    {
+      "event": "Full predetermined240 run roster frozen",
+      "utc": "2026-11-07T20:00:06.436934+00:00",
+      "basis": "COMPLETE_FROZEN_FRESH_MODEL_UNION",
+      "asia_shanghai": "2026-11-08T04:00:06.436934+08:00"
+    },
+    {
+      "event": "Fresh C/D generation started",
+      "utc": "2026-11-07T20:01:34.123553+00:00",
+      "basis": "generation receipt start timestamp",
+      "asia_shanghai": "2026-11-08T04:01:34.123553+08:00"
+    },
+    {
+      "event": "Fresh C/D generation completed",
+      "utc": "2026-11-07T20:23:26.630990+00:00",
+      "basis": "generation receipt completion timestamp",
+      "asia_shanghai": "2026-11-08T04:23:26.630990+08:00"
+    }
+  ],
+  "corrected_anchor_sha256": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+  "shared_engine_sha256": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+  "source_identity_result": "Corrected implementation used in the completed earlier correction runs is byte-identical to the implementation frozen before primary80 training. Primary80 includes only Raw and CorrectedPhysics.",
+  "publication_history": {
+    "status": "USER_REPORTED_NOT_EXTERNALLY_VERIFIED",
+    "reported_on": "2026-11-08",
+    "normalized_statement": "The user stated that the earlier erroneous H results were internal research only and had not been made public or submitted.",
+    "attribution": "User answer relayed by the coordinating root agent; this is a summary, not a purported verbatim transcript.",
+    "external_search_performed": false,
+    "local_indicators": {
+      "public_checkout_commit": "4e30134e25aa8afbf92c3d96abe3a9171365b642",
+      "commit_author_date": "2026-10-15T00:52:49+08:00",
+      "commit_subject": "Publish representation compatibility evidence package without raw data",
+      "origin": "https://github.com/xschang1002/low-pion-research.git",
+      "recorded_refs": [
+        "refs/heads/main",
+        "refs/remotes/origin/main"
+      ],
+      "interpretation": "These local Git objects/configuration demonstrate packaging and a recorded remote-tracking ref, not repository visibility, an external public release, a preprint or a journal submission."
+    },
+    "local_manuscript_metadata": "Current and retained manuscript controls say internal_review and submission_ready=false; this is not proof about all prior external actions.",
+    "local_search_scope": [
+      "canonical manuscript and docs",
+      "paper_draft text and Overleaf instructions",
+      "both research checkout Git metadata",
+      "local archive/package filenames"
+    ],
+    "no_submission_record_found_in_inspected_materials": true,
+    "absence_is_not_proof_of_never_published": true
+  },
+  "limits": [
+    "All timestamps are local recorded provenance, not trusted third-party timestamps.",
+    "An earlier manuscript/ZIP labelled submission or preprint layout is preparation evidence, not a submission acknowledgement.",
+    "No network publication, upload, journal contact or repository push was performed."
+  ]
+}

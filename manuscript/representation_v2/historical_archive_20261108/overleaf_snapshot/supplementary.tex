@@ -1,0 +1,347 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.75}
+
+\newcommand{\pin}{p_{\mathrm{in}}}
+\newcommand{\pout}{p_{\mathrm{out}}}
+\newcommand{\deltap}{\Delta p}
+\newcommand{\phys}{\mathrm{C}}
+\newcommand{\raw}{\mathrm{Raw}}
+\newcommand{\learned}{\mathrm{Learned}}
+\newcommand{\simple}{\mathrm{Simple}}
+
+\renewcommand{\thesection}{S\arabic{section}}
+\title{Supplementary material:\\Earlier comparisons, sensitivity and provenance}
+\author{Companion to the prescribed target-centering study}
+\date{}
+\begin{document}
+\maketitle
+
+This supplement separates descriptive source-validation, post-hoc optimizer
+sensitivity, earlier A/B comparisons and historical erroneous-center evidence
+from the fresh C/D primary results. Earlier numeric records are retained;
+their prior-use, overlap and provenance limits remain applicable. Figure labels
+that originally say ``Physics'' in the historical section refer to the erroneous
+center H, not CorrectedPhysics. For reference, the original-unit log density is
+\begin{equation}
+\log p(Y\mid X)=\log q_\theta((Y-c(X)-\mu)/s\mid h(X))
+ -\log s-\log F_\theta((\pin-c(X)-\mu)/s\mid h(X)).
+\label{eq:likelihood}
+\end{equation}
+
+\section{Selected validation and optimizer sensitivity}
+The source-validation scores selected checkpoints and are descriptive.
+The optimizer-sensitivity analysis was added after C/D evaluation; it does
+not change the frozen primary analysis. The same five trained models are
+evaluated on C and D, so catalog repetitions are not additional seeds.
+\input{information_tables/source/source_information_primary16.tex}
+\clearpage
+\input{seed_sensitivity/seed_full_summary.tex}
+\clearpage
+The following optional intervals describe the mean over optimizer seeds under
+an approximate independent, normal seed-effect model conditional on the fixed
+training data and evaluation catalog. They are post-hoc, pointwise and
+unadjusted. With only five seeds they are sensitivity summaries, not a
+confirmatory training-population analysis; C and D reuse the same seeds.
+\input{seed_sensitivity/seed_exploratory_t_summary.tex}
+\clearpage
+\section{Numerical precision and support-boundary checks}
+\label{sec:numerical_boundary}
+
+The physical center and preprocessing calculations use NumPy float64. Targets,
+centers, momentum, conditions and scales are then converted to torch.float32
+for the learned density calculation. The optimizer and the validation mean
+used for checkpoint selection are also float32. Saved per-event log scores are
+promoted to float64 before paired subtraction, seed averaging, reported
+reduction and bootstrap calculations. These stages must not be described as
+float64 model inference. Selecting a different checkpoint using a float64
+validation reduction would change the frozen training procedure.
+
+The density uses stable log-sigmoid and softplus expressions. In base-flow
+coordinates $a$ and $b$ for an event and its upper support bound, the truncated
+log-survival expression is
+\begin{equation}
+ \log S=-\operatorname{softplus}(a)+\log[-\operatorname{expm1}(a-b)].
+\end{equation}
+This avoids directly subtracting two CDFs close to one. At the exact upper
+boundary, log density and log survival are $-\infty$ and log CDF is zero.
+The scorer rejects nonfinite density/decomposition values; legitimate
+infinite log-tail probabilities are handled separately.
+
+Three existing mathematical regression tests passed. Additional deterministic
+checks used 18 tail cases per dtype, base support bounds from $-1000$ to
+$1000$, and distances including one representable ULP below the boundary.
+An untrained fixed flow in its identity tails was compared with a 100-digit
+Decimal reference. In these synthetic checks, no events were generated or read, and no saved checkpoint was
+evaluated, and no training was performed. Maximum observed absolute errors
+were:
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Dtype & Log density & Log CDF & Log survival & $|\mathrm{CDF}+\mathrm{SF}-1|$\\
+\midrule
+float32 & $9.14\times10^{-9}$ & $1.30\times10^{-9}$ & $1.05\times10^{-5}$ & $0$\\
+float64 & $2.58\times10^{-15}$ & $2.04\times10^{-9}$ & $7.11\times10^{-15}$ & $2.02\times10^{-9}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The float64 log-CDF discrepancy reflects the default softplus linear
+approximation above its threshold of 20; it is not evidence of uniform
+$10^{-12}$ accuracy. Tested boundary values and log-survival gradients were
+correct and finite where required. These checks are not a worst-case error
+bound over every learned spline parameterization or device.
+
+Input resolution is a separate limit. At momentum 0.3, 0.65 and 1.0 GeV/$c$,
+an input only one float64 ULP inside the upper support becomes equal to the
+bound after float32 conversion. This establishes a rounding possibility.
+The follow-up audit below measures its incidence in the complete formal C/D
+samples without modifying those samples or rerunning the density models.
+
+\input{support_audit_tables.tex}
+
+\input{earlier_corrected_results.tex}
+\clearpage
+\section{Verification and additional validation displays}
+\label{app:verification}
+
+The earlier corrected 60-model conditioner study and 120-entry Full matrix
+use catalog 4101 across all representations, fractions and conditioners.
+Independent checks cover every saved checkpoint,
+source/protocol/data identity and paired event order. All source-validation
+means were reconstructed from the 100,042 saved per-event scores. Every model
+was replayed on 4,096 ordered validation events. The maximum absolute
+log-density discrepancies were $1.04904\times10^{-5}$ for the 60-model
+conditioner study and $1.383\times10^{-5}$ for the Full matrix, within the
+declared replay tolerances. The reused models retain their original checkpoint,
+preprocessing and event-order identities.
+
+The frozen A/B evaluation covers 320 model/block scores for 160 unique models.
+Independent saved-output verification checked all model identities, 410
+prespecified seed contrasts, 82 five-seed summaries and grouped arithmetic.
+It did not perform a second raw-event likelihood replay. Complete tables
+follow; the selected-validation figures below retain all seeds, including
+negative values, and the Full direct-comparison display is supplemented by
+the five prespecified interaction groups in the tables.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/correction_core_detail.pdf}
+\caption{All five corrected-arm seed contrasts and their mean with sample SD.
+This detailed common scale retains the negative Full 10\% seed. The companion
+complete overview in the repository includes the much larger erroneous-center
+Hidden deficit; it is not discarded to produce this detail.}
+\label{fig:corrected_core}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/correction_full_matrix.pdf}
+\caption{Complete corrected Full matrix. Every displayed group retains all five
+paired seed contrasts, with mean and sample SD. Positive NLL(left)$-$NLL(right)
+favors the right model. The common scale includes negative seeds. Validation
+selected checkpoints; these bars describe shared-data optimizer variation,
+not independent-data confidence intervals.}
+\label{fig:corrected_full_matrix}
+\end{figure}
+
+\clearpage
+\input{correction_final_tables.tex}
+
+\clearpage
+\section{Historical erroneous-center evidence}
+\label{app:historical}
+
+The following records describe earlier models fitted with H, not the current
+CorrectedPhysics results. The historical 100\% Full/Hidden comparison used
+different training-order catalogs, and the historical engine and prototype
+driver source hashes remain unavailable for exact replay. Claimed additional
+historical experiment outputs are also incompletely available. These gaps
+remain explicit; the current matched study is not a reconstruction of the
+missing materials. Original figure labels that say ``Physics'' refer to H.
+
+\subsection{Historical center identity}
+
+The historical H center was intended to be a nominal Bethe--Bloch
+construction. Its code used pion mass $0.13957039$ GeV/$c^2$ and electron mass
+$0.00051099895$ GeV/$c^2$, making the maximum transferred energy GeV-valued,
+but divided their product by $I^2$ with $I=0.000173$ MeV. The logarithm was
+therefore dimensionally inconsistent. The historical fits used this erroneous
+calculation; they are not fits of the unit-consistent center defined in the main text.
+
+
+
+\subsection{Historical formal matrix}
+
+The historical formal matrix contains 120 fits ($4\times2\times3\times5$).
+Its recorded quality checks reported zero failed cells but did not detect the
+center-unit error. Across 30 paired capacity/fraction cells,
+the descriptive aggregate Raw-minus-H contrast is $+0.000925$ nats per
+event with an empirical central interval of $[+0.000464,+0.001385]$ across
+those non-independent paired cells. This interval is descriptive, not a
+confidence interval over independent seeds; individual cells remain mixed.
+Positive values favor H under this sign convention. The formal result is
+therefore a small source-domain contrast below the historical $0.02$ nat/event practical margin, not a
+universal H advantage.
+
+\begin{table}[t]
+\centering
+\caption{Historical 20,000-update contrasts. The sign convention is Raw minus
+H; positive values favor H. Full and Hidden rows use the same five
+seed labels at Small capacity. The formal aggregate is descriptive across
+non-independent paired cells.}
+\label{tab:contrasts}
+\begin{tabular}{lrrr}
+\toprule
+Condition & Training fraction & Mean contrast & Direction \\
+\midrule
+Formal matrix aggregate & 10--100\% & $+0.000925$ & descriptive \\
+Full, Small & 10\% & $+0.000805$ & near zero \\
+Full, Small & 100\% & $+0.000742$ & near zero \\
+Hidden, long budget & 10\% & $-0.088002$ & H worse, 5/5 \\
+Hidden, long budget & 100\% & $-0.088216$ & H worse, 5/5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Historical Full/Hidden score comparison}
+
+The common-budget interaction is a historical descriptive result for H. In the formal
+20,000-update Small-capacity Full fits, the Raw-minus-H means are
+$+0.000805$ at 10\% and $+0.000742$ at 100\%. The corresponding Hidden fits,
+using the same seed labels and the same update budget, give $-0.088002$ and
+$-0.088216$. The difference-in-differences between the archived experiments,
+$(\raw-\mathrm{H})_{\rm Full}-(\raw-\mathrm{H})_{\rm Hidden}$, is $+0.088806$ and
+$+0.088958$ nats per event at 10\% and 100\%, respectively. This is a
+descriptive comparison, not an independent-seed confidence interval or an
+event-level paired test. At 100\%, the Full runs used catalog 4101 and Hidden
+used 4102, producing different training orders. Their difference is not a
+strict conditioner-only intervention. The historical source-hash gap also
+limits exact replay. All five seeds have the same negative direction in the
+Hidden comparison.
+
+The contrast persists when the training fraction increases from 10\% to 100\%.
+This preserves the observed pattern for H, subject to the catalog/order
+limitation. It does not determine the behavior of CorrectedPhysics or rule out
+optimization as a contributor.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{figures/overview.pdf}
+\caption{Historical paired Raw-minus-H contrasts. The original ``Physics'' label denotes H. The formal matrix is near zero and
+ mixed, whereas the common-budget Hidden comparison is negative at both training
+ fractions. Error bars and shaded bands are descriptive seed spread, not
+ independence-based confidence intervals. Negative values favor Raw.}
+\label{fig:interaction}
+\end{figure}
+
+\subsection{Historical residual-location diagnostic}
+
+Let $V=\pin$ and let $W$ denote the physical conditions retained by the Hidden
+conditioner. For a deterministic center,
+\begin{equation}
+ \operatorname{Var}(R\mid V,W)=\operatorname{Var}(Y\mid V,W).
+\end{equation}
+Consequently, a broader residual standard deviation after pooling over $V$ is
+not evidence that the translation changed the intrinsic conditional variance.
+
+The train-only conditional audit uses eight $\pin$ bins inside each of six
+exact $(t,q)$ physical strata. Within narrow bins, Raw and H have nearly
+equal spread and skewness. Define the weighted between-bin location variance
+for representation $X$ in physical stratum $w$ as
+\begin{equation}
+ L_X(w)=\sum_k \pi_{wk}\left(\bar X_{wk}-\bar X_w\right)^2,
+\end{equation}
+where $\bar X_{wk}$ is the mean in momentum bin $k$ and $\pi_{wk}$ is its
+training-sample fraction. The stratum-level excess $L_R(w)-L_Y(w)$ is positive
+in all six physical strata. The correlation analysis instead uses the
+unweighted per-bin squared-location difference
+\begin{equation}
+ D_{wk}=(\bar R_{wk}-\bar R_w)^2-(\bar Y_{wk}-\bar Y_w)^2.
+\end{equation}
+Across the 48 condition-bin groups, $D_{wk}$ has Pearson correlation $-0.641$
+and Spearman correlation $-0.577$ with the paired Raw-minus-H NLL gap. These
+are descriptive associations among dependent groups, not causal estimates or
+significance tests.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{figures/mechanism.pdf}
+\caption{Historical location diagnostic. The original ``Physics'' label denotes H. H has larger between-$\pin$ residual-location
+complexity in each physical stratum, and the groupwise complexity excess is
+directionally associated with the NLL gap. The association is descriptive.}
+\label{fig:mechanism}
+\end{figure}
+
+\subsection{Likelihood decomposition}
+
+For the saved historical Hidden predictions, the audit recomputed Eq.~\eqref{eq:likelihood}
+from the exported base log-density, Jacobian, and learned-flow $\log F_\theta(b)$
+terms. Across all 20 audited checkpoints, the Raw--H support-normalization
+gap is numerically zero. The 10\% total gap is $-0.0880018$ nats per event and
+the corresponding base-density/Jacobian gap is $-0.0880018$; at 100\% the two
+values are $-0.0882160$ and $-0.0882160$. Reconstruction errors are below
+$2\times10^{-6}$ nats, consistent with float32 export rounding.
+
+No support-term contribution was resolved at the exported precision for these
+examined historical checkpoints. This is not evidence about the corrected
+checkpoints. It does not prove that residual-location complexity is the unique causal
+source of the deficit. The defensible statement is: \emph{residual-location
+incompatibility is supported by diagnostic evidence; its causal contribution
+to the likelihood deficit remains unestablished.}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{figures/likelihood_decomposition.pdf}
+\caption{Historical frozen-flow likelihood decomposition. The original ``Physics'' label denotes H. The observed Raw--H gap is
+carried by the base-density/Jacobian term; the support-normalization difference
+is zero to exported precision in the audited checkpoints.}
+\label{fig:decomposition}
+\end{figure}
+
+\subsection{Historical frozen scoring}
+
+The confirmation scorer evaluates existing checkpoints without refitting,
+resplitting, or model selection. On block A, Full-conditioner contrasts are
+$+0.001018$ and $+0.000615$ at 10\% and 100\%; Hidden contrasts are
+$-0.088609$ and $-0.088773$. On block B, Full contrasts are $+0.000775$ and
+$+0.000443$, while Hidden contrasts are $-0.087787$ and $-0.087957$.
+
+The residual-location diagnostic transfers to all 12 block-by-stratum
+combinations. This repeats the frozen erroneous-center score pattern; it is not
+confirmation of newly trained CorrectedPhysics models or a causal mechanism. The
+blocks were independent of representation-v2 development but had prior use in
+the legacy W6/MDN workflow.
+
+Table~\ref{tab:confirmation} retains the complete historical block means. The original historical scoring plot is preserved unchanged in the accompanying source archive.
+
+\begin{table}[t]
+\centering
+\caption{Historical frozen scoring. Values are Raw minus H in
+nats per event; negative values favor Raw.}
+\label{tab:confirmation}
+\begin{tabular}{llrr}
+\toprule
+Block & Conditioner & 10\% & 100\% \\
+\midrule
+A & Full & $+0.001018$ & $+0.000615$ \\
+A & Hidden & $-0.088609$ & $-0.088773$ \\
+B & Full & $+0.000775$ & $+0.000443$ \\
+B & Hidden & $-0.087787$ & $-0.087957$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\clearpage
+\end{document}

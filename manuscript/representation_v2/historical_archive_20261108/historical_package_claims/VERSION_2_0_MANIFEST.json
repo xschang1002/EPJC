@@ -1,0 +1,38 @@
+{
+  "schema": "low-pion-version-line/v1",
+  "version": "2.0.0-correction-line",
+  "baseline": {
+    "version": "1.0.0-frozen",
+    "repository": "low pion research",
+    "commit": "410a355f78b91992bdc67a0b9a8f086d37dcef47",
+    "anchor_sha256": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760"
+  },
+  "correction_line_base_commit": "99e625d1bc82633cf9d9577c7b6118fbbf25eb7e",
+  "scientific_change": {
+    "center_baseline": "HistoricalIncorrectPhysics",
+    "center_corrected": "CorrectedPhysics",
+    "corrected_formula_version": "p0c-anchor-v1-all-mev",
+    "unit_contract": "p_GeV_c; thickness_mm; output_GeV_c; stopping=MeV_cm2_g; rho=g_cm3",
+    "r3_core_sha256": "fbaedf61dbcbc4b735e73bd967962e83840b05c1733a9d3ecd52f9260c38a5ec"
+  },
+  "versioned_source": [
+    "p0c-r2-controlled-attribution-preflight/source/centers.py",
+    "p0c-p4-controlled-40-fit/controlled_runner.py",
+    "p0c-p4-controlled-40-fit/report.py",
+    "p0c-p4-controlled-40-fit/canonicalize_prediction_uids.py"
+  ],
+  "immutable_external_artifacts": [
+    "p0c-p4-controlled-40-fit/P4_ARTIFACT_MANIFEST.json",
+    "scientific_completion/raw_matched_20_fit",
+    "scientific_completion/final_experimental_completion/FROZEN_CHECKPOINT_MANIFEST.json",
+    "scientific_completion/final_experimental_completion/CORRECTED_PHYSICS_MATRIX.csv",
+    "scientific_completion/final_experimental_completion/ANCHOR_UNIT_RECHECK.md",
+    "scientific_completion/final_experimental_completion/ORIGINAL_INTERACTION_PROVENANCE.md"
+  ],
+  "rules": [
+    "The v1.0 tag is immutable and must not be force-moved.",
+    "No checkpoint, prediction, data or manuscript evidence is stored in the v2.0 Git commit merely for convenience.",
+    "Artifacts named here are evidence references, not contents incorporated into the Git tree.",
+    "HistoricalIncorrectPhysics remains a historical baseline and is never renamed CorrectedPhysics."
+  ]
+}

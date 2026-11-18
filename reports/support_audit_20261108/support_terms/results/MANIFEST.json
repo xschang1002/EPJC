@@ -1,0 +1,63 @@
+{
+  "schema": "saved-support-audit-delivery/v2",
+  "status": "COMPLETE",
+  "generated_utc": "2026-11-08T13:14:21.949299+00:00",
+  "script_sha256": "86c8ab7c7823d177311977093d87d2d20025f4f910875470d68ab97fbc7ff375",
+  "inputs": [
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\scoring_summary.json",
+      "sha256": "1ff3fd3e2c73ac99ac475f7ea5c5d6cad0eb11d1dd24f5a7dc62dc25e403a86d"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\FROZEN_FRESH_MODEL_UNION.json",
+      "sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\EXPECTED_FRESH_MODELS.json",
+      "sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\C\\score_manifest.json",
+      "sha256": "dfe2941b8caeb6c5739387e0d70878448bb036380af65aafbdfcbdeb270b82bc"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\D\\score_manifest.json",
+      "sha256": "f46ed4139c5c719ab4cc7337261935d3cd67acd217df13c812d2a6c58cdf2cbf"
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\full20_rerun_identity_review.json",
+      "sha256": "39964c1183ba8b552ee0edbf4256c7ceec66d5e9dd2e6d21c6e20ca56bffe2b2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "INDEPENDENT_RECONCILIATION.json",
+      "sha256": "8460e011f8200daf237ff99555720486268103aeb3eca346d3e7114303d665ea",
+      "bytes": 1560
+    },
+    {
+      "path": "MARGIN_SCOPE_CLARIFICATION.json",
+      "sha256": "a27eb677fc3bf8d8b3df7566397b9ad06704c0dc6e45fd52ae6d2f35d5bff0a8",
+      "bytes": 1109
+    },
+    {
+      "path": "model_support_summary.csv",
+      "sha256": "9fb025b40b4ffd9c564cce5e22f647e9b94efe222631506cd37c54b932ed9b0c",
+      "bytes": 254576
+    },
+    {
+      "path": "support_audit.json",
+      "sha256": "d7d4ab3e9e3dd7e56d3d9e3c762b91d01b5442483d05e8e6696ea6fd73a85662",
+      "bytes": 4322706
+    },
+    {
+      "path": "verified_array_manifest.json",
+      "sha256": "4ba5bee14704c212c07d3ad707d20e75bf064c2e0ec910ffd681c336879230b5",
+      "bytes": 2193794
+    }
+  ],
+  "only_aggregate_outputs": true,
+  "original_execution_manifest_sha256": "e207d214278d652f14a238073d8d0207559580d321962f754f7f9a31e99ac3de",
+  "postprocessing_script_sha256": "fbdfe781534d285f2d1e663f2d7bffb78bdb7bd8371913308a6dfca1cff6e9a7",
+  "postprocessing_note": "Original script_sha256 still identifies the executed 480-model audit; the separate postprocessor clarifies input margins and joins independent ledger/standardization receipts."
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "epjc-submission-migration/v2-referee-hardened",
+  "status": "COMPLETE_EPJC_REFEREE_HARDENED_MIGRATION",
+  "date": "2026-11-18",
+  "target_journal": "The European Physical Journal C (EPJC)",
+  "target_section": "Computing, Software and Data Science",
+  "source_directory": "manuscript/representation_v2/epjc_submission",
+  "compiled_pdfs": {
+    "main": {
+      "path": "output/pdf/physical_centering_epjc_20261118.pdf",
+      "pages": 12,
+      "bytes": 237129,
+      "sha256": "ddb9b9f86d00950ec466b8eb67b6a1c9f4346ef4c70ff7673e16336591bf5a5a"
+    },
+    "supplementary": {
+      "path": "output/pdf/physical_centering_epjc_supplement_20261118.pdf",
+      "pages": 13,
+      "bytes": 178771,
+      "sha256": "90b1a8ff54e55264fe03124d0d35271a655025e3b414c8a8c5e871f76e0c9390"
+    }
+  },
+  "upload_archive": {
+    "path": "e:\\JINST REP\\physical_centering_epjc_submission_20261118.zip",
+    "entries": 118,
+    "bytes": 6601821,
+    "sha256": "d4c63a42437960ae4ced312b324216df4f9c5014c320323cf99cd29e22dcdcbe"
+  },
+  "qa_summary": {
+    "bib_entries": 25,
+    "cited_entries": 25,
+    "unused_bib_entries": [],
+    "bibtex_warnings": [],
+    "main_overfull_boxes": [],
+    "main_underfull_hbox": 0,
+    "main_underfull_vbox": 0,
+    "supp_overfull_boxes": [],
+    "supp_underfull_hbox": 0,
+    "supp_underfull_vbox": 0,
+    "prior_frozen_deliverables_intact": true
+  },
+  "referee_defense_additions": [
+    "Silicon Sternheimer density-effect magnitude (+1.03% at 0.30 GeV/c to +4.34% at 1.00 GeV/c) and PDG Silicon threshold X0=0.2014",
+    "Saved C/D original-unit residual median plateau (+129.1 to +124.9 keV/c) vs c_BB relativistic rise causing -85.9 to -104.3 keV/c high-momentum drift and 0.65 GeV/c 2-bin regime separation",
+    "Unit-Jacobian translation isolation argument explaining why Y>=0 lower truncation is omitted, plus empirical 0.035%-0.114% untruncated Y<0 tail mass and |z|>8 identity-tail scope",
+    "Exact physical ineligible breakdown (C: 137 upstream decays + 578 in-slab terminations; D: 149 + 576)",
+    "Trailing fifth zero-slot interface note (64 zero-gradient first-layer weights in no-direct arm), negative differential NLL unit note, charge-symmetric Bethe-Bloch vs Geant4 note, and Table S10 numbering"
+  ],
+  "author_placeholders_remaining": [
+    "author names, affiliations, emails, and ORCIDs",
+    "live GitHub repository URL replacing https://github.com/<owner>/<repository>",
+    "Funding grant number or no-funding selection, Author contributions initials, and optional Acknowledgements"
+  ]
+}

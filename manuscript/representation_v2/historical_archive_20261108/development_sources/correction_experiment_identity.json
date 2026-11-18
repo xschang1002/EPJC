@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "cache_sha256": "3b5618c9d1c493d8e9eda8d816ab50d74b56b9804880fea57f161d61d150d815",
+    "code": {
+      "data_contract\\event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+      "models\\anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+      "models\\anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+      "representation_flow\\checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+      "representation_flow\\engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+      "representation_flow\\experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+      "representation_flow\\run_a0_prototype.py": "c7082fa4258790e6487c0ce051582b4d05467c73a18e22fa705bcb043dd55d39",
+      "representation_flow\\run_correction_study.py": "2f34968b7122764a4850199de494732cd03832a92f44bdb903151329ed1ae070"
+    },
+    "data": {
+      "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+      "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+    },
+    "environment": {
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "torch": "2.14.1+cpu",
+      "torch_threads": 1,
+      "workers": 4
+    },
+    "max_updates": 20000,
+    "mode": "execute",
+    "protocol_sha256": "cb269b9999b7ae80d33551fc30508a9c27b329b6d7e36a3b57be8fad0e9ae035"
+  },
+  "schema": "representation-experiment-v2",
+  "sha256": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528"
+}

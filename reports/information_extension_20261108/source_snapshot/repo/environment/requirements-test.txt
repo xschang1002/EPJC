@@ -1,0 +1,2 @@
+# Install together with requirements-core.txt when running the test suite.
+pytest==9.1.1

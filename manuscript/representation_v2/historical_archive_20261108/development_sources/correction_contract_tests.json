@@ -1,0 +1,14 @@
+{
+  "status": "CORRECTION_CONTRACT_TESTS_PASS",
+  "checks": "43 passed in 5.70s; includes core training/simulation and existing A0/normalization tests",
+  "real_training_performed_by_this_agent": false,
+  "confirmation_data_read_by_this_agent": false,
+  "source_sha256": {
+    "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+    "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+    "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "src/representation_flow/checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+    "src/representation_flow/score_frozen_representation_confirmation.py": "f28996ee79b1731442059fcc559fcd9892b90bd33553d9e6aa0b670f035a2bb1",
+    "tests/test_correction_contract.py": "2150e296d86731297702bea6cd53a2ac21bb2739d9d2d75899aed9537cf22c74"
+  }
+}

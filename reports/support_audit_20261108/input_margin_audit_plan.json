@@ -1,0 +1,16 @@
+{
+  "schema": "readonly-support-input-audit-plan/v1",
+  "status": "FIXED_BEFORE_EVENT_LEDGER_READ",
+  "blocks": ["C", "D"],
+  "scope": "All 500000 launched records per block; independently rebuild eligible from first-visit entry/exit geometry and exit momentum, then compare every eligible record in exact ledger order with saved score catalog arrays. No model inference or active generation/scoring calls.",
+  "physical_small_positive_thresholds_GeV_c": [1e-12, 1e-10, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3],
+  "small_positive_downward_ULP_thresholds": [1, 2, 4, 8, 16, 32, 64, 128, 1024],
+  "ULP_definition": "float64(p32) - float64(nextafter(p32, -infinity, dtype=float32)); margin32 is computed as float32(p32-y32), then promoted to float64 for ratios and summaries",
+  "threshold_rule": "Count 0 < margin <= threshold; report exact zero and negative separately. Thresholds are cumulative, not disjoint bins.",
+  "quantile_probabilities": [0, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.05, 0.5, 0.95, 0.99, 1],
+  "quantile_method": "NumPy linear, after promotion to float64",
+  "momentum_groups": "Existing seven physical diagnostic bins from linspace(0.3,1,8), left-closed/right-open except final closed; not conditioner coarse bins.",
+  "production_cast": "Read saved delta_p_GeV_c as float64, convert p_in and y independently to float32 (matching torch.as_tensor(...,dtype=torch.float32)), then subtract in float32. Also independently recompute y64=p64-pout64 and compare to saved y before repeating cast.",
+  "no_event_identifiers_or_rows_in_outputs": true,
+  "permitted_outputs": "Aggregate JSON/Markdown/CSV and provenance hashes only under _support_audit_20261108; no raw/cache/model/prediction files copied or modified."
+}

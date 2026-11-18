@@ -1,0 +1,5 @@
+# Verified local correction runtime: CPython 3.12.13 on Windows x64.
+numpy==2.5.3
+scipy==1.18.1
+# The verified local build is 2.14.1+cpu; ==2.14.1 also accepts that local build.
+torch==2.14.1

@@ -1,0 +1,33 @@
+{
+  "schema": "information-manuscript-static-review/v1",
+  "status": "PASS_STATIC_AND_FROZEN_SOURCE_CHECKS_VISUAL_REVIEW_SEPARATE",
+  "utc": "2026-11-07T20:45:12.465149+00:00",
+  "checks": {
+    "numerical_review": "PASS",
+    "full20_identity": "20 exact recorded rerun pairs",
+    "frozen_scientific_files_unchanged": 77,
+    "tex": {
+      "files": 5,
+      "labels": 44,
+      "references": 24,
+      "citations": [
+        "Agostinelli2003",
+        "Allison2006",
+        "Bichsel1988",
+        "DurkanEtAl2019",
+        "GneitingBalabdaouiRaftery2007",
+        "PDG2025"
+      ],
+      "figures": 14,
+      "missing": 0,
+      "duplicate_labels": 0
+    },
+    "author_status": "internal draft; no fabricated human verification or submission approval",
+    "figure_manifest_files_checked": 106,
+    "canonical_export_present": true,
+    "tex_build": "completed; no overfull, undefined citation/reference, or missing-character messages"
+  },
+  "main_tex_sha256": "61f6e399e9abc0368011719da95b39d83f7214656427dfd33dd572bdfc2cf87d",
+  "pdf_sha256": "3a29fef525a6e62ca797b9b1d7814645f888effa334b44d82ea8eb23b8abadda",
+  "scope": "Static source, provenance and compilation checks; visual PDF review is separately recorded. Not human scientific approval."
+}

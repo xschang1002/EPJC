@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI \discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI \discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Bichsel1988}
+H.~Bichsel, Rev. Mod. Phys. \textbf{60}, 663 (1988).
+\newblock \doi{10.1103/RevModPhys.60.663}
+
+\bibitem{PDG2025}
+S.~Navas, et~al., Phys. Rev. D \textbf{110}, 030001 (2024).
+\newblock \doi{10.1103/PhysRevD.110.030001}.
+\newblock Particle Data Group, and 2025 update
+
+\bibitem{Agostinelli2003}
+S.~Agostinelli, J.~Allison, K.~Amako, et~al., Nucl. Instrum. Methods Phys. Res.
+  A \textbf{506}(3), 250 (2003).
+\newblock \doi{10.1016/S0168-9002(03)01368-8}
+
+\bibitem{Allison2006}
+J.~Allison, K.~Amako, J.~Apostolakis, et~al., IEEE Trans. Nucl. Sci.
+  \textbf{53}(1), 270 (2006).
+\newblock \doi{10.1109/TNS.2006.869826}
+
+\bibitem{Allison2016}
+J.~Allison, K.~Amako, J.~Apostolakis, et~al., Nucl. Instrum. Methods Phys. Res.
+  A \textbf{835}, 186 (2016).
+\newblock \doi{10.1016/j.nima.2016.06.125}
+
+\bibitem{PsichogiosUngar1992}
+D.C. Psichogios, L.H. Ungar, AIChE J. \textbf{38}(10), 1499 (1992).
+\newblock \doi{10.1002/aic.690381003}
+
+\bibitem{RaissiPerdikarisKarniadakis2019}
+M.~Raissi, P.~Perdikaris, G.E. Karniadakis, J. Comput. Phys. \textbf{378}, 686
+  (2019).
+\newblock \doi{10.1016/j.jcp.2018.10.045}
+
+\bibitem{YinEtAl2021}
+Y.~Yin, V.~Le~Guen, J.~Dona, E.~de~B{\'e}zenac, I.~Ayed, N.~Thome,
+  P.~Gallinari, in \emph{International Conference on Learning Representations}
+  (2021).
+\newblock \urlprefix\url{https://openreview.net/forum?id=kmG8vRXTFv}
+
+\bibitem{RamakrishnanEtAl2015}
+R.~Ramakrishnan, P.O. Dral, M.~Rupp, O.A. von Lilienfeld, J. Chem. Theory
+  Comput. \textbf{11}(5), 2087 (2015).
+\newblock \doi{10.1021/acs.jctc.5b00099}
+
+\bibitem{HothornKneibBuhlmann2014}
+T.~Hothorn, T.~Kneib, P.~B{\"u}hlmann, J. R. Stat. Soc. B \textbf{76}(1), 3
+  (2014).
+\newblock \doi{10.1111/rssb.12017}
+
+\bibitem{BoxCox1964}
+G.E.P. Box, D.R. Cox, J. R. Stat. Soc. B \textbf{26}(2), 211 (1964).
+\newblock \doi{10.1111/j.2517-6161.1964.tb00553.x}
+
+\bibitem{VanHasseltEtAl2016}
+H.~van Hasselt, A.~Guez, M.~Hessel, V.~Mnih, D.~Silver, in \emph{Advances in
+  Neural Information Processing Systems 29} (2016), pp. 4615--4623.
+\newblock
+  \urlprefix\url{https://proceedings.neurips.cc/paper/2016/hash/5227b6aaf294f5f027273aebf16015f2-Abstract.html}
+
+\bibitem{CanatarBordelonPehlevan2021}
+A.~Canatar, B.~Bordelon, C.~Pehlevan, Nat. Commun. \textbf{12}(1), 2914 (2021).
+\newblock \doi{10.1038/s41467-021-23103-1}
+
+\bibitem{PapamakariosPavlakouMurray2017}
+G.~Papamakarios, T.~Pavlakou, I.~Murray, in \emph{Advances in Neural
+  Information Processing Systems 30} (2017), pp. 2338--2347.
+\newblock
+  \urlprefix\url{https://proceedings.neurips.cc/paper/2017/hash/6c1da886822c67822bcf3679d04369fa-Abstract.html}
+
+\bibitem{DurkanEtAl2019}
+C.~Durkan, A.~Bekasov, I.~Murray, G.~Papamakarios, in \emph{Advances in Neural
+  Information Processing Systems 32} (2019), pp. 7511--7522.
+\newblock
+  \urlprefix\url{https://proceedings.neurips.cc/paper/2019/hash/7ac71d433f282034e088473244df8c02-Abstract.html}
+
+\bibitem{JainiKobyzevYuBrubaker2020}
+P.~Jaini, I.~Kobyzev, Y.~Yu, M.~Brubaker, in \emph{Proceedings of the 37th
+  International Conference on Machine Learning (PMLR 119)} (2020), pp.
+  4673--4681.
+\newblock \urlprefix\url{https://proceedings.mlr.press/v119/jaini20a.html}
+
+\bibitem{KoehlerMehtaRisteski2021}
+F.~Koehler, V.~Mehta, A.~Risteski, in \emph{Proceedings of the 38th
+  International Conference on Machine Learning (PMLR 139)} (2021), pp.
+  5628--5636.
+\newblock \urlprefix\url{https://proceedings.mlr.press/v139/koehler21a.html}
+
+\bibitem{HashemiKrause2024}
+B.~Hashemi, C.~Krause, Rev. Phys. \textbf{12}, 100092 (2024).
+\newblock \doi{10.1016/j.revip.2024.100092}
+
+\bibitem{KrauseShih2023}
+C.~Krause, D.~Shih, Phys. Rev. D \textbf{107}, 113003 (2023).
+\newblock \doi{10.1103/PhysRevD.107.113003}
+
+\bibitem{ErdmannEtAl2025}
+J.~Erdmann, J.~Kann, F.~Mausolf, P.~Wissmann, Eur. Phys. J. C \textbf{85}, 857
+  (2025).
+\newblock \doi{10.1140/epjc/s10052-025-14604-0}
+
+\bibitem{AiEtAl2022}
+X.~Ai, et~al., Comput. Softw. Big Sci. \textbf{6}, 8 (2022).
+\newblock \doi{10.1007/s41781-021-00078-8}
+
+\bibitem{PDGSilicon2025}
+{Particle Data Group}.
+\newblock Atomic and nuclear properties of silicon ({Si}) (2025).
+\newblock
+  \urlprefix\url{https://pdg.lbl.gov/2025/AtomicNuclearProperties/HTML/silicon_Si.html}.
+\newblock Accessed 8 November 2026
+
+\bibitem{SternheimerBergerSeltzer1983}
+R.M. Sternheimer, M.J. Berger, S.M. Seltzer, Density effect for the ionization
+  loss of charged particles in various substances.
+\newblock Tech. Rep. NBSIR 83-2785, National Bureau of Standards (1983).
+\newblock \doi{10.6028/NBS.IR.83-2785}
+
+\bibitem{GneitingBalabdaouiRaftery2007}
+T.~Gneiting, F.~Balabdaoui, A.E. Raftery, J. R. Stat. Soc. B \textbf{69}(2),
+  243 (2007).
+\newblock \doi{10.1111/j.1467-9868.2007.00587.x}
+
+\bibitem{Bichsel2006}
+H.~Bichsel, Nucl. Instrum. Methods Phys. Res. A \textbf{562}(1), 154 (2006).
+\newblock \doi{10.1016/j.nima.2006.03.009}
+
+\end{thebibliography}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-07T19:25:10.348302+00:00",
+  "command": [
+    "E:\\JINST REP\\pion-material-study\\.venv-ml\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "E:\\JINST REP\\low pion research\\tests\\test_fresh_catalog_runner.py",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "E:\\JINST REP\\_research_extension_20261108\\fresh_pytest_05",
+    "--tb=short"
+  ],
+  "returncode": 0,
+  "wall_seconds": 10.349344399990514,
+  "output": ".............................                                            [100%]\n29 passed in 9.78s",
+  "source_sha256": "e2538925e49be40edca6f783f19dbbdb6c8c605f14dbab8689808bc4b35ada18",
+  "tests_sha256": "f56163fb7c65684fc1241e1157438ed2f3cbbc14c284da489f5ba3f70dad6172",
+  "log_sha256": "bad5e043539e8fa7c4e6ba7a33c653d8c7bbafba1e1b354ab16001c8bf114df8"
+}

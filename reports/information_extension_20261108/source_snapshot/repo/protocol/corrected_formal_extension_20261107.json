@@ -1,0 +1,93 @@
+{
+  "analysis": "Report every seed, fraction and capacity. Validation is used for checkpoint selection; its eventwise intervals are descriptive. No choosing fractions, capacities, budgets or comparisons using observed correction scores.",
+  "benchmark_scores_are_not_scientific_results": true,
+  "capacities": {
+    "Large": 128,
+    "Small": 32
+  },
+  "checkpoint_selection": "minimum source-validation original-unit mean NLL, within fixed update budget; evaluate update 1, every 500 updates and final update",
+  "confirmation_policy": "Do not read confirmation until core60 and extension120 are complete and checkpoint hash manifests are frozen.",
+  "contexts": {
+    "Full": "full"
+  },
+  "core_protocol_sha256": "cb269b9999b7ae80d33551fc30508a9c27b329b6d7e36a3b57be8fad0e9ae035",
+  "eligibility": "forward",
+  "historical_replay_claimed": false,
+  "historical_results_overwritten": false,
+  "main_data": {
+    "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+    "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+  },
+  "matrix_cells": 120,
+  "new_cells": 100,
+  "no_new_geant4": true,
+  "optimization": {
+    "batch_size": 512,
+    "eval_batch_size": 8192,
+    "learning_rate": 0.0003,
+    "max_updates": 20000,
+    "torch_threads_per_worker": 1,
+    "validation_every": 500
+  },
+  "performance_gate": "Measure four concurrent Large128 Full f100 cells, one per representation at seed3101 for a fixed 5000 updates. This includes 12 full validation passes; scaling by four conservatively covers the 42 passes in a 20000-update fit. Small estimates continue to use the separately measured 1000-update core benchmark. Retain a 1.35 safety factor and count both archived and current benchmark costs. Execute only if the combined core60 plus extension100 conservative time is strictly below 10800 seconds. Final absolute deadline is anchored to the original core-study start and cannot be reset by extension resume.",
+  "preprocessing": {
+    "Learned": "20-column total-degree-3 polynomial in normalized momentum/thickness, plus charge times each polynomial column; ridge center.",
+    "Simple": "OLS on [1, (p_in-0.65)/0.35, (thickness_mm-0.3)/0.7, charge].",
+    "corrected_center": "CorrectedPhysics uses the explicit all-MeV nominal silicon formula; historical Physics artifacts keep their original formula identity.",
+    "fit_scope": "Each active training subset independently; no validation or diagnostic labels.",
+    "inner_cv": "Three deterministic folds: row index modulo 3 AFTER sorting the current training subset by SHA-256(catalog_id:event_uid). These are not UID-hash folds.",
+    "mu": "mean_train(Y - c(X)) separately for each representation.",
+    "ridge_alpha_grid": [
+      1e-06,
+      0.0001,
+      0.01,
+      1.0,
+      100.0
+    ],
+    "shared_scale": "std_train(Y), ddof=0; identical across representations within each subset.",
+    "validation_reestimation": false
+  },
+  "primary_contrasts": [
+    "Raw_minus_CorrectedPhysics",
+    "Learned_minus_CorrectedPhysics",
+    "Simple_minus_Raw",
+    "Small_minus_Large_of_Raw_minus_CorrectedPhysics",
+    "f010_minus_f100_of_Raw_minus_CorrectedPhysics"
+  ],
+  "representations": [
+    "Raw",
+    "Simple",
+    "Learned",
+    "CorrectedPhysics"
+  ],
+  "reuse_policy": "Reuse exactly 20 completed Full/Small Raw/CorrectedPhysics cells at f010/f100 from the core study after artifact, source, preprocessing, UID-order and configuration verification. Retain original run IDs, checkpoint bytes and experiment identities.",
+  "runtime_policy": {
+    "benchmark_updates": 5000,
+    "forecast_safety_factor": 1.35,
+    "max_total_seconds": 10800,
+    "prior_core_benchmark_seconds": 27.208680391311646,
+    "prior_extension_benchmark_seconds": 24.347630500793457,
+    "reserved_analysis_seconds": 1200
+  },
+  "sample_fractions": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "schema": "corrected-formal-extension-v1",
+  "scope_note": "This Full 120-cell matrix uses the frozen current implementation and the stated correction protocol. It is not a byte-identical replay of unavailable historical engine/driver versions.",
+  "seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105
+  ],
+  "split": {
+    "diagnostic_fraction": 0.3,
+    "validation_fraction": 0.1
+  },
+  "status": "PRESPECIFIED_BEFORE_EXTENSION_TRAINING",
+  "study_id": "corrected_formal_extension_20261107",
+  "subset_catalog_id": 4101
+}

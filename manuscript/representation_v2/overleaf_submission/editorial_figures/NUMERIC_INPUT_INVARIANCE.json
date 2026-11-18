@@ -1,0 +1,47 @@
+{
+  "aggregate_hash_after": "cc4ab4e5e82b2b730deb68c42dcf6d9a3de0d7c1fb2649e650c0a3676c1bc253",
+  "aggregate_hash_before": "cc4ab4e5e82b2b730deb68c42dcf6d9a3de0d7c1fb2649e650c0a3676c1bc253",
+  "all_input_manifests_and_file_hashes_identical": true,
+  "all_seed_points_and_local_groups_retained": true,
+  "data_ids_and_filenames_unchanged": true,
+  "no_estimator_or_interval_changes": true,
+  "original_files_unchanged": 107,
+  "original_manifest_sha256": "c40b60f1357cb83cc21c84c6044e237e7720b080368b7f7725dd81f563515e56",
+  "physical_panel_collapse": [
+    {
+      "maximum_absolute_difference_GeV_c": 6.776263578034403e-21,
+      "omitted_duplicate_series": "f010",
+      "other_values_GeV_c": [
+        1.2557059978865474e-05,
+        1.24200746056313e-05,
+        9.64643807230856e-06
+      ],
+      "reason": "Same diagnostic data and fixed center; global-mu subtraction cancels in within-cell variance. Remaining differences are floating-point arithmetic.",
+      "representation": "Raw",
+      "retained_series": "f100",
+      "retained_values_GeV_c": [
+        1.255705997886548e-05,
+        1.2420074605631306e-05,
+        9.646438072308564e-06
+      ]
+    },
+    {
+      "maximum_absolute_difference_GeV_c": 1.6940658945086007e-21,
+      "omitted_duplicate_series": "f010",
+      "other_values_GeV_c": [
+        1.1053868600623282e-05,
+        1.0843255401354272e-05,
+        9.517094328450003e-06
+      ],
+      "reason": "Same diagnostic data and fixed center; global-mu subtraction cancels in within-cell variance. Remaining differences are floating-point arithmetic.",
+      "representation": "CorrectedPhysics",
+      "retained_series": "f100",
+      "retained_values_GeV_c": [
+        1.105386860062328e-05,
+        1.0843255401354272e-05,
+        9.517094328450001e-06
+      ]
+    }
+  ],
+  "status": "PASS_IDENTICAL_FROZEN_NUMERIC_INPUTS"
+}

@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-07T19:28:04.543972+00:00",
+  "pytest": {
+    "passed": 19,
+    "pytest_seconds": 5.5,
+    "process_wall_seconds": 7.034517,
+    "modules": [
+      "tests/test_information_study.py",
+      "tests/test_information_catalog_scoring.py"
+    ],
+    "basetemp": "E:\\JINST REP\\_research_extension_20261108\\information_training_scoring_tests_final"
+  },
+  "previous_tests": [
+    {
+      "passed": 11,
+      "pytest_seconds": 4.49,
+      "process_wall_seconds": 5.7753673
+    },
+    {
+      "passed": 7,
+      "pytest_seconds": 4.87,
+      "process_wall_seconds": 6.5303896
+    }
+  ],
+  "benchmark": {
+    "benchmark_scores_are_not_scientific_results": true,
+    "benchmark_updates": 1000,
+    "benchmark_wall_seconds": 15.041504621505737,
+    "common_identity": {
+      "budget": {
+        "deadline_unix": 1794121884.342842,
+        "maximum_wall_seconds": 43200,
+        "started_unix": 1794078684.342842
+      },
+      "cache_sha256": "125131106a2c4f185987254e85a6755c68cb13063512a31349491f06109dbf4a",
+      "environment": {
+        "numpy": "2.5.3",
+        "python": "3.12.13",
+        "torch": "2.14.1+cpu",
+        "torch_threads": 1,
+        "workers": 4
+      },
+      "protocol_sha256": "04e090738632dff793e6cfc262504d27ef1bce2b3620f2b7cbe3a3d5bd94397f",
+      "source_data": {
+        "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2",
+        "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7"
+      },
+      "source_files": {
+        "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+        "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+        "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+        "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+        "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+        "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+        "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+        "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4"
+      }
+    },
+    "conservative_training_seconds": 3272.1553799905814,
+    "forecast_training_seconds": 2423.8187999930233,
+    "generated_utc": "2026-11-07T19:22:26.023177+00:00",
+    "status": "COMPLETE_INFORMATION_BENCHMARK"
+  },
+  "source_sha256": {
+    "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+    "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+    "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+    "src/representation_flow/score_information_catalog.py": "4463ab7f216378ca854314eadb3d67b849b9d80403092e2626171a8492b5340c",
+    "tests/test_information_study.py": "a9b607cd46230ecb7b3d278870331f5bcd0c1b293c97a2972f65626569dd089d",
+    "tests/test_information_catalog_scoring.py": "81a097fc917efbf61295a7bc9c62a6ddd2c75799f4842fb95131745902e5cecd",
+    "protocol/information_study_20261108.json": "8508b20d2d4c82cf009ff32da014fe4e8a58364cc4e92cbd11164ce1f7e362c1"
+  },
+  "boundaries": {
+    "formal_training_started_by_parent": true,
+    "fresh_data_generated_by_this_agent": false,
+    "formal_scoring_performed": false,
+    "historical_sources_changed": false
+  }
+}

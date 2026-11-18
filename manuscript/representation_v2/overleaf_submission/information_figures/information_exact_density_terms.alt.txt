@@ -1,0 +1,1 @@
+Four panels show all density-coordinate terms and total gain, preserving signed cancellations and every paired seed on a shared vertical scale.

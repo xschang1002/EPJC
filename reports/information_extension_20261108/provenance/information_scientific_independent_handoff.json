@@ -1,0 +1,1420 @@
+{
+  "schema": "independent-information-scientific-handoff/v1",
+  "status": "COMPLETE_WITH_NO_UNRESOLVED_NUMERICAL_FINDINGS",
+  "generated_utc": "2026-11-07T20:36:22.557786+00:00",
+  "independent_review": {
+    "schema": "independent-information-numerical-delivery-review/v1",
+    "status": "PASS_COMPLETE_INFORMATION_NUMERICAL_REVIEW",
+    "generated_utc": "2026-11-07T20:34:39.916933+00:00",
+    "elapsed_seconds": 100.89771509170532,
+    "source_validation": {
+      "models": 80,
+      "saved_validation_NLLs_independently_recomputed": 80,
+      "paired_structure_and_batch_traces": true,
+      "source_analyzer_full_replay_confirmed": true,
+      "additional_model_inference_performed": false,
+      "reported_maximum_all_event_replay_error": 0.0,
+      "maximum_NLL_recomputation_error": 0.0
+    },
+    "fresh_catalogs": [
+      {
+        "block": "C",
+        "models": 240,
+        "eligible_events": 499285,
+        "launched_events": 500000,
+        "score_component_files_verified": 2640,
+        "maximum_density_reconstruction_error": 2.384185791015625e-06,
+        "primary_contrasts": 16,
+        "primary_seed_contrasts": 80,
+        "groups": 336,
+        "legacy_contrasts": 41,
+        "legacy_seed_contrasts": 205,
+        "all2000_bootstrap_draws_independently_replayed": true,
+        "interval_families_checked": [
+          16,
+          42,
+          336
+        ]
+      },
+      {
+        "block": "D",
+        "models": 240,
+        "eligible_events": 499275,
+        "launched_events": 500000,
+        "score_component_files_verified": 2640,
+        "maximum_density_reconstruction_error": 2.384185791015625e-06,
+        "primary_contrasts": 16,
+        "primary_seed_contrasts": 80,
+        "groups": 336,
+        "legacy_contrasts": 41,
+        "legacy_seed_contrasts": 205,
+        "all2000_bootstrap_draws_independently_replayed": true,
+        "interval_families_checked": [
+          16,
+          42,
+          336
+        ]
+      }
+    ],
+    "total_model_evaluations": 480,
+    "chronology_unix": {
+      "source_freeze": 1794081410.731874,
+      "source_analysis": 1794081600.669686,
+      "union_freeze": 1794081606.436934,
+      "fresh_plan": 1794081608.408639,
+      "generation_start": 1794081694.123553,
+      "generation_complete": 1794083006.63099,
+      "scoring_start": 1794083009.4677289,
+      "scoring_complete": 1794083401.572421
+    },
+    "checker_sha256": "6aa3109b7fb5b1203cd928a472e8e735afa26f2d766ad82489c9cd33966629c2",
+    "checked_files": [
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\verify_information_delivery.py",
+        "bytes": 35620,
+        "sha256": "6aa3109b7fb5b1203cd928a472e8e735afa26f2d766ad82489c9cd33966629c2"
+      },
+      {
+        "path": "E:\\JINST REP\\low pion research\\protocol\\fresh_catalog_20261108.json",
+        "bytes": 38442,
+        "sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\FROZEN_FRESH_MODEL_UNION.json",
+        "bytes": 336603,
+        "sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\EXPECTED_FRESH_MODELS.json",
+        "bytes": 139413,
+        "sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_seed_exclusion_inventory.json",
+        "bytes": 83492,
+        "sha256": "df466f3751bde43f54e3a964f4e61e6d52713d1e7d33909221854fb2b73ef11e"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\AUTHORIZATION_AND_BUDGET.json",
+        "bytes": 1806,
+        "sha256": "1236fafd1fbd5bfa086a1f28972d5c91e52bd7994ce94866315aff72102f200e"
+      },
+      {
+        "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\study\\scores.json",
+        "bytes": 1089429,
+        "sha256": "f59f5b1413590cc73e46d117555df3898a23c4650685e9e30597fe41e8c5ffbc"
+      },
+      {
+        "path": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\study\\FROZEN_CHECKPOINT_MANIFEST.json",
+        "bytes": 124274,
+        "sha256": "5dcf919e20a0163b0cc87c8c5d18502c6931c756b0571f508fce8eab75e73900"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\GENERATION_COMPLETE.json",
+        "bytes": 7416,
+        "sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\scoring_summary.json",
+        "bytes": 2627,
+        "sha256": "1ff3fd3e2c73ac99ac475f7ea5c5d6cad0eb11d1dd24f5a7dc62dc25e403a86d"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\source_analysis_retry1\\analysis.json",
+        "bytes": 7706,
+        "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\source_analysis_retry1\\ANALYSIS_MANIFEST.json",
+        "bytes": 1957,
+        "sha256": "83ad9c50cca04f651b34c6c4189fe15daed9085230936a5628ed146eb9843e5c"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\analysis.json",
+        "bytes": 18506,
+        "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\ANALYSIS_MANIFEST.json",
+        "bytes": 2765,
+        "sha256": "16da3e60e19112a442e5c4439624b0cfa309c37ddd23fffca5135d05c909e67b"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\analysis.json",
+        "bytes": 18490,
+        "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\ANALYSIS_MANIFEST.json",
+        "bytes": 2765,
+        "sha256": "ec12e42f3933def209d4cb11e94cee92a254d69ab64ea3807f2229aaa04617a7"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\C\\score_manifest.json",
+        "bytes": 1307986,
+        "sha256": "dfe2941b8caeb6c5739387e0d70878448bb036380af65aafbdfcbdeb270b82bc"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\C\\fresh_catalog_manifest.json",
+        "bytes": 18715,
+        "sha256": "5eb78ae154f78d70ad6c4e840ae0d51c1ce2408a4535614e127f65fa4266267d"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\C\\beam\\catalog.json",
+        "bytes": 14373,
+        "sha256": "6a3f3397e869d58a2332a4c511d5714ff2b091cc27786ed54095f0d675d9b58d"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_scores\\D\\score_manifest.json",
+        "bytes": 1307981,
+        "sha256": "f46ed4139c5c719ab4cc7337261935d3cd67acd217df13c812d2a6c58cdf2cbf"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\D\\fresh_catalog_manifest.json",
+        "bytes": 18779,
+        "sha256": "19f2fafedfa1ddecb3e4e04830abc191ee912d3ce6f1284f3b9bc958cc73fc27"
+      },
+      {
+        "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_C_D\\D\\beam\\catalog.json",
+        "bytes": 14374,
+        "sha256": "5de1187e16fc1add60373a421c4ac2a2148f3a17f8a5a870add515a260ea32ff"
+      }
+    ],
+    "scope": "Read-only complete-result verification; all2000 event-bootstrap draws replayed per catalog. No model inference, fitting, checkpoint choice or data generation.",
+    "method_limit": "Independent arithmetic implementation/replay, not an independent justification of bootstrap assumptions or finite-sample coverage.",
+    "privacy": "Receipt contains aggregate checks only; no event arrays or individual event identities."
+  },
+  "identity_counts": {
+    "paired_registered_runs": 20,
+    "identical_state_dict_bytes": 20,
+    "identical_source_logp_bytes": 20,
+    "identical_fresh_C_logp_bytes": 20,
+    "identical_fresh_D_logp_bytes": 20
+  },
+  "identity_checkpoint_container_hashes_equal": 0,
+  "identity_preprocessors_all_equal": true,
+  "blocks": {
+    "C": {
+      "eligible_events": 499285,
+      "launched_events": 500000,
+      "primary": [
+        {
+          "bootstrap_standard_error": 0.00020691506044067282,
+          "estimate": 0.006271645838593094,
+          "name": "gain:Hidden5/f010",
+          "pointwise_percentile_lower": 0.005881543430091232,
+          "pointwise_percentile_upper": 0.006675892830790054,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.006271645838593094,
+            "geometric_density_ratio_interval": [
+              1.0057250254379393,
+              1.0068580010406194
+            ],
+            "geometric_mean_paired_density_ratio": 1.0062913537882403,
+            "geometric_mean_paired_density_ratio_percent_change": 0.629135378824039,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.005708699760117165,
+          "simultaneous_upper": 0.006834591917069022,
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0008107300837210246,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00020406084338008904,
+          "estimate": 0.010399011459151059,
+          "name": "gain:Coarse2/f010",
+          "pointwise_percentile_lower": 0.010001674247467139,
+          "pointwise_percentile_upper": 0.01080458674656634,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.010399011459151059,
+            "geometric_density_ratio_interval": [
+              1.0098924406158214,
+              1.0110144090137079
+            ],
+            "geometric_mean_paired_density_ratio": 1.0104532690909638,
+            "geometric_mean_paired_density_ratio_percent_change": 1.045326909096388,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.009843830742451855,
+          "simultaneous_upper": 0.010954192175850263,
+          "weights": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0010994352153639775,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00012515926858864578,
+          "estimate": 0.0030819876399309286,
+          "name": "gain:Coarse8/f010",
+          "pointwise_percentile_lower": 0.0028402418415871883,
+          "pointwise_percentile_upper": 0.003327016723749407,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0030819876399309286,
+            "geometric_density_ratio_interval": [
+              1.0027452327608055,
+              1.0034283672417907
+            ],
+            "geometric_mean_paired_density_ratio": 1.0030867418467182,
+            "geometric_mean_paired_density_ratio_percent_change": 0.3086741846718129,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.002741471491484134,
+          "simultaneous_upper": 0.0034225037883777233,
+          "weights": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0015962742944646126,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 9.735546052262637e-05,
+          "estimate": 0.0018449298871593748,
+          "name": "gain:Full5/f010",
+          "pointwise_percentile_lower": 0.0016546054617986893,
+          "pointwise_percentile_upper": 0.0020325665208607182,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0018449298871593748,
+            "geometric_density_ratio_interval": [
+              1.0015813074712723,
+              1.0021120284499323
+            ],
+            "geometric_mean_paired_density_ratio": 1.001846632817405,
+            "geometric_mean_paired_density_ratio_percent_change": 0.18466328174049132,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0015800585210891185,
+          "simultaneous_upper": 0.002109801253229631,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0018546034476884367,
+          "optimizer_positive_seeds": 4,
+          "optimizer_negative_seeds": 1,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00021006445023099486,
+          "estimate": 0.006232647864440316,
+          "name": "gain:Hidden5/f100",
+          "pointwise_percentile_lower": 0.0058228027637453736,
+          "pointwise_percentile_upper": 0.006642312843684442,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.006232647864440316,
+            "geometric_density_ratio_interval": [
+              1.0056771878554682,
+              1.0068273632739515
+            ],
+            "geometric_mean_paired_density_ratio": 1.0062521112292304,
+            "geometric_mean_paired_density_ratio_percent_change": 0.6252111229230316,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.005661133358763979,
+          "simultaneous_upper": 0.006804162370116653,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0011250975234008487,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00022324224158906192,
+          "estimate": 0.010894500480826384,
+          "name": "gain:Coarse2/f100",
+          "pointwise_percentile_lower": 0.01045937816879882,
+          "pointwise_percentile_upper": 0.011339783088509294,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.010894500480826384,
+            "geometric_density_ratio_interval": [
+              1.0103402281167548,
+              1.0115682681207692
+            ],
+            "geometric_mean_paired_density_ratio": 1.0109540616510764,
+            "geometric_mean_paired_density_ratio_percent_change": 1.0954061651076459,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.010287133650277228,
+          "simultaneous_upper": 0.011501867311375539,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0010598250731425124,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00012289561849674306,
+          "estimate": 0.002986969437775796,
+          "name": "gain:Coarse8/f100",
+          "pointwise_percentile_lower": 0.0027507435353423624,
+          "pointwise_percentile_upper": 0.003234910264215831,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.002986969437775796,
+            "geometric_density_ratio_interval": [
+              1.0026561332054476,
+              1.003326848675777
+            ],
+            "geometric_mean_paired_density_ratio": 1.0029914348759223,
+            "geometric_mean_paired_density_ratio_percent_change": 0.29914348759224196,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0026526119176065385,
+          "simultaneous_upper": 0.0033213269579450535,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0012110553710321284,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 9.170499549136538e-05,
+          "estimate": 0.0015495071102463948,
+          "name": "gain:Full5/f100",
+          "pointwise_percentile_lower": 0.0013819797937470748,
+          "pointwise_percentile_upper": 0.0017300671021185767,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0015495071102463948,
+            "geometric_density_ratio_interval": [
+              1.001300854131064,
+              1.0018006246482631
+            ],
+            "geometric_mean_paired_density_ratio": 1.001550708216683,
+            "geometric_mean_paired_density_ratio_percent_change": 0.15507082166829536,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0013000087533913173,
+          "simultaneous_upper": 0.0017990054671014723,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0009226715961795282,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00010653208344715918,
+          "estimate": 0.004127365620557965,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse2_minus_Hidden5/f010",
+          "pointwise_percentile_lower": 0.003921106044151062,
+          "pointwise_percentile_upper": 0.004338793786343724,
+          "simultaneous_lower": 0.003837527759163415,
+          "simultaneous_upper": 0.004417203481952516,
+          "weights": [
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0007672951116052564,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00017022639019212378,
+          "estimate": -0.00731702381922013,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse8_minus_Coarse2/f010",
+          "pointwise_percentile_lower": -0.007647099982223285,
+          "pointwise_percentile_upper": -0.006978388456969669,
+          "simultaneous_lower": -0.007780152402551286,
+          "simultaneous_upper": -0.006853895235888974,
+          "weights": [
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0022101662965685023,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 9.51965148012137e-05,
+          "estimate": -0.0012370577527715538,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Coarse8/f010",
+          "pointwise_percentile_lower": -0.0014287877388555715,
+          "pointwise_percentile_upper": -0.0010602000428857263,
+          "simultaneous_lower": -0.0014960553558352736,
+          "simultaneous_upper": -0.000978060149707834,
+          "weights": [
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.002136544810021667,
+          "optimizer_positive_seeds": 1,
+          "optimizer_negative_seeds": 4,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 0.0002013540485536759,
+          "estimate": -0.004426715951433719,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Hidden5/f010",
+          "pointwise_percentile_lower": -0.004819893982358125,
+          "pointwise_percentile_upper": -0.004034955498262095,
+          "simultaneous_lower": -0.004974532392523777,
+          "simultaneous_upper": -0.0038788995103436604,
+          "weights": [
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0017958011582859784,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 9.801719575361255e-05,
+          "estimate": 0.004661852616386067,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse2_minus_Hidden5/f100",
+          "pointwise_percentile_lower": 0.004468420128700908,
+          "pointwise_percentile_upper": 0.004854403860039176,
+          "simultaneous_lower": 0.004395180891982881,
+          "simultaneous_upper": 0.004928524340789254,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.000809120806767326,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.0001981888618335455,
+          "estimate": -0.007907531043050588,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse8_minus_Coarse2/f100",
+          "pointwise_percentile_lower": -0.008292408575561301,
+          "pointwise_percentile_upper": -0.007538208383602277,
+          "simultaneous_lower": -0.008446736078823186,
+          "simultaneous_upper": -0.00736832600727799,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.00044141160858593903,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 8.014606654594963e-05,
+          "estimate": -0.0014374623275294012,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Coarse8/f100",
+          "pointwise_percentile_lower": -0.001595335929924395,
+          "pointwise_percentile_upper": -0.0012830635832318479,
+          "simultaneous_lower": -0.0016555127380274302,
+          "simultaneous_upper": -0.0012194119170313722,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0006734113380672504,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 0.0001914949554009651,
+          "estimate": -0.004683140754193921,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Hidden5/f100",
+          "pointwise_percentile_lower": -0.005057204847179256,
+          "pointwise_percentile_upper": -0.004304790371099139,
+          "simultaneous_lower": -0.005204133928694166,
+          "simultaneous_upper": -0.0041621475796936765,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0012263392200126458,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        }
+      ],
+      "local": [
+        {
+          "primary": "Hidden5/f010",
+          "groups": 42,
+          "positive_group_means": 17,
+          "negative_group_means": 25,
+          "event_share_in_negative_mean_groups": 0.5953633696185545,
+          "joint336_band_strictly_positive": 14,
+          "joint336_band_strictly_negative": 23,
+          "minimum_group_mean": -0.04680452286605185,
+          "maximum_group_mean": 0.11680054424706354
+        },
+        {
+          "primary": "Coarse2/f010",
+          "groups": 42,
+          "positive_group_means": 24,
+          "negative_group_means": 18,
+          "event_share_in_negative_mean_groups": 0.4286209279269355,
+          "joint336_band_strictly_positive": 18,
+          "joint336_band_strictly_negative": 9,
+          "minimum_group_mean": -0.017179831553942135,
+          "maximum_group_mean": 0.09577405990003877
+        },
+        {
+          "primary": "Coarse8/f010",
+          "groups": 42,
+          "positive_group_means": 40,
+          "negative_group_means": 2,
+          "event_share_in_negative_mean_groups": 0.0476581511561533,
+          "joint336_band_strictly_positive": 12,
+          "joint336_band_strictly_negative": 0,
+          "minimum_group_mean": -0.000588576103116213,
+          "maximum_group_mean": 0.019389572767228594
+        },
+        {
+          "primary": "Full5/f010",
+          "groups": 42,
+          "positive_group_means": 39,
+          "negative_group_means": 3,
+          "event_share_in_negative_mean_groups": 0.07143815656388636,
+          "joint336_band_strictly_positive": 12,
+          "joint336_band_strictly_negative": 0,
+          "minimum_group_mean": -0.0016439089886612244,
+          "maximum_group_mean": 0.0066787669172361985
+        },
+        {
+          "primary": "Hidden5/f100",
+          "groups": 42,
+          "positive_group_means": 20,
+          "negative_group_means": 22,
+          "event_share_in_negative_mean_groups": 0.5238811500445637,
+          "joint336_band_strictly_positive": 13,
+          "joint336_band_strictly_negative": 20,
+          "minimum_group_mean": -0.0367641603423759,
+          "maximum_group_mean": 0.12219222225669461
+        },
+        {
+          "primary": "Coarse2/f100",
+          "groups": 42,
+          "positive_group_means": 29,
+          "negative_group_means": 13,
+          "event_share_in_negative_mean_groups": 0.30957469180928726,
+          "joint336_band_strictly_positive": 20,
+          "joint336_band_strictly_negative": 10,
+          "minimum_group_mean": -0.01549268293068141,
+          "maximum_group_mean": 0.0908459042691067
+        },
+        {
+          "primary": "Coarse8/f100",
+          "groups": 42,
+          "positive_group_means": 36,
+          "negative_group_means": 6,
+          "event_share_in_negative_mean_groups": 0.14298847351712948,
+          "joint336_band_strictly_positive": 19,
+          "joint336_band_strictly_negative": 1,
+          "minimum_group_mean": -0.0031697097997301655,
+          "maximum_group_mean": 0.01674982620977378
+        },
+        {
+          "primary": "Full5/f100",
+          "groups": 42,
+          "positive_group_means": 33,
+          "negative_group_means": 9,
+          "event_share_in_negative_mean_groups": 0.21445066445016372,
+          "joint336_band_strictly_positive": 15,
+          "joint336_band_strictly_negative": 0,
+          "minimum_group_mean": -0.0015456027755378196,
+          "maximum_group_mean": 0.0049724009392305936
+        }
+      ],
+      "absolute_context_comparison_descriptive": [
+        {
+          "fraction": "f010",
+          "mean_corrected_NLL": {
+            "Hidden5": -9.057801174656735,
+            "Coarse2": -9.071808434657083,
+            "Coarse8": -9.076324328822107,
+            "Full5": -9.076812301743356
+          },
+          "Hidden5_minus_Full5_NLL": 0.019011127086621116
+        },
+        {
+          "fraction": "f100",
+          "mean_corrected_NLL": {
+            "Hidden5": -9.05652902947021,
+            "Coarse2": -9.07033057171992,
+            "Coarse8": -9.075147769442188,
+            "Full5": -9.07553075029735
+          },
+          "Hidden5_minus_Full5_NLL": 0.01900172082713958
+        }
+      ],
+      "negative_primary_gain_seeds": [
+        {
+          "contrast": "gain:Full5/f010",
+          "seed": "3102",
+          "gain": "-0.0006190344588162073"
+        }
+      ]
+    },
+    "D": {
+      "eligible_events": 499275,
+      "launched_events": 500000,
+      "primary": [
+        {
+          "bootstrap_standard_error": 0.0002035033979852932,
+          "estimate": 0.006400716169709811,
+          "name": "gain:Hidden5/f010",
+          "pointwise_percentile_lower": 0.005999886543839107,
+          "pointwise_percentile_upper": 0.006795157432028614,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.006400716169709811,
+            "geometric_density_ratio_interval": [
+              1.0058470326479494,
+              1.0069957842122899
+            ],
+            "geometric_mean_paired_density_ratio": 1.0064212445288139,
+            "geometric_mean_paired_density_ratio_percent_change": 0.6421244528813852,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.005830005094091458,
+          "simultaneous_upper": 0.0069714272453281646,
+          "weights": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0007780991623525245,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00020094039195310526,
+          "estimate": 0.01062265640794818,
+          "name": "gain:Coarse2/f010",
+          "pointwise_percentile_lower": 0.01022731328041513,
+          "pointwise_percentile_upper": 0.011014707911208944,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.01062265640794818,
+            "geometric_density_ratio_interval": [
+              1.0101098962515658,
+              1.0112489789631083
+            ],
+            "geometric_mean_paired_density_ratio": 1.010679277132428,
+            "geometric_mean_paired_density_ratio_percent_change": 1.0679277132428022,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.010059133103855646,
+          "simultaneous_upper": 0.011186179712040714,
+          "weights": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0012773324302448735,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00012182628491165413,
+          "estimate": 0.00332036165374287,
+          "name": "gain:Coarse8/f010",
+          "pointwise_percentile_lower": 0.003077310641009642,
+          "pointwise_percentile_upper": 0.00355845678752854,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.00332036165374287,
+            "geometric_density_ratio_interval": [
+              1.0029831491007182,
+              1.0036687283357315
+            ],
+            "geometric_mean_paired_density_ratio": 1.003325880160621,
+            "geometric_mean_paired_density_ratio_percent_change": 0.3325880160621182,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0029787083408800413,
+          "simultaneous_upper": 0.003662014966605699,
+          "weights": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0016092500828657854,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 9.491844139527935e-05,
+          "estimate": 0.0018756793712997632,
+          "name": "gain:Full5/f010",
+          "pointwise_percentile_lower": 0.0016972060401655056,
+          "pointwise_percentile_upper": 0.0020648081616153765,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0018756793712997632,
+            "geometric_density_ratio_interval": [
+              1.0016107831472079,
+              1.0021441669604723
+            ],
+            "geometric_mean_paired_density_ratio": 1.001877439558195,
+            "geometric_mean_paired_density_ratio_percent_change": 0.18774395581951,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0016094872274780056,
+          "simultaneous_upper": 0.002141871515121521,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0018355712992867417,
+          "optimizer_positive_seeds": 4,
+          "optimizer_negative_seeds": 1,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00020718072014885483,
+          "estimate": 0.006542981966299467,
+          "name": "gain:Hidden5/f100",
+          "pointwise_percentile_lower": 0.006136308284395474,
+          "pointwise_percentile_upper": 0.006951318795685282,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.006542981966299467,
+            "geometric_density_ratio_interval": [
+              1.005979765941803,
+              1.0071494419312508
+            ],
+            "geometric_mean_paired_density_ratio": 1.0065644340341144,
+            "geometric_mean_paired_density_ratio_percent_change": 0.6564434034114507,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.005961958097341353,
+          "simultaneous_upper": 0.007124005835257582,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0011936506412345389,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.0002209856643976366,
+          "estimate": 0.01119614319851272,
+          "name": "gain:Coarse2/f100",
+          "pointwise_percentile_lower": 0.010763035031767308,
+          "pointwise_percentile_upper": 0.011627503834172884,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.01119614319851272,
+            "geometric_density_ratio_interval": [
+              1.0106325321936824,
+              1.0118859653645829
+            ],
+            "geometric_mean_paired_density_ratio": 1.0112590545788243,
+            "geometric_mean_paired_density_ratio_percent_change": 1.1259054578824166,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.010576404326959696,
+          "simultaneous_upper": 0.011815882070065745,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.001029868607137298,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00012249456866003956,
+          "estimate": 0.0033323107496844658,
+          "name": "gain:Coarse8/f100",
+          "pointwise_percentile_lower": 0.003080230488335054,
+          "pointwise_percentile_upper": 0.0035639934611379686,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0033323107496844658,
+            "geometric_density_ratio_interval": [
+              1.0029932541474864,
+              1.0036826023964458
+            ],
+            "geometric_mean_paired_density_ratio": 1.003337869069452,
+            "geometric_mean_paired_density_ratio_percent_change": 0.3337869069452075,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0029887832816938346,
+          "simultaneous_upper": 0.003675838217675097,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0011813620351547396,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 8.95941833723647e-05,
+          "estimate": 0.0016593114563427495,
+          "name": "gain:Full5/f100",
+          "pointwise_percentile_lower": 0.001475667529751531,
+          "pointwise_percentile_upper": 0.0018405916574602249,
+          "practical_effect": {
+            "delta_nat_per_eligible_event": 0.0016593114563427495,
+            "geometric_density_ratio_interval": [
+              1.001409042591518,
+              1.0019123983959262
+            ],
+            "geometric_mean_paired_density_ratio": 1.0016606888753476,
+            "geometric_mean_paired_density_ratio_percent_change": 0.1660688875347678,
+            "interpretation": "For the mean-over-seed score, this is a geometric average over paired event/model density ratios. It is not an eventwise or uniform ratio, a prediction-accuracy percentage, or a downstream benefit. N times delta is a cumulative log-score contrast only. No equivalence margin is implied."
+          },
+          "simultaneous_lower": 0.0014080508225262787,
+          "simultaneous_upper": 0.0019105720901592203,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0009732268610374797,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00010701076334681208,
+          "estimate": 0.004221940238238369,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse2_minus_Hidden5/f010",
+          "pointwise_percentile_lower": 0.004009988288443677,
+          "pointwise_percentile_upper": 0.004430954689514394,
+          "simultaneous_lower": 0.003921836021517556,
+          "simultaneous_upper": 0.004522044454959182,
+          "weights": [
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0010464502907378591,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.0001689676944951729,
+          "estimate": -0.00730229475420531,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse8_minus_Coarse2/f010",
+          "pointwise_percentile_lower": -0.007639192746452476,
+          "pointwise_percentile_upper": -0.006975532168128321,
+          "simultaneous_lower": -0.007776152859891892,
+          "simultaneous_upper": -0.0068284366485187285,
+          "weights": [
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.002233168625752304,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 9.362187017244504e-05,
+          "estimate": -0.001444682282443107,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Coarse8/f010",
+          "pointwise_percentile_lower": -0.0016252341252674036,
+          "pointwise_percentile_upper": -0.0012601615997413545,
+          "simultaneous_lower": -0.0017072382827678747,
+          "simultaneous_upper": -0.0011821262821183392,
+          "weights": [
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.002087144514849187,
+          "optimizer_positive_seeds": 1,
+          "optimizer_negative_seeds": 4,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 0.00019948694693296392,
+          "estimate": -0.004525036798410048,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Hidden5/f010",
+          "pointwise_percentile_lower": -0.00490664255316207,
+          "pointwise_percentile_upper": -0.00413342360627101,
+          "simultaneous_lower": -0.005084484017390445,
+          "simultaneous_upper": -0.00396558957942965,
+          "weights": [
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0017128696803709246,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 9.513949426367763e-05,
+          "estimate": 0.004653161232213253,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse2_minus_Hidden5/f100",
+          "pointwise_percentile_lower": 0.004461187205422041,
+          "pointwise_percentile_upper": 0.004836448967176908,
+          "simultaneous_lower": 0.004386349161051013,
+          "simultaneous_upper": 0.004919973303375493,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.000836809289499239,
+          "optimizer_positive_seeds": 5,
+          "optimizer_negative_seeds": 0,
+          "simultaneous_direction": "positive"
+        },
+        {
+          "bootstrap_standard_error": 0.00019740917919573058,
+          "estimate": -0.007863832448828255,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Coarse8_minus_Coarse2/f100",
+          "pointwise_percentile_lower": -0.008266354578984112,
+          "pointwise_percentile_upper": -0.007480869851582857,
+          "simultaneous_lower": -0.008417452713212606,
+          "simultaneous_upper": -0.0073102121844439046,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0
+          ],
+          "optimizer_seed_sample_sd": 0.0005260202476232668,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 8.118822860158751e-05,
+          "estimate": -0.0016729992933417163,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Coarse8/f100",
+          "pointwise_percentile_lower": -0.0018268480657131565,
+          "pointwise_percentile_upper": -0.0015087337598656094,
+          "simultaneous_lower": -0.0019006860137182936,
+          "simultaneous_upper": -0.001445312572965139,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0008051447681241214,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        },
+        {
+          "bootstrap_standard_error": 0.0001895144866470749,
+          "estimate": -0.004883670509956718,
+          "interpretation": "Difference of representation gains; exponentiating gives a ratio of geometric mean density ratios, not a single-model accuracy improvement.",
+          "name": "gain_change:Full5_minus_Hidden5/f100",
+          "pointwise_percentile_lower": -0.005245120114453738,
+          "pointwise_percentile_upper": -0.004509911907779929,
+          "simultaneous_lower": -0.005415150660118283,
+          "simultaneous_upper": -0.0043521903597951534,
+          "weights": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "optimizer_seed_sample_sd": 0.0014469877867638033,
+          "optimizer_positive_seeds": 0,
+          "optimizer_negative_seeds": 5,
+          "simultaneous_direction": "negative"
+        }
+      ],
+      "local": [
+        {
+          "primary": "Hidden5/f010",
+          "groups": 42,
+          "positive_group_means": 15,
+          "negative_group_means": 27,
+          "event_share_in_negative_mean_groups": 0.6429622953282259,
+          "joint336_band_strictly_positive": 12,
+          "joint336_band_strictly_negative": 22,
+          "minimum_group_mean": -0.043954263590248226,
+          "maximum_group_mean": 0.11700504773503918
+        },
+        {
+          "primary": "Coarse2/f010",
+          "groups": 42,
+          "positive_group_means": 25,
+          "negative_group_means": 17,
+          "event_share_in_negative_mean_groups": 0.4048350107656101,
+          "joint336_band_strictly_positive": 16,
+          "joint336_band_strictly_negative": 9,
+          "minimum_group_mean": -0.015672179355385223,
+          "maximum_group_mean": 0.09673892152961641
+        },
+        {
+          "primary": "Coarse8/f010",
+          "groups": 42,
+          "positive_group_means": 39,
+          "negative_group_means": 3,
+          "event_share_in_negative_mean_groups": 0.07147964548595463,
+          "joint336_band_strictly_positive": 14,
+          "joint336_band_strictly_negative": 0,
+          "minimum_group_mean": -0.0005774833855508767,
+          "maximum_group_mean": 0.02144950834341259
+        },
+        {
+          "primary": "Full5/f010",
+          "groups": 42,
+          "positive_group_means": 41,
+          "negative_group_means": 1,
+          "event_share_in_negative_mean_groups": 0.02383255720795153,
+          "joint336_band_strictly_positive": 14,
+          "joint336_band_strictly_negative": 0,
+          "minimum_group_mean": -0.0008547468319271069,
+          "maximum_group_mean": 0.007330231111711539
+        },
+        {
+          "primary": "Hidden5/f100",
+          "groups": 42,
+          "positive_group_means": 19,
+          "negative_group_means": 23,
+          "event_share_in_negative_mean_groups": 0.547636072304842,
+          "joint336_band_strictly_positive": 13,
+          "joint336_band_strictly_negative": 20,
+          "minimum_group_mean": -0.0358952981971817,
+          "maximum_group_mean": 0.12177508508723933
+        },
+        {
+          "primary": "Coarse2/f100",
+          "groups": 42,
+          "positive_group_means": 28,
+          "negative_group_means": 14,
+          "event_share_in_negative_mean_groups": 0.3334234640228331,
+          "joint336_band_strictly_positive": 19,
+          "joint336_band_strictly_negative": 10,
+          "minimum_group_mean": -0.012929908470619334,
+          "maximum_group_mean": 0.09598462776426203
+        },
+        {
+          "primary": "Coarse8/f100",
+          "groups": 42,
+          "positive_group_means": 37,
+          "negative_group_means": 5,
+          "event_share_in_negative_mean_groups": 0.11914876571027991,
+          "joint336_band_strictly_positive": 20,
+          "joint336_band_strictly_negative": 1,
+          "minimum_group_mean": -0.003928196483303987,
+          "maximum_group_mean": 0.017854807587751684
+        },
+        {
+          "primary": "Full5/f100",
+          "groups": 42,
+          "positive_group_means": 33,
+          "negative_group_means": 9,
+          "event_share_in_negative_mean_groups": 0.21444895097891944,
+          "joint336_band_strictly_positive": 17,
+          "joint336_band_strictly_negative": 1,
+          "minimum_group_mean": -0.002153413693878225,
+          "maximum_group_mean": 0.004949272566930541
+        }
+      ],
+      "absolute_context_comparison_descriptive": [
+        {
+          "fraction": "f010",
+          "mean_corrected_NLL": {
+            "Hidden5": -9.056641782979806,
+            "Coarse2": -9.071086200555666,
+            "Coarse8": -9.075829656841437,
+            "Full5": -9.076219918318417
+          },
+          "Hidden5_minus_Full5_NLL": 0.019578135338610636
+        },
+        {
+          "fraction": "f100",
+          "mean_corrected_NLL": {
+            "Hidden5": -9.055402470641642,
+            "Coarse2": -9.069627850407276,
+            "Coarse8": -9.07462524025917,
+            "Full5": -9.074956901413433
+          },
+          "Hidden5_minus_Full5_NLL": 0.019554430771790976
+        }
+      ],
+      "negative_primary_gain_seeds": [
+        {
+          "contrast": "gain:Full5/f010",
+          "seed": "3102",
+          "gain": "-0.0004911495003593529"
+        }
+      ]
+    }
+  },
+  "first_entry_failure": {
+    "elapsed_seconds": 0.0030014514923095703,
+    "error": "No module named 'threadpoolctl'",
+    "error_type": "ModuleNotFoundError",
+    "mode": "validation",
+    "status": "INCOMPLETE"
+  },
+  "runtime_dependency_repair": {
+    "status": "VERIFIED_ANALYSIS_RUNTIME_DEPENDENCY_ADDITION",
+    "utc": "2026-11-07T19:59:11.712873+00:00",
+    "package": "threadpoolctl",
+    "version": "3.7.0",
+    "module_sha256": "e5f119e394193e206655bec4b993ef0bb40b0fbb2f22c92bd5b2d70a622bb518",
+    "module_path": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\threadpoolctl.py",
+    "source": "Existing local uv wheel cache; pure Python module plus package metadata copied, no numerical library replacement",
+    "python": "3.12.13 (main, Jun 23 2026, 15:23:43) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "torch": "2.14.1+cpu",
+    "verified_one_thread_context": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "version": "0.3.34.106.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libiomp",
+        "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+        "version": null
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libiomp",
+        "filepath": "E:\\JINST REP\\pion-material-study\\.venv-ml\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+        "version": null
+      }
+    ],
+    "scope": "Supplementary analysis runtime dependency; frozen model/source/statistical design unchanged. Failed initial execution retained."
+  },
+  "unresolved_numerical_findings": [],
+  "interpretation_limits": [
+    "240 registered model runs include20 precisely matching Full reruns, not240 independent or necessarily different predictors; the remaining220 are not proven mutually distinct by this pairwise check.",
+    "All reported event intervals are conditional on fixed fitted models, this launched design and simulator settings; no optimizer-population or generator-physics uncertainty is supplied.",
+    "16-global,42-within-primary and336-joint group bands are separate families for each catalog; no joint C/D coverage claim.",
+    "Both catalogs evaluate the same fitted models; their repetition is new simulated-event evidence, not independent retraining evidence.",
+    "Positive group or global gains are not uniform improvement/calibration or downstream accuracy benefits. Event shares label regions with negative group averages, not the fraction of individual events made worse.",
+    "Coarse2 relative gain exceeds Hidden5, then gain declines at Coarse8 and Full5: this is nonmonotone across nested conditioner information, without causal mechanism identification.",
+    "Source selected-validation summaries are descriptive; all-validation replay verifies saved weights, not fresh-event generalization.",
+    "The earlier57 module tests omitted the real entry point's threadpoolctl dependency; the failed entry was retained, local3.7.0 added, and source replay was rerun before formal generation under the same deadline."
+  ],
+  "checker_source_sha256": "f5331ef5c0c22e22ebef37118d488937270092262e509d439c0130950e454ac5"
+}

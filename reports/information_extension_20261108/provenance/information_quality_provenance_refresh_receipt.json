@@ -1,0 +1,51 @@
+{
+  "status": "COMPLETE_LOCAL_QUALITY_PROVENANCE_REFRESH",
+  "generated_utc": "2026-11-07T20:44:38.817122+00:00",
+  "scope": "Authorized QA update after table float-only re-export, with aggregate mechanism check E060; no scientific source/model/output changes.",
+  "targets": [
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\actual_information_figures_qa.json",
+      "target": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\actual_information_figures_qa.json",
+      "previous_sha256": "8ba3b1832a8fe7244c70675db2431a199979268c0e412b2dc2d8e144f58dfa7a",
+      "sha256": "5e02bfcb1a9b5b1f6ec2ff4b421442dd07242b3fc1631c05b600fda421159727",
+      "bytes": 17008
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_table_float_adjustment_receipt.json",
+      "target": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_table_float_adjustment_receipt.json",
+      "previous_sha256": null,
+      "sha256": "fd10b7a77dc6149a3b9ce679da0bca09367d35e4574207b304e6f2aa661f0dcb",
+      "bytes": 2373
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_mechanism_numeric_binding.json",
+      "target": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_mechanism_numeric_binding.json",
+      "previous_sha256": null,
+      "sha256": "5175b5b687d6b527bd91dcef6bffbad65a145b53ba0248409ee24a761e0f6b54",
+      "bytes": 59546
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\actual_information_figures_qa.json",
+      "target": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\actual_information_figures_qa.json",
+      "previous_sha256": "8ba3b1832a8fe7244c70675db2431a199979268c0e412b2dc2d8e144f58dfa7a",
+      "sha256": "5e02bfcb1a9b5b1f6ec2ff4b421442dd07242b3fc1631c05b600fda421159727",
+      "bytes": 17008
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_table_float_adjustment_receipt.json",
+      "target": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_table_float_adjustment_receipt.json",
+      "previous_sha256": null,
+      "sha256": "fd10b7a77dc6149a3b9ce679da0bca09367d35e4574207b304e6f2aa661f0dcb",
+      "bytes": 2373
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_mechanism_numeric_binding.json",
+      "target": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_mechanism_numeric_binding.json",
+      "previous_sha256": null,
+      "sha256": "5175b5b687d6b527bd91dcef6bffbad65a145b53ba0248409ee24a761e0f6b54",
+      "bytes": 59546
+    }
+  ],
+  "scientific_outputs_changed": false,
+  "remote_actions": false
+}

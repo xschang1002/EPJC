@@ -1,0 +1,83 @@
+{
+  "schema": "support-input-and-standardization-audit-handoff/v1",
+  "status": "PASS_LEDGER_INPUT_AND_ALL_MODEL_STANDARDIZATION",
+  "generated_utc": "2026-11-08T13:14:11.493240+00:00",
+  "root_independent_comparison": [
+    {
+      "block": "C",
+      "n_and_support_sign_counts_identical": true,
+      "min_max_and_min_ULP_identical": true,
+      "maximum_common_quantile_absolute_difference_GeV_c": 0.0,
+      "quantile_definition": "linear interpolation after promotion of the computed float32 margin to float64; the initial draft used NumPy float32 interpolation and is separately retained",
+      "quantile_comparison": "The current files agree exactly on every common quantile."
+    },
+    {
+      "block": "D",
+      "n_and_support_sign_counts_identical": true,
+      "min_max_and_min_ULP_identical": true,
+      "maximum_common_quantile_absolute_difference_GeV_c": 0.0,
+      "quantile_definition": "linear interpolation after promotion of the computed float32 margin to float64; the initial draft used NumPy float32 interpolation and is separately retained",
+      "quantile_comparison": "The current files agree exactly on every common quantile."
+    }
+  ],
+  "files": [
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\input_margin_review.json",
+      "sha256": "ba5076f8b823d58b323036b18a33afefe0cf25b88440babe19a67f10117abe0a",
+      "bytes": 357441
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\standardization_replay.json",
+      "sha256": "1e4213f1b4a2aa988bfe8430d9d6a0264ece2084f6dac86964a1210ab8c9f144",
+      "bytes": 17816
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\independent_margin_check.json",
+      "sha256": "8ce965b97fcac0ef5eecfb76965b1c4fb6c8e2199cbf5c0fcdbad4e5ba6b0c90",
+      "bytes": 2720
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\input_standardization_summary.md",
+      "sha256": "83013d8213f48fd473faf7c25f4eefbd7d7e6315b36bb980a75ed0cbe01c4564",
+      "bytes": 2600
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\input_margin_audit_plan.json",
+      "sha256": "e5017b6386333533df5f39f7a8e7cd8740ce5ae86522209b023a90c2c0fe1c5c",
+      "bytes": 1737
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\audit_input_margins.py",
+      "sha256": "4f1a42c3471cf39d51b1416dc55ae1366b93d3ca1477cce6b925b86d2106ad7c",
+      "bytes": 22768
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\replay_standardization.py",
+      "sha256": "eea01424412eda98090da949d9bed7d2eaaf43ebfb5349900856e6886df9b449",
+      "bytes": 10410
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\input_margin_by_momentum_bin.csv",
+      "sha256": "290d68d19e9dcbefcb2aadea219e5cb2ac65dcc17a5e89ab12fc4ddce91ab823",
+      "bytes": 2049
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\standardization_replay.csv",
+      "sha256": "568324678b2a368217e2f3eb2290b8c38561885b3f1f715f038ea2a714f7fefb",
+      "bytes": 197254
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\input_margin_audit.log",
+      "sha256": "d837a1ed7c65b13f4d74d301dd01d08d1b01b6ad17511c182377df8c41b5df3d",
+      "bytes": 545
+    },
+    {
+      "path": "E:\\JINST REP\\_support_audit_20261108\\standardization_replay.log",
+      "sha256": "f96c34318021c2694333ba602bb4845114a1661bdb733ef6d844db2c9413a755",
+      "bytes": 448
+    }
+  ],
+  "execution_history_note": "An initial read-only ledger audit attempt stopped at a wrong local audit dictionary key (events.jsonl versus the merged manifest key events). The audit script key was corrected, then C and D were both read and completely verified. No formal file or scientific result changed; thresholds were fixed before either ledger-read attempt.",
+  "scientific_mutations_or_model_inference": false,
+  "remaining_separate_scope": "Saved 11-component value audit is provided by support_terms; this handoff covers original input reconstruction and all-model z/b arithmetic correspondence."
+}

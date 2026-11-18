@@ -1,0 +1,646 @@
+{
+  "schema": "information-frozen-source-snapshot/v1",
+  "status": "COMPLETE_VERIFIED_FROZEN_BYTE_SNAPSHOT",
+  "materialized_utc": "2026-11-07T20:18:51.359015+00:00",
+  "boundary": "Materialized after training from files still matching pre-generation frozen identities; this does not change the original freeze time or claim new human review. No event arrays or raw data included.",
+  "fresh_plan_sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8",
+  "files": [
+    {
+      "snapshot_path": "audit/AUTHORIZATION_AND_BUDGET.json",
+      "root_key": "audit",
+      "path": "AUTHORIZATION_AND_BUDGET.json",
+      "sha256": "1236fafd1fbd5bfa086a1f28972d5c91e52bd7994ce94866315aff72102f200e",
+      "bytes": 1806
+    },
+    {
+      "snapshot_path": "audit/EXPECTED_FRESH_MODELS.json",
+      "root_key": "audit",
+      "path": "EXPECTED_FRESH_MODELS.json",
+      "sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471",
+      "bytes": 139413
+    },
+    {
+      "snapshot_path": "audit/RESEARCH_DECISIONS.json",
+      "root_key": "audit",
+      "path": "RESEARCH_DECISIONS.json",
+      "sha256": "7c12cacd093e620f342cfe0497877f442cb5626d19f4685fff0c5f75235b7ba6",
+      "bytes": 2199
+    },
+    {
+      "snapshot_path": "audit/freeze_fresh_evaluation.py",
+      "root_key": "audit",
+      "path": "freeze_fresh_evaluation.py",
+      "sha256": "77da027d016c4fe9b5426f9001758b2b6447e2f3cc64438750696451ea4350c8",
+      "bytes": 8503
+    },
+    {
+      "snapshot_path": "audit/fresh_catalog_tests.log",
+      "root_key": "audit",
+      "path": "fresh_catalog_tests.log",
+      "sha256": "bad5e043539e8fa7c4e6ba7a33c653d8c7bbafba1e1b354ab16001c8bf114df8",
+      "bytes": 101
+    },
+    {
+      "snapshot_path": "audit/fresh_catalog_tests_result.json",
+      "root_key": "audit",
+      "path": "fresh_catalog_tests_result.json",
+      "sha256": "04d59c75ee68f2b533bb54dbcefbd1da9bf2f76dc89d1fe75ef0699bca7e2453",
+      "bytes": 881
+    },
+    {
+      "snapshot_path": "audit/fresh_seed_exclusion_inventory.json",
+      "root_key": "audit",
+      "path": "fresh_seed_exclusion_inventory.json",
+      "sha256": "df466f3751bde43f54e3a964f4e61e6d52713d1e7d33909221854fb2b73ef11e",
+      "bytes": 83492
+    },
+    {
+      "snapshot_path": "audit/information_analysis_test_result.json",
+      "root_key": "audit",
+      "path": "information_analysis_test_result.json",
+      "sha256": "683de8acb4ac675d581baa560b244eea72413844882077220627a7ed88f92ee9",
+      "bytes": 2420
+    },
+    {
+      "snapshot_path": "audit/information_training_scoring_checks.json",
+      "root_key": "audit",
+      "path": "information_training_scoring_checks.json",
+      "sha256": "8130a16312a9dd1ba1c91d6bef0da692151d0b41101aad8be426c10d44fa208d",
+      "bytes": 3871
+    },
+    {
+      "snapshot_path": "repo/environment/requirements-core.txt",
+      "root_key": "repo",
+      "path": "environment/requirements-core.txt",
+      "sha256": "7a28b90ed6618f078376466342039a9161ac1edd96dff9cb51d94fb5aa785251",
+      "bytes": 192
+    },
+    {
+      "snapshot_path": "repo/environment/requirements-test.txt",
+      "root_key": "repo",
+      "path": "environment/requirements-test.txt",
+      "sha256": "ae962591e6f93568c218d918cb5fe0b418dd2b67f9edff602b4f0397e44380c5",
+      "bytes": 89
+    },
+    {
+      "snapshot_path": "repo/protocol/confirmation_guard.py",
+      "root_key": "repo",
+      "path": "protocol/confirmation_guard.py",
+      "sha256": "a10994b3e5c65e5e107ecad4dd6e5e824b2949d0c20141c2729771028ed955a7",
+      "bytes": 2542
+    },
+    {
+      "snapshot_path": "repo/protocol/corrected_formal_extension_20261107.json",
+      "root_key": "repo",
+      "path": "protocol/corrected_formal_extension_20261107.json",
+      "sha256": "333a54a3f822fb2dd04be28cdbc4488013d4a768f7fa31a4055fa728ab1b0ce3",
+      "bytes": 4526
+    },
+    {
+      "snapshot_path": "repo/protocol/correction_v2_20261107.json",
+      "root_key": "repo",
+      "path": "protocol/correction_v2_20261107.json",
+      "sha256": "3764fedca1c2e7525d99940a64d40a2bace15d8d5068404dfc2c25d7caaa7f44",
+      "bytes": 2409
+    },
+    {
+      "snapshot_path": "repo/protocol/fresh_catalog_20261108.draft.json",
+      "root_key": "repo",
+      "path": "protocol/fresh_catalog_20261108.draft.json",
+      "sha256": "a4cf050c6732143500b6ed223f265e923a1ab02c7352447c7527548d73aaef5e",
+      "bytes": 8649
+    },
+    {
+      "snapshot_path": "repo/protocol/information_statistical_analysis_20261108.json",
+      "root_key": "repo",
+      "path": "protocol/information_statistical_analysis_20261108.json",
+      "sha256": "178d9011ddf25ab8d2777d185fec0f8d006fe4646dc56af99924af412a000f1a",
+      "bytes": 16526
+    },
+    {
+      "snapshot_path": "repo/protocol/information_study_20261108.json",
+      "root_key": "repo",
+      "path": "protocol/information_study_20261108.json",
+      "sha256": "8508b20d2d4c82cf009ff32da014fe4e8a58364cc4e92cbd11164ce1f7e362c1",
+      "bytes": 6249
+    },
+    {
+      "snapshot_path": "repo/reports/corrected_formal_extension_20261107/study/FROZEN_CHECKPOINT_MANIFEST.json",
+      "root_key": "repo",
+      "path": "reports/corrected_formal_extension_20261107/study/FROZEN_CHECKPOINT_MANIFEST.json",
+      "sha256": "9c8b5b008aee17d0cfc4fd4be5f56fa19ea17d2fc3662816888c5c7ff660b6f3",
+      "bytes": 158712
+    },
+    {
+      "snapshot_path": "repo/reports/correction_v2_20261107/study/FROZEN_CHECKPOINT_MANIFEST.json",
+      "root_key": "repo",
+      "path": "reports/correction_v2_20261107/study/FROZEN_CHECKPOINT_MANIFEST.json",
+      "sha256": "ec82828f019e4255b6eff13a520570dfc90824d107a3ba0dbedaab87e7657dcf",
+      "bytes": 63416
+    },
+    {
+      "snapshot_path": "repo/reports/information_extension_20261108/PROTOCOL_FREEZE.json",
+      "root_key": "repo",
+      "path": "reports/information_extension_20261108/PROTOCOL_FREEZE.json",
+      "sha256": "28802b0f0d6e5f512b3d5cdc259bae2e354daf8c6177f93ab3969dfd90eb304f",
+      "bytes": 8588
+    },
+    {
+      "snapshot_path": "repo/src/data_contract/beam_schedule.py",
+      "root_key": "repo",
+      "path": "src/data_contract/beam_schedule.py",
+      "sha256": "06a12eaeed885a93ae3931d2641b8d9fe18af1d852224ad4a8073c9da6a2a07c",
+      "bytes": 2311
+    },
+    {
+      "snapshot_path": "repo/src/data_contract/event_split.py",
+      "root_key": "repo",
+      "path": "src/data_contract/event_split.py",
+      "sha256": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+      "bytes": 942
+    },
+    {
+      "snapshot_path": "repo/src/data_contract/merge_chunks.py",
+      "root_key": "repo",
+      "path": "src/data_contract/merge_chunks.py",
+      "sha256": "d77258838c2ed86b20a0ba68f3a36497eb58d20e80a1c586809f22310c09423f",
+      "bytes": 9729
+    },
+    {
+      "snapshot_path": "repo/src/data_contract/primary_visit.py",
+      "root_key": "repo",
+      "path": "src/data_contract/primary_visit.py",
+      "sha256": "f3d36d92bba966b00d16622cef1b78c469407b9c692f24d352af173d0fbe6679",
+      "bytes": 2615
+    },
+    {
+      "snapshot_path": "repo/src/models/anchor.py",
+      "root_key": "repo",
+      "path": "src/models/anchor.py",
+      "sha256": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+      "bytes": 2535
+    },
+    {
+      "snapshot_path": "repo/src/models/anchor_legacy.py",
+      "root_key": "repo",
+      "path": "src/models/anchor_legacy.py",
+      "sha256": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+      "bytes": 1555
+    },
+    {
+      "snapshot_path": "repo/src/models/densities.py",
+      "root_key": "repo",
+      "path": "src/models/densities.py",
+      "sha256": "440314c62a706131e6a6cb2177b3f85b9bb4441defa25b823beaa15db73ac229",
+      "bytes": 6136
+    },
+    {
+      "snapshot_path": "repo/src/models/export_formal_predictions.py",
+      "root_key": "repo",
+      "path": "src/models/export_formal_predictions.py",
+      "sha256": "45f4ac12730f8b86a06de0c5d27e7b8c4879e1e1c1f9322b65912b029ffdae10",
+      "bytes": 2902
+    },
+    {
+      "snapshot_path": "repo/src/models/fit_formal_matrix.py",
+      "root_key": "repo",
+      "path": "src/models/fit_formal_matrix.py",
+      "sha256": "a6eceff40b0c42064ff9ff1e7945a58895864f191ecf51f4a251978812fa596c",
+      "bytes": 14663
+    },
+    {
+      "snapshot_path": "repo/src/models/fit_pilot_models.py",
+      "root_key": "repo",
+      "path": "src/models/fit_pilot_models.py",
+      "sha256": "ef93d2132d68e0736996185cc7ec339e7abac1428273f038910e1e01eee05d52",
+      "bytes": 8955
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/__init__.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/__init__.py",
+      "sha256": "b598a038db8de33eb00e9311ad8c00641871b85768d4a32808bd0a6c93ebf1ea",
+      "bytes": 320
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_compatibility_diagnostics.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_compatibility_diagnostics.py",
+      "sha256": "db23a93edf886c0f8dd2a140785f712d99e4e6d22356c8dfbb394201730f9505",
+      "bytes": 7470
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_conditional_distribution.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_conditional_distribution.py",
+      "sha256": "369efbd287f379d6b20309e4dc758569815e5b5bbed945dee5539a3e1c51977e",
+      "bytes": 6193
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_confirmation_location.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_confirmation_location.py",
+      "sha256": "617e89493116f46475dae6a1ce47f30879a436c46cbb0795bbd5271856cc2693",
+      "bytes": 4113
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_corrected_formal_matrix.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_corrected_formal_matrix.py",
+      "sha256": "250604e82fea58f4255402c9aa87a821ecd3ef491d56f595f4055a71c8a4dffa",
+      "bytes": 28721
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_correction_study.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_correction_study.py",
+      "sha256": "a5e4b44d50e71e4d8c7e6823e8c830ea89a03ba9f9c924cc7ddeb67f690fb85b",
+      "bytes": 25083
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_exploratory_matrix.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_exploratory_matrix.py",
+      "sha256": "3af37630ff142072fbecd33d01249daca30257b0cea025601f6518cd34b2f041",
+      "bytes": 6222
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_formal_matrix.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_formal_matrix.py",
+      "sha256": "67017c6717fd2dd6a1a8ab841b4d60b1897f33af179f1c472efdfce969af6bdc",
+      "bytes": 10973
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_mechanism_connection.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_mechanism_connection.py",
+      "sha256": "edfd62e26b2bf7dd9a4d01a03f3f36a9ba3efd255c2d7d24f253e1b53f18c977",
+      "bytes": 11689
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/analyze_within_condition_locations.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/analyze_within_condition_locations.py",
+      "sha256": "87e13f627b530d6be8d27be402becbf7ba6f7c950e69458b99373fad1c293142",
+      "bytes": 12809
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/audit_confirmation_reuse.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/audit_confirmation_reuse.py",
+      "sha256": "694613348a63e9bbc3fb876af1f49a16eb29a4e8d2f815c35b29ff6a59032075",
+      "bytes": 3835
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/center_diagnostics.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/center_diagnostics.py",
+      "sha256": "075a407ea596080aab4c6afb59060eaea785086e675092804c5e7ecf0d5a9423",
+      "bytes": 4862
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/checkpoint_contract.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/checkpoint_contract.py",
+      "sha256": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+      "bytes": 6292
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/engine.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/engine.py",
+      "sha256": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+      "bytes": 27183
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/experiment_contract.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/experiment_contract.py",
+      "sha256": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+      "bytes": 5151
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/formal_preflight.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/formal_preflight.py",
+      "sha256": "d5037a1119c031ba3851f94917427b844594ab30a6e6ebf222af7b468aad2afd",
+      "bytes": 6925
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/information_analysis.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/information_analysis.py",
+      "sha256": "eeebb53d2d4eb992e93aad8c055eff6f7e8aba67146247bc2fe3cff1238f5df1",
+      "bytes": 12203
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/information_checkpoint.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/information_checkpoint.py",
+      "sha256": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+      "bytes": 5531
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/information_context.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/information_context.py",
+      "sha256": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+      "bytes": 2919
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/information_uncertainty.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/information_uncertainty.py",
+      "sha256": "c61c7e3b88fb34e808eb3f56e4e4ca1d8649ef5543a66bfd492441966ac3f25f",
+      "bytes": 14988
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/optimization_audit.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/optimization_audit.py",
+      "sha256": "5d1c9bda05fba91cece5f0c7f0061b7db1ee2d18126e761fdb9961aebdd086fe",
+      "bytes": 5322
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/recheck_extension_runtime.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/recheck_extension_runtime.py",
+      "sha256": "f68396e88d28e509acffc21f8416e8acd0eee841ab08a16cf4ea971deeb95035",
+      "bytes": 12487
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_calibrated_exploratory_report.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_calibrated_exploratory_report.py",
+      "sha256": "7f8597d3357b4aeddb201036accb1b9e333902afcef351d6bac88812c6ac250b",
+      "bytes": 3945
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_context_interaction_report.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_context_interaction_report.py",
+      "sha256": "ad5b3edaf932efa8e30b1a6356369ebb1e3255d072e23ba305247df21a0a2e49",
+      "bytes": 3101
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_correction_analysis.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_correction_analysis.py",
+      "sha256": "3c478494ce0a9253bf558593deb92fe5dcc28cb5378973bee84b886fe9b5680c",
+      "bytes": 34604
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_correction_confirmation.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_correction_confirmation.py",
+      "sha256": "e177106a46d1f62344ed3ec46bbb90f84b0003134d063f92928cfdd024b9eefa",
+      "bytes": 20303
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_exploratory_report.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_exploratory_report.py",
+      "sha256": "da52aa68416439c976467c95f6ea48e1252e73548a5989157ab37c786cfe9abc",
+      "bytes": 3719
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/render_formal_report.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/render_formal_report.py",
+      "sha256": "b870a647ce773c331257fbb299f3055f6bdacf0cca1ea6e1e45c7e79d1785429",
+      "bytes": 6246
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_a0_prototype.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_a0_prototype.py",
+      "sha256": "c7082fa4258790e6487c0ce051582b4d05467c73a18e22fa705bcb043dd55d39",
+      "bytes": 24154
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_calibrated_exploratory.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_calibrated_exploratory.py",
+      "sha256": "6bbcd2c1bd4380b209740825144b8ce2f5986cbe322d7e00c56272765f301fa6",
+      "bytes": 12131
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_context_interaction.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_context_interaction.py",
+      "sha256": "1c69f126d52f23d219b75553f0a8372bfdc11609d616f96c2d219f62deca64ee",
+      "bytes": 12100
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_corrected_formal_extension.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_corrected_formal_extension.py",
+      "sha256": "2f3aaab8ea96b3b1d5c9da68a3c063d05525099a35c0f718d9f8fc611e6bdb7e",
+      "bytes": 20173
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_correction_study.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_correction_study.py",
+      "sha256": "2f34968b7122764a4850199de494732cd03832a92f44bdb903151329ed1ae070",
+      "bytes": 13940
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_exploratory_matrix.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_exploratory_matrix.py",
+      "sha256": "65b6b6e0091130cf432a6e13e11fec8ab3d2d09fb2a190dd35f0532231c3d58b",
+      "bytes": 8996
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_formal_matrix.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_formal_matrix.py",
+      "sha256": "e4d964bf62889963bd4eec44bf14a3c280b41bac7d136a8a65322fb0c9ed6e18",
+      "bytes": 12543
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_information_analysis.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_information_analysis.py",
+      "sha256": "64c1c90b6cd074662f7eb2a1827c3ab2add62764ec6dfbd243d70e75a56f3d69",
+      "bytes": 38907
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_information_study.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_information_study.py",
+      "sha256": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+      "bytes": 23212
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/run_scale_compensation.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/run_scale_compensation.py",
+      "sha256": "249f15c915cd00dadd827c8baf48c734c537fd2e174db5679c8e02fed73ab1f4",
+      "bytes": 10891
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/score_correction_confirmation.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/score_correction_confirmation.py",
+      "sha256": "1d5a41e6f0a389cc81b98fb79b02645e51cc312fd04603999433fda661ba21ce",
+      "bytes": 48370
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/score_frozen_representation_confirmation.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/score_frozen_representation_confirmation.py",
+      "sha256": "d436baa5357e9d7608364d4d148d10d3a3c5ffe5aba6c3c446619ac30e2ff1cf",
+      "bytes": 14328
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/score_information_catalog.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/score_information_catalog.py",
+      "sha256": "4463ab7f216378ca854314eadb3d67b849b9d80403092e2626171a8492b5340c",
+      "bytes": 25915
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/summarize_optimization_audit.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/summarize_optimization_audit.py",
+      "sha256": "53490e006789cd1c1b4a5a2df7ac8965b2bdf28ed78a2b361d9ed094035ef314",
+      "bytes": 6218
+    },
+    {
+      "snapshot_path": "repo/src/representation_flow/verify_correction_confirmation.py",
+      "root_key": "repo",
+      "path": "src/representation_flow/verify_correction_confirmation.py",
+      "sha256": "8a0ea9361cd3bf7a75c5a0ea02aacb44d780112e4770328abba0dde8c0cdce64",
+      "bytes": 24657
+    },
+    {
+      "snapshot_path": "repo/src/simulation/audit_cut_log.py",
+      "root_key": "repo",
+      "path": "src/simulation/audit_cut_log.py",
+      "sha256": "622ba20b01e56cd2c138a1099d99e399cab814d49ab325b15974caf7ceffd80c",
+      "bytes": 2322
+    },
+    {
+      "snapshot_path": "repo/src/simulation/audit_step_limit.py",
+      "root_key": "repo",
+      "path": "src/simulation/audit_step_limit.py",
+      "sha256": "e6e022d0dddf0f3e06aec85a2f14c7de626a68bcc0335fa19098cf307bd80db0",
+      "bytes": 1704
+    },
+    {
+      "snapshot_path": "repo/src/simulation/audit_w0.py",
+      "root_key": "repo",
+      "path": "src/simulation/audit_w0.py",
+      "sha256": "ee8907231f7b7970c33a184d37563cfb067e864bbbc266096d4db372f1c2615f",
+      "bytes": 6534
+    },
+    {
+      "snapshot_path": "repo/src/simulation/check_replay.py",
+      "root_key": "repo",
+      "path": "src/simulation/check_replay.py",
+      "sha256": "d87a8e3fc56bdb8e88a69576dcb8dd4112dd9a3522348e6b11a1d5cf5f58fd7b",
+      "bytes": 1742
+    },
+    {
+      "snapshot_path": "repo/src/simulation/confirmation_runner.py",
+      "root_key": "repo",
+      "path": "src/simulation/confirmation_runner.py",
+      "sha256": "d2e3989a8fdb8a1efa983e5f4710f195812f87287eed84db84a1669c08335ad4",
+      "bytes": 2508
+    },
+    {
+      "snapshot_path": "repo/src/simulation/envcheck.py",
+      "root_key": "repo",
+      "path": "src/simulation/envcheck.py",
+      "sha256": "f75225cdb29d9a5ad938b7ed5eabec02ca7bcd5af085032965f76fc8cc992ed3",
+      "bytes": 4558
+    },
+    {
+      "snapshot_path": "repo/src/simulation/fresh_catalog_runner.py",
+      "root_key": "repo",
+      "path": "src/simulation/fresh_catalog_runner.py",
+      "sha256": "e2538925e49be40edca6f783f19dbbdb6c8c605f14dbab8689808bc4b35ada18",
+      "bytes": 23776
+    },
+    {
+      "snapshot_path": "repo/src/simulation/hash_datasets.py",
+      "root_key": "repo",
+      "path": "src/simulation/hash_datasets.py",
+      "sha256": "771d486278b502307d3aa75146e762efafa5e15cb31a27a50f8f45e28b327a67",
+      "bytes": 2209
+    },
+    {
+      "snapshot_path": "repo/src/simulation/hash_tree.py",
+      "root_key": "repo",
+      "path": "src/simulation/hash_tree.py",
+      "sha256": "2ca1fceb6b73ab17bedd9a74f26373a352818b37432f59d186bef15a911a891c",
+      "bytes": 1394
+    },
+    {
+      "snapshot_path": "repo/src/simulation/make_beam_chunks.py",
+      "root_key": "repo",
+      "path": "src/simulation/make_beam_chunks.py",
+      "sha256": "1dafdf3ef982b491ba171e2ff6faa3a9a268168a479e9e724c3bf7d2780a3d36",
+      "bytes": 3675
+    },
+    {
+      "snapshot_path": "repo/src/simulation/probe_physics_init.py",
+      "root_key": "repo",
+      "path": "src/simulation/probe_physics_init.py",
+      "sha256": "2afab7098c3c69bcc1403b459b1389724c316d78177d34e8c7fde2c8316877c2",
+      "bytes": 1579
+    },
+    {
+      "snapshot_path": "repo/src/simulation/recover_dataset_archive.py",
+      "root_key": "repo",
+      "path": "src/simulation/recover_dataset_archive.py",
+      "sha256": "0797f589df07063e1b65814ea1b4a9ab1d0dc87760f67cc1278ad0a915a0f4fa",
+      "bytes": 3694
+    },
+    {
+      "snapshot_path": "repo/src/simulation/run_chunks.py",
+      "root_key": "repo",
+      "path": "src/simulation/run_chunks.py",
+      "sha256": "4d76719c942ebd0f942e8b9340873baefe4a77c36ce9a6f99a7021325232a1dc",
+      "bytes": 6501
+    },
+    {
+      "snapshot_path": "repo/src/simulation/w0_smoke.py",
+      "root_key": "repo",
+      "path": "src/simulation/w0_smoke.py",
+      "sha256": "154a7e5481787ba2190b92ec4a6aba1add78a616df0005c9b2493829306879f2",
+      "bytes": 24463
+    },
+    {
+      "snapshot_path": "repo/tests/test_fresh_catalog_runner.py",
+      "root_key": "repo",
+      "path": "tests/test_fresh_catalog_runner.py",
+      "sha256": "f56163fb7c65684fc1241e1157438ed2f3cbbc14c284da489f5ba3f70dad6172",
+      "bytes": 14076
+    },
+    {
+      "snapshot_path": "repo/tests/test_information_analysis.py",
+      "root_key": "repo",
+      "path": "tests/test_information_analysis.py",
+      "sha256": "be58ee57ddb88d1419c0f2aed92eb5ca897aaf2823a2bd3220bb170dd5dda1b3",
+      "bytes": 15008
+    },
+    {
+      "snapshot_path": "repo/tests/test_information_catalog_scoring.py",
+      "root_key": "repo",
+      "path": "tests/test_information_catalog_scoring.py",
+      "sha256": "81a097fc917efbf61295a7bc9c62a6ddd2c75799f4842fb95131745902e5cecd",
+      "bytes": 8496
+    },
+    {
+      "snapshot_path": "repo/tests/test_information_study.py",
+      "root_key": "repo",
+      "path": "tests/test_information_study.py",
+      "sha256": "a9b607cd46230ecb7b3d278870331f5bcd0c1b293c97a2972f65626569dd089d",
+      "bytes": 7888
+    }
+  ]
+}

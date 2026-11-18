@@ -1,0 +1,56 @@
+{
+  "builder_sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746",
+  "entry_tex": "source_information_primary16.tex",
+  "files": [
+    {
+      "bytes": 4765,
+      "path": "source_information_primary16.csv",
+      "sha256": "800861c3f0944c4f3e04feb5effdc36568ecc23cdd3f1537b01f796770ab29f8"
+    },
+    {
+      "bytes": 2713,
+      "path": "source_information_primary16.tex",
+      "sha256": "5090f3c94b14124c0b174ea54c7d79c81e7f720afd4fdfc910e4abcde2ecee1d"
+    },
+    {
+      "bytes": 12426,
+      "path": "source_snapshot/build_information_tables.py",
+      "sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746"
+    },
+    {
+      "bytes": 29950,
+      "path": "source_snapshot/generate_information_figures.py",
+      "sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301"
+    },
+    {
+      "bytes": 7706,
+      "path": "source_tables/source/analysis.json",
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7"
+    },
+    {
+      "bytes": 1957,
+      "path": "source_tables/source/ANALYSIS_MANIFEST.json",
+      "sha256": "83ad9c50cca04f651b34c6c4189fe15daed9085230936a5628ed146eb9843e5c"
+    },
+    {
+      "bytes": 2011,
+      "path": "source_tables/source/primary_contrast_summary.csv",
+      "sha256": "8890d35b41b6072d301b6281116dfb79c3ccfba60ac1a1c0a734251a6754c7cd"
+    },
+    {
+      "bytes": 4457,
+      "path": "source_tables/source/primary_seed_contrasts.csv",
+      "sha256": "59a88a60f2c0359cc7cd1a72dc23d4d25af78250b596408fd737d1efd940df7d"
+    },
+    {
+      "bytes": 12578,
+      "path": "table_data.json",
+      "sha256": "44e5ebef67e7f025346348d6d8d8b6d6bf5a4a6543896deeb0ac8e718f0673f7"
+    }
+  ],
+  "generated_utc": "2026-11-07T20:44:11.209581+00:00",
+  "input_checker_sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301",
+  "row_count": 16,
+  "schema": "information-table-manifest/v1",
+  "status": "COMPLETE_INFORMATION_SOURCE_TABLES"
+}

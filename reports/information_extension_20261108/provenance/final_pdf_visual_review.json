@@ -1,0 +1,18 @@
+{
+  "schema": "information-final-pdf-visual-review/v1",
+  "status": "PASS_FINAL_COMPILED_PDF_VISUAL_REVIEW",
+  "utc": "2026-11-07T20:46:27.017710+00:00",
+  "pdf_sha256": "3a29fef525a6e62ca797b9b1d7814645f888effa334b44d82ea8eb23b8abadda",
+  "page_count": 37,
+  "render": "Poppler 1500-pixel page renders; whole-document contact review and selected full-page inspection",
+  "checks": [
+    "New main text, equations and figures have no observed clipping or overlap",
+    "All 32 fresh primary table rows and 16 descriptive source rows remain legible",
+    "Appendix A now precedes its first table",
+    "Source plot caption accurately distinguishes physical and standardized RMS",
+    "Historical long tables retain repeated headers and all rows",
+    "No missing citations, labels, fonts or characters reported by compilation"
+  ],
+  "historical_asset_handling": "The unchanged historical confirmation plot had an internal annotation overlap; it remains archived in the source package, while its complete numerical table is used in the compiled appendix. No historical figure bytes were edited.",
+  "scope": "Automated-agent visual and technical review, not human scientific approval or journal-template certification."
+}

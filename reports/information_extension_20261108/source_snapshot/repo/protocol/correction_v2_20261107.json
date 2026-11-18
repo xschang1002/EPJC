@@ -1,0 +1,28 @@
+{
+  "schema": "corrected-center-controlled-study-v1",
+  "study_id": "correction_v2_20261107",
+  "status": "PRESPECIFIED_BEFORE_CORRECTED_TRAINING",
+  "purpose": "Separate the unit correction from the conditioner interaction using the same current engine and matched sample order.",
+  "historical_replay_claimed": false,
+  "main_data": {
+    "manifest_sha256": "0d3a0d9707ad411ee062d4ab386d9e067026487b9eea79d801792b9e512ad2c7",
+    "events_sha256": "638d5fa0f921ad4df0f3ad2c17c4cb55ebb8affca831ac60037967b19c6861a2"
+  },
+  "eligibility": "forward",
+  "split": {"validation_fraction": 0.1, "diagnostic_fraction": 0.3},
+  "representations": ["Raw", "HistoricalIncorrectPhysics", "CorrectedPhysics"],
+  "contexts": {"Full": "full", "Hidden": "thickness_charge"},
+  "sample_fractions": [0.1, 1.0],
+  "subset_catalog_id": 4101,
+  "seeds": [3101, 3102, 3103, 3104, 3105],
+  "capacity": {"label": "Small", "hidden_width": 32},
+  "optimization": {"max_updates": 20000, "batch_size": 512, "validation_every": 500, "eval_batch_size": 8192, "learning_rate": 0.0003, "torch_threads_per_worker": 1},
+  "checkpoint_selection": "minimum source-validation original-unit mean NLL, within fixed update budget; evaluate update 1, every 500 updates and final update",
+  "pairing": "identical UID ordering and minibatch RNG seed across representations and contexts; same network initialization across representations within a context",
+  "primary_contrasts": ["Raw_minus_CorrectedPhysics", "Raw_minus_HistoricalIncorrectPhysics", "HistoricalIncorrectPhysics_minus_CorrectedPhysics", "Full_minus_Hidden_of_each_contrast"],
+  "analysis": "Report all five seed contrasts, mean and sample standard deviation. Seed variability is conditional on shared data and is not independent data replication. Paired validation event differences are descriptive because validation selected checkpoints.",
+  "confirmation_policy": "If scored, freeze the complete checkpoint hash manifest first; score without selection, retraining or protocol edits. Existing A/B blocks have disclosed legacy W6/MDN use and are same-range, not untouched or OOD.",
+  "runtime_policy": {"max_total_seconds": 10800, "forecast_safety_factor": 1.35, "reserved_analysis_seconds": 1200, "benchmark_updates": 1000},
+  "no_new_geant4": true,
+  "scope": "60 controlled small-capacity cells; this does not reproduce or replace the full 120-cell capacity/sample-size matrix"
+}

@@ -1,0 +1,4 @@
+# Compatibility entry point for numerical work and its tests.
+# Plotting is optional: install requirements-plot.txt separately.
+-r requirements-core.txt
+-r requirements-test.txt

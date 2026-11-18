@@ -1,0 +1,1761 @@
+{
+  "schema": "information-descriptive-mechanism-binding/v1",
+  "status": "PASS_DESCRIPTIVE_SAVED_DIAGNOSTIC_CHECK",
+  "generated_utc": "2026-11-07T20:42:50.760311+00:00",
+  "facts": [
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "negative_log_base_density",
+      "mean_over_five_seeds": -0.049021942436299516
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "negative_spline_logabsdet",
+      "mean_over_five_seeds": 0.13954999871562065
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "nll_gain",
+      "mean_over_five_seeds": 0.09052805683060142
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "log_support_cdf",
+      "mean_over_five_seeds": 0.0
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "Raw",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.3194516549972639
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "Raw",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.5613043539266722
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "CorrectedPhysics",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.398953261586384
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "CorrectedPhysics",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.5327196958004181
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "negative_log_base_density",
+      "mean_over_five_seeds": -0.1147646160868725
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "negative_spline_logabsdet",
+      "mean_over_five_seeds": 0.08507509828839835
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "nll_gain",
+      "mean_over_five_seeds": -0.029689517023250865
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "log_support_cdf",
+      "mean_over_five_seeds": 0.0
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "Raw",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.5585525485964149
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "Raw",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.47830644822221907
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "CorrectedPhysics",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.5874847588748896
+    },
+    {
+      "block": "C",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "CorrectedPhysics",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.4345493532157022
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "negative_log_base_density",
+      "mean_over_five_seeds": -0.04796276738826788
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "negative_spline_logabsdet",
+      "mean_over_five_seeds": 0.13981796121498374
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "nll_gain",
+      "mean_over_five_seeds": 0.09185519239986958
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "paired_gain",
+      "field": "log_support_cdf",
+      "mean_over_five_seeds": 0.0
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "Raw",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.3172304454577341
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "Raw",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.5608502279901788
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "CorrectedPhysics",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.39782813048053317
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 0,
+      "representation": "CorrectedPhysics",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.5324223079621186
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "negative_log_base_density",
+      "mean_over_five_seeds": -0.11330271860083488
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "negative_spline_logabsdet",
+      "mean_over_five_seeds": 0.08492627528012475
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "nll_gain",
+      "mean_over_five_seeds": -0.028376444006135954
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "paired_gain",
+      "field": "log_support_cdf",
+      "mean_over_five_seeds": 0.0
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "Raw",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.5534720080737855
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "Raw",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.4788651846037397
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "CorrectedPhysics",
+      "field": "median_coverage",
+      "mean_over_five_seeds": 0.5815200022427182
+    },
+    {
+      "block": "D",
+      "context": "Hidden5",
+      "fraction": "f100",
+      "momentum_group": 6,
+      "representation": "CorrectedPhysics",
+      "field": "predictive_iqr_coverage",
+      "mean_over_five_seeds": 0.4349303355667068
+    }
+  ],
+  "saved_support_terms": [
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "C",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499285,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499285,
+      "sha256": "82786869fbc5d522ae996f9af4ebf33c70c8d049bbaa0f66b8fef643613e977f"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    },
+    {
+      "block": "D",
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "events": 499275,
+      "nonzero_values": 0,
+      "dtype": "float32",
+      "negative_zero_count": 499275,
+      "sha256": "de0c314b701d0f41e8358ab593be2afa8629b30af375fd2d9fbc39ea8d799058"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\density_component_diagnostics.json",
+      "sha256": "c1fd4bc40fde0811af09679044b68b0814c021dd25286a0b138e33cfb469efea",
+      "bytes": 925164
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\C\\predictive_diagnostics.json",
+      "sha256": "d5c757dda4e05be6ef1c08ff7bbe72ecd67fbdd16b88a3a953b6d380ce0fb54e",
+      "bytes": 2609312
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\density_component_diagnostics.json",
+      "sha256": "d4dcf1190947916e5d531a3f2f8c65165fcbd5a9da38b4fceba47349674adcdd",
+      "bytes": 925121
+    },
+    {
+      "path": "E:\\JINST REP\\_research_extension_20261108\\fresh_analysis\\D\\predictive_diagnostics.json",
+      "sha256": "1883139667073443bd7397c1249dfbaed600ed7a0ebf9d91515526dd7258f65b",
+      "bytes": 2609663
+    }
+  ],
+  "scope": "Mean over fixed five optimizer seeds for Hidden5/f100 in lowest/highest momentum groups; all new80 exported support arrays checked per C/D. No inference/refitting. Algebraic components and grouped coverage are descriptive, not causal or fully conditional calibration.",
+  "source_sha256": "4d7e326668c1b14d629f668d6de20cc7b30bf4551b33f6463522746e9e7df21b"
+}

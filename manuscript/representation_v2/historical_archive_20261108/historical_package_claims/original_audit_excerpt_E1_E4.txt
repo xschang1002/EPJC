@@ -1,0 +1,21 @@
+E1 [P1] 旧论文仍将混用单位的历史中心称为解析 Bethe-Bloch，因此物理结论须重审。
+位置：E:\JINST REP\low pion research\manuscript\representation_v2\overleaf_submission\main.tex:158-181，特别是160、167、170行。
+该段明确 electron mass=0.00051099895 GeV，而 I=0.000173 MeV，二者直接进入同一 logarithm 的比值；与旧 anchor.py 中相同单位错误对应。结果中 Physics 只能指历史错误中心，不能被修正源码自动重新解释成 CorrectedPhysics。
+旧稿 E:\JINST REP\paper_draft\main.tex:222 也称 analytic pion Bethe-Bloch loss plus fitted offset；其来源 pion-material-study/models/anchor.py 应并列纳入修复范围。对该旧 core-tail 模型，拟合 offset/scale 可能补偿一部分偏差，不能仅凭公式问题断言所有旧结果数值必然失效；必须保留旧数值并重新界定科学解释。
+本点单位错误本体由根代理/修正代码代理进一步核验；此处确认了论文和证据声明的受影响位置。
+
+E2 [P1] 2.0 新实验完成声明缺少可审计的结果附件。
+位置：E:\JINST REP\_audit_20261107\low-pion-research-main\VERSION_2_0_COMPARISON.md:20；VERSION_2_0_MANIFEST.json:18-30。
+比较表声明 P4 40 center-only cells、matched Raw 20 cells、corrected formal Full 30 cells；manifest仅列出外部路径，压缩包没有这些结果、模型、评分、完整 core 或对应报告。此为交付/证据缺口，不等于作者没做实验，也不能称伪造。修正包可审核源码，但仅凭目前交付不可接受“修正后科学结论已验证”。需补全该 manifest 引用的产物及可定位/可核验的 SHA256。
+
+E3 [P2] Full/Hidden f100 的配对只共享种子标签，训练样本顺序不匹配。
+位置：E:\JINST REP\low pion research\src\representation_flow\run_formal_matrix.py:20,74；run_context_interaction.py:26,102；engine.py:395-399；论文 main.tex:289-295。
+正式 Full 使用 catalog=4101，Hidden 长预算 f100 使用4102（exploratory/context_interaction_long/exploratory_plan.json:22确认）。subset_indices按 SHA256(catalog:event_uid)排序，故 100% 时集合相同但顺序不同；相同随机下标不对应相同 minibatch 事件。论文将 +0.088958 称 matched-seed descriptive interaction 时应同时披露此协议差异，不能解释成严格单一 conditioner干预。已明确为描述性差异而非独立置信区间是正确的，不需要把这个问题夸大成统计算术错误。
+
+E4 [P1/P2证据级] 历史 engine/driver 的身份链不闭合，不能从当前源码做精确回放承诺。
+位置：E:\JINST REP\low pion research\reports\representation_v2\formal_matrix\formal_model_manifest.json:112-115；exploratory\context_interaction_long\exploratory_model_manifest.json:18-21。
+formal engine=9b7e88c7fc3ac6034a1e42ac4276b2b7aacb3a973a9309c4ee8f0e366aea49ce；hidden engine=d621ec50e593eec649593765f7d223659d9ac5e32bc6129301ce0167c240925c；current engine=f035ddaa59fd61d43214779c1d000580bdde0f261771b294f1f954845f7fa8c5。
+formal run_a0=727f036921d8464229f52726e8e12f1f7fe9b5cf9f924f320efc5d371d92f186；hidden run_a0=d57eeba20ba1c17e50ef4ee22349e14583e131092e25a2f260a72d3c660425c5；current run_a0=0ff1e1817f8fa15d3fa7c78694ae10196e9aea8ca8dedb32d88be1a030210568。
+注意 formal run_formal_matrix.py 当前 SHA 仍然匹配 c3d39dc276d0a70ac421f7f12d3a0ae345ed7b606273c64bb553b890567e4378，不能把所有 driver 都说成缺失。
+根代理另外搜索了相关 git对象及原始9.7GB zip，未找回以上历史 engine/run_a0 的四个哈希。
+

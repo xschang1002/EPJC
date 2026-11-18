@@ -1,0 +1,1740 @@
+{
+  "schema": "information-manuscript-package-and-mirror-review/v1",
+  "status": "PASS_COMPLETE_LOCAL_DELIVERY",
+  "utc": "2026-11-07T20:46:27.872377+00:00",
+  "elapsed_wall_hours_from_authorized_start": 1.5843137597375445,
+  "artifacts": [
+    {
+      "path": "E:\\JINST REP\\low pion research\\output\\pdf\\representation_information_fresh_20261108.pdf",
+      "sha256": "3a29fef525a6e62ca797b9b1d7814645f888effa334b44d82ea8eb23b8abadda",
+      "bytes": 533867
+    },
+    {
+      "path": "E:\\JINST REP\\representation_information_fresh_20261108.zip",
+      "sha256": "d8ba4dcb1884c9a8810fe73fb9d44f1477a941a09316bccde17310d086177c0f",
+      "bytes": 10594886
+    }
+  ],
+  "zip_files": 180,
+  "verified_copy_targets": 244,
+  "copy_records": [
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\authorship.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\authorship.json",
+      "sha256": "7184347dbffb258204e593765dde4d8b6fec3e9e506c9d0f7daff93b3fca902a",
+      "bytes": 818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\CLAIM_EVIDENCE_MATRIX.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\CLAIM_EVIDENCE_MATRIX.md",
+      "sha256": "64a1595054d04bd880af4628021b07160dcaa434e900208d853ee83cf884ea53",
+      "bytes": 26708,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\claims.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\claims.csv",
+      "sha256": "a10dcdf13793314054bf470df119393acf602d502d77ac9cf6eb6d14c2f2ab91",
+      "bytes": 11769,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\consistency_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\consistency_manifest.json",
+      "sha256": "466a4f54c505ea0fd563fbf0550247ca1ee08c02e261eb8560dabe79c7ab5151",
+      "bytes": 631525,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\draft_agent.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\draft_agent.md",
+      "sha256": "559b46c48200127158edb91ca7c1e05d7e00087adcee07d8e467bccad30394e5",
+      "bytes": 32401,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\FIGURE_TABLE_PLAN.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\FIGURE_TABLE_PLAN.md",
+      "sha256": "7bc888fbcc7c258da3a66a13f19bb5338a17ca9699a16e77e06fe413fd80448e",
+      "bytes": 3139,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\confirmation.pdf",
+      "sha256": "1730c4aaf711c29338c21922c2db04c8f282f216a5b6c1b5af8ee8f6766685da",
+      "bytes": 24362,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\confirmation.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\confirmation.tex",
+      "sha256": "89d7874eab768b9b30ac14044599d2f1448892313a3b19d6097fc9c4d95c28e0",
+      "bytes": 383,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig1_full_hidden_interaction.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig1_full_hidden_interaction.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig1_full_hidden_interaction.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig1_full_hidden_interaction.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig2_mechanism_location_nll.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig2_mechanism_location_nll.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig2_mechanism_location_nll.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig2_mechanism_location_nll.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig3_support_decomposition.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig3_support_decomposition.pdf",
+      "sha256": "8fa2d0a0dcce346cb2af2b269efbefcb16d0e0170fde2acc9e36368655357aae",
+      "bytes": 29556,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig3_support_decomposition.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig3_support_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig4_independent_confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig4_independent_confirmation.pdf",
+      "sha256": "ddfa45d8a92f97a8f29af87b0d93abca59e9063e5375b7ef638c7ee82c487119",
+      "bytes": 24362,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig4_independent_confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig4_independent_confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig5_hidden_interaction_detail.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig5_hidden_interaction_detail.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\fig5_hidden_interaction_detail.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\fig5_hidden_interaction_detail.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\figures_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\figures_manifest.json",
+      "sha256": "ced55a2ee9cd0b8a106b7b1cbcdf2f967c83fdd4afd631f3214fd16bc6f74d1b",
+      "bytes": 1152,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\generate_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\generate_figures.py",
+      "sha256": "8fa7ceef1c096e122d9550b4f3eb92705cd0279f4fee6c9ec90c1fb4619d2886",
+      "bytes": 15640,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\interaction.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\interaction.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\interaction.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\interaction.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\interaction.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\interaction.tex",
+      "sha256": "341fb4d8a0e1d02e31c542140f25c200d0ed9b4723821bd8003e6e9bc7b9bd00",
+      "bytes": 301,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.pdf",
+      "sha256": "9a2dd59809d9b3a3ecee0f2f41701b22cb9a11055f4dfb30dea68721672ec0be",
+      "bytes": 29556,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\likelihood_decomposition.tex",
+      "sha256": "6241092df694b566fcfdd361dcf3d68e602bd4e5f702ab81e184405a447d89cd",
+      "bytes": 354,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\mechanism.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\mechanism.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\mechanism.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\mechanism.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\mechanism.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\mechanism.tex",
+      "sha256": "9c0966d25c4d6ce788196545f7f5996a4686264ff977c9b905e71f39b3acb07c",
+      "bytes": 340,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\overview.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\overview.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\overview.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\overview.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\figures_agent\\overview.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\figures_agent\\overview.tex",
+      "sha256": "46532fadb3208d259bb25f4f8b64b57277c1fc55d3b888fd7b2d45913c369bf3",
+      "bytes": 340,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\manuscript_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\manuscript_manifest.json",
+      "sha256": "c2cdcee3f9b7b0a66623230d8ca3d3c071f2d28c74e7cdf69f305d2f8f21b198",
+      "bytes": 1318,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\OUTLINE.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\OUTLINE.md",
+      "sha256": "cde9201a4d85ace388e806d23d77e07b34cafd1178d3e5b7d027a41380246e6d",
+      "bytes": 3818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\build_information_tables.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\build_information_tables.py",
+      "sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746",
+      "bytes": 12426,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\correction_figures_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\correction_figures_manifest.json",
+      "sha256": "3243505ce2cedf9712b4df6ef2213186c830f3f1423e4fe4e7efa07d58c1829d",
+      "bytes": 5108,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\correction_final_tables.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\correction_final_tables.tex",
+      "sha256": "67dbe7f6f283cbe13631ee1c694ddb673d8bca95e9f9b31b8b212a7cf3a7320a",
+      "bytes": 12765,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\earlier_corrected_results.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\earlier_corrected_results.tex",
+      "sha256": "aa9a061e1f6051b6752c1fe66861c7a5ca56b9a9009403c6910b68e057fdd1af",
+      "bytes": 15184,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\confirmation.pdf",
+      "sha256": "1730c4aaf711c29338c21922c2db04c8f282f216a5b6c1b5af8ee8f6766685da",
+      "bytes": 24362,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_analytic_centers.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_analytic_centers.pdf",
+      "sha256": "a07908df26227d18ee1a1d85d64c33d4f27e2343bc78e45c8bc37790a2e69932",
+      "bytes": 25945,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_analytic_centers.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_analytic_centers.png",
+      "sha256": "153466f0cf3015c3da30bbf84a56e61a3889ed46e7da0558083ad8f287fa3b82",
+      "bytes": 338935,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_confirmation.pdf",
+      "sha256": "223fe8081f8a1a7865869036382ad46f91872128d677f7d06392d29ee22a9bfc",
+      "bytes": 27572,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_confirmation.png",
+      "sha256": "b95cc0e932d4cc4b7ee2a389529183726fec315693f28b519f10ecdc45d5120e",
+      "bytes": 397571,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_detail.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_detail.pdf",
+      "sha256": "8fca4267e87f1ba036e2002dca35624bec70977f146dfebba468fec7428cbe24",
+      "bytes": 21756,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_detail.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_detail.png",
+      "sha256": "28f9ac16a2a5e1e883136030004f50327e4938f4e882ac23c1fddd6d2ccc3000",
+      "bytes": 246212,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_overview.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_overview.pdf",
+      "sha256": "f3dc87a9ec83d0e67a70d8d84fd92fad7c7529535196fa9234538fcd04620bd2",
+      "bytes": 24324,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_overview.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_core_overview.png",
+      "sha256": "f4a45963ff13ad6a2f234afbc42697dab0a076252dfcf607b6202685201a7b34",
+      "bytes": 365572,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_confirmation.pdf",
+      "sha256": "ee1799590218831304a75f7ce0cd753ad56dbb993f6e8d79f19d031466b233c5",
+      "bytes": 30024,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_confirmation.png",
+      "sha256": "8b547b6e10cdb741ca39ab222b835f65061417061787f875017d27ea2391c2a3",
+      "bytes": 425847,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_matrix.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_matrix.pdf",
+      "sha256": "a89a08a4fa36582c0e01dfd588472f409323f680f3abe59012f95114362819a6",
+      "bytes": 28673,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_matrix.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_full_matrix.png",
+      "sha256": "5390988be4c86f0dfccfc117a09665fcbd613b116590e25e1f0ce2a3b9358452",
+      "bytes": 451460,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_within_condition.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_within_condition.pdf",
+      "sha256": "06db1c9da3573ad13c69d80cbbd9305f8e5fbc3061891feb0bf03646ded02dde",
+      "bytes": 26036,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_within_condition.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\correction_within_condition.png",
+      "sha256": "5e7eca6bff81fefb2d66accdf2d11db79fac26532f90a177d17f51e620b24ba2",
+      "bytes": 308271,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig1_full_hidden_interaction.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig1_full_hidden_interaction.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig1_full_hidden_interaction.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig1_full_hidden_interaction.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig2_mechanism_location_nll.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig2_mechanism_location_nll.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig2_mechanism_location_nll.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig2_mechanism_location_nll.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig3_support_decomposition.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig3_support_decomposition.pdf",
+      "sha256": "8fa2d0a0dcce346cb2af2b269efbefcb16d0e0170fde2acc9e36368655357aae",
+      "bytes": 29556,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig3_support_decomposition.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig3_support_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig4_independent_confirmation.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig4_independent_confirmation.pdf",
+      "sha256": "ddfa45d8a92f97a8f29af87b0d93abca59e9063e5375b7ef638c7ee82c487119",
+      "bytes": 24362,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig4_independent_confirmation.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig4_independent_confirmation.png",
+      "sha256": "10e69a7d9d231d703a339720e48a27b85468b6f31f80a44a3d2ac8fe3f30e983",
+      "bytes": 124875,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\fig5_hidden_interaction_detail.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\interaction.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\interaction.pdf",
+      "sha256": "717a793ea5e0b89c9df6b81d834dd2a20e95fac249c2c725d6dcaec947892f55",
+      "bytes": 20999,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\interaction.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\interaction.png",
+      "sha256": "0837a0a8a0a403f7f1f0c152774a275fefe927df8f7cdc603cf46c2ed258eb9c",
+      "bytes": 172922,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\likelihood_decomposition.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\likelihood_decomposition.pdf",
+      "sha256": "9a2dd59809d9b3a3ecee0f2f41701b22cb9a11055f4dfb30dea68721672ec0be",
+      "bytes": 29556,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\likelihood_decomposition.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\likelihood_decomposition.png",
+      "sha256": "e0d1c3cb3a798d04f2e2032e6999b8b2532ebff45010df778848b15287b967ef",
+      "bytes": 175643,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\mechanism.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\mechanism.pdf",
+      "sha256": "bfdcb89a4e10bd721f1d9202e9baf7a7d81b29a08819fed517e8fb11df99eb5d",
+      "bytes": 30818,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\mechanism.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\mechanism.png",
+      "sha256": "d8050618c9436d04c9e9d244017106ce3997686b05029b6910ba56c2978ba683",
+      "bytes": 203868,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\overview.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\overview.pdf",
+      "sha256": "94f06265ea16fc6e5d8313879b7953c75825bea787c516f223a84150cbf310ed",
+      "bytes": 31711,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures\\overview.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures\\overview.png",
+      "sha256": "bcac9f53b3634819d3858cf576c8d25cab718f586f2a428495e12eb336fb8bd0",
+      "bytes": 231778,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\figures_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\figures_manifest.json",
+      "sha256": "ced55a2ee9cd0b8a106b7b1cbcdf2f967c83fdd4afd631f3214fd16bc6f74d1b",
+      "bytes": 1152,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\generate_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\generate_figures.py",
+      "sha256": "8fa7ceef1c096e122d9550b4f3eb92705cd0279f4fee6c9ec90c1fb4619d2886",
+      "bytes": 15640,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\generate_information_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\generate_information_figures.py",
+      "sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301",
+      "bytes": 29950,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\FIGURE_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\FIGURE_MANIFEST.json",
+      "sha256": "c40b60f1357cb83cc21c84c6044e237e7720b080368b7f7725dd81f563515e56",
+      "bytes": 39978,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\generate_information_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\generate_information_figures.py",
+      "sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301",
+      "bytes": 29950,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.alt.txt",
+      "sha256": "07955c2e879d156697900278c9cf40329808e8d12368f4696e31a66495a31404",
+      "bytes": 165,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.caption.txt",
+      "sha256": "f0879e514dd47c2af0fbb1530bef6daa3b0835293ac9691d7d0a1bf8aba8871b",
+      "bytes": 495,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.pdf",
+      "sha256": "c76013c99800191f74d8814fde1f9da19989d330a832dc5b05b970b92f7141c8",
+      "bytes": 33117,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_absolute_nll.png",
+      "sha256": "ab40a5dd98fb0061948136afd1dabad29233fd2ccaa0b2bfc5a53251050c997a",
+      "bytes": 175698,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.alt.txt",
+      "sha256": "eb6e9a5451e020cb2a6a7a58dfeb0ad7137c2030ab99cb49ebecd0581cfa1af2",
+      "bytes": 145,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.caption.txt",
+      "sha256": "1d68a8b5fdb07d3b53e5fc1f09a0aa7e204845067c0465962aa7aeed366d2f56",
+      "bytes": 534,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.pdf",
+      "sha256": "d6b65d5c24186e512213b96b5765ad5a89034c3ddbe12d795032ce5664c65e60",
+      "bytes": 47041,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_exact_density_terms.png",
+      "sha256": "0fce2a26ddc14346002cef9c2e8a759d77e7e1d1593d2a740a6bb027bc7a9086",
+      "bytes": 231865,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.alt.txt",
+      "sha256": "10137fbdf98e05dcd4b6808496e7f6effb21886ffd60317a35176312c77de65b",
+      "bytes": 167,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.caption.txt",
+      "sha256": "7c4169e1d611646ba73770ab44a0f93a06050315637307f96399bed54c1d8f31",
+      "bytes": 667,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.pdf",
+      "sha256": "0dc8dbb68e286e2cef7b844f96afa8c588fc6e1173e790e55ded0e44eece7c45",
+      "bytes": 26816,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_changes.png",
+      "sha256": "89f476fa2d2ff0735bd553432659be8e8701fe3e64fc03e06302345725f60d75",
+      "bytes": 459823,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.alt.txt",
+      "sha256": "10137fbdf98e05dcd4b6808496e7f6effb21886ffd60317a35176312c77de65b",
+      "bytes": 167,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.caption.txt",
+      "sha256": "4fc8314b27bd9d86fecf0daa361f4b1e19637ad98109a418107246243e4afea8",
+      "bytes": 775,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.pdf",
+      "sha256": "fc98f42d14e9377b671476c74b8f86a6e2cf66beb15981ff3017fd185ca76d80",
+      "bytes": 27247,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_gain_ladder.png",
+      "sha256": "cd4f7f00c781e5a97e9e1d6546f52f6cf44b4f88a68ac93c70935afdf907ec21",
+      "bytes": 437518,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.alt.txt",
+      "sha256": "a7607aa4127c5a4c4f93ad39055d637941acef4f7862ce16a5535f4a88176c18",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.pdf",
+      "sha256": "5416a2db9d624159fe901df868659ca82935ae9633f4380d61015aefe64beeb9",
+      "bytes": 35865,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f010.png",
+      "sha256": "7eaa1606c6dec664ebbaa16de56c7ecbf9be479422b4d588feccfbcf650225a9",
+      "bytes": 252209,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.alt.txt",
+      "sha256": "1b529d8edff10b5b2322556fb394f3f860fec40b5680852d4b3538ab1257ccf3",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.pdf",
+      "sha256": "91f6cd8294c315f30711294d7439de145fbdaebe6a34036e088544fe4e3b3d90",
+      "bytes": 35871,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse2_f100.png",
+      "sha256": "6ad04bc54c16d418c470fc36b14c2dcb689bff8f089acd7dde2635220c4f7f36",
+      "bytes": 251901,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.alt.txt",
+      "sha256": "f31e9efdaac089536f94ab987e94aa8fed1eb69d8998aef8c507d41ac42822e2",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.pdf",
+      "sha256": "1d7716bfdea4bbbd4986e6d374944339c81def5412ddf9237dc9969816bcdc24",
+      "bytes": 35638,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f010.png",
+      "sha256": "00e57fdd644590a17948f4b0aed7d250feb39fecd603d2ee06980052b188eaa4",
+      "bytes": 249559,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.alt.txt",
+      "sha256": "0075d27357957eb50be01ea404f0b14bb0525bd6a6fb405bedfdba08e8181420",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.pdf",
+      "sha256": "2160d7c9d82d81545d2b2bdb074e823ce6a80fb38b0331db3f73374fc5991e14",
+      "bytes": 35669,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Coarse8_f100.png",
+      "sha256": "de7e1839053af92378379cb148350050ac9ddeea57306a1e2e96c9202ce5bdc8",
+      "bytes": 247442,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.alt.txt",
+      "sha256": "25517a73781f209379490ef5a974b6a932e3d67c8648f22655ebc746e1c8ccde",
+      "bytes": 172,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.pdf",
+      "sha256": "a9e7c9a7d7bb0da8cce2f1b9a10737d07b8895338b2122df262d29bf382b2753",
+      "bytes": 35662,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f010.png",
+      "sha256": "4e9971bde29ef9a646bfb35539701f14f573737f01330d3b7ea88fe41000824b",
+      "bytes": 246919,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.alt.txt",
+      "sha256": "6f6838b9937eadb8a41845dcae929099f8cb9da2ce914cb5e343eb8397183a5d",
+      "bytes": 172,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.pdf",
+      "sha256": "8e207ac0e03e44d594594b79ffb28f97d893ff5302daa45fc02ffacb98a362d4",
+      "bytes": 35685,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Full5_f100.png",
+      "sha256": "bce39b5a1b04a5d7e856faa2c37c9e4ffffee84d83a622084ab2546f4364e448",
+      "bytes": 245360,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.alt.txt",
+      "sha256": "cc9312785e3f8627a1239c85084b4a698fd8077a084d601fcd34683bd0acffd8",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.pdf",
+      "sha256": "04936f406ab4f75e45189f7cac86e6b4139df1fc1d7fc1fd3858d9bff6fb3275",
+      "bytes": 36036,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f010.png",
+      "sha256": "5deef29294c2e01e402823bf1362f55b0e38f90af3860c8840de0f4d35e92959",
+      "bytes": 253724,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.alt.txt",
+      "sha256": "56e65a8d2f64fa747a715d55d16b9be980f37000ba464d443c13f23b66d0ce48",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.pdf",
+      "sha256": "61e0f908f3f361d474b876df199c2ecc7750dfca02d8b6ebecc7dc97c39b508a",
+      "bytes": 36021,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_C_Hidden5_f100.png",
+      "sha256": "c484ffa147741e2086c8905cca25e66b8742039552a3803405ef69277b7457db",
+      "bytes": 253425,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.alt.txt",
+      "sha256": "dfa21a3cec81350b8c490aef75ece5b48448809326013e9bc9e452a78b2caf0c",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.pdf",
+      "sha256": "f411194e32cfb3809b76241336b97cd73cedaabac9e9d1ab7ef25754ff800ccd",
+      "bytes": 36016,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f010.png",
+      "sha256": "5b5c4a0a38d3a9707d644b3f9e0514d13ff51cfd9516d8c6a20b86517ec64242",
+      "bytes": 253288,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.alt.txt",
+      "sha256": "55a067a588ee5f5c0bab9f5339878e722de13d78750cca4665c06bf16e3d558b",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.pdf",
+      "sha256": "486b08fa53d74925c0d0100133265fabae6ca210c022235e32d9e75b856dac68",
+      "bytes": 35982,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse2_f100.png",
+      "sha256": "89a3b9987a244e93f8a79f9fd68634c72f84d278e99bcc68b54681101f47acb1",
+      "bytes": 252404,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.alt.txt",
+      "sha256": "daeb39550b752990c5d5743d22d8ea95883eb9787ebe4abfab33843e296ec71b",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.pdf",
+      "sha256": "1d16540a12b36493514d3d5ba25e392eb5f149afd26d6c01cae65ee485aa9912",
+      "bytes": 35785,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f010.png",
+      "sha256": "30e940636b2919f264a455e35e5cb346b73fa57a96e07b201faad08d67566c66",
+      "bytes": 248442,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.alt.txt",
+      "sha256": "a7d6197e4d60aae7e52d1edc5e13204dff59422624683cc76e1ae6b6013fdddb",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.pdf",
+      "sha256": "71d67ed3008630cfc7635d1bf7bd8b9f60d60d0cde138ab54576d2036d1dd99b",
+      "bytes": 35811,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Coarse8_f100.png",
+      "sha256": "9683892dd052cab2331b28abaf7e05ab0486f704eae594d275ff928e4316be10",
+      "bytes": 248096,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.alt.txt",
+      "sha256": "a91a6ba4ab526b40d842577e3b1d191b68bcdc61a6287257cbdfbd5b917c7c10",
+      "bytes": 172,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.pdf",
+      "sha256": "ce7bfc43be99fb4e52c9fa4c61ab871bc6349d51189a4d467e50118500da4470",
+      "bytes": 35857,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f010.png",
+      "sha256": "ea3c78a951422726e57ad101bd78ebefa48eefebca87f473b8aeabe3eef487b2",
+      "bytes": 246961,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.alt.txt",
+      "sha256": "2bd83f061418a75d92709a625acd3e17010f105db294ee28775baad4100a3fd7",
+      "bytes": 172,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.pdf",
+      "sha256": "41ea455443521345e5b5985c4eca2bcc0398df8d3768b4e2af42de268d16a80f",
+      "bytes": 35810,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Full5_f100.png",
+      "sha256": "5c23085855b013035c63e47fc37f3aa72a5b3038c3cdfd08b1eddb62d449fcbd",
+      "bytes": 246595,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.alt.txt",
+      "sha256": "557690caa923c090ec9b8cb29bd5d58dde7d6b7e4fd96d71182d53ee7f7199a1",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.pdf",
+      "sha256": "395acfa69b29490c5fb6c353a1c36253babe44b6649e0644e1e65e229788a810",
+      "bytes": 36206,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f010.png",
+      "sha256": "b8d7ad0d1663c84e5e3fca6eeb10686796bb05a7440558454b922519d089e2ca",
+      "bytes": 254783,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.alt.txt",
+      "sha256": "d5bf604a5acdc9756642c7283ef43956b5d277e640f031210d5b63c882bf6d99",
+      "bytes": 174,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.caption.txt",
+      "sha256": "043d79d48796fadde7da09a3cffed9a8b60aa3833b7075032a61d3a056fc4019",
+      "bytes": 476,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.pdf",
+      "sha256": "5c6f16825780e7e24f114944aeff94b76ca572651c00b2b0e17b4b70ff6be6ea",
+      "bytes": 36153,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_local_D_Hidden5_f100.png",
+      "sha256": "b049973037f9fd9176ce282fca61ccba36d1196adbca4d5fc3f64612129377fd",
+      "bytes": 253675,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.alt.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.alt.txt",
+      "sha256": "0188859ff69b5b7ca6264494b4bd6783172ff9d99ceb3843a613f1af82f7a5fa",
+      "bytes": 199,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.caption.txt",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.caption.txt",
+      "sha256": "017a4f747646e2ec0f98bf868a4dbae008c23bd0cae527db33d661c7d54985ac",
+      "bytes": 608,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.pdf",
+      "sha256": "120f40e548e864f392106ab36cd6dea9dbd3ace66f36ea85632f4690a26b9ddd",
+      "bytes": 22819,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.png",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\information_source_location.png",
+      "sha256": "e9e9df0f53a22d6024a60572f127770e32b6fa8f09358c9d0a6f73e05dc3c99a",
+      "bytes": 185087,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3",
+      "bytes": 18506,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\density_component_diagnostics.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\density_component_diagnostics.json",
+      "sha256": "c1fd4bc40fde0811af09679044b68b0814c021dd25286a0b138e33cfb469efea",
+      "bytes": 925164,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\group_seed_variation.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\group_seed_variation.csv",
+      "sha256": "d1618bf20bcde2fcd39de36d21d7fbb4ab7b3f20e7a8a6938a850ad7f46d4a6d",
+      "bytes": 81305,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\model_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\model_summary.csv",
+      "sha256": "7f7c7f2f4293cfd4a0f047066e492abaa51c29bf681a1a2159beece0200f24c0",
+      "bytes": 54311,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\primary_contrast_summary.csv",
+      "sha256": "f9855d8133889c27aa5e3e3efcb3abcb71ad35ed233f9c28be371f43e5899e1d",
+      "bytes": 2019,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\primary_seed_contrasts.csv",
+      "sha256": "74128e62b9c15488950eea148d1248010ade453c2ab01464571becc00e448b94",
+      "bytes": 4455,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\uncertainty.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\C\\uncertainty.json",
+      "sha256": "aec7433a7b6fd335176d5d419036e9479e3d8690f9b58097aaf06c73e33d0d6b",
+      "bytes": 222263,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c",
+      "bytes": 18490,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\density_component_diagnostics.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\density_component_diagnostics.json",
+      "sha256": "d4dcf1190947916e5d531a3f2f8c65165fcbd5a9da38b4fceba47349674adcdd",
+      "bytes": 925121,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\group_seed_variation.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\group_seed_variation.csv",
+      "sha256": "fb87b78e93d95ddeda6b898fa11dec37a214aa592c5e19d407551463d3c75359",
+      "bytes": 81265,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\model_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\model_summary.csv",
+      "sha256": "b72885621319716cb7870d0e625f1f6a8378adb5af552821e5fe54231097ce09",
+      "bytes": 54307,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\primary_contrast_summary.csv",
+      "sha256": "4bf9b48a451da9736af1292ee0c783c4adf8a9c6fe3e3d0c4f803a84f441cb87",
+      "bytes": 2016,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\primary_seed_contrasts.csv",
+      "sha256": "32cd0132654ff25495e53dc7f9d134d827081d80e36d2d91c666abc6f65ffaaa",
+      "bytes": 4450,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\uncertainty.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\D\\uncertainty.json",
+      "sha256": "91b651c9421cbe91402e5085f0e00cb9b7d97e6e6ac8d99b38463a836117e807",
+      "bytes": 222227,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\analysis.json",
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7",
+      "bytes": 7706,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\density_component_diagnostics.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\density_component_diagnostics.json",
+      "sha256": "282d3b8ae1cf9519502456a9ad90596ad4b3064f0fc8c545b763b7a780bbdb6a",
+      "bytes": 923575,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\group_seed_variation.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\group_seed_variation.csv",
+      "sha256": "b33b65119980bd49ae7dfd9155bf87b7bbeb146de67887ce3e745b21e4fff5a1",
+      "bytes": 81192,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\model_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\model_summary.csv",
+      "sha256": "26e053c9015c509a4a3c4f400117fc2f5fab2c48534a10855796530cc7653ef4",
+      "bytes": 10901,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\primary_contrast_summary.csv",
+      "sha256": "8890d35b41b6072d301b6281116dfb79c3ccfba60ac1a1c0a734251a6754c7cd",
+      "bytes": 2011,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\primary_seed_contrasts.csv",
+      "sha256": "59a88a60f2c0359cc7cd1a72dc23d4d25af78250b596408fd737d1efd940df7d",
+      "bytes": 4457,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\source_location_diagnostics.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_figures\\source_tables\\source\\source_location_diagnostics.json",
+      "sha256": "a47a5280fea3236c9de0c604ca9e8a08d9f7a2e21cb59bcb38a95541e72ebe65",
+      "bytes": 1597962,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.csv",
+      "sha256": "911559586997bdf325bbcea58c505b15364703d504722db7116da422c47183d0",
+      "bytes": 6553,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_C_primary16.tex",
+      "sha256": "4d9518299a08abe70b893226d20174f7d1c85214e32e82d2060a987458bbce31",
+      "bytes": 2887,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.csv",
+      "sha256": "bafd24307891d0f338ff380ef0a5fba0a06a2f760f2b5db5480422998331ab0e",
+      "bytes": 6541,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_D_primary16.tex",
+      "sha256": "7c0fe9b9b28bbc212c4f1b375d18d1234c30956dc3a008760959871f14054876",
+      "bytes": 2887,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_information_primary16.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\fresh_information_primary16.tex",
+      "sha256": "931d84f31b22a4f17f82c0fae7792439a8b3a54258c9a02161b553ebf69d1f59",
+      "bytes": 5776,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\build_information_tables.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\build_information_tables.py",
+      "sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746",
+      "bytes": 12426,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\generate_information_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_snapshot\\generate_information_figures.py",
+      "sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301",
+      "bytes": 29950,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\analysis.json",
+      "sha256": "7a71784ccb7c44149ed5f4c81bba21e161e5e4833c7e3c543afc76b1b51e34e3",
+      "bytes": 18506,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\ANALYSIS_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\ANALYSIS_MANIFEST.json",
+      "sha256": "16da3e60e19112a442e5c4439624b0cfa309c37ddd23fffca5135d05c909e67b",
+      "bytes": 2765,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_contrast_summary.csv",
+      "sha256": "f9855d8133889c27aa5e3e3efcb3abcb71ad35ed233f9c28be371f43e5899e1d",
+      "bytes": 2019,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\primary_seed_contrasts.csv",
+      "sha256": "74128e62b9c15488950eea148d1248010ade453c2ab01464571becc00e448b94",
+      "bytes": 4455,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\uncertainty.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\C\\uncertainty.json",
+      "sha256": "aec7433a7b6fd335176d5d419036e9479e3d8690f9b58097aaf06c73e33d0d6b",
+      "bytes": 222263,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\analysis.json",
+      "sha256": "2f8e8bdaa41ebb796be56d11437924d5f25a27deb35cbd1a9732228d1139b32c",
+      "bytes": 18490,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\ANALYSIS_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\ANALYSIS_MANIFEST.json",
+      "sha256": "ec12e42f3933def209d4cb11e94cee92a254d69ab64ea3807f2229aaa04617a7",
+      "bytes": 2765,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_contrast_summary.csv",
+      "sha256": "4bf9b48a451da9736af1292ee0c783c4adf8a9c6fe3e3d0c4f803a84f441cb87",
+      "bytes": 2016,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\primary_seed_contrasts.csv",
+      "sha256": "32cd0132654ff25495e53dc7f9d134d827081d80e36d2d91c666abc6f65ffaaa",
+      "bytes": 4450,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\uncertainty.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\source_tables\\D\\uncertainty.json",
+      "sha256": "91b651c9421cbe91402e5085f0e00cb9b7d97e6e6ac8d99b38463a836117e807",
+      "bytes": 222227,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\table_data.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\table_data.json",
+      "sha256": "0749bff45bd03c94a0cd177c95a6a79dff93ad1370fe755f73048e5c3d404291",
+      "bytes": 32930,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\TABLE_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\fresh\\TABLE_MANIFEST.json",
+      "sha256": "13f0c1f6bf8d16d0608cb6a5938beab79456a8bcc9b4cb2d6a1afd10f3c61f8e",
+      "bytes": 3550,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_information_primary16.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_information_primary16.csv",
+      "sha256": "800861c3f0944c4f3e04feb5effdc36568ecc23cdd3f1537b01f796770ab29f8",
+      "bytes": 4765,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_information_primary16.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_information_primary16.tex",
+      "sha256": "5090f3c94b14124c0b174ea54c7d79c81e7f720afd4fdfc910e4abcde2ecee1d",
+      "bytes": 2713,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_snapshot\\build_information_tables.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_snapshot\\build_information_tables.py",
+      "sha256": "de6c9157bd2ca8e1dd79085aa173753ab31734f21d88a75b89e8e7883758e746",
+      "bytes": 12426,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_snapshot\\generate_information_figures.py",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_snapshot\\generate_information_figures.py",
+      "sha256": "853d2a05efc0a2b17d261fd460df694b6939dbc7f6523cb068dab5bcddd4f301",
+      "bytes": 29950,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\analysis.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\analysis.json",
+      "sha256": "9859e39aaf3b0613d1e49b748eec4bdb61c15f820b159638d290c9c22dc001a7",
+      "bytes": 7706,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\ANALYSIS_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\ANALYSIS_MANIFEST.json",
+      "sha256": "83ad9c50cca04f651b34c6c4189fe15daed9085230936a5628ed146eb9843e5c",
+      "bytes": 1957,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_contrast_summary.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_contrast_summary.csv",
+      "sha256": "8890d35b41b6072d301b6281116dfb79c3ccfba60ac1a1c0a734251a6754c7cd",
+      "bytes": 2011,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_seed_contrasts.csv",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\source_tables\\source\\primary_seed_contrasts.csv",
+      "sha256": "59a88a60f2c0359cc7cd1a72dc23d4d25af78250b596408fd737d1efd940df7d",
+      "bytes": 4457,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\table_data.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\table_data.json",
+      "sha256": "44e5ebef67e7f025346348d6d8d8b6d6bf5a4a6543896deeb0ac8e718f0673f7",
+      "bytes": 12578,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\TABLE_MANIFEST.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\information_tables\\source\\TABLE_MANIFEST.json",
+      "sha256": "3011f3ee4231dab58584ba538059bb0d7c12e0f04e22892e1a233b0aa95ed8a9",
+      "bytes": 2038,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\main.tex",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\main.tex",
+      "sha256": "61f6e399e9abc0368011719da95b39d83f7214656427dfd33dd572bdfc2cf87d",
+      "bytes": 59259,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\README.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\README.md",
+      "sha256": "651176c378e752612010be2d8a00ac1b24713dea86981d0bfe64870f25e3ea2c",
+      "bytes": 2517,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\references.bib",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\overleaf_submission\\references.bib",
+      "sha256": "128d43d869d30b697435f7f5a39989585bbf7058866672618b243b0e0adc6a16",
+      "bytes": 4400,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\README.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\README.md",
+      "sha256": "f65b32ee061f9cfb2b0cec1d940c38bf7a351366afd30847b8746351c74640b9",
+      "bytes": 3570,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\reporting_coverage.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\reporting_coverage.json",
+      "sha256": "bfe40f7e2ee7eeb0a4d48bb35558e5b0721aec6aa01ac8e6f93dade3a69acab9",
+      "bytes": 180,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\RESULTS_SCAFFOLD.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\RESULTS_SCAFFOLD.md",
+      "sha256": "164ccd845f84908b2c683577f1c63f7f8708680b46e5c95f796941140e06f587",
+      "bytes": 29738,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\source_manifest.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\source_manifest.json",
+      "sha256": "be9a64a914a108e5a6b0c439b9d842b872df6f55a12cba40c1925cc99053b561",
+      "bytes": 37855,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\WRITING_FREEZE.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\manuscript\\representation_v2\\WRITING_FREEZE.md",
+      "sha256": "bf45f436e2784e60658f1c283de74958ff16222812d9b166fe72bfbbcbc190ce",
+      "bytes": 3130,
+      "category": "manuscript_and_aggregate_display_sources"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\docs\\INFORMATION_EXTENSION_RESULTS.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\docs\\INFORMATION_EXTENSION_RESULTS.md",
+      "sha256": "0c384a6bf8522888e6bff274bb832112b4074acf6db07f2012cdb332ea391bd4",
+      "bytes": 5958,
+      "category": "current_docs_with_preserved_earlier_scope"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\docs\\RESULTS_SUMMARY.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\docs\\RESULTS_SUMMARY.md",
+      "sha256": "b022a9359089a25c16ea3b17e11c58b193e42be33a3588db5f46cb564ad6ed0a",
+      "bytes": 8910,
+      "category": "current_docs_with_preserved_earlier_scope"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\docs\\REPRODUCTION_GUIDE.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\docs\\REPRODUCTION_GUIDE.md",
+      "sha256": "b0a4b319b298dd3a7b1eb1fe2fc76b065095227c1884cbc2b904aa8fc90fafac",
+      "bytes": 11214,
+      "category": "current_docs_with_preserved_earlier_scope"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\docs\\WRITING_GUIDE.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\docs\\WRITING_GUIDE.md",
+      "sha256": "68ebf70a7f7ed7b75d8f44faa613671ce87d0b039893a75712ce08bdbbd4f0f1",
+      "bytes": 7425,
+      "category": "current_docs_with_preserved_earlier_scope"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\docs\\ASSET_INDEX.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\docs\\ASSET_INDEX.md",
+      "sha256": "55077c4a6291f959948702f70f4adc442692ed5031aceae211847518279bba39",
+      "bytes": 5057,
+      "category": "current_docs_with_preserved_earlier_scope"
+    },
+    {
+      "source": "E:\\JINST REP\\low pion research\\output\\pdf\\representation_information_fresh_20261108.pdf",
+      "destination": "E:\\JINST REP\\low-pion-github\\output\\pdf\\representation_information_fresh_20261108.pdf",
+      "sha256": "3a29fef525a6e62ca797b9b1d7814645f888effa334b44d82ea8eb23b8abadda",
+      "bytes": 533867,
+      "category": "compiled_paper"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\manuscript_static_review.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\manuscript_static_review.json",
+      "sha256": "bbbee585ca2a854aef080a1482e81c40cd847aeedea46de5440631cacf2266bb",
+      "bytes": 1291,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\manuscript_static_review.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\manuscript_static_review.json",
+      "sha256": "bbbee585ca2a854aef080a1482e81c40cd847aeedea46de5440631cacf2266bb",
+      "bytes": 1291,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\final_pdf_visual_review.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\final_pdf_visual_review.json",
+      "sha256": "7f6f80bd5ec4f1b668e6dc53c5d87f1412f656b2acd620df23afe4f8311b985c",
+      "bytes": 1239,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\final_pdf_visual_review.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\final_pdf_visual_review.json",
+      "sha256": "7f6f80bd5ec4f1b668e6dc53c5d87f1412f656b2acd620df23afe4f8311b985c",
+      "bytes": 1239,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_writing_control_integration_v2.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_writing_control_integration_v2.json",
+      "sha256": "89d6fbac737852a0876ba6aa05a40120380d2d62f32bc0de096ef909c51a9814",
+      "bytes": 12174,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_writing_control_integration_v2.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_writing_control_integration_v2.json",
+      "sha256": "89d6fbac737852a0876ba6aa05a40120380d2d62f32bc0de096ef909c51a9814",
+      "bytes": 12174,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_result_review.md",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_scientific_result_review.md",
+      "sha256": "941e9d5525c9f39cdcdf5731f2ee3a3f9583198a10e4c99591b0646ffa4aa9f2",
+      "bytes": 13904,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_result_review.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_scientific_result_review.md",
+      "sha256": "941e9d5525c9f39cdcdf5731f2ee3a3f9583198a10e4c99591b0646ffa4aa9f2",
+      "bytes": 13904,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_independent_handoff.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_scientific_independent_handoff.json",
+      "sha256": "1270b168d0a4db91b9c5247f8d2a030a4c54761e4f026b87b6ecfbdd1bcbeeef",
+      "bytes": 61198,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_independent_handoff.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_scientific_independent_handoff.json",
+      "sha256": "1270b168d0a4db91b9c5247f8d2a030a4c54761e4f026b87b6ecfbdd1bcbeeef",
+      "bytes": 61198,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_independent_handoff.md",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_scientific_independent_handoff.md",
+      "sha256": "d437280f557ecb9f2c942084e965fb60ec4bd0b20d239a903663d9b0fd575b70",
+      "bytes": 6439,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_scientific_independent_handoff.md",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_scientific_independent_handoff.md",
+      "sha256": "d437280f557ecb9f2c942084e965fb60ec4bd0b20d239a903663d9b0fd575b70",
+      "bytes": 6439,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_public_export_receipt.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_public_export_receipt.json",
+      "sha256": "9a2438c82eaca0047da0114f494b816a04fa771314c8ea0ed012c3992ae3a922",
+      "bytes": 520560,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_public_export_receipt.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_public_export_receipt.json",
+      "sha256": "9a2438c82eaca0047da0114f494b816a04fa771314c8ea0ed012c3992ae3a922",
+      "bytes": 520560,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_quality_provenance_refresh_receipt.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\information_quality_provenance_refresh_receipt.json",
+      "sha256": "5292cc43943ceef0fc23c0bb1594bb47d03402006988e8a1fa66011cc22ba89b",
+      "bytes": 2934,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\information_quality_provenance_refresh_receipt.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\information_quality_provenance_refresh_receipt.json",
+      "sha256": "5292cc43943ceef0fc23c0bb1594bb47d03402006988e8a1fa66011cc22ba89b",
+      "bytes": 2934,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\methods_citation_checks.json",
+      "destination": "E:\\JINST REP\\low pion research\\reports\\information_extension_20261108\\provenance\\methods_citation_checks.json",
+      "sha256": "a3258fb725bbde7ab0f5deb1fe0f522f9aa9b5cba57eed41cac4c32881391c88",
+      "bytes": 1311,
+      "category": "additional_review_provenance"
+    },
+    {
+      "source": "E:\\JINST REP\\_research_extension_20261108\\methods_citation_checks.json",
+      "destination": "E:\\JINST REP\\low-pion-github\\reports\\information_extension_20261108\\provenance\\methods_citation_checks.json",
+      "sha256": "a3258fb725bbde7ab0f5deb1fe0f522f9aa9b5cba57eed41cac4c32881391c88",
+      "bytes": 1311,
+      "category": "additional_review_provenance"
+    }
+  ],
+  "public_mirror_only": true,
+  "external_push_or_publication": false,
+  "raw_exclusions_verified": true,
+  "remaining_author_actions": [
+    "Author identities and affiliations",
+    "Final declarations and AI/tool disclosure",
+    "Named human evidence review",
+    "Final repository DOI, license and data access terms"
+  ],
+  "accepted_historical_gaps_unchanged": true
+}

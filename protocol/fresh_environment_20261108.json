@@ -1,0 +1,20 @@
+{
+  "schema": "fresh-research-environment/v1",
+  "status": "PRODUCTION_FROZEN",
+  "confirmation_enabled": true,
+  "frozen_protocol_sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8",
+  "confirmation_protocol_sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8",
+  "confirmation_protocol_path": "protocol/fresh_catalog_20261108.json",
+  "confirmation_approval": {
+    "source": "user_message",
+    "approval_text": "可运行一整晚，约 8–12 小时",
+    "scope_interpretation": "Manuscript refinements; new intermediate-information and equal-parameter-structure experiments; fresh independent Geant4 evaluation; paired event uncertainty and mechanism diagnostics. Preserve prior accepted science.",
+    "source_record": "_research_extension_20261108/AUTHORIZATION_AND_BUDGET.json; root delegated explicit new Geant4 authorization"
+  },
+  "human_freeze_approval": {
+    "source": "user_message",
+    "approval_text": "可运行一整晚，约 8–12 小时",
+    "scope": "User authorized the new research and fresh Geant4 workflow within8-12hours.",
+    "boundary": "Workflow authorization, not a claim that the user manually reviewed these artifact bytes or implementation. Automated independent checks are recorded separately."
+  }
+}

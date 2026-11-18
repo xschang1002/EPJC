@@ -1,0 +1,318 @@
+\RequirePackage{fix-cm}
+\documentclass[smallextended]{svjour3}
+\smartqed
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,textwidth=17.4cm,textheight=234mm,centering]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\Urlmuskip=0mu plus 2mu\relax
+\setlength{\emergencystretch}{2.5em}
+\raggedbottom
+
+\journalname{Eur. Phys. J. C}
+
+\newcommand{\pin}{p_{\mathrm{in}}}
+\newcommand{\pout}{p_{\mathrm{out}}}
+\newcommand{\deltap}{\Delta p}
+\newcommand{\phys}{\mathrm{BB}}
+\newcommand{\raw}{\mathrm{Raw}}
+\newcommand{\learned}{\mathrm{PR}}
+\newcommand{\simple}{\mathrm{Lin}}
+
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\begin{document}
+\setlength{\LTcapwidth}{\textwidth}
+
+\title{Electronic Supplementary Material:\\Non-monotonic benefits of physical target centering in conditional models of pion momentum loss}
+\titlerunning{Supplementary Material: Physical target centering in pion momentum loss}
+
+\author{First Author \and
+        Second Author \and
+        Third Author}
+\authorrunning{F. Author et al.}
+
+\institute{F. Author \and S. Author \at
+              Department of Physics, Institution Name, Street Address, Postal Code City, Country \\
+              \email{first.author@institution.edu}
+           \and
+           T. Author \at
+              Institute of High Energy Physics, Institution Name, Postal Code City, Country}
+
+\date{Received: date / Accepted: date}
+
+\maketitle
+
+Current C/D evidence precedes numerical and reproduction details. Display
+names map to frozen identifiers in Sect.~\ref{sec:display_mapping}; the
+standalone historical archive retains earlier A/B and erroneous-center evidence.
+
+\section{Complete primary C/D results}
+\label{sec:primary}
+
+Symbols $N$, $M_2$, $M_8$ and $E$ denote no direct, two-bin, eight-bin and
+exact momentum inputs. Event intervals condition on selected models; seed
+spreads describe shared-data optimizer variability.
+
+\input{editorial_tables/fresh_information_primary16.tex}
+\clearpage
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{editorial_figures/information_gain_changes.pdf}
+\caption{All adjacent and endpoint gain differences. Positive values mean
+the more-informed conditioner has a larger centering gain. Black bands use
+the 16-contrast simultaneous family within each catalog; all five paired
+seed values remain visible.}
+\label{fig:supp_gain_changes}
+\end{figure}
+\clearpage
+
+\section{Training variability and conditional diagnostics}
+\label{sec:diagnostics}
+
+\subsection{Optimizer-seed sensitivity}
+The sensitivity analysis was added after the C/D evaluation and does not
+alter the frozen primary event-bootstrap family. Tables~\ref{tab:seed_sensitivity_C}
+and \ref{tab:seed_sensitivity_D} retain every primary
+contrast's mean, sample SD, range and sign counts, with each individual
+paired seed value in the associated aggregate records.
+The range of leave-one-seed-out means is a sensitivity summary, not a
+confidence interval. C and D evaluate the same five models in each setting.
+
+\input{editorial_tables/seed_full_summary.tex}
+\clearpage
+The exploratory Student-$t$ intervals in Tables~\ref{tab:seed_sensitivity_t_C}
+and \ref{tab:seed_sensitivity_t_D} describe the mean over optimizer
+seeds under an independent, approximately normal seed-effect model,
+conditional on the fixed training and evaluation data. They are post-hoc,
+pointwise and unadjusted, with $n=5$ and four degrees of freedom; approximate
+normality is weakly checkable at this sample size. They do not include
+training-data resampling or joint coverage across catalogs.
+\input{editorial_tables/seed_exploratory_t_summary.tex}
+\clearpage
+
+\subsection{Conditional groups and density accounting}
+The fresh analysis retains all 42 momentum--thickness--charge groups for
+each information level and fraction. Pointwise intervals accompany
+simultaneous bands within each 42-group setting and across all 336 group
+gains per catalog. The companion repository contains all 16 displays, with seed
+points and intervals, under \texttt{editorial\_figures/}; the aggregate
+records retain counts, means, all five seed values and every interval.
+No group is excluded on the basis of its sign.
+
+For center $c(X)$, $z=(Y-c(X)-\mu)/s$ and
+$b=(\pin-c(X)-\mu)/s$, the original-unit likelihood is
+\begin{equation}
+ \log p(Y\mid X)=\log q_\theta(z\mid h(X))-\log s
+                 -\log F_\theta(b\mid h(X)).
+ \label{eq:supp_likelihood}
+\end{equation}
+The saved terms give the exact arithmetic accounting
+\begin{equation}
+ \mathrm{NLL}=-\log p_{\rm base}-\log|J_{\rm spline}|
+                +\log s+\log F_\theta(b\mid h(X)).
+\end{equation}
+Each gain subtracts the corresponding BB-centered contribution from Raw.
+The common scale makes the paired $\log s$ term zero. These coordinate-dependent
+contributions reconstruct likelihood differences; they do not uniquely assign
+them to physical location, scale and shape effects.
+
+Likelihood accounting shows substantial cancellation between base-density
+and spline-Jacobian contributions (Fig.~\ref{fig:supp_density_terms}). Without direct momentum at 100\%
+training on C, the $0.3$--$0.4$ GeV/$c$ interval has contributions
+$-0.049022$ and $+0.139550$, totaling $+0.090528$ nat/event. In the
+$0.9$--$1.0$ GeV/$c$ interval they are $-0.114765$ and $+0.085075$,
+totaling $-0.029690$. Each total has the same sign on D. The shared scale
+gives zero paired standardization contribution; the full support calculation
+is documented in Sect.~\ref{sec:numerical_boundary}.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.92\linewidth]{editorial_figures/information_exact_density_terms.pdf}
+\caption{Additive contributions to original-unit NLL gains. The total is
+shown alongside the four components and is not an additional contribution.
+Bars show optimizer-seed SD. Support corrections are included even when
+their float32 values are zero.}
+\label{fig:supp_density_terms}
+\end{figure}
+
+Operational residual summaries include means and medians, standard deviations,
+interquartile ranges, quantile asymmetry and tail widths. Predictive CDF
+diagnostics include the fraction below the predicted median and the fraction
+inside the predictive interquartile interval, each with nominal value $0.5$.
+They use normalized predictive CDFs with stable log-CDF and log-survival
+expressions. All are descriptive; pooling within a physical group can hide
+finer conditional errors.
+
+\subsection{Location burden under information refinement}
+All expectations below refer to the eligible population $S=1$. Let
+$V=\pin$, $W=(t,q)$, $m(V,W)=\mathbb E[Y\mid V,W]$, and let the
+deterministic center $c(V,W)$ and $Y$ have finite second moments. The total
+variance identity separates intrinsic complete-condition variation from
+unobserved-momentum location variation:
+\begin{equation}
+ \operatorname{Var}(Y-c\mid W)=
+ \mathbb E[\operatorname{Var}(Y\mid V,W)\mid W]
+ +\operatorname{Var}_V(m-c\mid W).
+\end{equation}
+\input{editorial_theory.tex}
+
+The empirical source diagnostic uses the reserved 298,939-row source
+diagnostic partition. Within each thickness--charge stratum, 56 momentum
+bins refine the two- and eight-bin neural encodings and the seven reporting
+bins. The event-weighted variance of fine-bin residual means around their
+information-cell mean approximates the remaining location burden. The main
+figure shows its square root. The original-unit panel uses the saved 100\%
+preprocessing record once; fraction-specific standardized panels use their
+respective scales. Subtracting a fitted constant does not change population
+location variance; tiny floating-point differences between the two saved
+original-unit summaries are documented in the figure provenance record.
+
+\section{Fitted-center, capacity and training-fraction comparisons}
+\label{sec:secondary}
+
+The secondary matrix uses exact momentum, four representations, two capacities,
+three fractions and five paired seeds. Its 23 contrasts per catalog comprise
+18 representation comparisons and five differences of centering gains across
+capacities or fractions. Fitted centers use training data only and remain
+fixed during flow fitting. All seed exceptions are retained; the spreads
+describe optimizer variability rather than event-bootstrap uncertainty.
+
+\input{editorial_tables/current_secondary_CD.tex}
+\clearpage
+\section{Numerical implementation and reproducibility}
+\label{sec:numerical_boundary}
+
+\begin{table}[!htbp]
+\centering
+\caption{Precision roles in the frozen implementation. Float64 reductions
+do not restore precision lost during model evaluation.}
+\label{tab:supp_precision}
+\begin{tabular}{p{0.68\linewidth}l}
+\toprule Stage & Arithmetic \\
+\midrule
+Physical-center evaluation and preprocessing fit & float64 \\
+Applied standardization ($z$ and $b$) & float32 \\
+Neural inputs, parameters, inference and optimizer & float32 \\
+Validation mean used to select checkpoints & float32 \\
+Saved per-event log scores & float32 \\
+Paired subtraction, means and bootstrap reductions & float64 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The center and fitted $\mu,s$ are computed in float64 (Table~\ref{tab:supp_precision}). Before neural
+evaluation, $Y$, $c$, $\pin$ and $s$ are separately converted to float32;
+the subsequent subtraction and division defining $z$ and $b$, including
+application of $\mu$, use float32 arithmetic. Selecting a checkpoint with
+a different precision for the validation reduction would change the frozen
+training procedure.
+
+The density uses stable log-sigmoid and softplus expressions. In base-flow
+coordinates $a$ and $b$ for an event and its upper support bound, the truncated
+log-survival expression is
+\begin{equation}
+ \log S=-\operatorname{softplus}(a)+\log[-\operatorname{expm1}(a-b)].
+\end{equation}
+This avoids directly subtracting two CDFs close to one. At the exact upper
+boundary, log density and log survival are $-\infty$ and log CDF is zero.
+The scorer rejects nonfinite density/decomposition values; legitimate
+infinite log-tail probabilities are handled separately.
+
+Three existing mathematical regression tests passed. Additional deterministic
+checks used 18 tail cases per dtype, base support bounds from $-1000$ to
+$1000$, and distances including one representable ULP below the boundary.
+An untrained fixed flow in its identity tails was compared with a 100-digit
+Decimal reference. In these synthetic checks, no events were generated or read,
+no saved checkpoint was evaluated, and no training was performed. Maximum
+observed absolute errors are listed in Table~\ref{tab:supp_synthetic_errors}.
+
+\begin{table}[!htbp]
+\centering
+\caption{Maximum observed absolute errors in synthetic identity-tail checks
+against a 100-digit Decimal reference across 18 tail cases per dtype.}
+\label{tab:supp_synthetic_errors}
+\begin{tabular}{lrrrr}
+\toprule
+Dtype & Log density & Log CDF & Log survival & $|\mathrm{CDF}+\mathrm{SF}-1|$\\
+\midrule
+float32 & $9.14\times10^{-9}$ & $1.30\times10^{-9}$ & $1.05\times10^{-5}$ & $0$\\
+float64 & $2.58\times10^{-15}$ & $2.04\times10^{-9}$ & $7.11\times10^{-15}$ & $2.02\times10^{-9}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The float64 log-CDF discrepancy reflects the default softplus linear
+approximation above its threshold of 20; it is not evidence of uniform
+$10^{-12}$ accuracy. Tested boundary values and log-survival gradients were
+correct and finite where required. These checks are not a worst-case error
+bound over every learned spline parameterization or device.
+
+Input resolution is a separate limit. At momentum 0.3, 0.65 and 1.0 GeV/$c$,
+an input only one float64 ULP inside the upper support becomes equal to the
+bound after float32 conversion. This establishes a rounding possibility.
+The follow-up audit below measures its incidence in the complete formal C/D
+samples without modifying those samples or rerunning the density models.
+
+\input{support_audit_tables.tex}
+
+\subsection{Reproducibility and evidence identities}
+All 80 primary checkpoints passed complete source-validation replay before
+fresh generation. A separate saved-output audit reaggregated all 480 registered
+model--catalog scores, the 16 primary and 336 local estimates per catalog,
+and the 2000 paired bootstrap draws. The source-validation comparison is
+descriptive because those events selected the checkpoints; its original
+complete table is preserved in the standalone historical/presentation archive.
+
+For inventory reconciliation, the frozen scoring registry contains 240 run
+records: 80 primary executions and 160 previously fitted runs. The latter
+union comprises a 60-run comparison and a 120-entry capacity/fraction matrix
+sharing 20 entries. Twenty exact-momentum primary executions reproduce
+earlier Small exact-conditioner state tensors and source/C/D log scores
+exactly. They are overlapping predictors, not independent replications.
+The secondary table file preserves all 41 contrasts per catalog in two parts:
+23 current fitted-center/capacity contrasts here, and 18 older-design/control
+contrasts in the historical archive. No scientific result is removed from
+the retained records by this presentation split.
+
+The companion GitHub repository (\url{https://github.com/<owner>/<repository>},
+release tag \texttt{v1.0.0-epjc}) distinguishes three reproduction levels.
+Its lightweight Git source tree omits binary model checkpoints for direct
+version-control portability while retaining all 240 run manifests and
+cryptographic checkpoint SHA-256 digests (with binary checkpoints optionally
+verified when supplied via a companion release archive). Using the documented
+software dependencies, the single entry point \texttt{python reproduce.py}
+reconstructs all tables, all 21 figures, the saved-draw bootstrap intervals,
+the five-seed sensitivity CSVs, and the four C/D predictive and residual
+diagnostic summaries without requiring the original local filesystem paths.
+
+Event-level replay additionally requires the original event ledgers,
+preprocessing inputs and per-event scores. Complete regeneration requires
+those inputs, the Geant4 environment, model-training dependencies and the
+frozen sampling and training protocols. These latter two levels cannot be
+performed from the aggregate repository alone; raw event ledgers and
+per-event score arrays are retained in local archival storage verified by the
+published SHA-256 manifests and are available from the corresponding author
+upon reasonable request.
+
+\subsection{Display names and immutable run identifiers}
+\label{sec:display_mapping}
+The presentation uses descriptive display terminology while model files,
+frozen code, run identifiers, protocols and hashes retain their original
+names (Table~\ref{tab:editorial-display-names}).
+\input{editorial_tables/display_names.tex}
+
+\section{Brief development history}
+A unit-conversion error in a preliminary center was corrected before the
+primary study. The affected preliminary results are excluded from the present
+conclusions; development records and earlier exploratory analyses are retained
+in the repository archive (\texttt{historical\_archive\_20261108}).
+
+\end{document}

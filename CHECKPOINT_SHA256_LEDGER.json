@@ -1,0 +1,2408 @@
+{
+  "schema": "epjc-checkpoint-sha256-ledger/v1",
+  "description": "Cryptographic SHA-256 and byte-size ledger for all 240 frozen PyTorch checkpoints omitted from the lightweight Git tree.",
+  "registered_model_runs": 240,
+  "total_omitted_checkpoint_bytes": 637030960,
+  "models": [
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "836126fd5f177f46a89f01faafc5431fa2fdacfb2bed42a7d5eaccffc49f2b1e",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 571381,
+      "checkpoint_sha256": "d38e2b132d1c05fa5817d289ff9810dcbe79b0b1c74142aad9e34e8d02bb5b73"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "d69bef99bbc95bbadaa5ac0629704ef84d6eaf03d9b45847605048db98fbcc7f",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 571381,
+      "checkpoint_sha256": "710bbf9736b151647a64faf8e9ebc601122995e731dfaead593ecd4d5a4b3969"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "3a8e8ec243eef47472b2d10705fa091c959a7e10a1a47087531d1be1cc1ffb3f",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 571381,
+      "checkpoint_sha256": "dac7bc56943419583073088be662339bc9ee57a8b6aaaed8da79228d48f0f9e4"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "5cab159ffdf2385d4fb667f48085538429eada8d1c377db9c7481c0fe6f6a143",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 571381,
+      "checkpoint_sha256": "c4ee629d435792b0d2ae62146b61d45b3cc4a1fbffb58b359ce0ba97ff485b99"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "b49f09e0814709038bf06b0adaf0d53d09771f0b681fbe243a8d77740214336c",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 571381,
+      "checkpoint_sha256": "289f3b07e6b3dcf42e1a861eec8a78d34b0a957e1f161902d689e6741a930903"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "96dcbb33b6702348d2e6a3a459bb81dd901b34eca3736c5840408a803912af94",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 571573,
+      "checkpoint_sha256": "2f92c8d4c728bf1bb62748f5226e55ec6ebeb72311ec779fd498c2359d7531ca"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "51a55d9d628fd5fb61e710cb2920e53bd06c6972434606c6cf97ad6ad09f6414",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 571573,
+      "checkpoint_sha256": "626c445ba669784a6714ce303c1d19780df4e6ebcf972459a5c7679d1543bcc9"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "a013ac3868fad4556e350bbc2eb57ce12cba66585aa2360123b60cf6eeea7423",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 571573,
+      "checkpoint_sha256": "a092a80989c967a99b3aef7a9c75231ddb01c6c18a0ddbce49e6059b4b9f97ba"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "5f383f5a8572ebb6ae250cddb9382c40cca2b77082986a079b50a8110097268d",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 571573,
+      "checkpoint_sha256": "1e6d96ba6617ad3217083324c6015af97d544d84328a85e7f958af615b099e9c"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "feec521c687364577efa64af3c4444d4f51ae00a7105beb9e4dd483cdea3a7c5",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 571573,
+      "checkpoint_sha256": "d5f70a545bda43709069336af2d91cf05e3df267182cdb619e2466e363446f96"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "f856ed5ec944af4016c9f760e60f749440da09f3817460903c3a7a0cf80d8eef",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 571509,
+      "checkpoint_sha256": "1043c7d40af7f8fa974a7492e93c43779d005b6958688d8d3ff9b85f09548c60"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "57514357ef202aaef65835858c2d371f4421c0adedd7dab86a33026b0caa3959",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 571509,
+      "checkpoint_sha256": "db053b037f139a3e412a2ea4d0ffe26021c8e150779eecdf8bc7f9b7a6e71b6e"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "68e40492660530181dbd91fe2d7c0419fcc2fe832beb1661e0fc24c914a22d8a",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 571509,
+      "checkpoint_sha256": "36a3b346ad20a92c8cd550f80b1a2c599b5880a71ca75b29d14aa0b9f021ca25"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "e5a8d9871d9637a16afbc0863e0e34c5e6769ff7bdb906ebee7c964dd1c5cfc2",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 571509,
+      "checkpoint_sha256": "0e6b4b48fbeb96626ab07347a60e7d1c59729b0b924cc1bf5ccc5614e360a47b"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "d14404ff2886844beef3298a7788626c7e8f95465ac8560410ef09f77b6c4cf1",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 569077,
+      "checkpoint_sha256": "f8d69bb1a618d445b8bdfb1170f33461cd0b40f891f6736a472304a218621190"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "d2d5bb222a9b400fc79f295933364011b13fc47524bac923957709320938b4c7",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 571509,
+      "checkpoint_sha256": "367bc7eecfaa8b3eed3fdafd406a9f06185a2833bbf9c7b80dd10aaab4a7bfed"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "52ba8c63705e806234842e7cc4260d10510191da32f0b5dab7d60eabf42ca134",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 569077,
+      "checkpoint_sha256": "73338d30b75012c4eed3d1a1ccb9cd51d2c7f619ec4432390c7ba29e71cbe639"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "60775ee15bb4397b716850cd5d98e771e5209b2d7cdc7b2624ce68aff8d26914",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 569077,
+      "checkpoint_sha256": "e3fd1d98a8142c8aa66340c5e082a69d9c40f9f7a9b7d910b7c974a31bdcdee2"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "6dc9cda10717dc84dd339e3e6d30b68661b95960245c15cd762c02d28ac1ce2d",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 569077,
+      "checkpoint_sha256": "6996151078facad6227018c57fb87a0cf745f73ec9156539cbf0162f1e4b4fdc"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "dc688542691f1f69566e5327963e76d6efe6d007d6e7efd69a71f50cf11cf787",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 569077,
+      "checkpoint_sha256": "fb970e5186da5fa6d3028727390412cd2fd0a0630e761db1acfd1f72fd7775e1"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "1a55d1b7cc99a85992dbdb91b43b7a2f512fedc63441d6ceb9c24dd21a76ca08",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 569269,
+      "checkpoint_sha256": "776ca0e2009150d4588709f68c0c47344ac7dd3a8039810949f655edf93aed64"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "a6cdc93d9d48880a0cb54b4e03754bcbd5879c29ce2fd03b5b1a1df5e16ba6f8",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 569269,
+      "checkpoint_sha256": "2666f015d7c9d4b8989e9b9f1bba00b823596f616bc625342b4f3048ab34f5b7"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "c6f0531c96bfeda55385b797970d84e0b825ad0cdb873ac33783853b68154dc0",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 569269,
+      "checkpoint_sha256": "5113d17e084b42045bf3917f75189b62537b19279d19bea2436104837d81e0a6"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "b09013f9691be4500d407374468e27a67713e8cd421921e942f556a61a154c57",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 569269,
+      "checkpoint_sha256": "6d362d8048e39a0f3917fec6486eca23a207cf1f185e749656eb259bbf5d1658"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "1403fe2c8e268ad7f61a971477a95174a2b6631c6f4fd3e0056e6b256ec8d2d5",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 569269,
+      "checkpoint_sha256": "fb23ccfe0384121e6f2a2c80b8e97e7579996a7e9cc550465f077f195721006e"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "eb285961a5b2d2f619c10561b20c00fd09dccbc46ebf823514bea08117f49b55",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 569205,
+      "checkpoint_sha256": "c20038d312302146893e476cd32c88567c7256615cfee83fd4cd8afe29a74808"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "405f056b03a86e3627c45b804cd8cb9a8a85863641f9e6276143a5df82409930",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 569205,
+      "checkpoint_sha256": "4b3dd6c0f1d3d35aab938ff8c960943ed736f7789069288f20b50725cf13dee6"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "df52bc4e9645a95760427f68c6c6f04aea96cc55d6f094315a76203aa36c19d2",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 569205,
+      "checkpoint_sha256": "0714c54c6157f35677c9a03f31bb2dd21e34a6f25c5ac00324cd9950d0d6ff30"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "bbefd80db9953945cbf908596164b09fe7cb40adb3ef5e5971dde83f1904e22f",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 569205,
+      "checkpoint_sha256": "f79a90b21a552287cfb29dd1663c78922a51cbb153aa033a7c1cfd87467415cb"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "de930fe0071a469737f8d44bc8bfae883f048a37f06fe65c0e6efa78491b70d3",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 569205,
+      "checkpoint_sha256": "6b14a3507be778021c70a4d96f9c154cb02cbb102f7a80e1824f18607743579c"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "1104743e6a55bab113e2b106a703957070974d7b4592f00b6faf2a8e97d6c474",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4887925,
+      "checkpoint_sha256": "0d7ac2046e728012fadb97300f5f612ed4b6af64894c95afb6045ac276ce779d"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "24ff1b3e8217207311bae99b6d8a7f79aedcef265c6d6ad2fb86d4ccd1b6fa36",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4887925,
+      "checkpoint_sha256": "995905e83faf2696093e0dd35e68c0a2fc476dac27bd772674afcb8b8b5a25bb"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "fc1c2d4e1d2b9ef54e3b2b1611a389ee08b9556b2e4f8ee1ab6c9bfc216eb61b",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4887925,
+      "checkpoint_sha256": "3b38121631fc6ff2830764057a58a468db120c9d18d4008ca225b9d82380993d"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "4ee520bfe98e04a0ddd8e81eefc770d1edf1aa3dd20d2c5735dfa8318ec1c10a",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4887925,
+      "checkpoint_sha256": "8796303a92cde8db233db566ca362b82c0a3ab99d07b215b355bba37c5e4e340"
+    },
+    {
+      "model_id": "correction__Full__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "bd41d95b77cd491d3fe01d48db9f20f8668cf2b191f2a71e11eb94c04fde0365",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4887925,
+      "checkpoint_sha256": "a7733e2da36a24e7b4a493f382d3f3c32e4ab2cba6dced0499a70916c55b3e00"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "b4f5dae3365775963c71c58cd60f26558fc9c83896e855103633110f65d95eff",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888117,
+      "checkpoint_sha256": "6838a65ae6fde2d2df0d69e1343405afdecb1194707fd37ee33d6703cfe27d97"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "14a232c8047ba5b4872ee2202a638aac54c18c05e34d1c43ef25e3fe384470ce",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888117,
+      "checkpoint_sha256": "e8996bf72f76d119757a2017946cd02ac8802f7aa3c6a1094132656adddabfcd"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "77b595ac05ec620ef056ba3f60075e3507bb48fe92e5bb5631733710c061ae22",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888117,
+      "checkpoint_sha256": "0ab6334352effc172f0856bf86567a28cc16f2d49d56f812a6ebf08b8489d418"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "2483f708662fe59af2c099fcafb21736caab23fbd6af220e387b8dc97a69b0ac",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888117,
+      "checkpoint_sha256": "40c2e44534e1f35fb9ee8825729e1c462249d34d9cb81d1bb90f9f5fe2174f65"
+    },
+    {
+      "model_id": "correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "e737cdfb7d4a7639cec958a53d41f38908933d040f20d9abdd83452c0abcd154",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888117,
+      "checkpoint_sha256": "c53b4a2fba00721a2bc0aab78000261ca0390bfd61b1a13dcde3cdbc2c45b032"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "3df1559f6abe74e2c06af30a0f747d53b6b54d37255280e280f02cb44cf39b59",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888053,
+      "checkpoint_sha256": "b0641e6ff4d101d85f0e46f61e409e3d1cde8c34864b6a6104df2aa2adf3c9d0"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "0c4e28f5dc7ebec93eb76296fbbb01db02651ec318064a4ac221d9a1d0c95dda",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888053,
+      "checkpoint_sha256": "25ac0fe028ba36ce4f24e213927d714ace839ecdc3160e890fd563507f04a12f"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "0b94af8a5b91afd4f235fa4f859fe0e6210fdfee45eedb5027c526410ed9fe4d",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888053,
+      "checkpoint_sha256": "dfabc6695352f07af32610d29747850f4c4c15c1a3bc0c47b96e096a7febb737"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "ea59413505b0fefadd21a88aa901af149874fcae4aaa2124743dfc97914156ca",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888053,
+      "checkpoint_sha256": "82d8fe5cc9b6d3657b604eddf1e3f5c682cc6407ded33afa44884d9ee2fe7be5"
+    },
+    {
+      "model_id": "correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "049230c76d7e810fb99927582ac753d2bf1faa9ffd9ece6912d1d19ffc695412",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Full__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888053,
+      "checkpoint_sha256": "0682c34075db7431353fbcd46716fa749e3d80e78437d70ace127967b11a1fc5"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "ad75f6f68037c7db8277a8f48f6010a08a663d96dcf533f68caa2754b3b3b771",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4885621,
+      "checkpoint_sha256": "d89a6ff9876ada2ceb5b5859cdc22d3dfd0581f49f079ce0797c4176544b981e"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "123d51987a070c9bc9c43851af5de49ff9ea4d064e38d58d45818a54d3ffb289",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4885621,
+      "checkpoint_sha256": "66da8320c89efb0184d560b3de1a0f8a1d216d1fce61b1d65efe343a68116c7b"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "31159fa796ea8d8a4ac02c9fe116edc7a244ecc6104741fd0216fe5d68aead30",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4885621,
+      "checkpoint_sha256": "0c0ec22e7ece28428577161e9e2c4513d87498fa8070f543a4bc24fb4c145a83"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "149936808d2a04cb0df56581aaa0cdfbbb40972c4f09aba77d8f793471fcb375",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4885621,
+      "checkpoint_sha256": "fa7eb9eda8e8b78f59cea8cd6d8b915b6672d7ddcbbe26660337c4c1c76ef791"
+    },
+    {
+      "model_id": "correction__Hidden__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "aa5b0db56808a51b5a316f0b6dbc6a9a701d5542c473b8c922cd0b1099d54366",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4885621,
+      "checkpoint_sha256": "e58d7c00c8424cffa26d15c8161d0906eae96aaa98670c27574366a3d3660bab"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "2dec8f6f3dd5eccd0a6ad695a34ecfd23f08ea492b3d24ea92460ac6bff2bf67",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4885813,
+      "checkpoint_sha256": "95fc3f6630839bcd4ca9766b7e88cd184ffd0073f0503e21bf001cb7575ece7d"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "ac4f14dd88822775181786c2f49f32d4edf3fc6fb5f3a350c115cf6a5f685b2d",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4885813,
+      "checkpoint_sha256": "a22e8139bbb8141e197f6a196c662a7f3293bb0b72832e1ac7728b5d8d21f25f"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "db67ff493a9421b4b96b26e1f0e86badef22cdce3dd51199f51d1c579e3eabcc",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4885813,
+      "checkpoint_sha256": "35c340beffcd2cbc74ad09e1286a39e0d68e407969d9d2cd3b652a6660f72b68"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "9fa61e9dbd401579b9891f6b5526693a48f925a6d8d23639432f1201cd467747",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4885813,
+      "checkpoint_sha256": "ae36e0ee9cdad619d4fa1f653275365e866273f6fd3d2a204b8203a7d6692020"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "a67943b3274ba1986a26d960a31c413a929fb62a043f310549919ed22465bfbe",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4885749,
+      "checkpoint_sha256": "d862941ca33f915b3bda81950c0f416602f2c007f64f94edf75bb0fc9b315c44"
+    },
+    {
+      "model_id": "correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "a3d8cd0d1b22617948cde516b0d58323792784ca890d17aa238fb649a1a41775",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__HistoricalIncorrectPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4885813,
+      "checkpoint_sha256": "c855cea99358eb28b5a8362d33e508060393c522d254e761a3d13bfec731f98e"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "d314b42ea6083b22ea7c9f5f7a9a73bab0affeeb226e7227ce3df2ce5f9ea934",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4885749,
+      "checkpoint_sha256": "3406d7434087b02cd9ebd743c5ad14554d47e855396545756f35e2f387d230ce"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "bb8d6542a4cae03c63d9fd54ea112a8e7f2722e990ca9c7445ef99fa209f2ab1",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4885749,
+      "checkpoint_sha256": "fc0d6cbb6b81c492eb37c52428e95dbbfb0835c86d4660cc601df39fc603fa39"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "4b186233ee140c737a9eb4a73f0f19671ee6878d4dcbd68d90a80c9859d76b52",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4885749,
+      "checkpoint_sha256": "656a69a388f266f1a953388d12596e83bb1c160e255a0ee65970462edd8e0792"
+    },
+    {
+      "model_id": "correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "core",
+      "experiment_identity": "9d342b0fccbd167e62f81846ddc0fe370228def33dc536d222a6f8a7f1e80528",
+      "run_manifest_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "998e72e93b272775f74b6f5e3077965d80f7014ae603f8cea98f05c71bc44362",
+      "checkpoint_relative_path": "reports/correction_v2_20261107/study/runs/correction__Hidden__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4885749,
+      "checkpoint_sha256": "dc8494758fac3312f982fff9b2e0a457f5d556ad77ea2fc5286e43d2c0628d8e"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "e33df36de594bb81ae9aa44699126502279a1ec52cd34b57237a652324f3a78b",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "90ba71f38a789ee450fbbf344399168f2f5cfaad29b839ff7add4ef85896d57d"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "dd8269ad4299957402b9e9ef37df9cdf4728ac5ab7dca516e036b0ff1a1ce7ba",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "3392a6796339f58fa0ad1ecd198d3e2dc93f3cba9fa9d1111fac4e443932af47"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "c4afb5ec89f17ddddee22521fb20d056a310c15224d70d1b1f94691dfa3df8ac",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "c510a523faa1fdbfaa0930e0e47400063ce5711e9ead938f0216765696778200"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "f43c0e6c303f6a51584ca698275f02673a01e398bf8c378c212d82e7683b8479",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "ec094e84c83ae0653ee5060cd39c2daed3a55bb3945589b8ee2aade819830456"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "5a8b684fcae3600ea3059e2097adf79c877d8ce9a2ec942ec3113cea68232d4c",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "ce8b67d75ebdc33402fdc0c55cadea896474064a3dd4dbae4d5cfa2f9b695920"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "ab47bea05324802ea1d427cce77b7fd303bac54ba4ee032b43f969dc01d1c2b1",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "eaac0e30171e56e8ec07f87a42344d925ee757de5f6e089c2d9fb0e983bad997"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "e8e099d02ef73e1386419957a7909bb0831f401f0110a724906400f565c6de04",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "12e6f9a50401d9280b69ab262a375289596fd21c61d06e28201cdbd871526b70"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "25641b6b7c6928ae0e22281c8cf93853b62ab1efe41b4f799df3e769c9361b63",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "bca61fb4f0c8a2d4ad248816a37b7ae33f1101513a490740b19c7edb5f39210b"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "ed5c0ef9398b2766ae84d80895e276309b44859aa31f733da66c0124ada3946f",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 571445,
+      "checkpoint_sha256": "183480cedbcef50ef362332e02d688ae5b098f7226ab09551dfa71b7cfdc23dc"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "0e278ead7c2a58d7bb6047216b61015f8a501c40f20fcf12b83d0ce7862741f7",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 571445,
+      "checkpoint_sha256": "167621facff13ca1fbb69fc7b5a8061fbdff8f852437918ea647fd31bec67ab8"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "d3e465d91feb8eda8a01fa4912cca963db4a6f29b190782422162fb158587c07",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "8863437da9da2e25d0157aa5cf0a0310a43dd984bf3ec0ed0bfad0a8e726ee0c"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "ec1d98e303c863a38cd92ee30cc873bb6f02f0effb4c08cc2ee9badb07cbb6f5",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1069109,
+      "checkpoint_sha256": "f14d04686611e623fbd084214fa64b956941ad0c33a8dabf19d20138559d5198"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "10004ee863c1fd14921d4841b94a8f00eee3fd52d857e6c934385493c4984ab4",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 571445,
+      "checkpoint_sha256": "85075c0e3c08e6fed44c33b9b9e4dbd1adc7f8f7d28550253f9a5efc9682cd6f"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "11970e0a32c73f16fef30b8d5e7ba356dcdccfe54f2be52139df02745112a1ee",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 571445,
+      "checkpoint_sha256": "71063fd3e16a155bb5766564b7233a3893c638ba972277aaeff1f7d9796b5993"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "17186d7acfeb594298175b6e7de2a11dae236d232d4d56c43382d5d1b15d0895",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 571445,
+      "checkpoint_sha256": "0f05332d3ab5f88c42908262a9833b8330dec9bfb92eca57bb48d900883d5bc1"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "28b5b850974ba188f8194ec1d0b2e806c9bf6ffb41d9bbed03fdc5205a685860",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1069301,
+      "checkpoint_sha256": "f0795fef83b2854ae4d548028c31a31e2ecaa79e8acd28d819f9b74a87c99e06"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "1f4081d6008149f76642637b1d3eb02d1541706731d6ea5c2911239b4fe4d143",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1069301,
+      "checkpoint_sha256": "1fa6330a43cb2fb94dd148389eb59b6ca26470adcfe146ea55347639fbe22290"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "249862e83832e486dedb52bae41438309ddd035e43004516d49818cb406227ef",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1069301,
+      "checkpoint_sha256": "c3f0c390865637b20fe3d3761138c3e5466cce9f47f3497636e6f5cc4bf7551f"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "ee0a7d0f20b2a7012070345b100db60bd02edde739b5c17cbfd33c8873c90d2f",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1069301,
+      "checkpoint_sha256": "abf70385f25daa58af17e96996da30221f9e0107606c3ee3b7594a164b6260f6"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "806ec3f5e8dd580d5d798f2fbf9b78955c0ae4bea52caf081ff1acaa4a7a6786",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 571637,
+      "checkpoint_sha256": "74e4c35943dd601733aa5822816d163159994f6f85b0fcb387e7c4e012af5bb7"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "8b55c777841fc8cc5a98510054a0dec442efe32cfcb71495179c5c203e994d6d",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 571637,
+      "checkpoint_sha256": "1c1fb84e890115c2146fa55e568869807e8a1b94c94e65f2951fb35a01f579d9"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "a8d2c285f4e3f4924fe708d729fa0be3e448bbba3e0b48369740502f96ee097a",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1069301,
+      "checkpoint_sha256": "36a446445feb26fdc00af2a49ab10ff20e022ec4a5bbaad286087887cec845ac"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "ea70ea43d20841ab383024b4fdca03ba5143a9a015c642a43b55134de72975d4",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 571637,
+      "checkpoint_sha256": "ab5f960835f0816302d5e9ae365cb7e7f0c0378b0ace40c5514eb7d8212c7db5"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "1d8f3603e97c59399d4c5598178b7f0e9f3ad267792bd1c7f6fc132c4383eebb",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 571637,
+      "checkpoint_sha256": "866d5a8eb5f942ad31c23a5202496fa6cb6943e9a5b6b7d431476e2cae20c848"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "0a0ab4fbc04952cf287d7653270afffb1d61748d08f0a2d19326a232fbcfd944",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 571637,
+      "checkpoint_sha256": "5ebb0470a1c40e751a9f71edb1aa33f17614c3876b64b18df4a9b51935d62fd8"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "8e08bf310837a7c5a0c3255127cee2d38d7feea71b1645b1f59a511e4b55dd6e",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1069237,
+      "checkpoint_sha256": "5a79916e1ac252cf6e1581645afff8a0fd1fc5c08846e2fc30992e17e3f22ceb"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "b5534d7bc862a9c78215bc0303f1301f271421b936aee0c2657c57b80209cb82",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1069237,
+      "checkpoint_sha256": "53c612939193fb009ef4072b2996d3a786f11f4ebe633cbba6652f47a8730ac7"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "e792d8ab84d9bd2bf2206d3531e06d8fd25c2a625299cce1e9744f78a7b1c103",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1069237,
+      "checkpoint_sha256": "871bf990fd8c81b13df1d379cdb48ea38f6e6ba7b108dd5028351a1fe6510f79"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "578c8595656825710bd7f283f6b717b07a7e38edb9d5f6b6b73f6fb074041115",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1069237,
+      "checkpoint_sha256": "be2bfc9d0bd1bd505819696a2baccb0317420e817dfcaa8fa5402c4c719f3918"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "f0e9ba97d1296bc836bd2f9af3540a4fd51a037431f7ef6824ec124a7f447a5f",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1069237,
+      "checkpoint_sha256": "d9cfc43fdbb83611779a4c5531437d050fb87bd85c158ce19468edb203aa846f"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "5726f278ce423c381307a2b3b73a08ee4586aec4eb2876d4c722124c7f901336",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "0ee3a1eb5a9a3c47234e3fa510baad7a62497a80733b0ca35a0e711bf504b3f2"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "dfdab88bdd8d7e31cf9e9dcf61029cb051b2204245ba19d73168b513e84384d7",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "4583d1eeea4403dcf8065f4a0ff27eb279a74a735528c6dab44a670e513e47a9"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "1550aaf3501830276d16c66a6076d30b2508fec18b8316491b1a995fe320f2c7",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "4a6058d050cd1953092242b2606627b49dc3468468d603ede75ff4546062a0ec"
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "6ccaa95508e87431bd0bd62b48c9ecf1843c476bdcf67cf957ac8c5665541342",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "3df9cfaba828f3a14e20e07c64db54f4f52fb092e04beb52b76a3f13b42a91be"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "29a846ce242d430164f8a697c1f9d815c99842f61cdb3ed2366d0a0a1dc3cf90",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "d5236aa4a37acf4413f5cb72bb1b7ee20541b315a8f4239e400707f5537d8b8e"
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "e2db8e24d445e41be85ac38966114bf23607b91d012327242e8538db805c2f47",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "83dcc42dce790590f920ea199ff2f5526ac408d327a910c143f5b609ccc9e988"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "67fcdfa6b13e32b44baf530a44bff90e973b50837686d37cea385f078f451e45",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "671feb4abdbcd853936afa7a122ea71124aa25533407bcbee3dfb8b7f7167ac6"
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "cbf4e6da77d74620e4ba419ce3495adddccb8b87a5e8953add0b4d375f103c99",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "51c2f3e99abeb776b81f4c5651577ec6000d5bd54b3f1580482eaf2abcc206ac"
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "322f989eb8be186c01be7115c1b02570dbec8b86230d5ad25233b4aa6318f96f",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "1e8862cdd8aa3dc732536e1bf8522b2fb910fc6d367fa24463f7dc68a0002eba"
+    },
+    {
+      "model_id": "corrected_full__Raw__Small__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "0e532d627886f73ceda66cc28da66663c3039d0f8fd2d3d2b71906a9d3454f27",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Small__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "9860687718dee01db9b9eb78513a973530d002bbcf446573de499817f94875b2"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "ed602c0dc61303f6a98f21976ea8351932710b7baab25da5f034de72504c2ad1",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "ca7e1a0cc86f29177ac1200d0bc9351004ebfb9e9262cee750ab6cb201dd5b5e"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "fcda7177163b043b26176806da87bacb88bca74e534392ac297975bf50349c73",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "48d1cabe79e5a8c60a8d08a63c35d88f5f7a5d7c240ea8d60274e0a7713b8d60"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "46e2d33496188bb879eee3785c2abc17cb7d161318d91e50ba9aeabae5b43bd4",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "7f160c3bce1d5396ee1b9d1a7a0f6d3d0ea844f134e3e696cc97b3a543f313d4"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "55a281711ae47aa22c9dffcb89f99fd3a18afb83a23c4e97310cb1ac16303ec9",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "7bf3dceafe9079a74d8d9f767ba1e93ec30a91745cf3e0e55fd10e0beabd2237"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "29a45930ff1abd4f5115c85e813737952199afbedddcc8798f01bf3215ca34a9",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "e64b610379c648a39aff2af2c6a9ed443781058e019393af9a21a9b497bbd9e9"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "557c8267656a7e7555c17e6dd78b5e44012af69ea794c557f1d8c4b11e610008",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "447b6f2f6dc958d6b2dff4d9e2e14df9354b9b53633668b326a6cf071521d5aa"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "0d5492a2ee26ae4537618e3f1b304c58ce92fc02b0f47652fdbf1eca39925470",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 2028341,
+      "checkpoint_sha256": "7e267e2213cdb665c722ab74b5fdd659ead5bfb572e268d195bcbc5a0157428f"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "a9fd0155d49196fc2b2afef475def7099dbe6a88b0f887258a38db0acab841dd",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "b547abffd2f41d3d6ed566338e817dd68558d3d47aefbd2b8fad4b67dd4ec672"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "ae71e1a30719f9efc7b8a691a1648f070c92f066b535de5205ac2813ebd7bf40",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "5c9d1e2a1f4d2dea834b2e6664a544bea2368dffc3da96a956c14d2ec502196e"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "cbe5210db1f6597cc93ee3b72f2fd01661a82c09be07212d582358541605b2a2",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1530677,
+      "checkpoint_sha256": "4670e450750fddfd52848bc48a752711a25693affa15d67bdc88cd4817b701af"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "650d80e0b31c09333aae2af6f877e7ed4db0a60e5820a87e534725e11ec9f9d1",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 2028533,
+      "checkpoint_sha256": "42008a3b5dd05414ae75c2468db2186d1d2075d8a46a187114cd31944b1c87d7"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "246cd7964d9e8dc5f63e9db86a03d1b15e5baae6e719f713b048233314cc11d6",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 2028533,
+      "checkpoint_sha256": "ab605888bdb69fa046863d06df80a3726d2bd724eab5253adcc8eec8eb1c2e83"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "d505a1a561192591b9e5fec02f5f25a04c452b0a33501979a1ed6ef7562bd597",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 2028533,
+      "checkpoint_sha256": "a858f217d7c63ab3321cdb882873d1bdbed02c40ec9637a6aad13d2806d8235d"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "6a22923a8349ffcf3126240851c43534724ef4bb8a3a37171e63a6cef275251e",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 2028533,
+      "checkpoint_sha256": "facd32ea84952574ba4b9c32887f0694ae1669dead8b02a8bee984f0a5bca6ab"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "9ae65ff73df78e69df1dd4401aa9ba3c18faa279b22facef2f4623672f3abc20",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1530869,
+      "checkpoint_sha256": "f29e5a629350574c44d0900b9dd6970e53eb315a32a32e8e9f28bb4a7495a60c"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "b542dd03f25714b2b308682cb96a5ab85f2c03944049456e248cda50153ffd46",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 2028533,
+      "checkpoint_sha256": "fca5d767ed4eaf5da963edf099e016110cfdd05ef334c4cc934707633d127857"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "e111231b1cf7392cbff383e0f6dec392f6e3ee2a4e493a645f00a6951866b201",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1530869,
+      "checkpoint_sha256": "0f840f81010ae393fb0c927031a7057bb78dd63efa2fe5c7e4aead05fdbbea16"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "0debd8c41288c35d8f64cc80ba11829f64ca58f4344e1eeef61d2f19d12aa0ec",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1530869,
+      "checkpoint_sha256": "d4585a2ff37ed3bde26ffba0c9ec9f25bb2ea60127dbd32cbc5155b20af40469"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "d375524310b70dddffd4881f5362eafae3b267dd0a240b66f9d76b64a1c28963",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1530869,
+      "checkpoint_sha256": "ad0477c969defa746f1a70d60005b3fb6c975045165fda3672a16e641c08a6de"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "4b8953dfdf37af06ba13c53ccaf0839e79c7c9a3693fb9ccb48c0edc850cac93",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1530869,
+      "checkpoint_sha256": "38404991e90d36da0c97427d3cddcb7fb489719a789fc5b713fd77edd0648bfe"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "5289806ed6d193b9fd74f9da67f3e2600e7054e664b7f55c3b7164d26c362e64",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 2028469,
+      "checkpoint_sha256": "de265d02108b1f5dfe285a432e6db18297dc388e2eac3aad876aeae5b00c230e"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "3e6f24ea05b9940d6835fe810aa0cbe8bc2f88090c25c300d8b5db0bfccf5ad3",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 2028469,
+      "checkpoint_sha256": "79ae1704ce103085b6bdb0f4ddc8c14dabb5952db7a73b32bf648d063515f867"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "a457eae441b6171dc949de2c4c4cd2313a772f160213e14160227e9b32f24897",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 2028469,
+      "checkpoint_sha256": "3cef3862f4b6d0c5829f701a64b10826105901cfd4a2bb98b7ed1a735bd32ce5"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "75bc956ea30183a39b62e8acf4f9056f45d7a6c90507a93dd9abb932be8205b8",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 2028469,
+      "checkpoint_sha256": "a2bc11a93c603b55fe8fd9a21a1a8e3a42f42a3ae0a68cc638038e09f2f4b767"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "092183e7d6f9af00715e4e91be636faddb50315e130f3307da563453f9391870",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 1530805,
+      "checkpoint_sha256": "a91a9f329da87debc06924785f70d5318fab43ff275127d6eda80aa7bbcffec9"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "fdebb41847ab464178f84a04d7c467f15922875c28b64f9a2f9281b507830788",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 1530805,
+      "checkpoint_sha256": "605931d94362541f657755d9b1fe659d5164e5a48562c51e42cd9580c4ba41b0"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "f9e57916ce35d21caf3b0d3ecff3db820f4516d8f36286bc6c4af08aa2498bc4",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 2028469,
+      "checkpoint_sha256": "afa353d0301217dfce44f9f4bd71265abd52b9d102d363d2af62839d6a1ba516"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "634256081114f440ef4e3382ec9b4ccf62a028033f7f68b7c0df31d4250328f7",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 1530805,
+      "checkpoint_sha256": "ea3067e5330741977ccf067a0f8fc1c15fd6d96655a1cc7f43d727c650fc5bdb"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "9eb228e10c4b7f33134062e86bf6ca50e2711d36ed81178ba40ce1c3efb47773",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 1530805,
+      "checkpoint_sha256": "defc4727da87a69d6767fc2ba55df38c7051fcb38180fa9f925f406b526f21ef"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "7feda62f2b8aab76b266edd1773cf2302abd46a965e77b8eec15e45880f48fcf",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Small__f030__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 1530805,
+      "checkpoint_sha256": "f7db8493664f2ff857d20dd488b8945563ad5fedbacf56e2254f0f5cc7205f21"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "e9660146e2d5e9c5e00d01d80f66fcc7d437933286e3b553b23f18fbd815bce8",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "e7869437d0e1d4fb2c12184a7353871a3352a32ba6e8d80317f704647168435d"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "8930e0be11fb2a48e24bdfba0d097821a139e5bf2f25b5a8b5cdcd889c36b416",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "13436263eead8e2016c2ed1ddd41103b972ea5deef7e484ff07d2b8d48a186db"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "03c3cd3005d0cc7a6a5b4c3af7b0bd261c465a596ad0e37422b876a4548a8876",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "ad86d8617686f795ab14536701f838e4544462aac9d8428579847814b46252dc"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "ee2dc642fb8c76ae2a5a531f5775b851d02e45b71ec4b55c5e02723f5c96d453",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "8aa44d5f3ce3e9ccab9ce44033417d0848bc06af97a4e56d285dac6cea7028fc"
+    },
+    {
+      "model_id": "corrected_full__Raw__Large__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "0745b1b06a32b29c86a83ce184f47ad122837346a1b8f640cb2c4640e17456f2",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Raw__Large__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "5235059c4f1af3efbc57dd6c9bc6a47e664fc999dcfb3b17b4507150075425d1"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "80d3b7baced6cbdc102f6af767599cb19189dd5922f4a5136dd09b0b54ba0645",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "3cb45d77b8a9bbbf8d7201a3957bfaf5a9a486c53426fcd74ed14a3f006a1427"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "fd1f0b703ae3826ccb7a36e1b53640ea9d4bbe016661736ccd627d37da7dbfaa",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "6d14caff29569e4197b15a6ec60b35676d56ecee5cf6adf38797d89ae93e105a"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "af8df031f605fb4630ad31c0ba3c1986ebe5e8e95612c7ec472182a333d7e0e0",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "f386afcab0505f0329d5f7db85436841718df0a2b9656394b808f4e1ef6bd750"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "eb8909db4a184f32b014703b8eec184222d6c03c740347c58dddbec2fd7d696a",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4887989,
+      "checkpoint_sha256": "f9b7e92bf4a99a50c4dda653ab34b56bf380b05307a693dfc1a2bd122fa773e5"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "de30828195fab1420a1e24ec64c6e518a351a2a66bba92149f56b4789857eab9",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4887989,
+      "checkpoint_sha256": "3a13253c81006d49fa50e5fee034930c76eea272bc8ae98353b427d545e6f19c"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "4f34cf61cf24197304e9fe1595636934c6c6881a399ceee6de1359da339db072",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "9e443b8421bad7da1e49be0535bfefa8d8042cc237e7ac6f660c299be3c818c5"
+    },
+    {
+      "model_id": "corrected_full__Simple__Large__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "4205247736dc5f98c726ec4c135a5c18fc36c1863dd3a4614fa3a10af867449a",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Large__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 5385653,
+      "checkpoint_sha256": "af42096ccc7a392acacf1280100b84fe5a298d9892603a4e2164e711b6899737"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "15d672eafc3b0ab7d245e7c9c1d986c0f2be3c6d2378ab10e59d75908b176d0b",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4887989,
+      "checkpoint_sha256": "46bfad1975f48e744d8be23ffce9d6c74ae67f939e08e61aee695e08ab238188"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "5c84fa30aa7cf9d8ba395092a3c748fe01690bd5cf3d6b81ad0410cb9e58d0ef",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4887989,
+      "checkpoint_sha256": "b1d191bc9c8f5fbc603ecb10ab7cd0e8d9dd21a9e0ab5443f28a2df9c3e89904"
+    },
+    {
+      "model_id": "corrected_full__Simple__Small__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "790ce5d6a1d4f70fe67a56825596aef9c06da0229d0acac9023721a7e18278b9",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Simple__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4887989,
+      "checkpoint_sha256": "21b561efd64fbadd611fd300903812c19f3986db7c2b1313f6f2a4cb005e8d4b"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "3a4bddc6f6c70af628564ce2f8e6fafd6073cd0942cab67bca6c2e2ce534d43c",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 5385845,
+      "checkpoint_sha256": "cfb8266ce5ce8b4b7cf826dda73308d559d6ec6e12f111d2d2bb2dd79fb5eec4"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "a6a704371b7467fc0b61bb42f643a3faaba9d48e8aee140e071df6ac1f2c3b10",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 5385845,
+      "checkpoint_sha256": "c6f1bb9375cd4c7219c22ba4b98a634e952be628da3a17d1737b28592c7571bd"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "8e7204449ad2438431d979cb437103715a5463aae313e11a65d55091bd793ed6",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 5385845,
+      "checkpoint_sha256": "132e42cb1c3f82b13d80cd6edcd91ecd98c9a225f1e6bb7231ef5e80170d9f21"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "908dcc82d160ac7f3da5777f10cdbfaedfe2864d17d2a336ec51838c438de831",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 5385845,
+      "checkpoint_sha256": "afb98ca17d186431d61307ac2220addfad6a61ac042e53186df24362377e8e7c"
+    },
+    {
+      "model_id": "corrected_full__Learned__Large__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "8ef14937f0acd89aeea53f459d86495d1764ca31674ae1301178f5d392ed483d",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Large__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 5385845,
+      "checkpoint_sha256": "f89c6bd21853d62e70466ac381d29d447220812309f8e3d9600f1bb783b636ed"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "ad29a90d95acaec43aab2331da6010eca6b35c559da4e2b1e848087b51b10fb9",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888181,
+      "checkpoint_sha256": "87d614df9de7217bfc92ddf57958f50436701c9c09783b315101fc5940690d1e"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "c8e648cc3046a9aafc4bb027cf39156aa1fe8209a4f46bf671f1b808ff9b6f09",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888181,
+      "checkpoint_sha256": "eee36e7e7baa689f7bf5fd2db2995c44a88696091fcb7489f747d8ff359a5ece"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "09a049bb235201316e1b81e568ab06c7842ef9d430bfe3f9580ac6f5e8deb55f",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888181,
+      "checkpoint_sha256": "50006f5ece7f82c6cf012dec0527524b990f82ee20eaf2c5ecc5a46fb63c63e5"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "3454df932027611fecaba629a6fd4f8f8bf8a07967622fc02e8d608f4d1ff8ce",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888181,
+      "checkpoint_sha256": "e51109dba239753025f47420179e001da0d840294a458fe4b9cb98067940e2ed"
+    },
+    {
+      "model_id": "corrected_full__Learned__Small__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "bfb32749d1dc7749226e3818179c971a88374c09a457e15228d78b2c0d048852",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__Learned__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888181,
+      "checkpoint_sha256": "489ee682894304b5fb8abafd150b138a04f142d84aa721cfc449c31e65d4742a"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "f51117296367f3cdcc5ece5b97667960b9e269c78e137b4623edff6b4e4b37f8",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 5385781,
+      "checkpoint_sha256": "d719db23c084f74eb002e90522b88c86ea64c508d386ebdf253872733a6b0569"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "f14f83623fab0ca68c6c1f798c809bcbdeced8c279fc1d8b152fc5a6693859c0",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 5385781,
+      "checkpoint_sha256": "56ca01757d1c2e3ea5998175e5214a6084c717ae2c1b514396c4a296b99237d7"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "9bc742629f492a6943e474b81ff244fac6070be9cf4170751306eef331a6a81e",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 5385781,
+      "checkpoint_sha256": "fbf358b71720f30c50fb466ff73c57836e450a9c52307ce4a71bd0012b7fa771"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "3c5381319bda854331c62bb44b0ca6074c506f09c4e2eadfd7ea99b7c56516e4",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 5385781,
+      "checkpoint_sha256": "d80f2e291a2bd605e0df1595d11d290cec5532608db813c72f38642f812c6514"
+    },
+    {
+      "model_id": "corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105",
+      "root_key": "full",
+      "experiment_identity": "baeebe3ea8f65ea504a996ab220be1275a8b851f526db66d6f269c142eabcbe7",
+      "run_manifest_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "d3bb2f7ef9c65a0e73732fcb318c7319db20603f386326f185ad9298fc9f6f71",
+      "checkpoint_relative_path": "reports/corrected_formal_extension_20261107/study/runs/corrected_full__CorrectedPhysics__Large__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 5385781,
+      "checkpoint_sha256": "747fdd53685c52613d071f7e571d74d13f450eed6a01b8f89b571934d84f892e"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "40168501e96ffc225842c44445c85d350f9edb93d368d8e3ee6c32040b728d6c",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572021,
+      "checkpoint_sha256": "db004be983b3787f5bab3c0882c45a69a97977e0d38a0138d4dd68d1721c8b63"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "83d0025c38953e95432eeddbeaa7e54dc5fb4fc6f325762087d3de72ba0e4074",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572021,
+      "checkpoint_sha256": "febe7446a49049d0af5c4d85071580868dfc7e802203b6333fa6ddaa751fbed6"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "3b053904d5ebdcf53fd3a6a03c786214fb849a09e7a41ded0835a177456086c2",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572021,
+      "checkpoint_sha256": "f337df6db8bafe78c416e6e1d4811bfb48b4641fbef69b4d2f3dbdd193f23342"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "f71846b83e14846cae8e95c5d356c220b8b177cdc40d2d1725c06a8b387659c5",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572021,
+      "checkpoint_sha256": "502c63766283a41c97ac05c6df6cfb224bae07cc25a3a2e7ffcae7e233a64f41"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "909b3fa9b2b3455c5d9aced77ccc331f211403d123556dc3961d64f76358e4b3",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572021,
+      "checkpoint_sha256": "07a0235d590968c01ddec13eb4e1f4232bec9d00d00b1a212bb1cf785be6f7d1"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "fe7e5443ee534ab0f5a3bd8e1e7e65932ffe4f7a55c5a1b522ab6d3f19a69ba4",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888565,
+      "checkpoint_sha256": "b26d0079c18c02236f13d968a5ab9c73c07fd2915a1d1c8da10d88da2b7fe87f"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "ec380c39c4885234bdde14493d9aca6f9181035c23cd3264bf0892f2957bc2b8",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888565,
+      "checkpoint_sha256": "5e2a1da30984c0e95c6743ac92d1d1a0b3f872091c65dae2f08d6ed6c134fb90"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "1a95b876365dcaf9cb06d66822d8509eba6342450ad55c1be12bd256560fa4d6",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888565,
+      "checkpoint_sha256": "a81da7f4bdeed381aaf725f4158c21dd238526c8a4de48e4fc842cb3434df9b5"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "03e14b4c47a3190f92a1bbb3d45103f88a3009c3ba22c6c167d3fe76d48dbf88",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888565,
+      "checkpoint_sha256": "8da7da8e214d36eb65bc47fee0c0c3e94863ac1c26b1b99ecfbbd71f5a6ac14a"
+    },
+    {
+      "model_id": "information__Hidden5__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "b344f6e1ec30f140193de89453ed84d04158bc8d57656f7007449794c7b667c4",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888565,
+      "checkpoint_sha256": "c7e5c82f8f21369945d0c09a616d03fe7e01d54aa815819c70ffd9f3a2049cc2"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "09bacb803db31693e9ffd86985e29cf1ff34f843e51729274cbcedcd14dedcfb",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "55849b45716a057ac2fe42da40607bc11f0d6ea08fafd04cbb2d96d4c8489c24"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "e494758ba1529c47ef6b5c0111df2b9f9b8a35bfcc357b03bb7c1d649d2da00d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "d81b9082c5c4ce901c63cb7769a27b8daad94d40b2f1a22920275fee74042584"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "22c347b65ec40862e598dd17696d9bc5630e701177688cbe116a310d60882839",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "4c7aba7f34a0fa109a8e7bf8305b927ae57dd012519549a511f531b842dc9214"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "dd8ef8aefe4b6074a29a256fd95de4bc5ed9e78defc04e3be6f6421064e15f8b",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "b41d603123cd1b6822cba24242f839557f3459eab99180b2a2e9d554e20e9edb"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "0ba3aec3dc05e6d5a49c319579aaf8e1ceb24a87a77ef3a3595849554284f8d8",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "ab554e98b2b5958e2d35de6f4e91e76877cab1a7cb13e010e957b9967fcd6248"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "34054050995999747aa373b05d56fecf5c091f1b243faa3dac57165227298c74",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "aa2c1cca8019f1be88a433cc2d9e78c4beb712ca5a6ed9179940952af76b1f7c"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "b530bc1deef3ff7de987cd709fb2aaff737c7cad4724df89dd681b22b4ef0ee1",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "0d936074269c340c2c2c5264dd540bfdf4e1286a7311458bbb3d0a9b2acf50e6"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "38057833a6b9225831db0a6b98df93e801c3a2d8d89199ef0f6a3001be0b5889",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "7ddd384af6486a74d282d0ff47fff638cb696675e6658e04fa7ae52e115671d8"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "0ef813a69688dc8c953a11b75118b68dab58e3e7cc61aae234422e4a31f18acd",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "21edb5c6da166726e6539492516a140a14c9ca95b8ea256789cb490a437f6533"
+    },
+    {
+      "model_id": "information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "7252da0083d4fd7fa95fd95c44e4c63f349692b1a0bcb33109ca933a8e840659",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Hidden5__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "e99536ff76eb09a1d9193e7f4d9b00096fa66541c6a55675ced0570e6c70a3fa"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "3f8bde63ca75c36e9704ac948288e752bc257c392b809f31f1f6b80058251486",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "5cab2050361de08f356ff9c02d4ca04527ad079c0a9c45511b12394942dc1b04"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "bec76640a29f1a9c6ad0c560576707ba65003de88985e447c996ee33f5f0a4b5",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "1e86d8709ddf52aac0ab41f0950cff42c0ce2ac15b0dd21efa8f2829a13a2cb3"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "12ddd26f4d99052fa64f55bc948e9d55058fe780bf1062d3f5658ec41fdc05dc",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "c4efdd83d7c91dcd3b87e7089745781dd7e4e3705452bd1c05657351187fbcd1"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "843e37ea7dbb11fc9c1088ac1e2a425450a341e0190d8245f6eba1cddf57b2fc",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "ac0a586e7ed9f8f4d1c9266a8ac0361310cf8212369d0cb736aeec2fa6048620"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "4b9db8cf1504f231dc6540679fdfde392515ce7b3f104a103f31743a9adbaf35",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572149,
+      "checkpoint_sha256": "7a5e889e5b30adf6e5c044d545fb6dbae05952009025ba85483c2e55edbe689b"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "f102d6ccbf02f2388ce162477ced5bdfe0d53a4c29f2863fb4e85d93fff15558",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "1b4febb2df7028a69b96235605ece215b2b7a1792ac92611750a6b9ee557b261"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "ca245dfea7cd183cdca9a715ae4f201e7220190fb039bdf1d6fc57aba2bb16be",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "fd992664346de6515faef8da30932f1e8f21284ead5a4f8c7d2dc16f1dd7d235"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "ed530560f3b0114c8f6bdb801c787e773fd82e82e056e015dd2705f668f74e75",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "e93b3b0faeb6a1f174cafd8c249e110c50354f3f8c5431b15a44e89b93224c14"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "c0279f15604567060a70fad14fe434ec9040913dfc707e8c1bca7e501cb67ee5",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "d85576c1b11855a85ccf2b246ff1d2814a81ebc9b39e4200a28a93538cce90e3"
+    },
+    {
+      "model_id": "information__Coarse2__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "cfde9acc994d0577c0d891ef6a2925dd6234dab098f8f0f89f5f7329b17ecf1e",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888693,
+      "checkpoint_sha256": "71b1c37838f9df433cba6ccc0c98d819bb57806072685d358935d4f4982b8bc7"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "bf03513506ebc4e072921b49dd73a4cf300c5e9c90fe40b729f3e81381949270",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572277,
+      "checkpoint_sha256": "8c0188dfd21ee6e1082f805de3f37b9670742e90bd8ee28d128bef5b20bb9f5f"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "60ded1fc9454f1a6be00cd9c143b15b513fbad8738ace3c57f492e66a836b482",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572277,
+      "checkpoint_sha256": "6f91c23fb7267a380004ad20b1a3db8a8e0b4bd3d74e8d2215e4a5acd89d22fa"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "ae27dae4452db9dd082e8be2491174a60c0596de39ad0fbc99454c42fc0e9460",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572277,
+      "checkpoint_sha256": "2b53a8879e6efb300e9902fb640170e8dbb8dfff00f607e6e9dd394a8de5e95a"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "25f8f9e5ffa227fbd79313cebd93b40ee67f60eb7bad9c40d94f4df2c960b9cc",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572277,
+      "checkpoint_sha256": "7db70e440cecaba4de4e9ef9ad87528029f1d06f9079ccde28d9a6d882002cf1"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "bade4e911918303c0e412f92385ada0681205d0c7c23af29a88d775862eb91ec",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572277,
+      "checkpoint_sha256": "806fa53a48766d4a889e4b1bb09a654bfcf168e10ebfb2acf9410702a99750b6"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "52dae587256abaae32062443971ad45b9576808630fbfc5793ed1072d4dc2bc4",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888821,
+      "checkpoint_sha256": "a528c46ea953a9176c3cd04b0516d3215ba07072cd3987fef275ed2434e33b83"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "d94f1105ea206acafd4812570b421172ce14c1a000b9ba91c87476a074f66209",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888821,
+      "checkpoint_sha256": "71714949925d97e89e6aa651242bcfd91e0f3e0b387c89a533a5d4617ba02418"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "8a685b209dc0ba83a34f9588a058133375d3c2ed01f8fe90ca024064aa1c3440",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888821,
+      "checkpoint_sha256": "65fa6a57fd8fb4de43125851272c532e0fd6e8bd4cb2f0272f7b6858a99234f7"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "6c0a5235e3ba860c685992e87fed09e10b0fae7c137e7150044e5dc71a514bf0",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888821,
+      "checkpoint_sha256": "8b3a201a8cd6b09805ab9efc2afd6b76f957e9904cf6bb00f189c48f58f313c8"
+    },
+    {
+      "model_id": "information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "f660347914fb8242e5650fa2875deb1ae60126961c9a54d99f7096fb41185b91",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse2__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888821,
+      "checkpoint_sha256": "7255ec5013f8923733f99f031c56f62af598650108418456cd0af6ad29013ba5"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "a367279e7cb14926c1c5ddc1bac2cb390fad13ff4980f0e8b0bd7d52d5e0840d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "57afb16cbfd486c06b5ed885beae2d36f589ddb7a770ec1c3d482aa9aed1de27"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "a37bc6629107d7a799dc4a33612436ff2ee7e1335173735bb16515d6f065f984",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "cc683a18430afccb512bd8cccb675a5f3b323b7d9fe47e6b85dc2e30b2a20cea"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "cec670c1ebbb4e273bb4fd690d5d36d411098d699ad00804b43f2ec114c2807d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "8f2a23d85ad615d1e88d8ff6298f4687f75e9ef986cb0650835bebe04af2c0f7"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "3421c1432d1bd6e5c0ce36af1a3febc2b5d158d053d3b149f494000581653f11",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "14eaa959ad548e439241c42d7636a46a84498889ae97093f8c097301e4571c8a"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "145a665865789be8f12755f6431fc7220412231e4adec06614cb36662b147989",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "dd26b8268e6342a4f280a8b1717662caa3cc9d54d6dbb230af64cac1667c0a70"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "a48ba450bdea3d98cc1e0448ef040b003aa7d9ba03d9d2aa2ec4e746d36de819",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "f74ac427daeff5319753d5af29b4dcb5b13b0bd80e0630f6b66cf70c1ce6080d"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "3d90e65ff7ea6998948b9d4f9736b7a95f1f92c1fc849842a771788709a11415",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "876fa65d919a3f7b6ede23d3ddc837a296a511a079d4c1fa29af3ba05236fc70"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "deb066920fd195333d45bf3f0062890d15ef880710d1e754a2069ef5c3ed2d2f",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "c00c27448269636343068263a5507ad9e918a22ccd6ce20a49cc7e377ac96b0f"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "3ab198d9d6e7279c5264245ba52969df3903e42c24e79d046ecd2621593c7a90",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "8078327d9819930108a7f7b7ebc726a47aa76d671978ee76b38d99e7d5b10573"
+    },
+    {
+      "model_id": "information__Coarse8__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "fae2fa686d6b1e84f7c9e253ba989b3c6850968d69566cb7094b122c2a90f7e5",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "665f03a2cc770ab855729997c2c65ac77ed903c375a633905cec874616265b56"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "322c64cde318e68390f8bc6204b44c64a5dc9918ed3a7d9387d77541506c7926",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572341,
+      "checkpoint_sha256": "d2b903d478040982b9226ee2357551d9a9eb934aa757dd75d200ff513288a2d1"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "50c02963501990d7809cac4ac8838a534f7df7ba2117904d3443cd5a44405846",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572341,
+      "checkpoint_sha256": "28db8e616f1340ad3d822c339569b5227fc339ca99c4d00e021afa6d603f5051"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "f8a5e0af1c5d1707141a6f0d79af03d77ec004d2c71e8e3aaedc9332466ef80f",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572341,
+      "checkpoint_sha256": "434b8458fa8ee693ec041d8333cdaf29d4d996332d3f7aa0576954ca36bd638d"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "ba4970c2cff0ea299c6c6833ea3a673a4bdc4998659ed53a8078da482e876e07",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572341,
+      "checkpoint_sha256": "7baf2a174d52fe998b272da96d793e109e78ccdc83e6e9475588a9cf00963d72"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "2740308207dd52828da53d84828e6dda837fd84068773be384fada6e302731c7",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572341,
+      "checkpoint_sha256": "1827256033e3fe481f4ecf04d271abe7f1d3d17114b189cce64f06a80cea80d2"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "c0b5a01f8edb67268f23694419bc5a0dc3fe289b8e7bcc5eb174a6b67bfc42dd",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888885,
+      "checkpoint_sha256": "3a82f3566b1d5a3e3361c37dc00592da6c47beac2fd467ac3f3bef8ab667016f"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "09a6254745492b27e70b6bc0baa007beb0b0e2a02055fc51d4b2763763e89fd8",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888885,
+      "checkpoint_sha256": "5920457a564843afa75b7ef5159d5cbce2898f768ad53b45da3da5cd92f47eed"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "bde541cb01a4a466a47420dd16e82d52e4825ab28513a0579805b39bcadd46f3",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888885,
+      "checkpoint_sha256": "94ad915372078c7a1ad48714ed5041af8c473637d79e8cc7c9445d567f7576db"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "9599943e9524b3f658c1d5a8f6ad3e3dd5f737e21e3539e1d208cf877bd66f26",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888885,
+      "checkpoint_sha256": "35f62369ae6b824b3bb5cd194b87d3367bdca17a2e0880aa75fcfea84bebeeec"
+    },
+    {
+      "model_id": "information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "6c72beb60ad6cc3690b3b15f2b8301d4ab009a8bec25839abb9e8ac4e40db845",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Coarse8__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888885,
+      "checkpoint_sha256": "37e26992707ac555d51277e4f95f3ad6966f1b41fcb126a0c013eaa93b079d29"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "2fc2e76b110508e6d581cac9f1d83fdd462fbf9a262ac225a73c34bd648f1ee5",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572085,
+      "checkpoint_sha256": "9b293aba03f0bc720861818fc60f8b5b5322576c37124eba67ac8f40d68a129e"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "48ade800ed0b79def98fdca01f31f15fb86a25d9c2c9cba06466da1d887a234b",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572085,
+      "checkpoint_sha256": "e87cb04558bdeabe290bc1a9d5431562d997b905bb96d7eacfe705383d6f9d77"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "99ad335f5e7cdd5ecd167a25ef085f3bae8d473342caf5378f6e4bc95beac9ec",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572085,
+      "checkpoint_sha256": "46d6cb7fe50fae90617e8e778ba23dbfd2d249e90890bd3b5b8fe72bee1c1188"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "967ccafd2817a8c3b69b44f1b837cb535e07d85ced462b6d1b247b93cfee1bf8",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572085,
+      "checkpoint_sha256": "aac05f4e7cb04d314f26631addb8c4854cd7c76479c6a11257500d36b465ab82"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "abdc67bba18b5bb32dd9ec7fc0578a6bf195c5566be9bdeaa98fbfc9aed948bc",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572085,
+      "checkpoint_sha256": "abd58480353a9cfae5e152e669598c2b2ef396b0417144d0681f136caee888d9"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "829dd4b5c75d6b9e9d4e9e4c2bd2a7564e07bbb37a328da09697b94d57c6b941",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888629,
+      "checkpoint_sha256": "89fa76b92a834b38f7fac449b0946e2e09274d669f05d1ff0e44542ef22d4390"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "4d7ba9d748f773ab5bc054ee89482b1de35875a2d79c44c3451f80d5a946dfdc",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888629,
+      "checkpoint_sha256": "710685dcf9b6f8a8847c9ea4c43d402143afc4946bd89df7fe169d20db92cb04"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "cf8a79846e56987d4cb18d26c7984ef6070cd25576fb7b3c1291332ac4253f11",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888629,
+      "checkpoint_sha256": "cb7b4be0981176fd70acb36c4795165288d7cd7552ab711a255fad031ef6683c"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "af513f03debd72ef26bb480e33204db62b549016852921b5de8660bb95541a8d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888629,
+      "checkpoint_sha256": "d557621c397245cbff6a875cd42d8fb81797c383ceed239388777595437a6a5e"
+    },
+    {
+      "model_id": "information__Full5__Raw__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "4333934cdccea53ff3adc9cd5653d16a7af04faeaddb3391297e5b043679e0f9",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__Raw__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888629,
+      "checkpoint_sha256": "7536727975deb99938c3a07c118cc88d8231dfbeccffd4c816d8e9ca8d4e085b"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "bd362974ed35c3f200635c2e6ce0527be4c69b1e4378dbac921df597a8cb9b01",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "36aa2d9de7de293437e2e7887651921f52db74baa4e3f6698c0f4031d7be060e"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "0aef40b636b31f3dbba4ccd37b10d14d3197a1a3eb9fc64682d6b22469bfdc88",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "0b6fb2697b65b39b15133ea54a6eed27b0646db93380ee979f49cd9509c95193"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "621d25681c0cfe9ca45fccb3ee90cf8a8e80de809d871f3517969ff79024e51d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "b3db029a1a22d452ff37e4aaa0be2241b82f4cdef221b42386b88efd5b21d0a1"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "72cdeef2d5fbbd1d191860776ca47e8ffa9d0567118cebbafbc41602012a049d",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "e519b759e7f31345ece9370d96939d4b3fabe08377944705c351f18dd145ad94"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "e3996a880eaaeb18bf818fe88953406b219e9e583757cb578c0fb5674b7076cb",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f010__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 572213,
+      "checkpoint_sha256": "96fecdc24d5bb2dc68f691e3508056e1528afcc4966b7d237fc28bf94368d83c"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101/run_manifest.json",
+      "run_manifest_sha256": "cb903c372be8dbdc3dbe7abc4fa5a256b4bbc272915360d2c53619fae7b0f018",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3101/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "cb246430724d7c20926657a9301d9eae67bf892e2d51cab46ff7113c59edc0c1"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102/run_manifest.json",
+      "run_manifest_sha256": "ec6522e3f65f74eb1e21537b4fd1563f5fde699852d3e9e467f19d4d55e6b514",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3102/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "093baf83b7c7c7ad5409d8729db0f22b8d705c60afd1d5d2ba600596583fb7cc"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103/run_manifest.json",
+      "run_manifest_sha256": "b6af9a4c36609488c4e8d1a49933b541fb5cd344e414dc874eabdc27eb031829",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3103/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "8372c5f8dc1a57835ea9f9a37eb5200af0f1c1a00fbb0125364b7aee5690af72"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104/run_manifest.json",
+      "run_manifest_sha256": "8bff6e9208db7d3e23c435962d110fcb81545ad995f82a70bd8a26faa0b3f7a1",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3104/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "039d86e822aa7162e7f3ce398320671b4e4755abe15c0fe5dd385df3497c124a"
+    },
+    {
+      "model_id": "information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105",
+      "root_key": "information",
+      "experiment_identity": "62f644b27410ab9b4ca87cdfafc28590e498e06cab10849cdd8b0cfd60d0ae54",
+      "run_manifest_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105/run_manifest.json",
+      "run_manifest_sha256": "17200ad5a650725bccb8528033a228f1889e030ffcd169603f5b3540951a71bd",
+      "checkpoint_relative_path": "reports/information_extension_20261108/study/runs/information__Full5__CorrectedPhysics__Small__f100__sub4101__seed3105/checkpoint.pt",
+      "checkpoint_bytes": 4888757,
+      "checkpoint_sha256": "dd6433b471e84c3cd9eb00d84a186485da08ef82cde52b6dbd14cf28048f01aa"
+    }
+  ]
+}

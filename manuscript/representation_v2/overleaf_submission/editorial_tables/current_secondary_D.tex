@@ -1,0 +1,40 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lllrrr}
+\caption{Complete secondary center, capacity and training-fraction contrasts on fresh catalog D, all with exact momentum inputs. $R$, $B$, $L$ and $P$ denote Raw, BB-centered, Linear center and Polynomial-ridge center. $D(A,B)=\mathrm{NLL}(A)-\mathrm{NLL}(B)$, so positive values favor the second model. Small and Large have widths 32 and 128. $\Delta=D(R,B)$; the final five rows compare this gain across capacities or fractions, not absolute NLL. Effects are in units of 0.001 nat per eligible event. Means, sample SDs, ranges and positive/negative/zero counts use five paired optimizer seeds. These descriptive seed spreads are not event-bootstrap intervals. Catalogs C and D are reported separately.}\label{tab:editorial-secondary-current-D}\\
+\toprule Contrast & Capacity & Train (\%) & Mean (SD) & Seed range & $+/-/0$\\ \midrule \endfirsthead
+\toprule Contrast & Capacity & Train (\%) & Mean (SD) & Seed range & $+/-/0$\\ \midrule \endhead
+$D(R,B)$ & Small & 10 & +1.876 (1.836) & [-0.491, +4.072] & 4/1/0\\
+$D(P,B)$ & Small & 10 & +2.381 (0.891) & [+1.465, +3.677] & 5/0/0\\
+$D(L,R)$ & Small & 10 & -0.715 (1.750) & [-3.726, +0.671] & 2/3/0\\
+\midrule
+$D(R,B)$ & Large & 10 & +1.902 (1.481) & [+0.496, +4.325] & 5/0/0\\
+$D(P,B)$ & Large & 10 & +3.102 (1.220) & [+1.338, +4.415] & 5/0/0\\
+$D(L,R)$ & Large & 10 & -1.062 (2.089) & [-3.974, +1.692] & 1/4/0\\
+\midrule
+$D(R,B)$ & Small & 30 & +1.543 (0.950) & [+0.511, +2.951] & 5/0/0\\
+$D(P,B)$ & Small & 30 & +1.253 (0.728) & [+0.463, +2.164] & 5/0/0\\
+$D(L,R)$ & Small & 30 & -0.630 (0.545) & [-1.384, -0.012] & 0/5/0\\
+\midrule
+$D(R,B)$ & Large & 30 & +2.143 (1.377) & [+0.757, +4.422] & 5/0/0\\
+$D(P,B)$ & Large & 30 & +2.965 (1.086) & [+2.140, +4.520] & 5/0/0\\
+$D(L,R)$ & Large & 30 & -1.124 (0.709) & [-2.281, -0.416] & 0/5/0\\
+\midrule
+$D(R,B)$ & Small & 100 & +1.659 (0.973) & [+0.371, +3.059] & 5/0/0\\
+$D(P,B)$ & Small & 100 & +1.911 (0.688) & [+1.255, +3.059] & 5/0/0\\
+$D(L,R)$ & Small & 100 & -0.737 (1.113) & [-2.055, +0.480] & 2/3/0\\
+\midrule
+$D(R,B)$ & Large & 100 & +2.348 (1.704) & [+0.413, +4.514] & 5/0/0\\
+$D(P,B)$ & Large & 100 & +2.389 (2.208) & [-0.874, +4.762] & 4/1/0\\
+$D(L,R)$ & Large & 100 & -1.130 (1.364) & [-3.556, -0.340] & 0/5/0\\
+\midrule
+$\Delta_{32}-\Delta_{128}$ & Small--Large & 10 & -0.027 (1.745) & [-2.059, +2.076] & 3/2/0\\
+$\Delta_{32}-\Delta_{128}$ & Small--Large & 30 & -0.600 (1.750) & [-2.424, +2.194] & 1/4/0\\
+$\Delta_{32}-\Delta_{128}$ & Small--Large & 100 & -0.689 (1.537) & [-2.858, +1.479] & 1/4/0\\
+\midrule
+$\Delta_{10}-\Delta_{100}$ & Small & 10--100 & +0.216 (1.221) & [-1.811, +1.310] & 4/1/0\\
+$\Delta_{10}-\Delta_{100}$ & Large & 10--100 & -0.446 (2.565) & [-2.781, +3.912] & 1/4/0\\
+\bottomrule
+\end{longtable}
+\endgroup

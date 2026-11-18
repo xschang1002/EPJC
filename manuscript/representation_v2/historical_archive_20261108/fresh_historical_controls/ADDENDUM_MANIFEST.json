@@ -1,0 +1,63 @@
+{
+  "schema": "historical-secondary-table-addendum/v1",
+  "status": "PASS_EXACT_COPY_AND_36_ROW_COVERAGE",
+  "generated_utc": "2026-11-08T15:22:10.285007+00:00",
+  "entrypoint": "historical_secondary_archive.tex",
+  "rows_by_catalog": {
+    "C": 18,
+    "D": 18
+  },
+  "all_secondary_contrasts_across_current_and_archive": 82,
+  "copied_files": [
+    {
+      "source_path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_C.tex",
+      "path": "editorial_tables/historical_secondary_C.tex",
+      "sha256": "7dd6d8510a0320577f3e34b4b29888910e0c959500d50e47dab79cb306b0e583",
+      "bytes": 2635
+    },
+    {
+      "source_path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_D.tex",
+      "path": "editorial_tables/historical_secondary_D.tex",
+      "sha256": "c2d78681a9114de799ac2546e5a23e2f309148727b57c2c8f3f9f87f2e3aeef9",
+      "bytes": 2635
+    },
+    {
+      "source_path": "E:\\JINST REP\\low pion research\\manuscript\\representation_v2\\overleaf_submission\\editorial_tables\\historical_secondary_CD.tex",
+      "path": "editorial_tables/historical_secondary_CD.tex",
+      "sha256": "da2b8fbf7f37eb3021f5ed4b88d1dbc25d68739309085363f10972785fb5d6fa",
+      "bytes": 104
+    },
+    {
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\TABLE_NUMERIC_VERIFICATION.json",
+      "path": "provenance/TABLE_NUMERIC_VERIFICATION.json",
+      "sha256": "653d863d34bb3c60232561bc53db46342d29b92be2026f93b193987b56b403af",
+      "bytes": 60231
+    },
+    {
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\TABLE_DELIVERY_QA.json",
+      "path": "provenance/TABLE_DELIVERY_QA.json",
+      "sha256": "20f81cf3b763b97ad5fb8198eb2303ba99bafd5e7592ef3cfc74b882eb4b5160",
+      "bytes": 1838
+    },
+    {
+      "source_path": "E:\\JINST REP\\_editorial_revision_20261108\\TABLE_HANDOFF.txt",
+      "path": "provenance/TABLE_HANDOFF.txt",
+      "sha256": "7f9280285d071c4c31c64e9793ac9ae8d94004b533fe385ffe8121ec38c4f84b",
+      "bytes": 1921
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "historical_secondary_archive.tex",
+      "sha256": "f395bce9262850014606a028b513596b6c0d7f7ed2e96419529905e5485c902d",
+      "bytes": 748
+    },
+    {
+      "path": "README.md",
+      "sha256": "9c4e45b2a750d01a7c502859f1052f96c4acffab901a881943075829746ae7cd",
+      "bytes": 1057
+    }
+  ],
+  "original_table_sources_edited": false,
+  "archive_wrapper_rendered": false
+}

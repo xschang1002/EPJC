@@ -1,0 +1,87 @@
+{
+  "scope": "Completed core60, Full120 and all160 confirmation figures; historical assets preserved",
+  "source_figure_manifest": "reports/correction_v2_20261107/figures_core/figure_manifest.json",
+  "source_figure_manifest_sha256": "c4a46811e456ae6ff09b8259bb1caf6830eee0835f50e00e0f142b2e2f449e64",
+  "files": [
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure1_analytic_centers.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_analytic_centers.pdf",
+      "sha256": "a07908df26227d18ee1a1d85d64c33d4f27e2343bc78e45c8bc37790a2e69932"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure1_analytic_centers.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_analytic_centers.png",
+      "sha256": "153466f0cf3015c3da30bbf84a56e61a3889ed46e7da0558083ad8f287fa3b82"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure2_controlled_contrasts.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_overview.pdf",
+      "sha256": "f3dc87a9ec83d0e67a70d8d84fd92fad7c7529535196fa9234538fcd04620bd2"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure2_controlled_contrasts.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_overview.png",
+      "sha256": "f4a45963ff13ad6a2f234afbc42697dab0a076252dfcf607b6202685201a7b34"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure2b_corrected_only_detail.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_detail.pdf",
+      "sha256": "8fca4267e87f1ba036e2002dca35624bec70977f146dfebba468fec7428cbe24"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure2b_corrected_only_detail.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_detail.png",
+      "sha256": "28f9ac16a2a5e1e883136030004f50327e4938f4e882ac23c1fddd6d2ccc3000"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure4_posthoc_within_condition.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_within_condition.pdf",
+      "sha256": "06db1c9da3573ad13c69d80cbbd9305f8e5fbc3061891feb0bf03646ded02dde"
+    },
+    {
+      "source": "reports\\correction_v2_20261107\\figures_core\\figure4_posthoc_within_condition.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_within_condition.png",
+      "sha256": "5e7eca6bff81fefb2d66accdf2d11db79fac26532f90a177d17f51e620b24ba2"
+    },
+    {
+      "source": "reports/corrected_formal_extension_20261107/figures_full/figure3_corrected_formal_matrix.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_full_matrix.pdf",
+      "sha256": "a89a08a4fa36582c0e01dfd588472f409323f680f3abe59012f95114362819a6"
+    },
+    {
+      "source": "reports/corrected_formal_extension_20261107/figures_full/figure3_corrected_formal_matrix.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_full_matrix.png",
+      "sha256": "5390988be4c86f0dfccfc117a09665fcbd613b116590e25e1f0ce2a3b9358452"
+    },
+    {
+      "source": "reports/correction_v2_20261107/figures_confirmation/figure5_core_validation_confirmation.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_confirmation.pdf",
+      "sha256": "223fe8081f8a1a7865869036382ad46f91872128d677f7d06392d29ee22a9bfc"
+    },
+    {
+      "source": "reports/correction_v2_20261107/figures_confirmation/figure5_core_validation_confirmation.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_core_confirmation.png",
+      "sha256": "b95cc0e932d4cc4b7ee2a389529183726fec315693f28b519f10ecdc45d5120e"
+    },
+    {
+      "source": "reports/correction_v2_20261107/figures_confirmation/figure6_full_validation_confirmation.pdf",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_full_confirmation.pdf",
+      "sha256": "ee1799590218831304a75f7ce0cd753ad56dbb993f6e8d79f19d031466b233c5"
+    },
+    {
+      "source": "reports/correction_v2_20261107/figures_confirmation/figure6_full_validation_confirmation.png",
+      "destination": "manuscript/representation_v2/overleaf_submission/figures/correction_full_confirmation.png",
+      "sha256": "8b547b6e10cdb741ca39ab222b835f65061417061787f875017d27ea2391c2a3"
+    }
+  ],
+  "additional_source_manifests": [
+    {
+      "path": "reports/corrected_formal_extension_20261107/figures_full/figure_manifest.json",
+      "sha256": "53f0ec50c5f6c703fdfcee7bd419e2384b998c594929459023ff8807b556e8d0"
+    },
+    {
+      "path": "reports/correction_v2_20261107/figures_confirmation/figure_manifest.json",
+      "sha256": "610e28bd0cd3e633c54030357e560816132ed59ff80673fbad4c7205fa304c06"
+    }
+  ]
+}

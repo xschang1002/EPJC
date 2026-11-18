@@ -1,0 +1,1 @@
+Four horizontal panels show every paired seed and fixed-model event interval for three adjacent information contrasts and the exact-versus-no-direct-momentum contrast.

@@ -1,0 +1,43 @@
+{
+  "catalogs": [
+    {
+      "block_id": "C",
+      "models": 240,
+      "path": "C/score_manifest.json",
+      "sha256": "dfe2941b8caeb6c5739387e0d70878448bb036380af65aafbdfcbdeb270b82bc"
+    },
+    {
+      "block_id": "D",
+      "models": 240,
+      "path": "D/score_manifest.json",
+      "sha256": "f46ed4139c5c719ab4cc7337261935d3cd67acd217df13c812d2a6c58cdf2cbf"
+    }
+  ],
+  "completed_utc": "2026-11-07T20:30:01.572421+00:00",
+  "deadline_unix": 1794121884.342842,
+  "failures": [],
+  "generated_utc": "2026-11-07T20:23:36.735731+00:00",
+  "generation_sha256": "8cc442c8118f85b769c5586ede339b5c96b7896291abd941fdac13594ba54474",
+  "plan_sha256": "879bc474b3e147d52c82932f11cf0b8622388eac55cfd2284bc242da65ffe6b8",
+  "roster_sha256": "e8e57535ff55912dfe422869709ba2785631fa95b69b6d9e456614f5fcd8d471",
+  "schema": "information-fresh-scoring/v1",
+  "source_files": {
+    "protocol/information_study_20261108.json": "8508b20d2d4c82cf009ff32da014fe4e8a58364cc4e92cbd11164ce1f7e362c1",
+    "src/data_contract/beam_schedule.py": "06a12eaeed885a93ae3931d2641b8d9fe18af1d852224ad4a8073c9da6a2a07c",
+    "src/data_contract/event_split.py": "d86cb46a65572570ff52f8b62319b5c9ec02c0c5b44c6defaafc4a98946a7bba",
+    "src/models/anchor.py": "31ed0fa2129cc914970134a8d00324b4f449f800aa5dce38d04846142dae160b",
+    "src/models/anchor_legacy.py": "b0e91c465e4e9b2c3bd5b979f28e3b99954c53a2e1e8519d37bf541c1ffbd760",
+    "src/representation_flow/checkpoint_contract.py": "b990fb6b208b31a58b20ccb4a054d9915dee14f874a43862e1241cc6a5c545c5",
+    "src/representation_flow/engine.py": "39bb421510942c69097a5913a0f6cc7d8b7194db1b730e02c2673317c576e3bd",
+    "src/representation_flow/experiment_contract.py": "7f3b87a9acc08548f8a1eb0df82e1b0f2c8be0ed99ba0d89f21e224c1201b3f3",
+    "src/representation_flow/information_checkpoint.py": "5688f9b3ea83dbb1e1976d4848000b60b6f24bcb90245b64cc807c9cb3c4f141",
+    "src/representation_flow/information_context.py": "474de024c8f4fbf6e4034d8ee31d8a883c697d4f209e97b3f15742cc99425a21",
+    "src/representation_flow/run_information_study.py": "0c2adeba4353a33703db51f76934262e0c952b83495f631f48f3525dcda31bf4",
+    "src/representation_flow/score_information_catalog.py": "4463ab7f216378ca854314eadb3d67b849b9d80403092e2626171a8492b5340c",
+    "src/simulation/fresh_catalog_runner.py": "e2538925e49be40edca6f783f19dbbdb6c8c605f14dbab8689808bc4b35ada18"
+  },
+  "started_unix": 1794083009.4677289,
+  "status": "COMPLETE_FROZEN_240_CD_SCORES",
+  "union_sha256": "4f6880e394fc5e1ccad5b0000645e303072c6a9fdbf6de90f0ced516517cada2",
+  "wall_seconds": 392.10469245910645
+}

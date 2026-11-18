@@ -1,0 +1,768 @@
+{
+  "schema": "fresh-catalog-stratum-counts/v1",
+  "status": "COMPLETE_42_STRATUM_COUNTS",
+  "run_id": "fresh-d-500k-20261108",
+  "events_sha256": "4e2d8d6b4e1b65942ec55d52a9bb72d6a1301df0efb11996183a918f7efc6fa7",
+  "cells": [
+    {
+      "chunk_id": 0,
+      "momentum_bin": 0,
+      "group_id": 1,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11904,
+      "eligible": 11894,
+      "ineligible": 10,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11894,
+        "terminated_in_first_visit": 3,
+        "never_entered": 7
+      },
+      "launched_events": 11904,
+      "eligible_events": 11894
+    },
+    {
+      "chunk_id": 1,
+      "momentum_bin": 0,
+      "group_id": 3,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11887,
+      "ineligible": 18,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11887,
+        "terminated_in_first_visit": 16,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11887
+    },
+    {
+      "chunk_id": 2,
+      "momentum_bin": 0,
+      "group_id": 5,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11861,
+      "ineligible": 44,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11861,
+        "terminated_in_first_visit": 39,
+        "never_entered": 5
+      },
+      "launched_events": 11905,
+      "eligible_events": 11861
+    },
+    {
+      "chunk_id": 3,
+      "momentum_bin": 0,
+      "group_id": 0,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11897,
+      "ineligible": 8,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11897,
+        "never_entered": 5,
+        "terminated_in_first_visit": 3
+      },
+      "launched_events": 11905,
+      "eligible_events": 11897
+    },
+    {
+      "chunk_id": 4,
+      "momentum_bin": 0,
+      "group_id": 2,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11888,
+      "ineligible": 17,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11888,
+        "terminated_in_first_visit": 9,
+        "never_entered": 8
+      },
+      "launched_events": 11905,
+      "eligible_events": 11888
+    },
+    {
+      "chunk_id": 5,
+      "momentum_bin": 0,
+      "group_id": 4,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11848,
+      "ineligible": 57,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11848,
+        "terminated_in_first_visit": 53,
+        "never_entered": 4
+      },
+      "launched_events": 11905,
+      "eligible_events": 11848
+    },
+    {
+      "chunk_id": 6,
+      "momentum_bin": 1,
+      "group_id": 7,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11904,
+      "eligible": 11894,
+      "ineligible": 10,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11894,
+        "terminated_in_first_visit": 3,
+        "never_entered": 7
+      },
+      "launched_events": 11904,
+      "eligible_events": 11894
+    },
+    {
+      "chunk_id": 7,
+      "momentum_bin": 1,
+      "group_id": 9,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11892,
+      "ineligible": 13,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11892,
+        "terminated_in_first_visit": 7,
+        "never_entered": 6
+      },
+      "launched_events": 11905,
+      "eligible_events": 11892
+    },
+    {
+      "chunk_id": 8,
+      "momentum_bin": 1,
+      "group_id": 11,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11874,
+      "ineligible": 31,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11874,
+        "never_entered": 7,
+        "terminated_in_first_visit": 24
+      },
+      "launched_events": 11905,
+      "eligible_events": 11874
+    },
+    {
+      "chunk_id": 9,
+      "momentum_bin": 1,
+      "group_id": 6,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11898,
+      "ineligible": 7,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11898,
+        "never_entered": 5,
+        "terminated_in_first_visit": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11898
+    },
+    {
+      "chunk_id": 10,
+      "momentum_bin": 1,
+      "group_id": 8,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11889,
+      "ineligible": 16,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11889,
+        "never_entered": 2,
+        "terminated_in_first_visit": 14
+      },
+      "launched_events": 11905,
+      "eligible_events": 11889
+    },
+    {
+      "chunk_id": 11,
+      "momentum_bin": 1,
+      "group_id": 10,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11872,
+      "ineligible": 33,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11872,
+        "terminated_in_first_visit": 28,
+        "never_entered": 5
+      },
+      "launched_events": 11905,
+      "eligible_events": 11872
+    },
+    {
+      "chunk_id": 12,
+      "momentum_bin": 2,
+      "group_id": 13,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11894,
+      "ineligible": 11,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11894,
+        "never_entered": 10,
+        "terminated_in_first_visit": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11894
+    },
+    {
+      "chunk_id": 13,
+      "momentum_bin": 2,
+      "group_id": 15,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11892,
+      "ineligible": 13,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11892,
+        "never_entered": 6,
+        "terminated_in_first_visit": 7
+      },
+      "launched_events": 11905,
+      "eligible_events": 11892
+    },
+    {
+      "chunk_id": 14,
+      "momentum_bin": 2,
+      "group_id": 17,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11904,
+      "eligible": 11865,
+      "ineligible": 39,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11865,
+        "terminated_in_first_visit": 31,
+        "never_entered": 8
+      },
+      "launched_events": 11904,
+      "eligible_events": 11865
+    },
+    {
+      "chunk_id": 15,
+      "momentum_bin": 2,
+      "group_id": 12,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11904,
+      "eligible": 11898,
+      "ineligible": 6,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11898,
+        "terminated_in_first_visit": 1,
+        "never_entered": 5
+      },
+      "launched_events": 11904,
+      "eligible_events": 11898
+    },
+    {
+      "chunk_id": 16,
+      "momentum_bin": 2,
+      "group_id": 14,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11896,
+      "ineligible": 9,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11896,
+        "never_entered": 4,
+        "terminated_in_first_visit": 5
+      },
+      "launched_events": 11905,
+      "eligible_events": 11896
+    },
+    {
+      "chunk_id": 17,
+      "momentum_bin": 2,
+      "group_id": 16,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11875,
+      "ineligible": 30,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11875,
+        "terminated_in_first_visit": 29,
+        "never_entered": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11875
+    },
+    {
+      "chunk_id": 18,
+      "momentum_bin": 3,
+      "group_id": 19,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11900,
+      "ineligible": 5,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11900,
+        "terminated_in_first_visit": 4,
+        "never_entered": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11900
+    },
+    {
+      "chunk_id": 19,
+      "momentum_bin": 3,
+      "group_id": 21,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11899,
+      "ineligible": 6,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11899,
+        "terminated_in_first_visit": 4,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11899
+    },
+    {
+      "chunk_id": 20,
+      "momentum_bin": 3,
+      "group_id": 23,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11876,
+      "ineligible": 29,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11876,
+        "never_entered": 3,
+        "terminated_in_first_visit": 26
+      },
+      "launched_events": 11905,
+      "eligible_events": 11876
+    },
+    {
+      "chunk_id": 21,
+      "momentum_bin": 3,
+      "group_id": 18,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11904,
+      "eligible": 11900,
+      "ineligible": 4,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11900,
+        "never_entered": 3,
+        "terminated_in_first_visit": 1
+      },
+      "launched_events": 11904,
+      "eligible_events": 11900
+    },
+    {
+      "chunk_id": 22,
+      "momentum_bin": 3,
+      "group_id": 20,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11892,
+      "ineligible": 13,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11892,
+        "terminated_in_first_visit": 11,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11892
+    },
+    {
+      "chunk_id": 23,
+      "momentum_bin": 3,
+      "group_id": 22,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11873,
+      "ineligible": 32,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11873,
+        "terminated_in_first_visit": 30,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11873
+    },
+    {
+      "chunk_id": 24,
+      "momentum_bin": 4,
+      "group_id": 25,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11901,
+      "ineligible": 4,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11901,
+        "never_entered": 2,
+        "terminated_in_first_visit": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11901
+    },
+    {
+      "chunk_id": 25,
+      "momentum_bin": 4,
+      "group_id": 27,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11891,
+      "ineligible": 14,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11891,
+        "terminated_in_first_visit": 14
+      },
+      "launched_events": 11905,
+      "eligible_events": 11891
+    },
+    {
+      "chunk_id": 26,
+      "momentum_bin": 4,
+      "group_id": 29,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11879,
+      "ineligible": 26,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11879,
+        "terminated_in_first_visit": 22,
+        "never_entered": 4
+      },
+      "launched_events": 11905,
+      "eligible_events": 11879
+    },
+    {
+      "chunk_id": 27,
+      "momentum_bin": 4,
+      "group_id": 24,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11901,
+      "ineligible": 4,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11901,
+        "never_entered": 3,
+        "terminated_in_first_visit": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11901
+    },
+    {
+      "chunk_id": 28,
+      "momentum_bin": 4,
+      "group_id": 26,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11896,
+      "ineligible": 9,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11896,
+        "terminated_in_first_visit": 7,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11896
+    },
+    {
+      "chunk_id": 29,
+      "momentum_bin": 4,
+      "group_id": 28,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11877,
+      "ineligible": 28,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11877,
+        "terminated_in_first_visit": 27,
+        "never_entered": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11877
+    },
+    {
+      "chunk_id": 30,
+      "momentum_bin": 5,
+      "group_id": 31,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11904,
+      "eligible": 11897,
+      "ineligible": 7,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11897,
+        "terminated_in_first_visit": 3,
+        "never_entered": 4
+      },
+      "launched_events": 11904,
+      "eligible_events": 11897
+    },
+    {
+      "chunk_id": 31,
+      "momentum_bin": 5,
+      "group_id": 33,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11895,
+      "ineligible": 10,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11895,
+        "never_entered": 1,
+        "terminated_in_first_visit": 9
+      },
+      "launched_events": 11905,
+      "eligible_events": 11895
+    },
+    {
+      "chunk_id": 32,
+      "momentum_bin": 5,
+      "group_id": 35,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11873,
+      "ineligible": 32,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11873,
+        "terminated_in_first_visit": 30,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11873
+    },
+    {
+      "chunk_id": 33,
+      "momentum_bin": 5,
+      "group_id": 30,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11900,
+      "ineligible": 5,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11900,
+        "never_entered": 2,
+        "terminated_in_first_visit": 3
+      },
+      "launched_events": 11905,
+      "eligible_events": 11900
+    },
+    {
+      "chunk_id": 34,
+      "momentum_bin": 5,
+      "group_id": 32,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11905,
+      "eligible": 11893,
+      "ineligible": 12,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11893,
+        "never_entered": 5,
+        "terminated_in_first_visit": 7
+      },
+      "launched_events": 11905,
+      "eligible_events": 11893
+    },
+    {
+      "chunk_id": 35,
+      "momentum_bin": 5,
+      "group_id": 34,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11904,
+      "eligible": 11876,
+      "ineligible": 28,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11876,
+        "never_entered": 3,
+        "terminated_in_first_visit": 25
+      },
+      "launched_events": 11904,
+      "eligible_events": 11876
+    },
+    {
+      "chunk_id": 36,
+      "momentum_bin": 6,
+      "group_id": 37,
+      "pdg": 211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11899,
+      "ineligible": 6,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11899,
+        "terminated_in_first_visit": 4,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11899
+    },
+    {
+      "chunk_id": 37,
+      "momentum_bin": 6,
+      "group_id": 39,
+      "pdg": 211,
+      "thickness_mm": 0.3,
+      "launched": 11904,
+      "eligible": 11898,
+      "ineligible": 6,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11898,
+        "terminated_in_first_visit": 5,
+        "never_entered": 1
+      },
+      "launched_events": 11904,
+      "eligible_events": 11898
+    },
+    {
+      "chunk_id": 38,
+      "momentum_bin": 6,
+      "group_id": 41,
+      "pdg": 211,
+      "thickness_mm": 1.0,
+      "launched": 11905,
+      "eligible": 11877,
+      "ineligible": 28,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11877,
+        "terminated_in_first_visit": 26,
+        "never_entered": 2
+      },
+      "launched_events": 11905,
+      "eligible_events": 11877
+    },
+    {
+      "chunk_id": 39,
+      "momentum_bin": 6,
+      "group_id": 36,
+      "pdg": -211,
+      "thickness_mm": 0.1,
+      "launched": 11905,
+      "eligible": 11901,
+      "ineligible": 4,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11901,
+        "never_entered": 3,
+        "terminated_in_first_visit": 1
+      },
+      "launched_events": 11905,
+      "eligible_events": 11901
+    },
+    {
+      "chunk_id": 40,
+      "momentum_bin": 6,
+      "group_id": 38,
+      "pdg": -211,
+      "thickness_mm": 0.3,
+      "launched": 11904,
+      "eligible": 11896,
+      "ineligible": 8,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11896,
+        "terminated_in_first_visit": 6,
+        "never_entered": 2
+      },
+      "launched_events": 11904,
+      "eligible_events": 11896
+    },
+    {
+      "chunk_id": 41,
+      "momentum_bin": 6,
+      "group_id": 40,
+      "pdg": -211,
+      "thickness_mm": 1.0,
+      "launched": 11904,
+      "eligible": 11871,
+      "ineligible": 33,
+      "aborted": 0,
+      "statuses": {
+        "exited_first_visit": 11871,
+        "terminated_in_first_visit": 33
+      },
+      "launched_events": 11904,
+      "eligible_events": 11871
+    }
+  ],
+  "group_id_rule": "momentum_bin*6 + thickness_index*2 + charge_index; thickness=[0.1,0.3,1.0]; charge=[-1,+1]",
+  "launched": 500000,
+  "eligible": 499275,
+  "ineligible": 725,
+  "technical_aborted": 0,
+  "policy": "S0 is retained as a null-score atom for paired launched-event bootstrap; not a technical failure"
+}
