@@ -82,6 +82,17 @@ D & Earlier 160 & 79,884,000 & 761.349548 & 2776.543945\\
 \end{tabular}
 \end{table}
 
+Across the 80 primary models, observed standardized values span
+$z\in[-0.568,114.700]$ on C ($z_{\max}=104.599$--$104.986$ at 10\% training
+and $114.277$--$114.700$ at 100\%) and $z\in[-0.562,95.782]$ on D
+($z_{\max}=87.089$--$87.669$ at 10\% and $95.149$--$95.782$ at 100\%). No
+eligible event falls below $-8$, whereas $756$--$934$ events per catalog
+($0.151\%$--$0.187\%$: $815/760/909/871$ on C and $806/756/934/852$ on D for
+10\% Raw, 10\% BB-centered, 100\% Raw and 100\% BB-centered, respectively) lie
+at $z>8$, where both spline layers act as the identity and inherit the
+fixed-scale logistic tail identically across conditioner information levels at
+fixed training fraction.
+
 The zeros have a quantitative explanation. Every saved bound exceeds 761.349,
 well outside the spline interval $[-8,8]$. Each layer is exactly the identity
 there, so its transformed base bound equals $b$, independently of the neural

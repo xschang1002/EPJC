@@ -12,7 +12,8 @@
 - `editorial_figures/` — All 21 vector PDF and PNG figure assets (unchanged from frozen empirical records).
 - `editorial_tables/`, `editorial_theory.tex`, `support_audit_tables.tex` — Verified table and theory inputs (numerical cells byte-preserved).
 - `svjour3.cls`, `svglov3.clo`, `spphys.bst` — Bundled Springer SVJour3 class and physics bibliography style files for standalone compilation on Overleaf, TeX Live, Tectonic, or Springer Editorial Manager.
-- `SUBMISSION_CHECKLIST.md` — Exact list of author placeholder fields to fill before portal upload.
+- `SUBMISSION_CHECKLIST.md` — Final pre-upload verification checklist (affiliation/email and GitHub push).
+- `COVER_LETTER_EPJC.md` — Ready-to-use Cover Letter tailored for the EPJC *Computing, Software and Data Science* editorial board.
 
 ## Compilation
 

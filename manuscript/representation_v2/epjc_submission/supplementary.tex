@@ -4,7 +4,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper,textwidth=17.4cm,textheight=234mm,centering]{geometry}
+\usepackage[a4paper,textwidth=17.4cm,textheight=248mm,centering]{geometry}
 \usepackage{microtype}
 \usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
 \usepackage[hyphens]{url}
@@ -34,17 +34,14 @@
 \title{Electronic Supplementary Material:\\Non-monotonic benefits of physical target centering in conditional models of pion momentum loss}
 \titlerunning{Supplementary Material: Physical target centering in pion momentum loss}
 
-\author{First Author \and
-        Second Author \and
-        Third Author}
-\authorrunning{F. Author et al.}
+\author{Xuansong Chang \and
+        Yiran Xiao \and
+        Chengtao Song}
+\authorrunning{X. Chang et al.}
 
-\institute{F. Author \and S. Author \at
-              Department of Physics, Institution Name, Street Address, Postal Code City, Country \\
-              \email{first.author@institution.edu}
-           \and
-           T. Author \at
-              Institute of High Energy Physics, Institution Name, Postal Code City, Country}
+\institute{X. Chang \and Y. Xiao \and C. Song \at
+              [Affiliation to be supplied by authors prior to portal upload] \\
+              \email{[corresponding.author@institution.edu]}}
 
 \date{Received: date / Accepted: date}
 
@@ -282,16 +279,17 @@ The secondary table file preserves all 41 contrasts per catalog in two parts:
 contrasts in the historical archive. No scientific result is removed from
 the retained records by this presentation split.
 
-The companion GitHub repository (\url{https://github.com/<owner>/<repository>},
+The companion GitHub repository (\url{https://github.com/xschang1002/EPJC},
 release tag \texttt{v1.0.0-epjc}) distinguishes three reproduction levels.
 Its lightweight Git source tree omits binary model checkpoints for direct
 version-control portability while retaining all 240 run manifests and
 cryptographic checkpoint SHA-256 digests (with binary checkpoints optionally
-verified when supplied via a companion release archive). Using the documented
-software dependencies, the single entry point \texttt{python reproduce.py}
-reconstructs all tables, all 21 figures, the saved-draw bootstrap intervals,
-the five-seed sensitivity CSVs, and the four C/D predictive and residual
-diagnostic summaries without requiring the original local filesystem paths.
+verified when supplied via a companion archive via \texttt{-{}-checkpoint-root}).
+Using the documented software dependencies, the single entry point
+\texttt{python reproduce.py} reconstructs all tables, all 21 figures, the
+saved-draw bootstrap intervals, the five-seed sensitivity CSVs, and the four
+C/D predictive and residual diagnostic summaries without requiring the original
+local filesystem paths.
 
 Event-level replay additionally requires the original event ledgers,
 preprocessing inputs and per-event scores. Complete regeneration requires

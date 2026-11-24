@@ -29,19 +29,14 @@
 \title{Non-monotonic benefits of physical target centering in conditional models of pion momentum loss}
 \titlerunning{Non-monotonic benefits of physical target centering in pion momentum loss}
 
-\author{First Author \and
-        Second Author \and
-        Third Author}
-\authorrunning{F. Author et al.}
+\author{Xuansong Chang \and
+        Yiran Xiao \and
+        Chengtao Song}
+\authorrunning{X. Chang et al.}
 
-\institute{F. Author \and S. Author \at
-              Department of Physics, Institution Name, Street Address, Postal Code City, Country \\
-              \email{first.author@institution.edu} \\
-              ORCID: 0000-0000-0000-0000 (F.~Author), 0000-0000-0000-0000 (S.~Author)
-           \and
-           T. Author \at
-              Institute of High Energy Physics, Institution Name, Postal Code City, Country \\
-              ORCID: 0000-0000-0000-0000 (T.~Author)}
+\institute{X. Chang \and Y. Xiao \and C. Song \at
+              [Affiliation to be supplied by authors prior to portal upload] \\
+              \email{[corresponding.author@institution.edu]}}
 
 \date{Received: date / Accepted: date}
 
@@ -162,13 +157,15 @@ and neural conditioner. The range $\beta\gamma\simeq2.15$--$7.16$ lies in the
 intermediate-energy regime of the Bethe description~\cite{PDG2025}.
 The density-effect correction is omitted as an explicit approximation;
 material-dependent corrections are available~\cite{SternheimerBergerSeltzer1983}.
-In silicon, dielectric polarization turns on at $\beta\gamma\simeq1.59$
-($X_0=0.2014$)~\cite{PDGSilicon2025}, so omitting $-\delta(\beta\gamma)/2$
-overestimates $S_{\mathrm{BB}}$ monotonically from $1.03\%$ at $0.30$ GeV/$c$
-to $4.34\%$ at $1.00$ GeV/$c$ ($4.6$ to $17.7$ keV/$c$ at $t=1.0$ mm).
-Moreover, $c_{\mathrm{BB}}$ tracks mean electronic loss rather than the
-most-probable Landau--Vavilov--Bichsel bulk loss or the exact conditional mean
-for eligible exits; its regional consequences are examined in
+In the PDG Sternheimer parameterization for silicon~\cite{PDGSilicon2025}, the
+lower piecewise transition lies at $x_0=0.2015$ ($\beta\gamma\simeq1.59$, with
+nonzero $\delta_0=0.14$ also present below $x_0$), so the entire studied range
+($x=\log_{10}(\beta\gamma)\in[0.332,0.855]$) lies above $x_0$; omitting
+$-\delta(\beta\gamma)/2$ overestimates $S_{\mathrm{BB}}$ monotonically from
+$1.03\%$ at $0.30$ GeV/$c$ to $4.34\%$ at $1.00$ GeV/$c$ ($4.6$ to $17.7$
+keV/$c$ at $t=1.0$ mm). Moreover, $c_{\mathrm{BB}}$ tracks mean electronic loss
+rather than the most-probable Landau--Vavilov--Bichsel bulk loss or the exact
+conditional mean for eligible exits; its regional consequences are examined in
 Sects.~\ref{sec:diagnostics_main} and \ref{sec:discussion}.
 
 \subsection{Information available to the neural conditioner}
@@ -581,17 +578,20 @@ At 100\% training without direct momentum input, the mean gain on catalog C
 is positive in the lowest momentum interval ($0.3$--$0.4$ GeV/$c$;
 $+0.0905$ nat/event) but negative in the highest interval
 ($0.9$--$1.0$ GeV/$c$; $-0.0297$ nat/event), with the same signs on D.
-Saved original-unit residual medians clarify the physical origin of this
-regional sign flip. At $t=1.0$ mm across C/D and both charges, the Raw
-residual median $Y-\mu$ plateaus across $0.6$--$1.0$ GeV/$c$ ($+129.1$ to
-$+124.9$ keV/$c$, varying by $\leq4.1$ keV/$c$), whereas $c_{\mathrm{BB}}$
-rises from its $0.555$ GeV/$c$ minimum ($410.0$ keV/$c$) to $426.3$ keV/$c$ at
-$1.00$ GeV/$c$ because $T_{\max}$ grows from $4.6$ to $49.8$ MeV and
-$-\delta(\beta\gamma)/2$ is omitted. Subtracting $c_{\mathrm{BB}}$ therefore
-imparts a monotonic downward drift to the bulk residual median across
-$0.6$--$1.0$ GeV/$c$ ($-85.9$ to $-104.3$ keV/$c$, and $-67.2$ to $-104.3$ keV/$c$
-over $0.3$--$1.0$ GeV/$c$). Detailed density-term accounting is given in
-Supplementary Section S2.2.
+Saved original-unit residual medians are consistent with this regional sign
+flip, although the present frozen comparisons do not quantify what share of the
+two-bin peak arises from location drift alone. Across C/D and both charges over
+$0.6$--$1.0$ GeV/$c$, the Raw residual median $Y-\mu$ plateaus at $t=1.0$ mm
+($+124.9$ to $+130.8$ keV/$c$, varying by $\leq4.3$ keV/$c$ within each
+catalog--charge series), whereas $c_{\mathrm{BB}}$ rises from its $0.555$
+GeV/$c$ minimum ($410.0$ keV/$c$) to $426.3$ keV/$c$ at $1.00$ GeV/$c$ as
+$T_{\max}$ grows from $15.7$ to $49.8$ MeV ($4.6$ to $49.8$ MeV over
+$0.30$--$1.00$ GeV/$c$) and $-\delta(\beta\gamma)/2$ is omitted. Subtracting
+$c_{\mathrm{BB}}$ therefore imparts a monotonic downward drift to the bulk
+residual median across $0.6$--$1.0$ GeV/$c$ ($-85.9$ to $-104.3$ keV/$c$ at
+$t=1.0$ mm, and $-67.2$ to $-104.3$ keV/$c$ over $0.3$--$1.0$ GeV/$c$); the
+$0.1$ and $0.3$ mm slabs show the same thickness-scaled pattern. Detailed
+density-term accounting is given in Supplementary Section S2.2.
 
 Predictive quantile diagnostics reveal corresponding regional trade-offs. Without
 direct momentum at 100\% training, the fraction below the predicted median
@@ -633,16 +633,20 @@ exit~\cite{Bichsel1988,PDG2025}. Momentum loss, local energy deposition and
 detector ionization signal are related but distinct
 observables~\cite{Bichsel2006}. In thin silicon, rare high-transfer $\delta$
 electrons drive the relativistic rise of $S_{\mathrm{BB}}$ while the
-Landau--Bichsel bulk remains nearly flat above minimum ionization, compounded
-by the omitted silicon density effect. Under no-direct conditioning, a single
-residual distribution per $(t,q)$ cannot reconcile steep $1/\beta^2$ tracking
-below $0.55$ GeV/$c$ with this upward center drift at $0.8$--$1.0$ GeV/$c$.
-Introducing the two-bin split at $0.65$ GeV/$c$ separates these two physical
-regimes with one bit of momentum information while preserving continuous
-$1/\beta^2$ centering within $[0.3,0.65)$ where a constant Raw bin is coarse;
-at eight-bin and exact conditioning, Raw resolves the low-momentum curve
-directly without incurring high-momentum over-subtraction. Physical knowledge
-thus reshapes the residual learning problem in a regime-dependent manner.
+Landau--Vavilov--Bichsel bulk remains nearly flat above minimum ionization,
+compounded by the omitted silicon density effect. The observed regional
+likelihood and calibration patterns are consistent with this mismatch: under
+no-direct conditioning, a single residual distribution per $(t,q)$ must
+accommodate both steep $1/\beta^2$ behavior below $0.55$ GeV/$c$ and the
+downward high-momentum residual drift above $0.6$ GeV/$c$, whereas the two-bin
+split at $0.65$ GeV/$c$ separates these regimes with one bit of momentum
+information while preserving continuous $1/\beta^2$ centering within
+$[0.3,0.65)$. At eight-bin and exact conditioning, Raw can resolve the
+low-momentum curve directly without incurring high-momentum over-subtraction.
+While the present frozen comparisons cannot isolate how much of the two-bin
+peak comes from this location drift relative to residual scale, shape or
+optimization dynamics, they show that physical knowledge reshapes the residual
+learning problem in a regime-dependent manner.
 
 The linear center's improvement under exact conditioning also establishes
 the relevance of general target centering. Its coefficients and those of the
@@ -674,7 +678,10 @@ asymptotic convergence). Deploying such flows as multi-layer generative track
 simulators would additionally require enforcing $Y\geq0$ (avoiding the
 $0.035\%$--$0.114\%$ untruncated $Y<0$ tail mass), thickness-aware scaling, and
 non-identity heavy-tail parameterizations beyond $|z|>8$ (where the frozen RQS
-reverts to a fixed-scale logistic tail, reached up to $z\simeq9.6$ in C/D).
+reverts to a fixed-scale logistic tail; across the primary models, observed
+maxima reach $z_{\max}=104.60$--$114.70$ on C and $87.09$--$95.78$ on D, with
+$0.15\%$--$0.19\%$ of eligible events lying at $z>8$ and none below $-8$,
+Supplementary Section S4.2).
 Fresh C/D measure new event sampling within this setup; they do not test
 another material, physics list or out-of-range distribution. Event intervals
 condition on selected models, and the five optimizer seeds share one source
@@ -696,45 +703,43 @@ Evaluating a prescribed representation therefore requires distinguishing its
 relative gain from the absolute performance and conditional behavior of the
 complete predictor.
 
-\begin{acknowledgements}
-[Placeholder: Insert institutional, computing-resource or colleague
-acknowledgements here, or remove this block if not applicable.]
-\end{acknowledgements}
+% Optional acknowledgements block may be uncommented by the authors if applicable:
+% \begin{acknowledgements}
+% \end{acknowledgements}
 
 \section*{Data Availability Statement}
 All aggregate seed and physical-group summaries, saved 2000-draw paired
 bootstrap resamples, predictive and residual diagnostic summaries, frozen
-protocol manifests and hash-based provenance records supporting the tables,
-figures and intervals in this article and the Electronic Supplementary Material
-are openly available in the companion GitHub repository at
-\url{https://github.com/<owner>/<repository>} (release tag
-\texttt{v1.0.0-epjc}). The full raw Geant4 event ledgers and per-event score
-arrays ($\simeq 62$~GiB uncompressed), verified against the cryptographic
+protocol manifests, run manifests and cryptographic SHA-256 checkpoint digests
+supporting the tables, figures and intervals in this article and the Electronic
+Supplementary Material are openly archived in the companion GitHub repository at
+\url{https://github.com/xschang1002/EPJC} (release tag \texttt{v1.0.0-epjc}).
+The uncompressed raw Geant4 event ledgers, binary PyTorch checkpoints and
+per-event score arrays ($\simeq 62$~GiB), verified against the cryptographic
 SHA-256 manifests published in the repository, are archived locally and are
 available from the corresponding author upon reasonable request.
 
 \section*{Code Availability Statement}
 The spline-flow training, Geant4 simulation interface, frozen catalog scoring,
-statistical analysis and figure/table reconstruction source code are openly
-available in the companion GitHub repository at
-\url{https://github.com/<owner>/<repository>} (release tag
-\texttt{v1.0.0-epjc}), together with environment dependency specifications and
-isolated aggregate-reproduction scripts (see Supplementary Section S4).
+statistical analysis, unit-test suite and isolated aggregate-reproduction
+scripts are openly archived in the companion GitHub repository at
+\url{https://github.com/xschang1002/EPJC} (release tag \texttt{v1.0.0-epjc}),
+together with cross-platform and pinned environment dependency specifications
+(see Supplementary Section S4).
 
 \section*{Declarations}
 \paragraph{Funding.}
-[Placeholder: This work was supported by [Funding Agency / Grant Name] under
-Grant No.\ [Grant Number] / The authors declare that no funds, grants, or other
-support were received during the preparation of this manuscript.]
+The authors declare that no funds, grants, or other support were received during
+the preparation of this manuscript.
 
 \paragraph{Competing interests.}
 The authors have no relevant financial or non-financial interests to disclose.
 
 \paragraph{Author contributions.}
-[Placeholder: F.~Author: Conceptualization, Methodology, Software, Formal
-analysis, Validation, Writing -- original draft. S.~Author and T.~Author:
-Methodology, Validation, Writing -- review \& editing. All authors read and
-approved the final manuscript.]
+X.~Chang: Conceptualization, Methodology, Software, Formal analysis, Validation,
+Writing -- original draft. Y.~Xiao and C.~Song: Methodology, Validation,
+Writing -- review \& editing. All authors read and approved the final
+manuscript.
 
 \paragraph{Use of AI-assisted tools.}
 AI-assisted coding and scientific-writing tools were used during verification

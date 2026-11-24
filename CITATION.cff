@@ -2,15 +2,24 @@ cff-version: 1.2.0
 message: "If you use this software or aggregate dataset, please cite the accompanying EPJC article."
 title: "Non-monotonic benefits of physical target centering in conditional models of pion momentum loss"
 type: software
-version: "1.0.0-epjc"
-date-released: "2026-11-18"
+version: "v1.0.0-epjc"
+date-released: "2026-11-24"
+url: "https://github.com/xschang1002/EPJC/releases/tag/v1.0.0-epjc"
+repository-code: "https://github.com/xschang1002/EPJC"
 license:
   - MIT
   - CC-BY-4.0
 authors:
-  - family-names: "Author"
-    given-names: "First"
-  - family-names: "Author"
-    given-names: "Second"
-  - family-names: "Author"
-    given-names: "Third"
+  - family-names: "Chang"
+    given-names: "Xuansong"
+  - family-names: "Xiao"
+    given-names: "Yiran"
+  - family-names: "Song"
+    given-names: "Chengtao"
+keywords:
+  - conditional density estimation
+  - target representation
+  - normalizing flow
+  - conditioner information
+  - pion momentum loss
+  - detector simulation

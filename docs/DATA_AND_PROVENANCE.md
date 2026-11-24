@@ -1,6 +1,6 @@
 # Data Availability and Cryptographic Provenance
 
-## 1. Included Aggregate & Provenance Assets (`~81 MB`)
+## 1. Included Aggregate & Provenance Assets (`~86 MB`)
 
 This Git repository includes every aggregate dataset, bootstrap resample array, configuration contract, and cryptographic digest required to verify and rebuild all tables, figures, confidence bands, and diagnostic statistics in the EPJC main article and Electronic Supplementary Material:
 

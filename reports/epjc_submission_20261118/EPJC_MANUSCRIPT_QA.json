@@ -1,7 +1,7 @@
 {
   "schema": "epjc-submission-migration/v2-referee-hardened",
   "status": "COMPLETE_EPJC_REFEREE_HARDENED_MIGRATION",
-  "date": "2026-11-18",
+  "date": "2026-11-24",
   "target_journal": "The European Physical Journal C (EPJC)",
   "target_section": "Computing, Software and Data Science",
   "source_directory": "manuscript/representation_v2/epjc_submission",
@@ -9,21 +9,21 @@
     "main": {
       "path": "output/pdf/physical_centering_epjc_20261118.pdf",
       "pages": 12,
-      "bytes": 237129,
-      "sha256": "ddb9b9f86d00950ec466b8eb67b6a1c9f4346ef4c70ff7673e16336591bf5a5a"
+      "bytes": 237062,
+      "sha256": "9ba45b76d70dde4bfcb6e6bf898f14a292afb23f20755b99830fc535876bbfa3"
     },
     "supplementary": {
       "path": "output/pdf/physical_centering_epjc_supplement_20261118.pdf",
-      "pages": 13,
-      "bytes": 178771,
-      "sha256": "90b1a8ff54e55264fe03124d0d35271a655025e3b414c8a8c5e871f76e0c9390"
+      "pages": 12,
+      "bytes": 180378,
+      "sha256": "c4b3bb1deebafd1c7143d07cecb195ccff6e6ba21210c963fe0e12432a2a140c"
     }
   },
   "upload_archive": {
     "path": "e:\\JINST REP\\physical_centering_epjc_submission_20261118.zip",
-    "entries": 118,
-    "bytes": 6601821,
-    "sha256": "d4c63a42437960ae4ced312b324216df4f9c5014c320323cf99cd29e22dcdcbe"
+    "entries": 119,
+    "bytes": 6606111,
+    "sha256": "2e8123f737e21577280e877ce2135a859bde1d7c1e43ad08bfc8df9378776eab"
   },
   "qa_summary": {
     "bib_entries": 25,
@@ -39,15 +39,15 @@
     "prior_frozen_deliverables_intact": true
   },
   "referee_defense_additions": [
-    "Silicon Sternheimer density-effect magnitude (+1.03% at 0.30 GeV/c to +4.34% at 1.00 GeV/c) and PDG Silicon threshold X0=0.2014",
-    "Saved C/D original-unit residual median plateau (+129.1 to +124.9 keV/c) vs c_BB relativistic rise causing -85.9 to -104.3 keV/c high-momentum drift and 0.65 GeV/c 2-bin regime separation",
-    "Unit-Jacobian translation isolation argument explaining why Y>=0 lower truncation is omitted, plus empirical 0.035%-0.114% untruncated Y<0 tail mass and |z|>8 identity-tail scope",
-    "Exact physical ineligible breakdown (C: 137 upstream decays + 578 in-slab terminations; D: 149 + 576)",
-    "Trailing fifth zero-slot interface note (64 zero-gradient first-layer weights in no-direct arm), negative differential NLL unit note, charge-symmetric Bethe-Bloch vs Geant4 note, and Table S10 numbering"
+    "PDG Silicon Sternheimer piecewise transition x0=0.2015 (delta0=0.14) and +1.03% to +4.34% omitted density-effect magnitude",
+    "Saved C/D original-unit residual median plateau (+124.9 to +130.8 keV/c at t=1.0 mm, <=4.3 keV/c within series; scaled across 0.1 and 0.3 mm) vs c_BB rise (T_max 15.7 to 49.8 MeV over 0.555-1.00 GeV/c) calibrated as consistent with regional sign flip",
+    "Unit-Jacobian translation isolation argument for omitting Y>=0 lower truncation, plus empirical 0.035%-0.114% untruncated Y<0 tail mass",
+    "Verified primary-model standardized tail extremes z_max=104.60-114.70 (C) and 87.09-95.78 (D), with 0.15%-0.19% (756-934 events/catalog) at z>8 and none below -8",
+    "Exact physical ineligible breakdown (C: 137 upstream decays + 578 in-slab terminations; D: 149 + 576), fifth zero-slot note, negative differential NLL unit note, Table S10 numbering, verified author names (Xuansong Chang, Yiran Xiao, Chengtao Song), and live GitHub target https://github.com/xschang1002/EPJC (v1.0.0-epjc)"
   ],
   "author_placeholders_remaining": [
-    "author names, affiliations, emails, and ORCIDs",
-    "live GitHub repository URL replacing https://github.com/<owner>/<repository>",
-    "Funding grant number or no-funding selection, Author contributions initials, and optional Acknowledgements"
+    "institutional affiliation address(es) and corresponding author email in main.tex / supplementary.tex",
+    "optional funding grant confirmation / acknowledgements if applicable",
+    "public git push of epjc-github-release to https://github.com/xschang1002/EPJC (tag v1.0.0-epjc)"
   ]
 }

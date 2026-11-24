@@ -4,7 +4,7 @@ Companion code, frozen protocols, aggregate empirical records, and EPJC LaTeX ma
 
 > **Non-monotonic benefits of physical target centering in conditional models of pion momentum loss**  
 > *Target journal:* **The European Physical Journal C (EPJC)** — *Computing, Software and Data Science*  
-> *Compiled manuscripts:* [`output/pdf/physical_centering_epjc_20261118.pdf`](output/pdf/physical_centering_epjc_20261118.pdf) (12 pp., two-column `svjour3`) · [`output/pdf/physical_centering_epjc_supplement_20261118.pdf`](output/pdf/physical_centering_epjc_supplement_20261118.pdf) (13 pp., Electronic Supplementary Material)
+> *Compiled manuscripts:* [`output/pdf/physical_centering_epjc_20261118.pdf`](output/pdf/physical_centering_epjc_20261118.pdf) (12 pp., two-column `svjour3`) · [`output/pdf/physical_centering_epjc_supplement_20261118.pdf`](output/pdf/physical_centering_epjc_supplement_20261118.pdf) (12 pp., Electronic Supplementary Material)
 
 ---
 
@@ -13,15 +13,15 @@ Companion code, frozen protocols, aggregate empirical records, and EPJC LaTeX ma
 An invertible physics-informed coordinate shift leaves an unrestricted conditional density family invariant under complete conditioning, yet reshapes the finite-capacity approximation problem when neural conditioner inputs or training budgets are restricted. Using Geant4 (`FTFP_BERT`) transport of $0.3\text{--}1.0\text{ GeV}/c$ $\pi^\pm$ mesons through thin silicon slabs ($0.1, 0.3, 1.0\text{ mm}$), we evaluate paired rational-quadratic spline normalizing flows comparing raw momentum loss ($Y = p_{\mathrm{in}} - p_{\mathrm{out}}$) against a prescribed Bethe–Bloch-centered residual across four controlled conditioner information levels (**no direct**, **2-bin**, **8-bin**, and **exact** incident momentum), two training fractions ($10\%$ and $100\%$), and five paired optimizer seeds (`80` primary fits plus `160` secondary/control fits), frozen prior to generating two independent $500{,}000$-event confirmation catalogs (`C` and `D`).
 
 Key empirical findings reproduced from this repository:
-1. **Non-monotonic relative centering gain:** Bethe–Bloch centering improves catalog-mean negative log-likelihood (NLL) at every conditioner level, peaking at **2-bin momentum** ($0.01039\text{--}0.01196\text{ nat/event}$ across catalogs `C`/`D` and fractions) rather than under no direct momentum ($0.00612\text{--}0.00635\text{ nat/event}$) or exact momentum ($0.00159\text{--}0.00188\text{ nat/event}$).
+1. **Non-monotonic relative centering gain:** Bethe–Bloch centering improves catalog-mean negative log-likelihood (NLL) at every conditioner level, peaking at **2-bin momentum** ($0.010399\text{--}0.011196\text{ nat/event}$ across catalogs `C`/`D` and training fractions) rather than under no direct momentum ($0.006233\text{--}0.006543\text{ nat/event}$), 8-bin momentum ($0.002987\text{--}0.003332\text{ nat/event}$), or exact momentum ($0.001550\text{--}0.001876\text{ nat/event}$).
 2. **Relative gain vs. absolute predictive quality:** Providing **exact incident momentum** to the conditioner still achieves the lowest (best) absolute differential NLL for every target representation.
-3. **Global improvement coexists with regional high-momentum losses:** Over half of the 42 $(p_{\mathrm{in}}, t, q)$ strata have negative paired mean gains under hidden/coarse conditioning. Saved original-unit residual medians confirm the physical mechanism: the Geant4 Landau–Vavilov–Bichsel bulk median plateaus above minimum ionization ($0.6\text{--}1.0\text{ GeV}/c$), whereas the unscreened Bethe–Bloch mean rises due to high-$T_{\max}$ $\delta$-ray kinematics and omitted silicon Sternheimer screening ($+1.03\%$ at $0.30\text{ GeV}/c$ to $+4.34\%$ at $1.00\text{ GeV}/c$), imparting a downward residual drift that the $0.65\text{ GeV}/c$ 2-bin split isolates with one bit of momentum information.
+3. **Global improvement coexists with regional high-momentum losses:** Under no direct momentum, more than half of the 42 $(p_{\mathrm{in}}, t, q)$ strata (`22–27/42`, with `20–23` simultaneously below zero) have negative paired mean gains, and even at the 2-bin peak `13–18/42` strata remain negative (`9–10` simultaneously below zero). Saved original-unit residual medians are consistent with a physical mismatch above minimum ionization ($0.6\text{--}1.0\text{ GeV}/c$): the Geant4 Landau–Vavilov–Bichsel bulk median plateaus while the unscreened Bethe–Bloch mean rises ($T_{\max}$ grows from $15.7$ to $49.8\text{ MeV}$ across $0.555\text{--}1.00\text{ GeV}/c$, with silicon Sternheimer screening omitted at $+1.03\%$ to $+4.34\%$ over $0.30\text{--}1.00\text{ GeV}/c$), imparting a downward residual drift that the $0.65\text{ GeV}/c$ 2-bin split can separate with one bit of momentum information.
 
 ---
 
-## Quick Start: One-Command Aggregate Reproduction (`< 30 s`)
+## Quick Start: One-Command Aggregate Reproduction (`~30 s`)
 
-This repository is structured as a **lightweight, Git-LFS-free release (`~81 MB`)** so reviewers can clone and verify every figure, table, confidence band, and diagnostic summary immediately on a standard laptop without downloading gigabytes of binary checkpoints or Geant4 event ledgers.
+This repository (`https://github.com/xschang1002/EPJC`, tag `v1.0.0-epjc`) is structured as a **lightweight, Git-LFS-free release (`~86 MB` working tree; `~30 MB` compressed Git push/clone payload)** so reviewers can clone and verify every figure, table, confidence band, and diagnostic summary immediately on a standard laptop without downloading gigabytes of binary checkpoints or Geant4 event ledgers.
 
 ```bash
 python -m pip install -r requirements.txt
@@ -64,7 +64,7 @@ Frozen protocol manifests, run IDs, and CSV schemas preserve original pre-regist
 | **BB-centered** ($B$) | `CorrectedPhysics` | Prescribed MeV-consistent silicon Bethe–Bloch momentum-loss center $c_{\mathrm{BB}}(p_{\mathrm{in}}, t, q)$ |
 | **Linear center** ($L$) | `Simple` | Fitted linear location baseline on exact conditioning (secondary comparison) |
 | **Polynomial-ridge center** ($P$) | `Learned` | Cross-validated polynomial-ridge location baseline (secondary comparison) |
-| **10% / 100% training** | `f010` / `f100` | Nested source-training fractions (`59,852` / `598,526` eligible events; `20,000` updates) |
+| **10% / 100% training** | `f010` / `f100` | Nested source-training fractions (`59,952` / `599,526` eligible events; `20,000` updates) |
 
 ---
 
@@ -93,7 +93,7 @@ epjc-github-release/
 ├── requirements-aggregate.txt          # Exact Windows x64 CPython 3.12 verification lockfile
 ├── LICENSE                             # Dual license: MIT (code) + CC-BY-4.0 (aggregate data/figures, SCOAP3)
 ├── REPRODUCE.md                        # Detailed CLI & output specification for reproduce.py
-├── output/pdf/                         # Compiled EPJC two-column main PDF (12 pp.) & ESM PDF (13 pp.)
+├── output/pdf/                         # Compiled EPJC two-column main PDF (12 pp.) & ESM PDF (12 pp.)
 ├── manuscript/representation_v2/
 │   ├── epjc_submission/                # Standalone EPJC LaTeX source (`svjour3`, `spphys`, `main.bbl`, figures, tables)
 │   ├── overleaf_submission/            # Frozen figure/table generator modules & reference CSV/JSON outputs
