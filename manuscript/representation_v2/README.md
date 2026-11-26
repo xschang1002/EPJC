@@ -1,23 +1,17 @@
-# Current manuscript
+# Manuscript Package Overview
 
-**Non-monotonic benefits of physical target centering in conditional models of pion momentum loss**
+**Title:** *Non-monotonic benefits of physical target centering in conditional models of pion momentum loss*  
+**Authors:** Xuansong Chang, Yiran Xiao, and Chengtao Song  
+**Target Journal:** *The European Physical Journal C (EPJC)* — *Computing, Software and Data Science*
 
-The argument separates three questions: the gain from physical centering relative to Raw, the absolute performance of the complete predictor, and performance across physical regions. The two-bin condition has the largest relative gain; exact momentum gives the best absolute mean NLL; aggregate gains coexist with local losses.
+## Directory Structure
 
-The canonical sources are [main.tex](overleaf_submission/main.tex) and [supplementary.tex](overleaf_submission/supplementary.tex). This editorial revision introduces scientific display names without changing frozen identifiers or scientific artifacts. [The display map](historical_archive_20261108/DISPLAY_NAME_MAP.md) relates BB-centered, Linear center, Polynomial-ridge center and the four neural information levels to their run IDs.
+- **[`epjc_submission/`](epjc_submission/)** — **Canonical EPJC submission source package** (`\documentclass[twocolumn,epjc3]{svjour3}`, `spphys` bibliography style, pre-built `main.bbl`, standalone Electronic Supplementary Material `supplementary.tex`, 21 figure assets, and verified table inputs).
+  - Compiled main manuscript: [`../../output/pdf/physical_centering_epjc_20261118.pdf`](../../output/pdf/physical_centering_epjc_20261118.pdf)
+  - Compiled Electronic Supplementary Material: [`../../output/pdf/physical_centering_epjc_supplement_20261118.pdf`](../../output/pdf/physical_centering_epjc_supplement_20261118.pdf)
+- **[`overleaf_submission/`](overleaf_submission/)** — Preserved single-column layout and aggregate figure/table presentation scripts (`generate_information_figures.py`, `build_information_tables.py`, `editorial_figures/generate_editorial_figures.py`) used by `python reproduce.py` to reconstruct all 21 figures and 14 LaTeX tables from frozen aggregate records.
+- **[`historical_archive_20261108/`](historical_archive_20261108/README.md)** — Compact archival record of preliminary development controls and display-name provenance ([`DISPLAY_NAME_MAP.md`](historical_archive_20261108/DISPLAY_NAME_MAP.md)), summarized in Supplementary Section S5.
 
-The supplement is organized as S1 complete primary C/D results, S2 training variability and conditional diagnostics, S3 current fitted-center/capacity comparisons, S4 numerical implementation and reproduction, and S5 a short development note. Full earlier A/B/H evidence is preserved in the [standalone historical archive](historical_archive_20261108/README.md). None of the unrecovered historical claims supplies evidence for the current conclusions.
+## Scientific & Provenance Invariance
 
-Original claim and evidence registries remain byte-preserved. Their canonical terminology is historical record, not the display-name source for the current article. [OUTLINE.md](OUTLINE.md) and [FIGURE_TABLE_PLAN.md](FIGURE_TABLE_PLAN.md) describe the current presentation; the editorial report records source preservation, row-level numeric checks and rendering checks.
-
-The new delivery is `physical_centering_reviewed_20261109.pdf` and `physical_centering_reviewed_supplement_20261109.pdf` under `output/pdf/`, with `physical_centering_reproducibility_20261109.zip` as the source package. Prior delivered PDFs and ZIPs remain unchanged. The local mirror is synchronized without remote publication.
-
-Author identities, declarations, human source review, license and public data-access arrangements remain author tasks; `submission_ready` remains false. This edit adds no training, simulation or neural inference. The mirror retains the 503 pre-existing validation prediction files and two aggregate bootstrap arrays; it receives no new information80/C/D per-event arrays.
-
-## Final prose polish (9 November 2026)
-
-The current pair has 15 main pages and 13 supplement pages. The Figure 1/2 connection is an arithmetic statement about five-seed mean NLL changes; detailed density accounting is in S2.2. Figure 3 precedes subsection 5.4, and the calibration paragraph is complete before Figure 4. See `reports/final_polish_20261109` for scoped checks. Earlier editorial receipts remain historical records.
-
-## Reviewer completion (9 November 2026)
-
-The current 15-page main text and 13-page supplement clarify the original-primary first-visit target, simulation geometry/beam/transport settings, and float64 preprocessing fit versus float32 applied standardization. Scientific estimates, uncertainty definitions, plotted values and conclusions are unchanged. The companion aggregate reproduction archive includes the current LaTeX/PDFs, complete C/D predictive and residual diagnostic summaries, saved bootstrap draws, frozen configuration/source dependencies, registered checkpoint identities and a portable reproduction entry point. See its `REPRODUCE.md` and `DIAGNOSTIC_INDEX.json`. This is complete aggregate reconstruction, not event-level replay or retraining. Author details and declarations remain pending. The review record is `reports/review_completion_20261109`. No new experiment or remote publication accompanies this revision.
+All empirical estimates, 80 primary fits, 160 secondary/control fits, fresh C/D catalog evaluations, 2,000-draw stratified paired bootstrap intervals, post-hoc five-seed sensitivity summaries, and support-truncation bounds are byte-preserved from the frozen experimental records. Display terminology maps deterministically to immutable run identifiers without altering any saved model, protocol, or statistical estimate.

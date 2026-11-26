@@ -1042,10 +1042,10 @@
     }
   ],
   "layout_checks_scope": "Raw Matplotlib artist-tree checks include latent locator ticks outside axes view limits; those candidates are absent from PDF output and resolved in FIGURE_QA.json.",
-  "phase": "JINST internal research-article draft; presentation revision, not a submission compliance certificate",
+  "phase": "EPJC submission figure asset set; numeric coordinates and intervals byte-preserved from frozen aggregates",
   "publisher_guidance": {
-    "checked": "2026-11-08",
-    "url": "https://jinst.sissa.it/jinst/help/helpLoader.jsp?pgType=author"
+    "checked": "2026-11-26",
+    "url": "https://link.springer.com/journal/10052/submission-guidelines"
   },
   "schema": "editorial-information-figure-manifest/v1",
   "scope": "Archived complete aggregates only; no model, raw-data, resampling, training or inference calls. Historical generation/scoring gates remain unchanged.",
@@ -1068,7 +1068,7 @@
     "matplotlib": "3.11.2",
     "numpy": "2.5.3",
     "python": "3.12.13 (main, Jun 23 2026, 15:23:43) [MSC v.1944 64 bit (AMD64)]",
-    "renderer_sha256": "93b255b4fd5987787fab30d2daf856f97c43449d7e3c257be239cce01244ffa7"
+    "renderer_sha256": "4e6928fd08051988c7c56d6f22c5a8d8602977382b8609b08312a44aa20d922b"
   },
   "source_numeric_invariant_sha256": "ab907ffe0a93cbcd55fadb01446fe300e7fc1ad6a3f923f93223bf53528f55cf",
   "status": "COMPLETE_EDITORIAL_FIGURES_VISUALLY_REVIEWED",

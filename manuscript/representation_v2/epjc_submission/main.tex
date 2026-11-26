@@ -1,13 +1,15 @@
 \RequirePackage{fix-cm}
-\documentclass[twocolumn]{svjour3}
+\documentclass[twocolumn,epjc3]{svjour3}
 \smartqed
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{microtype}
 \usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage[hyphens]{url}
 \usepackage[hidelinks]{hyperref}
+\graphicspath{{editorial_figures/}{./}}
 \Urlmuskip=0mu plus 2mu\relax
 \tolerance=2000
 \hbadness=10000
@@ -29,14 +31,16 @@
 \title{Non-monotonic benefits of physical target centering in conditional models of pion momentum loss}
 \titlerunning{Non-monotonic benefits of physical target centering in pion momentum loss}
 
-\author{Xuansong Chang \and
-        Yiran Xiao \and
-        Chengtao Song}
+\author{Xuansong Chang\thanksref{e1,addr1} \and
+        Yiran Xiao\thanksref{addr1} \and
+        Chengtao Song\thanksref{addr2}}
 \authorrunning{X. Chang et al.}
 
-\institute{X. Chang \and Y. Xiao \and C. Song \at
-              [Affiliation to be supplied by authors prior to portal upload] \\
-              \email{[corresponding.author@institution.edu]}}
+\thankstext{e1}{e-mail: \href{mailto:alec.xs.chang@gmail.com}{alec.xs.chang@gmail.com}}
+
+\institute{Anhui University, Hefei, China\label{addr1}
+           \and
+           Xi'an Jiaotong University, Xi'an, China\label{addr2}}
 
 \date{Received: date / Accepted: date}
 
@@ -225,7 +229,7 @@ $9.9$--$11.6$ keV/$c\simeq0.03s$) holds scale parameterization fixed across
 arms so only location centering varies. Every score includes the
 standardization Jacobian and upper-support normalization: all eligible
 evaluation events were retained and $-\log F_\theta(b\mid h(X))$ was below
-$10^{-330}$ nat/event at the saved bounds (Supplementary Section S4). By
+$10^{-330}$ nat/event at the saved bounds (Supplementary Section S4.2). By
 contrast, no lower truncation is imposed at $Y\geq0$: at 100\% training,
 $Y=0$ maps to $z_0=-0.525$ for Raw and $z_0=(-c_{\mathrm{BB}}-\mu)/s\in[-1.231,-0.098]$
 for BB-centered inside $[-8,8]$, so truncating at $z_0$ would introduce an
@@ -265,7 +269,7 @@ alignment of $c$ with $m$.
 For coarse information $H(V)$, define
 $B_c(H)=\mathbb E[\operatorname{Var}(m-c\mid W,H(V))]$ and $B_{\raw}=B_0$.
 Each burden decreases or stays fixed as information is refined, but their
-difference $B_{\raw}(H)-B_c(H)$ need not be monotonic. Supplementary Section S2
+difference $B_{\raw}(H)-B_c(H)$ need not be monotonic. Supplementary Section S2.3
 gives the identity and a fixed-variance Gaussian illustration. Translation
 leaves variance and centered distributional shape unchanged at fixed complete
 conditions, so residual scale and shape dependence can remain even when the
@@ -377,7 +381,7 @@ events harmed.
 
 A post-hoc seed sensitivity analysis reports the range of means after omitting
 one seed at a time. This is a sensitivity range, not a confidence interval.
-Supplementary Section S2 also gives exploratory, unadjusted Student-$t$
+Supplementary Section S2.1 also gives exploratory, unadjusted Student-$t$
 intervals assuming independent, approximately normal seed effects conditional
 on the source and evaluation data. Five seeds give limited information about
 that assumption. C and D evaluate the same models and are never pooled into
@@ -405,7 +409,7 @@ has zero unobserved-momentum burden by definition. Predictive quantile and
 probability integral transform summaries use the normalized predictive
 CDF~\cite{GneitingBalabdaouiRaftery2007}. Saved base-density, spline-Jacobian,
 scale and support terms additionally reconstruct each NLL gain. The diagnostic
-definitions and full accounting displays accompany Supplementary Section S2.
+definitions and full accounting displays accompany Supplementary Section S2.2.
 
 \section{Results}
 \label{sec:results}
@@ -423,7 +427,7 @@ adjustment over the 16 primary contrasts.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.92\textwidth]{editorial_figures/information_gain_ladder.pdf}
+\includegraphics[width=0.92\textwidth]{information_gain_ladder.pdf}
 \caption{Centering gains across four neural information levels. Colored
 points retain all five paired optimizer seeds; black intervals are approximate
 95\% simultaneous event intervals over 16 contrasts within each catalog.
@@ -466,7 +470,7 @@ mean NLL of the complete predictor therefore select different information levels
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.92\textwidth]{editorial_figures/information_absolute_nll.pdf}
+\includegraphics[width=0.92\textwidth]{information_absolute_nll.pdf}
 \caption{Absolute original-unit differential NLL (in GeV/$c$ density units;
 more negative values indicate higher likelihood). All five seeds and their
 sample SD are shown. These bars describe optimizer variability. Exact momentum
@@ -533,7 +537,7 @@ individual events have worse scores.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.84\textwidth]{editorial_figures/information_local_C_Hidden5_f100.pdf}
+\includegraphics[width=0.84\textwidth]{information_local_C_Hidden5_f100.pdf}
 \caption{All 42 physical-group gains for No direct momentum at 100\% training on fresh C.
 Colored symbols show five paired optimizer seeds; black ticks show their mean
 and black bars give simultaneous intervals over the $8\times42=336$
@@ -564,7 +568,7 @@ original-unit statistic is shown once.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.88\textwidth]{editorial_figures/information_source_location.pdf}
+\includegraphics[width=0.88\textwidth]{information_source_location.pdf}
 \caption{Source residual-location burden from the 56-bin common refinement.
 The square root of the event-weighted within-cell residual-mean variance is
 shown once in MeV/$c$ using the saved 100\% preprocessing record, and
@@ -586,7 +590,9 @@ $0.6$--$1.0$ GeV/$c$, the Raw residual median $Y-\mu$ plateaus at $t=1.0$ mm
 catalog--charge series), whereas $c_{\mathrm{BB}}$ rises from its $0.555$
 GeV/$c$ minimum ($410.0$ keV/$c$) to $426.3$ keV/$c$ at $1.00$ GeV/$c$ as
 $T_{\max}$ grows from $15.7$ to $49.8$ MeV ($4.6$ to $49.8$ MeV over
-$0.30$--$1.00$ GeV/$c$) and $-\delta(\beta\gamma)/2$ is omitted. Subtracting
+$0.30$--$1.00$ GeV/$c$) and $-\delta(\beta\gamma)/2$ is omitted (even with
+Sternheimer screening included, the center still rises from $400.6$ to
+$408.6$ keV/$c$ across $0.555$--$1.00$ GeV/$c$). Subtracting
 $c_{\mathrm{BB}}$ therefore imparts a monotonic downward drift to the bulk
 residual median across $0.6$--$1.0$ GeV/$c$ ($-85.9$ to $-104.3$ keV/$c$ at
 $t=1.0$ mm, and $-67.2$ to $-104.3$ keV/$c$ over $0.3$--$1.0$ GeV/$c$); the
@@ -725,7 +731,7 @@ statistical analysis, unit-test suite and isolated aggregate-reproduction
 scripts are openly archived in the companion GitHub repository at
 \url{https://github.com/xschang1002/EPJC} (release tag \texttt{v1.0.0-epjc}),
 together with cross-platform and pinned environment dependency specifications
-(see Supplementary Section S4).
+(see Supplementary Section S4.3).
 
 \section*{Declarations}
 \paragraph{Funding.}

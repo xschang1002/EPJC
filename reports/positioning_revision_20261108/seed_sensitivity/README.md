@@ -2,13 +2,13 @@
 
 Run `analyze_seed_sensitivity.py` on the completed C/D analysis directories and their frozen statistical plan plus independent numerical-review receipt. The script verifies the saved table hashes and complete 16-contrast × 5-seed structure before computing anything. It imports no frozen experiment module and does not train or score models.
 
-```powershell
-& 'E:\JINST REP\pion-material-study\.venv-ml\Scripts\python.exe' -B 'E:\JINST REP\_positioning_revision_20261108\seed_sensitivity\analyze_seed_sensitivity.py' `
-  --analysis-c 'E:\JINST REP\low pion research\reports\information_extension_20261108\fresh_analysis\C' `
-  --analysis-d 'E:\JINST REP\low pion research\reports\information_extension_20261108\fresh_analysis\D' `
-  --plan 'E:\JINST REP\low pion research\protocol\information_statistical_analysis_20261108.json' `
-  --numerical-review 'E:\JINST REP\_research_extension_20261108\independent_information_numerical_review.json' `
-  --output 'E:\JINST REP\_positioning_revision_20261108\seed_sensitivity\results_reproduced' `
+```bash
+python -B reports/positioning_revision_20261108/seed_sensitivity/analyze_seed_sensitivity.py \
+  --analysis-c reports/information_extension_20261108/fresh_analysis/C \
+  --analysis-d reports/information_extension_20261108/fresh_analysis/D \
+  --plan protocol/information_statistical_analysis_20261108.json \
+  --numerical-review reports/information_extension_20261108/provenance/independent_information_numerical_review.json \
+  --output reproduced_seed_sensitivity \
   --include-exploratory-t
 ```
 

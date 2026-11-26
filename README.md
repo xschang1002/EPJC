@@ -45,7 +45,7 @@ To run the Python unit tests covering the Bethe–Bloch center, spline-flow log-
 
 ```bash
 python -m pip install torch pytest
-PYTHONPATH=src pytest -q
+PYTHONPATH=src pytest tests -q
 ```
 
 ---

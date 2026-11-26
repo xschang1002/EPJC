@@ -31,5 +31,5 @@ Thank you for your time and consideration.
 
 Sincerely,  
 **Xuansong Chang** (on behalf of all co-authors)  
-[Affiliation]  
-[Corresponding Email]
+Anhui University, Hefei, China  
+E-mail: alec.xs.chang@gmail.com

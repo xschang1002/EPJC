@@ -1,7 +1,7 @@
 {
   "schema": "epjc-submission-migration/v2-referee-hardened",
   "status": "COMPLETE_EPJC_REFEREE_HARDENED_MIGRATION",
-  "date": "2026-11-24",
+  "date": "2026-11-26",
   "target_journal": "The European Physical Journal C (EPJC)",
   "target_section": "Computing, Software and Data Science",
   "source_directory": "manuscript/representation_v2/epjc_submission",
@@ -9,21 +9,21 @@
     "main": {
       "path": "output/pdf/physical_centering_epjc_20261118.pdf",
       "pages": 12,
-      "bytes": 237062,
-      "sha256": "9ba45b76d70dde4bfcb6e6bf898f14a292afb23f20755b99830fc535876bbfa3"
+      "bytes": 230735,
+      "sha256": "26c0d289dbc92bcd7cc62ac850610ef7d5a1d20a56ea2bca8e2aee4ca78dfc05"
     },
     "supplementary": {
       "path": "output/pdf/physical_centering_epjc_supplement_20261118.pdf",
       "pages": 12,
-      "bytes": 180378,
-      "sha256": "c4b3bb1deebafd1c7143d07cecb195ccff6e6ba21210c963fe0e12432a2a140c"
+      "bytes": 178414,
+      "sha256": "327c58f4325d37e217c84907c6f12b70fde9a3c6fe45df671407ddbcb9203ea0"
     }
   },
   "upload_archive": {
-    "path": "e:\\JINST REP\\physical_centering_epjc_submission_20261118.zip",
-    "entries": 119,
-    "bytes": 6606111,
-    "sha256": "2e8123f737e21577280e877ce2135a859bde1d7c1e43ad08bfc8df9378776eab"
+    "path": "physical_centering_epjc_submission_20261118.zip",
+    "entries": 120,
+    "bytes": 6562916,
+    "sha256": "ff46d8d6b3f6c9fef0d390253d9c1e18bd3a71b84ed91d0c8b22bf1c793828ed"
   },
   "qa_summary": {
     "bib_entries": 25,
@@ -39,15 +39,13 @@
     "prior_frozen_deliverables_intact": true
   },
   "referee_defense_additions": [
-    "PDG Silicon Sternheimer piecewise transition x0=0.2015 (delta0=0.14) and +1.03% to +4.34% omitted density-effect magnitude",
+    "PDG Silicon Sternheimer piecewise transition x0=0.2015 (delta0=0.14), +1.03% to +4.34% omitted density-effect magnitude, and screened BB center rise (+400.6 to +408.6 keV/c)",
     "Saved C/D original-unit residual median plateau (+124.9 to +130.8 keV/c at t=1.0 mm, <=4.3 keV/c within series; scaled across 0.1 and 0.3 mm) vs c_BB rise (T_max 15.7 to 49.8 MeV over 0.555-1.00 GeV/c) calibrated as consistent with regional sign flip",
     "Unit-Jacobian translation isolation argument for omitting Y>=0 lower truncation, plus empirical 0.035%-0.114% untruncated Y<0 tail mass",
     "Verified primary-model standardized tail extremes z_max=104.60-114.70 (C) and 87.09-95.78 (D), with 0.15%-0.19% (756-934 events/catalog) at z>8 and none below -8",
-    "Exact physical ineligible breakdown (C: 137 upstream decays + 578 in-slab terminations; D: 149 + 576), fifth zero-slot note, negative differential NLL unit note, Table S10 numbering, verified author names (Xuansong Chang, Yiran Xiao, Chengtao Song), and live GitHub target https://github.com/xschang1002/EPJC (v1.0.0-epjc)"
+    "Official EPJC svjour3 epjc3 option (svepjc3.clo v1.2), natbib compressed numeric citations, Editorial Manager flat-directory graphicspath, uniform ESM longtable captions, explicit S2.1-S4.3 cross-references, verified affiliations/email (Anhui University; Xi'an Jiaotong University; alec.xs.chang@gmail.com), no-external-funding declaration, and live GitHub target https://github.com/xschang1002/EPJC (v1.0.0-epjc)"
   ],
   "author_placeholders_remaining": [
-    "institutional affiliation address(es) and corresponding author email in main.tex / supplementary.tex",
-    "optional funding grant confirmation / acknowledgements if applicable",
     "public git push of epjc-github-release to https://github.com/xschang1002/EPJC (tag v1.0.0-epjc)"
   ]
 }

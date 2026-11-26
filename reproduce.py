@@ -164,9 +164,19 @@ def main():
         if sha(safe(row["path"])) != row["sha256"]:
             raise ValueError("Reproduction mutated a tracked repository input: " + row["path"])
 
+    import importlib.metadata
     import numpy
     import scipy
-    import matplotlib
+
+    if args.figures == "all":
+        import matplotlib
+
+        matplotlib_version = matplotlib.__version__
+    else:
+        try:
+            matplotlib_version = importlib.metadata.version("matplotlib")
+        except importlib.metadata.PackageNotFoundError:
+            matplotlib_version = "not_used"
 
     gate = read(out / "aggregate_gate/ARCHIVED_REPRODUCTION_MANIFEST.json")
     result = {
@@ -192,7 +202,7 @@ def main():
             "python": sys.version,
             "numpy": numpy.__version__,
             "scipy": scipy.__version__,
-            "matplotlib": matplotlib.__version__,
+            "matplotlib": matplotlib_version,
         },
         "commands": commands,
         "no_training_inference_simulation_new_bootstrap": True,

@@ -2,7 +2,7 @@
 
 This presentation program is outside frozen numerical src/. All input analysis
 files are verified against their manifests before any output directory is made.
-Publication destination: JINST internal research-article draft, not submission.
+Publication destination: The European Physical Journal C (EPJC) submission.
 """
 from __future__ import annotations
 
@@ -504,8 +504,8 @@ def main():
         "generated_utc":datetime.now(timezone.utc).isoformat(),"inputs":inputs,"figures":records,"display_names":DISPLAY_NAMES,
         "fresh_plan_sha256":sha(fresh),"source_numeric_invariant_sha256":sha(output/"NUMERIC_INPUT_INVARIANCE.json"),
         "software":{"python":sys.version,"numpy":np.__version__,"matplotlib":matplotlib.__version__,"renderer_sha256":sha(__file__)},
-        "phase":"JINST internal research-article draft; presentation revision, not a submission compliance certificate",
-        "publisher_guidance":{"url":"https://jinst.sissa.it/jinst/help/helpLoader.jsp?pgType=author","checked":"2026-11-08"},
+        "phase":"EPJC submission figure asset set; numeric coordinates and intervals byte-preserved from frozen aggregates",
+        "publisher_guidance":{"url":"https://link.springer.com/journal/10052/submission-guidelines","checked":"2026-11-26"},
         "skill_citation":SKILL_CITATION,"elapsed_seconds":time.time()-started,
         "scope":"Archived complete aggregates only; no model, raw-data, resampling, training or inference calls. Historical generation/scoring gates remain unchanged.",
         "transformations":["Display names updated; numerical coordinates/intervals unchanged","Information-gain contrasts use horizontal numeric axes to fit full condition names","Source location: collapse duplicate physical-unit fraction panels using saved f100 series; retain both original standardized fraction panels","GeV/c to MeV/c display multiplication retained"],

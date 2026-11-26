@@ -3,7 +3,7 @@ message: "If you use this software or aggregate dataset, please cite the accompa
 title: "Non-monotonic benefits of physical target centering in conditional models of pion momentum loss"
 type: software
 version: "v1.0.0-epjc"
-date-released: "2026-11-24"
+date-released: "2026-11-26"
 url: "https://github.com/xschang1002/EPJC/releases/tag/v1.0.0-epjc"
 repository-code: "https://github.com/xschang1002/EPJC"
 license:
@@ -12,10 +12,14 @@ license:
 authors:
   - family-names: "Chang"
     given-names: "Xuansong"
+    affiliation: "Anhui University, Hefei, China"
+    email: "alec.xs.chang@gmail.com"
   - family-names: "Xiao"
     given-names: "Yiran"
+    affiliation: "Anhui University, Hefei, China"
   - family-names: "Song"
     given-names: "Chengtao"
+    affiliation: "Xi'an Jiaotong University, Xi'an, China"
 keywords:
   - conditional density estimation
   - target representation

@@ -94,7 +94,7 @@ def secondary_table(block, summary, historic=False):
     else:
         caption = (f"Complete secondary center, capacity and training-fraction contrasts on fresh catalog {block}, "
                    r"all with exact momentum inputs. $R$, $B$, $L$ and $P$ denote Raw, BB-centered, Linear center and Polynomial-ridge center. "
-                   r"$D(A,B)=\mathrm{NLL}(A)-\mathrm{NLL}(B)$, so positive values favor the second model. "
+                   r"$D(A,B)=\mathrm{NLL}(A)-\mathrm{NLL}(B)$, so positive values favor the second model (and negative $D(L,R)$ indicates lower mean NLL for $L$ than $R$). "
                    r"Small and Large have widths 32 and 128. "
                    r"$\Delta=D(R,B)$; the final five rows compare this gain across capacities or fractions, not absolute NLL. ")
         columns = r"Contrast & Capacity & Train (\%) & Mean (SD) & Seed range & $+/-/0$"

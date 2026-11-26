@@ -1,7 +1,7 @@
 {
   "schema": "epjc-lightweight-aggregate-package/v1",
   "status": "COMPLETE_EPJC_LIGHTWEIGHT_AGGREGATE_RELEASE",
-  "generated_utc": "2026-11-18T12:16:47.175798+00:00",
+  "generated_utc": "2026-11-26T11:55:39.925844+00:00",
   "registered_model_runs": 240,
   "run_manifests_included": 240,
   "binary_checkpoints_included_in_git": 0,
@@ -188,8 +188,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "c20761d6deb57970632d500bac1967bc2b5bcaaa01905cb91ff48c18f7c44582",
-      "bytes": 778,
+      "sha256": "c71c2b61fa1c44bfe028bf54fc61aadedc1637ef1330e132eb462f6161b1be90",
+      "bytes": 974,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },
@@ -272,24 +272,24 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "8ce0a27fe38a9ba076ffe821e0210f3fa5dfc70f80dc47c0072918214d5dd07d",
-      "bytes": 3636,
+      "sha256": "1d89736d50d6ed7bba888ec036c94fca83cb049a81be16f00eae1eb35f952d78",
+      "bytes": 3651,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/EDITORIAL_REVISION.json",
-      "sha256": "f4837d12a38045884fb270a83c93a515e7f0cd3c0a69a46f8a9fa7b91863cbbf",
-      "bytes": 944,
+      "sha256": "d2b9b9f96496ae11ac6d12c17166bace4b2c1c7940726bf1503ca13fae1e925e",
+      "bytes": 1058,
       "role": "manuscript directory metadata",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/COVER_LETTER_EPJC.md",
-      "sha256": "7e8ae27a8fc8d335d4b11ca021eabbcdd3581a705b883cb1b385e626b75f23f8",
-      "bytes": 4107,
+      "sha256": "aac2070b593f1f9fb75c33d4bd44de9a751694d3303434964b31f57fd696c3b9",
+      "bytes": 4134,
       "role": "EPJC svjour3 submission package file",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_figures/DISPLAY_NAME_MAP.json",
@@ -300,10 +300,10 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_figures/FIGURE_MANIFEST.json",
-      "sha256": "44c5a407003abfa168c9cb7cbc28723006bc6ca2f896f5e88aebdd49f1646f9e",
-      "bytes": 38827,
+      "sha256": "fac6be184072e915ad3b1d78020f06c686071eff4a90f5b4536af597ad4d373c",
+      "bytes": 38830,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_figures/FIGURE_QA.json",
@@ -314,10 +314,10 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_figures/generate_editorial_figures.py",
-      "sha256": "93b255b4fd5987787fab30d2daf856f97c43449d7e3c257be239cce01244ffa7",
-      "bytes": 37356,
+      "sha256": "4e6928fd08051988c7c56d6f22c5a8d8602977382b8609b08312a44aa20d922b",
+      "bytes": 37355,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_figures/information_absolute_nll.alt.txt",
@@ -930,10 +930,10 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_tables/current_secondary_C.tex",
-      "sha256": "2ccc653b1c04159589490dbd29b0aac65b2d926922228861e039743ce282f752",
-      "bytes": 2813,
+      "sha256": "67d336d4597e839093cf5641aaa1d20fe90841d2dda7badbda61b3bc84591e7a",
+      "bytes": 2879,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_tables/current_secondary_CD.tex",
@@ -944,10 +944,10 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_tables/current_secondary_D.tex",
-      "sha256": "6c14c894cf77fb2b1a369bfde95976656522a4761f91141d00c1a583c793ce4b",
-      "bytes": 2813,
+      "sha256": "3c71d1bf64b0a7721e1706273f5c7f4f99d762ba0731a96ffe19f5f15bad1a73",
+      "bytes": 2879,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/editorial_tables/display_names.tex",
@@ -1035,17 +1035,17 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/main.tex",
-      "sha256": "debe6aae2622f6e1daa3351f61e400ba29a66e3db08abdfe9a7792ebb137c8d9",
-      "bytes": 41161,
+      "sha256": "ad0d6d537354c8efc6c1c853a8a0e091988469ddb8454ffd7d8c6e2c9626738d",
+      "bytes": 41405,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/README.md",
-      "sha256": "c76f703e4babc667644a09c22cdaa2243b4e9f4ac8307fb15033545af95e1e65",
-      "bytes": 2436,
+      "sha256": "769a7bfba9dd2633cb71994d5239001a1ecf63c30199dfb7c7e92e22ba49cf26",
+      "bytes": 2838,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/references.bib",
@@ -1070,22 +1070,29 @@
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/SUBMISSION_CHECKLIST.md",
-      "sha256": "7145f5b570a44812031412db72e3d89022e874ba56b85681fb7702d184d9b820",
-      "bytes": 2429,
+      "sha256": "17475e1c4a3d253224e5c2396965b92c945f6d504b184fb402885fc411a83b81",
+      "bytes": 1997,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/supplementary.tex",
-      "sha256": "d41442a9bf2fc29a6631852ccef6041df1271c71adeaba5350ead596d3e2460f",
-      "bytes": 15172,
+      "sha256": "cd93d839278c9dc4983b2cc85f31afbc266797cdaeeeb5532b0b7dc997a5e878",
+      "bytes": 15702,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/epjc_submission/support_audit_tables.tex",
       "sha256": "d60f5d7c1f26cb2b44840ca81c7eddd425491ab381970f9b09a265ea6eab4a8c",
       "bytes": 6256,
+      "role": "EPJC svjour3 two-column manuscript source and figures/tables",
+      "copied_unchanged": true
+    },
+    {
+      "path": "manuscript/representation_v2/epjc_submission/svepjc3.clo",
+      "sha256": "eb17819081bd3fbbe9948203b5e05dfb786b44310a3e190e2ae340060d5fc79c",
+      "bytes": 13077,
       "role": "EPJC svjour3 two-column manuscript source and figures/tables",
       "copied_unchanged": true
     },
@@ -1686,10 +1693,10 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_figures/FIGURE_MANIFEST.json",
-      "sha256": "44c5a407003abfa168c9cb7cbc28723006bc6ca2f896f5e88aebdd49f1646f9e",
-      "bytes": 38827,
+      "sha256": "fac6be184072e915ad3b1d78020f06c686071eff4a90f5b4536af597ad4d373c",
+      "bytes": 38830,
       "role": "frozen figure/table generator modules and reference assets",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_figures/FIGURE_QA.json",
@@ -1700,10 +1707,10 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_figures/generate_editorial_figures.py",
-      "sha256": "93b255b4fd5987787fab30d2daf856f97c43449d7e3c257be239cce01244ffa7",
-      "bytes": 37356,
+      "sha256": "4e6928fd08051988c7c56d6f22c5a8d8602977382b8609b08312a44aa20d922b",
+      "bytes": 37355,
       "role": "frozen figure/table generator modules and reference assets",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_figures/information_absolute_nll.alt.txt",
@@ -2316,10 +2323,10 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_tables/current_secondary_C.tex",
-      "sha256": "2ccc653b1c04159589490dbd29b0aac65b2d926922228861e039743ce282f752",
-      "bytes": 2813,
+      "sha256": "67d336d4597e839093cf5641aaa1d20fe90841d2dda7badbda61b3bc84591e7a",
+      "bytes": 2879,
       "role": "frozen figure/table generator modules and reference assets",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_tables/current_secondary_CD.tex",
@@ -2330,10 +2337,10 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_tables/current_secondary_D.tex",
-      "sha256": "6c14c894cf77fb2b1a369bfde95976656522a4761f91141d00c1a583c793ce4b",
-      "bytes": 2813,
+      "sha256": "3c71d1bf64b0a7721e1706273f5c7f4f99d762ba0731a96ffe19f5f15bad1a73",
+      "bytes": 2879,
       "role": "frozen figure/table generator modules and reference assets",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/editorial_tables/display_names.tex",
@@ -3632,10 +3639,10 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/README.md",
-      "sha256": "c03883591c1a55aeaa6cac85bf496583366ca97847d4ac0250bd0e93ab16cd57",
-      "bytes": 3406,
+      "sha256": "c77275150c81b250a3acbed854db011be3e54e8b8b6f88cd9d99c8d6e5f44732",
+      "bytes": 1683,
       "role": "frozen figure/table generator modules and reference assets",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/references.bib",
@@ -3688,24 +3695,24 @@
     },
     {
       "path": "manuscript/representation_v2/README.md",
-      "sha256": "f7de779bec47db389bf76c658b2286b69229485c325d71a2fa4a9cb53b4decd6",
-      "bytes": 3806,
+      "sha256": "cf5592e48cd54243c3f2a8d000262712d74abb8a8a95445069b174a9f3e32fdd",
+      "bytes": 2072,
       "role": "manuscript directory metadata",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "output/pdf/physical_centering_epjc_20261118.pdf",
-      "sha256": "9ba45b76d70dde4bfcb6e6bf898f14a292afb23f20755b99830fc535876bbfa3",
-      "bytes": 237062,
+      "sha256": "26c0d289dbc92bcd7cc62ac850610ef7d5a1d20a56ea2bca8e2aee4ca78dfc05",
+      "bytes": 230735,
       "role": "compiled EPJC manuscript/ESM PDF",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "output/pdf/physical_centering_epjc_supplement_20261118.pdf",
-      "sha256": "c4b3bb1deebafd1c7143d07cecb195ccff6e6ba21210c963fe0e12432a2a140c",
-      "bytes": 180378,
+      "sha256": "327c58f4325d37e217c84907c6f12b70fde9a3c6fe45df671407ddbcb9203ea0",
+      "bytes": 178414,
       "role": "compiled EPJC manuscript/ESM PDF",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "protocol/config_reader.py",
@@ -3890,9 +3897,16 @@
       "copied_unchanged": true
     },
     {
+      "path": "pytest.ini",
+      "sha256": "76228143b2bb46ba6d00f1a1c61215a208aa37a9966945adea2c21f9387ad3da",
+      "bytes": 115,
+      "role": "EPJC lightweight GitHub release interface/documentation",
+      "copied_unchanged": false
+    },
+    {
       "path": "README.md",
-      "sha256": "87bdb84de2a21a00c533e5ff7746104f4d93fbe04cc21ae72ff521de93bee982",
-      "bytes": 11922,
+      "sha256": "0ccf45213f0c16fc71ed08310e4510168d9906ad6e0691244219d0b09aa210f8",
+      "bytes": 11928,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },
@@ -5032,10 +5046,10 @@
     },
     {
       "path": "reports/epjc_submission_20261118/EPJC_MANUSCRIPT_QA.json",
-      "sha256": "3ff509381972735e2dcf6633869af1764f71d87728d7d1550980192185243d37",
-      "bytes": 2834,
+      "sha256": "ed5ec46a3a42ab9dcb59852565457108cdf5b13e2d5eb5b31c531e852adc9b4e",
+      "bytes": 2775,
       "role": "EPJC manuscript compilation and static QA receipt",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "reports/information_extension_20261108/cache/cache_manifest.json",
@@ -6782,10 +6796,10 @@
     },
     {
       "path": "reports/positioning_revision_20261108/seed_sensitivity/README.md",
-      "sha256": "3d42956ab732c13af3504cf1fe6c9ee4ace656d0e423334c26e12b8fb1293a40",
-      "bytes": 2599,
+      "sha256": "b11a4961c014fb67367d988a75d93fe96c080f1efb98b3c8e8cfc5dd5edd8a2f",
+      "bytes": 2380,
       "role": "post-hoc five-seed sensitivity script/doc",
-      "copied_unchanged": true
+      "copied_unchanged": false
     },
     {
       "path": "reports/positioning_revision_20261108/seed_sensitivity/render_seed_tables.py",
@@ -7048,8 +7062,8 @@
     },
     {
       "path": "reproduce.py",
-      "sha256": "a2cdc124b6c3804b204bf7e539be4af084ed718fec065b2cda5a4f7a78ba18a4",
-      "bytes": 9874,
+      "sha256": "8f2d17090a268b03f3606cdc0bd9350f87fe31653aebf31e0338a03dbff7942a",
+      "bytes": 10185,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },
@@ -7069,15 +7083,15 @@
     },
     {
       "path": "scripts/EDITORIAL_TABLE_ADAPTER_PROVENANCE.json",
-      "sha256": "0c0f6c5e6027d8a00b4e88dc2e2f43d8b00662b1ab08f72e428c573cb773fdd2",
-      "bytes": 444,
+      "sha256": "73b14ffe7e117d9e6497cd5c37a67bff4c03acd621c97545702f6724e9525d20",
+      "bytes": 512,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },
     {
       "path": "scripts/rebuild_editorial_tables.py",
-      "sha256": "f42255469cea6ce62d447f39658caced255baa04451415a5ef7619166e3d6b33",
-      "bytes": 18539,
+      "sha256": "925ece2e26cc884880af2da84f40524f0e1fa4f3758b925e0c8fc58764d48cea",
+      "bytes": 18605,
       "role": "EPJC lightweight GitHub release interface/documentation",
       "copied_unchanged": false
     },

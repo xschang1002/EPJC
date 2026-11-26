@@ -1,5 +1,5 @@
 \RequirePackage{fix-cm}
-\documentclass[smallextended]{svjour3}
+\documentclass[smallextended,epjc3]{svjour3}
 \smartqed
 
 \usepackage[T1]{fontenc}
@@ -9,9 +9,26 @@
 \usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
 \usepackage[hyphens]{url}
 \usepackage[hidelinks]{hyperref}
+\graphicspath{{editorial_figures/}{./}}
 \Urlmuskip=0mu plus 2mu\relax
 \setlength{\emergencystretch}{2.5em}
 \raggedbottom
+
+\makeatletter
+\def\institute@and{\par\noindent\institute@mark}
+\g@addto@macro\@evenhead{\hfil}
+\def\LT@makecaption#1#2#3{%
+  \LT@mcol\LT@cols c{\hbox to\z@{\hss\parbox[t]\LTcapwidth{%
+    \normalfont\small
+    \sbox\@tempboxa{#1{{\bfseries #2\enspace}}#3}%
+    \ifdim\wd\@tempboxa>\hsize
+      #1{{\bfseries #2\enspace}}#3\par
+    \else
+      \hbox to\hsize{\unhbox\@tempboxa\hfil}%
+    \fi
+    \vskip5.5pt}%
+  \hss}}}
+\makeatother
 
 \journalname{Eur. Phys. J. C}
 
@@ -34,14 +51,16 @@
 \title{Electronic Supplementary Material:\\Non-monotonic benefits of physical target centering in conditional models of pion momentum loss}
 \titlerunning{Supplementary Material: Physical target centering in pion momentum loss}
 
-\author{Xuansong Chang \and
-        Yiran Xiao \and
-        Chengtao Song}
+\author{Xuansong Chang\thanksref{e1,addr1} \and
+        Yiran Xiao\thanksref{addr1} \and
+        Chengtao Song\thanksref{addr2}}
 \authorrunning{X. Chang et al.}
 
-\institute{X. Chang \and Y. Xiao \and C. Song \at
-              [Affiliation to be supplied by authors prior to portal upload] \\
-              \email{[corresponding.author@institution.edu]}}
+\thankstext{e1}{e-mail: \href{mailto:alec.xs.chang@gmail.com}{alec.xs.chang@gmail.com}}
+
+\institute{Anhui University, Hefei, China\label{addr1}
+           \and
+           Xi'an Jiaotong University, Xi'an, China\label{addr2}}
 
 \date{Received: date / Accepted: date}
 
@@ -62,7 +81,7 @@ spreads describe shared-data optimizer variability.
 \clearpage
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.92\linewidth]{editorial_figures/information_gain_changes.pdf}
+\includegraphics[width=0.92\linewidth]{information_gain_changes.pdf}
 \caption{All adjacent and endpoint gain differences. Positive values mean
 the more-informed conditioner has a larger centering gain. Black bands use
 the 16-contrast simultaneous family within each catalog; all five paired
@@ -132,7 +151,7 @@ is documented in Sect.~\ref{sec:numerical_boundary}.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.92\linewidth]{editorial_figures/information_exact_density_terms.pdf}
+\includegraphics[width=0.92\linewidth]{information_exact_density_terms.pdf}
 \caption{Additive contributions to original-unit NLL gains. The total is
 shown alongside the four components and is not an additional contribution.
 Bars show optimizer-seed SD. Support corrections are included even when

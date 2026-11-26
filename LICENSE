@@ -20,7 +20,7 @@ submitted to The European Physical Journal C (EPJC).
 
 3. Third-Party Typesetting Macro Notice
    The bundled Springer SVJour3 document class and bibliography style files
-   (`svjour3.cls`, `svglov3.clo`, `spphys.bst`) under
+   (`svjour3.cls`, `svepjc3.clo`, `svglov3.clo`, `spphys.bst`) under
    `manuscript/representation_v2/epjc_submission/` remain the property of
    Springer Nature / LaTeX Project under their standard journal author-template
    distribution terms and are included solely for standalone LaTeX compilation.
