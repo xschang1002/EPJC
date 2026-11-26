@@ -1,7 +1,7 @@
 {
   "schema": "epjc-lightweight-aggregate-package/v1",
   "status": "COMPLETE_EPJC_LIGHTWEIGHT_AGGREGATE_RELEASE",
-  "generated_utc": "2026-11-26T12:27:07.409831+00:00",
+  "generated_utc": "2026-11-26T12:48:47.473920+00:00",
   "registered_model_runs": 240,
   "run_manifests_included": 240,
   "binary_checkpoints_included_in_git": 0,
@@ -3639,8 +3639,8 @@
     },
     {
       "path": "manuscript/representation_v2/overleaf_submission/README.md",
-      "sha256": "c77275150c81b250a3acbed854db011be3e54e8b8b6f88cd9d99c8d6e5f44732",
-      "bytes": 1683,
+      "sha256": "53d650cda85e3e23c3aeff493ad0bf96356f57845c3bce9653f87c3a43cc9e2f",
+      "bytes": 1689,
       "role": "frozen figure/table generator modules and reference assets",
       "copied_unchanged": false
     },

@@ -2,7 +2,7 @@
 
 **Non-monotonic benefits of physical target centering in conditional models of pion momentum loss**
 
-> **Note:** The active two-column *European Physical Journal C (EPJC)* submission package resides in [`../epjc_submission/`](../epjc_submission/), with compiled PDFs under [`../../output/pdf/`](../../output/pdf/). This directory retains the earlier single-column internal layout and the read-only presentation modules (`generate_information_figures.py`, `build_information_tables.py`, `editorial_figures/generate_editorial_figures.py`, and reference `information_tables/` / `seed_sensitivity/` inputs) invoked by `python reproduce.py` during aggregate verification.
+> **Note:** The active two-column *European Physical Journal C (EPJC)* submission package resides in [`../epjc_submission/`](../epjc_submission/), with compiled PDFs under [`../../../output/pdf/`](../../../output/pdf/). This directory retains the earlier single-column internal layout and the read-only presentation modules (`generate_information_figures.py`, `build_information_tables.py`, `editorial_figures/generate_editorial_figures.py`, and reference `information_tables/` / `seed_sensitivity/` inputs) invoked by `python reproduce.py` during aggregate verification.
 
 ## Preserved Presentation Assets
 
