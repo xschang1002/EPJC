@@ -9,25 +9,25 @@
     "main": {
       "path": "output/pdf/physical_centering_epjc_20261118.pdf",
       "pages": 12,
-      "bytes": 230735,
-      "sha256": "26c0d289dbc92bcd7cc62ac850610ef7d5a1d20a56ea2bca8e2aee4ca78dfc05"
+      "bytes": 231226,
+      "sha256": "901b7455794b03aff0145eae5d59d382a9de31dc9dc78a8306ee89868e269378"
     },
     "supplementary": {
       "path": "output/pdf/physical_centering_epjc_supplement_20261118.pdf",
       "pages": 12,
-      "bytes": 178414,
-      "sha256": "327c58f4325d37e217c84907c6f12b70fde9a3c6fe45df671407ddbcb9203ea0"
+      "bytes": 178727,
+      "sha256": "4764ef20a3d4b930c0919a7a9fff73b315b8a62abf1ecbb7f394b67253072fee"
     }
   },
   "upload_archive": {
     "path": "physical_centering_epjc_submission_20261118.zip",
     "entries": 120,
-    "bytes": 6562916,
-    "sha256": "ff46d8d6b3f6c9fef0d390253d9c1e18bd3a71b84ed91d0c8b22bf1c793828ed"
+    "bytes": 6564329,
+    "sha256": "b455ac13955318aed07d3465bbe6e439133c65f5a1c104c137601686e8f27081"
   },
   "qa_summary": {
-    "bib_entries": 25,
-    "cited_entries": 25,
+    "bib_entries": 26,
+    "cited_entries": 26,
     "unused_bib_entries": [],
     "bibtex_warnings": [],
     "main_overfull_boxes": [],

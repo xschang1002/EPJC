@@ -44,12 +44,16 @@ from the physical information supplied to the neural conditioner.
 In high-energy physics, deep generative surrogates increasingly complement
 detailed Monte Carlo detector transport~\cite{HashemiKrause2024}, with
 conditional normalizing flows achieving high-fidelity shower and material-parameterized
-response modeling~\cite{KrauseShih2023,ErdmannEtAl2025}. Charged-particle
-tracking frameworks likewise combine fast analytic material-interaction
-formulas with stochastic straggling descriptions~\cite{AiEtAl2022}. In such
-hybrid settings, an analytic stopping-power reference can evaluate exact step
-kinematics directly, whereas a learned residual model may operate on
-coarsened, tabulated or reduced conditioning inputs.
+response modeling~\cite{KrauseShih2023,ErdmannEtAl2025}. Conversely, in inverse
+detector reconstruction, physics-constrained generative models have recently
+recovered sub-crystal electromagnetic shower structure from coarse segmented
+calorimeter readouts by enforcing low-order spatial-moment
+constraints~\cite{LiuTung2026}. Charged-particle tracking frameworks likewise
+combine fast analytic material-interaction formulas with stochastic straggling
+descriptions~\cite{AiEtAl2022}. In such forward hybrid settings, an analytic
+stopping-power reference can evaluate exact step kinematics directly, whereas a
+learned residual model may operate on coarsened, tabulated or reduced
+conditioning inputs.
 
 These studies establish residual modeling, coordinate choice and flow-based
 transport surrogates as relevant tools; they do not determine the ordering of

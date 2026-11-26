@@ -9,7 +9,7 @@
 
 - `main.tex` — Two-column EPJC main manuscript (`\documentclass[twocolumn,epjc3]{svjour3}`, `natbib` compressed numbered citations, `spphys` bibliography style, flat-compatible `\graphicspath{{editorial_figures/}{./}}`).
 - `related_work.tex` — Related work section covering hybrid/residual modeling, transformation/flow theory, and HEP fast-simulation & particle-transport surrogates.
-- `references.bib` & `main.bbl` — Curated 25-entry bibliography formatted with ISO-4 physics journal abbreviations and verified DOIs (`spphys.bst`).
+- `references.bib` & `main.bbl` — Curated 26-entry bibliography formatted with ISO-4 physics journal abbreviations and verified DOIs (`spphys.bst`).
 - `supplementary.tex` — Companion Electronic Supplementary Material (`\documentclass[smallextended,epjc3]{svjour3}`), with `S`-prefixed numbering (`Table S1`–`Table S13`, `Fig. S1`–`Fig. S2`, `Eq. (S1)`–`Eq. (S8)`).
 - `editorial_figures/` — All 21 vector PDF and PNG figure assets (unchanged from frozen empirical records).
 - `editorial_tables/`, `editorial_theory.tex`, `support_audit_tables.tex` — Verified table and theory inputs (numerical cells byte-preserved).

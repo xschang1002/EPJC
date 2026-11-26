@@ -68,7 +68,8 @@
 
 Current C/D evidence precedes numerical and reproduction details. Display
 names map to frozen identifiers in Sect.~\ref{sec:display_mapping}; the
-standalone historical archive retains earlier A/B and erroneous-center evidence.
+standalone historical archive retains earlier preliminary catalogs (A/B) and
+erroneous-center control evidence.
 
 \section{Complete primary C/D results}
 \label{sec:primary}
@@ -147,7 +148,7 @@ $-0.049022$ and $+0.139550$, totaling $+0.090528$ nat/event. In the
 $0.9$--$1.0$ GeV/$c$ interval they are $-0.114765$ and $+0.085075$,
 totaling $-0.029690$. Each total has the same sign on D. The shared scale
 gives zero paired standardization contribution; the full support calculation
-is documented in Sect.~\ref{sec:numerical_boundary}.
+is documented in Sect.~\ref{sec:actual_support_cdfs}.
 
 \begin{figure}[!htbp]
 \centering
@@ -303,21 +304,22 @@ release tag \texttt{v1.0.0-epjc}) distinguishes three reproduction levels.
 Its lightweight Git source tree omits binary model checkpoints for direct
 version-control portability while retaining all 240 run manifests and
 cryptographic checkpoint SHA-256 digests (with binary checkpoints optionally
-verified when supplied via a companion archive via \texttt{-{}-checkpoint-root}).
+verified via \texttt{-{}-checkpoint-root} when supplied locally).
 Using the documented software dependencies, the single entry point
 \texttt{python reproduce.py} reconstructs all tables, all 21 figures, the
 saved-draw bootstrap intervals, the five-seed sensitivity CSVs, and the four
 C/D predictive and residual diagnostic summaries without requiring the original
 local filesystem paths.
 
-Event-level replay additionally requires the original event ledgers,
-preprocessing inputs and per-event scores. Complete regeneration requires
-those inputs, the Geant4 environment, model-training dependencies and the
-frozen sampling and training protocols. These latter two levels cannot be
-performed from the aggregate repository alone; raw event ledgers and
-per-event score arrays are retained in local archival storage verified by the
-published SHA-256 manifests and are available from the corresponding author
-upon reasonable request.
+Event-level replay additionally requires the binary model checkpoints,
+original event ledgers, preprocessing inputs and per-event scores. Complete
+regeneration requires those inputs, the Geant4 environment, model-training
+dependencies and the frozen sampling and training protocols. These latter two
+levels cannot be performed from the lightweight aggregate repository alone;
+the 240 binary PyTorch checkpoints ($\simeq 0.61$~GiB) and the raw Geant4
+event ledgers and per-event score arrays ($\simeq 62$~GiB) are retained in
+local archival storage verified by the published SHA-256 manifests and are
+available from the corresponding author upon reasonable request.
 
 \subsection{Display names and immutable run identifiers}
 \label{sec:display_mapping}

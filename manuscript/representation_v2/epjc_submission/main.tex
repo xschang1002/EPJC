@@ -10,7 +10,7 @@
 \usepackage[hyphens]{url}
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{editorial_figures/}{./}}
-\Urlmuskip=0mu plus 2mu\relax
+\Urlmuskip=0mu\relax
 \tolerance=2000
 \hbadness=10000
 \emergencystretch=3em
@@ -98,11 +98,14 @@ the target center, and conditional spline flows provide the matched
 comparison tool. Both the physical center and the raw-target baseline use
 the same nominal network architecture and optimization budget.
 
-We separate three evaluation questions: how much centering improves its raw
-baseline, which complete predictor has the best absolute likelihood, and
-whether improvement is shared across physical regions. The relative gain
-peaks at intermediate momentum information, exact conditioning yields the
-lowest mean NLL, and aggregate gains coexist with local losses.
+We separate three evaluation questions: which complete predictor achieves the
+best absolute likelihood, how much physical centering improves over its
+matched raw-target baseline, and whether improvement is shared across physical
+regions. Exact momentum conditioning achieves the lowest (best) absolute mean
+NLL for both representations, whereas the additional NLL benefit of
+Bethe--Bloch centering peaks at two-bin momentum inputs (exceeding its gain
+under no direct, eight-bin or exact momentum), and positive catalog-wide gains
+coexist with regional high-momentum losses.
 Two fresh simulation catalogs assess event variability after model selection
 has ended, while paired optimizer seeds expose training variability. Together
 these comparisons make information access an experimental axis for studying
@@ -177,7 +180,7 @@ Sects.~\ref{sec:diagnostics_main} and \ref{sec:discussion}.
 
 Write $u=(\pin-0.65)/0.35$ and $v=(t-0.3)/0.7$, with momentum in
 GeV/$c$ and thickness in mm. The exact-momentum conditioner receives
-$(u,\allowbreak v,\allowbreak q,\allowbreak \log(\pin/0.65),\allowbreak 0)$, whereas the no-direct-momentum conditioner
+$(u,\allowbreak v,\allowbreak q,\allowbreak \log(\pin/0.65),0)$, whereas the no-direct-momentum conditioner
 receives $(0,v,q,0,0)$; the trailing zero slot preserves a uniform five-feature
 interface across the registered checkpoint suite without altering the affine
 span of biased first-layer units. For the two intermediate levels, both momentum
@@ -401,6 +404,17 @@ Both are fitted separately on each active training subset and held fixed
 when training the flow. These comparisons use paired seed summaries as
 secondary evidence; the complete C/D tables are in Supplementary Section S3.
 
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.92\textwidth]{information_gain_ladder.pdf}
+\caption{Centering gains across four neural information levels. Colored
+points retain all five paired optimizer seeds; black intervals are approximate
+95\% simultaneous event intervals over 16 contrasts within each catalog.
+Lines guide the eye between categorical encodings and do not define an
+information-distance scale.}
+\label{fig:information_gain}
+\end{figure*}
+
 The source location diagnostic uses 56 equal-width momentum bins within each
 of six thickness--charge strata, a common refinement of the neural partitions
 and seven reporting bins. It measures the event-weighted variance of fine-bin
@@ -427,13 +441,12 @@ adjustment over the 16 primary contrasts.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.92\textwidth]{information_gain_ladder.pdf}
-\caption{Centering gains across four neural information levels. Colored
-points retain all five paired optimizer seeds; black intervals are approximate
-95\% simultaneous event intervals over 16 contrasts within each catalog.
-Lines guide the eye between categorical encodings and do not define an
-information-distance scale.}
-\label{fig:information_gain}
+\includegraphics[width=0.92\textwidth]{information_absolute_nll.pdf}
+\caption{Absolute original-unit differential NLL (in GeV/$c$ density units;
+more negative values indicate higher likelihood). All five seeds and their
+sample SD are shown. These bars describe optimizer variability. Exact momentum
+gives the lowest mean NLL for each representation.}
+\label{fig:information_absolute}
 \end{figure*}
 
 The increase from no direct momentum to two bins is
@@ -468,16 +481,6 @@ centering gain, yet its absolute NLL is worse than exact conditioning by
 $0.005004$--$0.005329$ nat/event. The representation gain and the absolute
 mean NLL of the complete predictor therefore select different information levels.
 
-\begin{figure*}[t]
-\centering
-\includegraphics[width=0.92\textwidth]{information_absolute_nll.pdf}
-\caption{Absolute original-unit differential NLL (in GeV/$c$ density units;
-more negative values indicate higher likelihood). All five seeds and their
-sample SD are shown. These bars describe optimizer variability. Exact momentum
-gives the lowest mean NLL for each representation.}
-\label{fig:information_absolute}
-\end{figure*}
-
 The 10\% models have lower mean NLL than their 100\% counterparts under
 the common update budget. This comparison also changes exposure per event;
 it describes the specified training procedure rather than an intrinsic
@@ -503,9 +506,16 @@ The two-bin condition also has local losses despite its largest overall gain:
 Eight-bin and exact conditioning have fewer negative-mean groups, with most
 corresponding intervals including zero.
 
+Figure~\ref{fig:information_local} shows all groups for C without direct
+momentum at 100\% training. The complete set of 16 group displays and
+their numerical summaries accompanies the companion repository. Groups with
+negative means contain about 52--64\% of eligible events in the no-direct
+condition. This measures the event share of those groups, not how many
+individual events have worse scores.
+
 \begin{table}[t]
 \centering
-\setlength{\tabcolsep}{2.6pt}
+\setlength{\tabcolsep}{2.1pt}
 \caption{Counts out of 42 physical groups. ``Mean $<0$'' is descriptive;
 ``Upper $<0$'' uses the approximate 95\% simultaneous band over all 336 group
 gains within that catalog. The C/D coverage families are separate.}
@@ -514,7 +524,7 @@ gains within that catalog. The C/D coverage families are separate.}
 \toprule
  & & \multicolumn{2}{c}{C} & \multicolumn{2}{c}{D} \\
 \cmidrule(lr){3-4}\cmidrule(lr){5-6}
-Context & Train & Mean$<0$ & Upper$<0$ & Mean$<0$ & Upper$<0$ \\
+Context & Train & Mean\,${<}\,0$ & Upper\,${<}\,0$ & Mean\,${<}\,0$ & Upper\,${<}\,0$ \\
 \midrule
 No direct & 10\% & 25 & 23 & 27 & 22 \\
 No direct & 100\% & 22 & 20 & 23 & 20 \\
@@ -527,13 +537,6 @@ Exact & 100\% & 9 & 0 & 9 & 1 \\
 \bottomrule
 \end{tabular}
 \end{table}
-
-Figure~\ref{fig:information_local} shows all groups for C without direct
-momentum at 100\% training. The complete set of 16 group displays and
-their numerical summaries accompanies the companion repository. Groups with
-negative means contain about 52--64\% of eligible events in the no-direct
-condition. This measures the event share of those groups, not how many
-individual events have worse scores.
 
 \begin{figure*}[t]
 \centering
@@ -716,11 +719,12 @@ complete predictor.
 \section*{Data Availability Statement}
 All aggregate seed and physical-group summaries, saved 2000-draw paired
 bootstrap resamples, predictive and residual diagnostic summaries, frozen
-protocol manifests, run manifests and cryptographic SHA-256 checkpoint digests
-supporting the tables, figures and intervals in this article and the Electronic
-Supplementary Material are openly archived in the companion GitHub repository at
-\url{https://github.com/xschang1002/EPJC} (release tag \texttt{v1.0.0-epjc}).
-The uncompressed raw Geant4 event ledgers, binary PyTorch checkpoints and
+protocol manifests, 240 run manifests and cryptographic SHA-256 checkpoint
+digests supporting the tables, figures and intervals in this article and the
+Electronic Supplementary Material are openly archived in the companion GitHub
+repository at \url{https://github.com/xschang1002/EPJC} (release tag
+\texttt{v1.0.0-epjc}). The 240 binary PyTorch model checkpoints
+($\simeq 0.61$~GiB) and the uncompressed raw Geant4 event ledgers and
 per-event score arrays ($\simeq 62$~GiB), verified against the cryptographic
 SHA-256 manifests published in the repository, are archived locally and are
 available from the corresponding author upon reasonable request.
